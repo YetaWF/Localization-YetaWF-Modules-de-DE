@@ -1,0 +1,206 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.UserProfile.Modules.ProfileEditModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "PostSaveUrl",
+          "Caption": "URL zum Speichern von Beiträgen",
+          "Description": "Definiert die Seite, die nach dem Speichern des Formulars angezeigt werden soll - Wenn sie weggelassen wird, wird die URL, zu der zurückgekehrt werden soll, automatisch ermittelt - Diese Eigenschaft wird ignoriert, wenn das Modul in einem Popup angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SaveMessage",
+          "Caption": "Nachricht speichern",
+          "Description": "Definiert die Meldung, die angezeigt wird, wenn das Profil erfolgreich gespeichert wurde - Wenn sie weggelassen wird, wird eine Standardmeldung angezeigt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.UserProfile.Modules.ProfileEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Address1",
+          "Caption": "Straße Adresse",
+          "Description": "Der Straßenteil Ihrer Postanschrift",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Address2",
+          "Caption": "Anschrift (opt)",
+          "Description": "Die optionale zweite Zeile Ihrer Postanschrift",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CityGeneric",
+          "Caption": "Stadt",
+          "Description": "Der Stadtteil Ihrer Postanschrift",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CityUS",
+          "Caption": "Stadt",
+          "Description": "Der Stadtteil Ihrer Postanschrift",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CityZip1",
+          "Caption": "Stadt",
+          "Description": "Der Stadtteil Ihrer Postanschrift",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CityZipLast",
+          "Caption": "Stadt",
+          "Description": "Der Stadtteil Ihrer Postanschrift",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CompanyName",
+          "Caption": "Firmenname",
+          "Description": "Ihr Firmenname",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Country",
+          "Caption": "Land",
+          "Description": "Das Land für Ihre Postanschrift",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "E-Mail-Adresse",
+          "Description": "Ihre E-Mail-Adresse - Diese wird durch Ihr Konto auf dieser Website definiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Name",
+          "Description": "Ihr Name",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StateUS",
+          "Caption": "Zustand",
+          "Description": "Der Status Ihrer Postanschrift",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Telephone",
+          "Caption": "Telefonnummer",
+          "Description": "Ihre Telefonnummer - bitte geben Sie bei Bedarf die Landesvorwahl und die Durchwahl an",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ZIPGeneric",
+          "Caption": "Postleitzahl",
+          "Description": "Die Postleitzahl Ihrer Postanschrift",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ZipUS",
+          "Caption": "PLZ",
+          "Description": "Die Postleitzahl Ihrer Postanschrift - Verwenden Sie das Format 00000 oder 00000-0000",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ZipZip1",
+          "Caption": "Postleitzahl",
+          "Description": "Die Postleitzahl für Ihre Postanschrift",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ZipZipLast",
+          "Caption": "Postleitzahl",
+          "Description": "Die Postleitzahl Ihrer Postanschrift",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet Ihr Benutzerprofil"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Profil"
+    },
+    {
+      "Name": "editText",
+      "Text": "Profil"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten Sie Ihr Benutzerprofil"
+    },
+    {
+      "Name": "modName",
+      "Text": "Benutzerprofil bearbeiten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Bearbeitet das Profil des angemeldeten Benutzers (Name, Adresse). Dies ist über die Benutzer> Mein Profil (Standard-YetaWF-Site) zugänglich."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Benutzerprofil"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Profil gespeichert"
+    }
+  ]
+}

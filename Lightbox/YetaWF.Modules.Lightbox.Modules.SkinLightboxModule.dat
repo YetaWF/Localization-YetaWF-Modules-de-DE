@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Lightbox (Skin)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implementiert Lightbox auf jeder Seite, auf der dieses Modul enthalten ist. Es kann explizit von einem Skin oder von den Skin-Modulen eines Moduls, einer Seite oder einer Website eingefügt werden (siehe Registerkarte \"Referenzen\" in den Seiten-, Modul- oder Site-Einstellungen). Weitere Informationen finden Sie unter Skin-Module."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Skin-Lightbox"
+    }
+  ]
+}

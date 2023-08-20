@@ -1,0 +1,120 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Panels.Modules.SplitterModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "CollapseText",
+          "Caption": "Text ausblenden",
+          "Description": "Definiert den Text, der neben dem Symbol zum Ausblenden angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CollapseToolTip",
+          "Caption": "Tooltip \"Ausblenden\"",
+          "Description": "Definiert den Tooltip, der für den Text und das Symbol zum Ausblenden angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ContainerSelector",
+          "Caption": "Container-Selektor",
+          "Description": "Definiert einen Selektor, der zum Suchen des Containers verwendet wird: Wenn gefunden, basiert die Höhe des Splittermoduls auf der Containerhöhe, und die Height-Eigenschaft wird ignoriert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExpandToolTip",
+          "Caption": "Tooltip erweitern",
+          "Description": "Definiert die QuickInfo, die für das Erweiterungssymbol angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Height",
+          "Caption": "Höhe (Pixel)",
+          "Description": "Definiert die Höhe des Moduls in Pixeln - Setzen Sie den Wert auf 0, um die Höhe automatisch zu berechnen und den Rest der Seite auszufüllen - Diese Eigenschaft wird ignoriert, wenn der ContainerSelector einen Container definiert, der gefunden werden kann",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MinWidth",
+          "Caption": "Minimale Breite (links, Pixel)",
+          "Description": "Definiert die minimale Breite in Pixeln",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleLeft",
+          "Caption": "Modul (links)",
+          "Description": "Das auf der linken Seite gerenderte Modul",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleRight",
+          "Caption": "Modul (rechts)",
+          "Description": "Das Modul wird auf der rechten Seite gerendert und füllt den Rest der verfügbaren Breite aus",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TitleText",
+          "Caption": "Linker Titel",
+          "Description": "Definiert den Titel, der im linken Bereich angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TitleTooltip",
+          "Caption": "Linker Titel-Tooltip",
+          "Description": "Definiert den Tooltip, der für den Titel im linken Bereich angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Width",
+          "Caption": "Breite (links, Prozentsatz)",
+          "Description": "Definiert die gewünschte Breite in Prozent des gesamten Fensters",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Splitteinrichtung"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um zwei Module nebeneinander anzuzeigen."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Splitteinrichtung"
+    }
+  ]
+}

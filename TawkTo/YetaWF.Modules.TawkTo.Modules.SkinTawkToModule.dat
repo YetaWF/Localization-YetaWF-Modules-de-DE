@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Tawk.to (Haut)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implementiert das TawkTo-Chatfenster, auf das von Ihren Seiten oder Websites verwiesen wird. Es wird nicht zu einem Skin oder einer Seite hinzugefügt, sondern von einer Site, Seite oder einem Modul referenziert. Wenn Sie auf das TawkTo-Modul (Skin) verweisen, wird das TawkTo-Chatfenster so angezeigt, wie es in Ihrem https://www.tawk.to-Konto konfiguriert ist."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Haut Tawk.to"
+    }
+  ]
+}

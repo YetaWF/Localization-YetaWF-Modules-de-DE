@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "extErr",
+      "Text": "Der externe Login-Anbieter hat diesen Fehler gemeldet: {0}"
+    },
+    {
+      "Name": "notApproved",
+      "Text": "Ihr Konto wurde noch nicht vom Site-Administrator genehmigt. Sie erhalten eine Bestätigung per E-Mail, sobald Ihr Konto aktiv ist."
+    },
+    {
+      "Name": "notValidated",
+      "Text": "Ihr Konto wurde noch nicht verifiziert. Sie erhalten eine E-Mail mit Verifizierungsinformationen. Nach Erhalt verwenden Sie bitte die Informationen in der E-Mail, um die Registrierung abzuschließen."
+    }
+  ]
+}

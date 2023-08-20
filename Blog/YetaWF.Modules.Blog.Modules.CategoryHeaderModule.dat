@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Blog-Kategorie-Header"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt die Kopfzeile einer Blogkategorie an. Fügen Sie dies einer Seite mit einem Blog-Modul oder einem Eintragsanzeige-Modul hinzu, um die Kategorieinformationen für die aktuelle Blog-Kategorie anzuzeigen."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Blog-Kategorie-Header"
+    }
+  ]
+}

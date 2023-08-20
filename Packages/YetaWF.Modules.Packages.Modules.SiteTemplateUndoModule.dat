@@ -1,0 +1,54 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Packages.Modules.SiteTemplateUndoModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": "Die ausgewählte Vorlage wird verwendet, um Seiten und Menüeinträge von der aktuellen Website zu entfernen - Sobald die Seite fertig ist, muss sie manuell aktualisiert werden (absichtlich nicht automatisch)",
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SiteTemplate",
+          "Caption": "Name",
+          "Description": "Liste der Websitevorlagen (im Ordner SiteTemplates)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Websitevorlage rückgängig machen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Macht eine Websitevorlage rückgängig, indem alle definierten Seiten und Menüeinträge von der aktuellen Website entfernt werden. Weitere Informationen zu Websitevorlagen finden Sie unter Websitevorlagen. Auf das Modul \"Websitevorlage rückgängig\" kann über das Admin->-Panel > -Pakete zugegriffen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Websitevorlage rückgängig machen"
+    },
+    {
+      "Name": "undoLegend",
+      "Text": "Macht eine Websitevorlage rückgängig, indem alle definierten Seiten und Menüeinträge von der aktuellen Website entfernt werden"
+    },
+    {
+      "Name": "undoLink",
+      "Text": "Site-Vorlage"
+    },
+    {
+      "Name": "undoText",
+      "Text": "Site-Vorlage"
+    },
+    {
+      "Name": "undoTooltip",
+      "Text": "Rückgängig machen einer Websitevorlage und Hinzufügen aller definierten Seiten zur aktuellen Website"
+    }
+  ]
+}

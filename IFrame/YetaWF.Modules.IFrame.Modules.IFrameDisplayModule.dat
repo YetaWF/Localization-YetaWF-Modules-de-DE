@@ -1,0 +1,72 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.IFrame.Modules.IFrameDisplayModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "Height",
+          "Caption": "Höhe",
+          "Description": "Die Höhe, die zur Anzeige des Modulinhalts verwendet wird - wird unverändert als Css-Höhe verwendet (z. B. 800px, 40em)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "URL",
+          "Description": "Die URL, die zum Anzeigen des Modulinhalts verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Width",
+          "Caption": "Breite",
+          "Description": "Die Breite, die zur Anzeige des Modulinhalts verwendet wird - wird unverändert als Css-Breite verwendet (z. B. 100 %, 50 Pixel, 40 Pixel)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "IFrameLegend",
+      "Text": "Zeigt eine Seite in einem iframe an"
+    },
+    {
+      "Name": "IFrameLink",
+      "Text": "IFrame"
+    },
+    {
+      "Name": "IFrameText",
+      "Text": "IFrame"
+    },
+    {
+      "Name": "IFrameTooltip",
+      "Text": "Anzeigen einer Seite in einem iframe"
+    },
+    {
+      "Name": "modName",
+      "Text": "IFrame (Anzeige-URL)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt die definierte URL in einem HTML-iframe-Tag an. Verwenden Sie die Moduleinstellungen des Moduls, um die gewünschte URL zu definieren. Ein Beispiel für ein IFrame-Modul kann unter Tests > Module > IFrame (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "IFrame"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Templates.Modules.AddProjectModule+Model",
+      "BaseTypeName": null,
+      "Header": "Erstellt ein neues Projekt. Dieses neue Projekt kann verwendet werden, um neue YetaWF-Module, Skins und/oder neue gemeinsame Vorlagen (Editor/Display) zu entwickeln.\r(+nl)\r(+nl) Sobald das Projekt erstellt wurde, können Sie neue Elemente (z. B. Durchsuchen-Modul) und andere verfügbare Elemente hinzufügen.",
+      "Footer": "Fügen Sie nach der Generierung das neue Projekt Ihrer Projektmappe hinzu, fügen Sie einen Projektverweis im Website-Projekt hinzu, und erstellen Sie Ihre Projektmappe neu.",
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Company",
+          "Caption": "Firma",
+          "Description": "Geben Sie Ihren Firmennamen ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: Mein Firmenname - Dies wird verwendet, um Ihren Firmennamen in anzeigbarer Form anzuzeigen."
+        },
+        {
+          "Name": "CompanyUrl",
+          "Caption": "Unternehmens-URL",
+          "Description": "Geben Sie die Domain-URL Ihres Unternehmens ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: MyCompany.com – Die Domain-URL Ihres Unternehmens."
+        },
+        {
+          "Name": "Domain",
+          "Caption": "Domäne",
+          "Description": "Geben Sie den Domainnamen Ihres Unternehmens ohne .com ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: MyCompany: Dies wird als Teil des generierten Namespace verwendet und wird auch für alle neuen Elemente verwendet, die diesem Projekt hinzugefügt werden. Der Bezeichner darf nur Buchstaben und Zahlen enthalten."
+        },
+        {
+          "Name": "Project",
+          "Caption": "Projektname",
+          "Description": "Geben Sie den gewünschten Projektnamen ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: StoreFont oder Blog oder Forum - Dies wird als Teil des generierten Namensraums verwendet und wird auch für alle neuen Elemente verwendet, die diesem Projekt hinzugefügt werden. Der Bezeichner darf nur Buchstaben und Zahlen enthalten."
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Fügt ein neues Projekt hinzu"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Projekt hinzufügen"
+    },
+    {
+      "Name": "addText",
+      "Text": "Projekt hinzufügen"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Hinzufügen eines neuen Projekts"
+    },
+    {
+      "Name": "cantSave",
+      "Text": "Vorlagenvorgaben können nicht gespeichert werden"
+    },
+    {
+      "Name": "exists",
+      "Text": "Der Ordner {0} ist bereits vorhanden."
+    },
+    {
+      "Name": "modName",
+      "Text": "Neues Projekt hinzufügen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Fügt ein neues Projekt hinzu"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Neues Projekt hinzufügen"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Neues Projekt {0} bei {1} hinzugefügt: Stellen Sie sicher, dass Sie das Projekt zu Ihrer Projektmappe hinzufügen, fügen Sie einen Projektverweis im Website-Projekt hinzu, und erstellen Sie Ihre Projektmappe neu."
+    }
+  ]
+}

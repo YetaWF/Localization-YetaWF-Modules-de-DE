@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.TawkTo.Modules.ConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Account",
+          "Caption": "Site-ID",
+          "Description": "Definiert das Konto, das für das Chatfenster verwendet wird - Die Site-ID kann über Ihr Tawk.to-Dashboard abgerufen werden (Administration > Eigenschaftseinstellungen)",
+          "HelpLink": "https://dashboard.tawk.to",
+          "TextAbove": null,
+          "TextBelow": "Die Site-ID finden Sie in Ihrem Tawk.to-Dashboard (Verwaltung > Eigenschaftseinstellungen)"
+        },
+        {
+          "Name": "APIKey",
+          "Caption": "API-Schlüssel",
+          "Description": "Definiert den API-Schlüssel, der für das Chat-Fenster verwendet wird - Der API-Schlüssel kann über Ihr Tawk.to-Dashboard abgerufen werden (Administration > Eigenschaftseinstellungen).",
+          "HelpLink": "https://dashboard.tawk.to",
+          "TextAbove": null,
+          "TextBelow": "Den API-Schlüssel erhalten Sie über Ihr Tawk.to-Dashboard (Administration > Eigenschaftseinstellungen)"
+        },
+        {
+          "Name": "Description",
+          "Caption": " ",
+          "Description": " ",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExcludedPagesCss",
+          "Caption": "Seite css (ausschließen)",
+          "Description": "Definiert die Css-Klassen (durch Leerzeichen getrennt) für Seiten, auf denen das Tawk.to-Chat-Fenster nicht angezeigt wird - Seiten können daran gehindert werden, die Chat-Einladung anzuzeigen, indem ihre Css-Klasse im Tag angegeben wird - <body> Wenn keine Css-Klasse angegeben ist, wird die Chat-Einladung auf allen Seiten angezeigt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IncludedPagesCss",
+          "Caption": "Seite css (einschließen)",
+          "Description": "Definiert die Css-Klassen (durch Leerzeichen getrennt) für Seiten, auf denen das Tawk.to Chat-Fenster angezeigt wird - Nur Seiten mit einer der definierten Css-Klassen zeigen die Chat-Einladung an - Wenn keine Css-Klasse angegeben ist, wird die Chat-Einladung auf allen Seiten angezeigt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "desc",
+      "Text": "Auf das Modul Tawk.to (Skin) wird auf die gesamte Website verwiesen (in den Website-Einstellungen), in diesem Fall wird die Chat-Einladung auf allen Seiten angezeigt. Durch die Verwendung der Felder Seiten-Css (Ausschließen und Einschließen) unten können die Seiten, auf denen die Chat-Einladung angezeigt wird, eingeschränkt werden. Wenn bereits ein Chat läuft, ist das Chatfenster davon nicht betroffen und wird immer angezeigt."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Tawkto-Einstellungen"
+    },
+    {
+      "Name": "editLink",
+      "Text": "TawkTo-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "TawkTo-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten Sie die tawkto-Einstellungen"
+    },
+    {
+      "Name": "modName",
+      "Text": "TawkTo-Einstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implementiert die TawkTo-Konfiguration. Es kann über Admin > Einstellungen > TawkTo-Einstellungen (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "TawkTo-Einstellungen"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Tawk.to Einstellungen konnten nicht gefunden werden"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Tawk.To Einstellungen gespeichert"
+    }
+  ]
+}

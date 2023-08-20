@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "emailUsed",
+      "Text": "Ein Konto mit E-Mail-Adresse {0} existiert bereits."
+    },
+    {
+      "Name": "notApproved",
+      "Text": "Benutzerkonto für Benutzer {0} wurde nicht genehmigt - kann sich nicht anmelden"
+    },
+    {
+      "Name": "noUser",
+      "Text": "Benutzer mit ID {0} existiert nicht"
+    }
+  ]
+}

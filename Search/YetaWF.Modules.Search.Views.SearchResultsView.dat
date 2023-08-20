@@ -1,0 +1,39 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "lastUpd",
+      "Text": "Aktualisierte {0}"
+    },
+    {
+      "Name": "noDesc",
+      "Text": "(Keine Beschreibung)"
+    },
+    {
+      "Name": "noResults",
+      "Text": "Ihre Suche nach \"{0}\" ergab keine Treffer."
+    },
+    {
+      "Name": "noResultsAdmin",
+      "Text": "Keine Suchergebnisse verfügbar."
+    },
+    {
+      "Name": "results",
+      "Text": "Ihre Suche nach \"{0}\" ergab {1} Treffer."
+    },
+    {
+      "Name": "results1",
+      "Text": "Ihre Suche nach \"{0}\" ergab {1} Treffer."
+    },
+    {
+      "Name": "resultsMore",
+      "Text": "Ihre Suche nach \"{0}\" ergab {1} Treffer - weitere sind vorhanden."
+    },
+    {
+      "Name": "resultsMore1",
+      "Text": "Ihre Suche nach \"{0}\" ergab {1} Übereinstimmung - weitere sind verfügbar."
+    }
+  ]
+}

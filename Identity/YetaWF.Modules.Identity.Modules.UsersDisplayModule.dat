@@ -1,0 +1,190 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.UsersDisplayModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Comment",
+          "Caption": "Kommentar",
+          "Description": "Kommentare",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Erstellt",
+          "Description": "Datum/Uhrzeit der Erstellung des Benutzerkontos",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "E-Mail-Adresse",
+          "Description": "Die E-Mail-Adresse dieses Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastActivityDate",
+          "Caption": "Letzte Aktivität",
+          "Description": "Das letzte Mal, dass der Benutzer etwas auf dieser Website getan hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastActivityIP",
+          "Caption": "IP-Adresse der letzten Aktivität",
+          "Description": "Die IP-Adresse, von der aus der Benutzer etwas auf dieser Website getan hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastLoginDate",
+          "Caption": "Letzter Login",
+          "Description": "Der Zeitpunkt, zu dem sich der Benutzer das letzte Mal bei seinem Konto angemeldet hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastLoginIP",
+          "Caption": "IP-Adresse des letzten Logins",
+          "Description": "Die IP-Adresse, von der aus sich der Benutzer zuletzt auf dieser Website angemeldet hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastPasswordChangedDate",
+          "Caption": "Letzte Passwortänderung",
+          "Description": "Der Zeitpunkt, zu dem der Benutzer sein Passwort zuletzt geändert hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LoginFailures",
+          "Caption": "Fehler bei der Anmeldung",
+          "Description": "Zeigt die Anzahl der fehlgeschlagenen Anmeldeversuche seit der letzten erfolgreichen Anmeldung an",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LoginProviders",
+          "Caption": "Login-Anbieter",
+          "Description": "Der/die externe(n) Login-Anbieter, der/die dieses Konto definiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PasswordChangeIP",
+          "Caption": "IP zum Ändern des Passworts",
+          "Description": "Die IP-Adresse, von der aus der Benutzer zuletzt das Passwort auf dieser Website geändert hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RegistrationIP",
+          "Caption": "IP-Adresse",
+          "Description": "Die IP-Adresse, von der aus sich der Benutzer auf dieser Website registriert hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RolesList",
+          "Caption": "Rollen",
+          "Description": "Die Rollen des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Benutzer-ID",
+          "Description": "Die interne ID dieses Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserName",
+          "Caption": "Name",
+          "Description": "Der Name des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserStatus",
+          "Caption": "Status",
+          "Description": "Aktueller Kontostatus des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "VerificationCode",
+          "Caption": "Verifizierungscode",
+          "Description": "Der Verifizierungscode zur Verifizierung des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt Kontoinformationen für einen vorhandenen Benutzer an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Anzeigen von Kontoinformationen für Benutzer{0}"
+    },
+    {
+      "Name": "modDisplayTitle",
+      "Text": "Benutzer-{0}"
+    },
+    {
+      "Name": "modName",
+      "Text": "Einen Benutzer anzeigen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um einen vorhandenen Benutzer anzuzeigen. Dies wird vom Benutzermodul verwendet, um einen Benutzer anzuzeigen."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Benutzer"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Benutzer \"{0}\" nicht gefunden."
+    }
+  ]
+}

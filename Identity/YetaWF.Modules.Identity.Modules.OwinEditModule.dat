@@ -1,0 +1,270 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.OwinEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Built-In Login": "Eingebaute Anmeldung",
+        "Cookies": "Cookies",
+        "External Login": "Externe Anmeldung"
+      },
+      "Properties": [
+        {
+          "Name": "ExpireTimeSpan",
+          "Caption": "Ablauf",
+          "Description": "Die Zeit, in der ein Cookie ab dem Zeitpunkt seiner Erstellung gültig bleibt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FacebookPrivate",
+          "Caption": "Facebook-App-Geheimnis",
+          "Description": "Das App-Geheimnis für die Authentifizierung über Facebook (definiert in Facebook)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FacebookPublic",
+          "Caption": "Facebook-App-ID",
+          "Description": "Die App-ID für die Authentifizierung über Facebook (definiert in Facebook)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FacebookUrl",
+          "Caption": "Facebook (Englisch)",
+          "Description": "Stellt einen Link zu Facebook bereit, um die Authentifizierung für Ihre Websites einzurichten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GooglePrivate",
+          "Caption": "Geheimer Google-Clientschlüssel",
+          "Description": "Der geheime Clientschlüssel für die Authentifizierung mit Google (definiert mit Google)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GooglePublic",
+          "Caption": "Google-Client-ID",
+          "Description": "Die Client-ID für die Authentifizierung mit Google (definiert mit Google)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GoogleUrl",
+          "Caption": "Googeln",
+          "Description": "Stellt einen Link zu Google bereit, um die Authentifizierung für Ihre Websites einzurichten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MicrosoftPrivate",
+          "Caption": "Geheimer Microsoft-Clientschlüssel",
+          "Description": "Der geheime Clientschlüssel für die Authentifizierung mit Microsoft",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MicrosoftPublic",
+          "Caption": "Microsoft-Anwendungs-ID",
+          "Description": "Die Anwendungs-ID (Client-ID) für die Authentifizierung mit Microsoft",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MicrosoftUrl",
+          "Caption": "Microsoft",
+          "Description": "Stellt einen Link zu Microsoft bereit, um die Authentifizierung für Ihre Websites einzurichten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Nothing",
+          "Caption": "Passwort-Einstellungen:",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PasswordRenewal",
+          "Caption": "Passwort-Erneuerung",
+          "Description": "Die Zeit, nach der ein Benutzer das Kennwort ändern muss: Legen Sie den Wert auf 0 fest, damit Kennwörter auf unbestimmte Zeit gültig bleiben",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequireDigit",
+          "Caption": "Erfordert Digit",
+          "Description": "Legt fest, ob für ein Kennwort mindestens eine Ziffer erforderlich ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequiredLength",
+          "Caption": "Minimale Länge",
+          "Description": "Definiert die Mindestlänge eines Passworts",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequireLowercase",
+          "Caption": "Erfordert Kleinbuchstaben",
+          "Description": "Legt fest, ob für ein Kennwort mindestens ein Kleinbuchstabe erforderlich ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequireNonAlphanumeric",
+          "Caption": "Erfordert nicht-alphanumerische Werte",
+          "Description": "Legt fest, ob für ein Kennwort mindestens ein nicht alphanumerisches (Sonder-)Zeichen erforderlich ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequireUppercase",
+          "Caption": "Erfordert Großbuchstaben",
+          "Description": "Legt fest, ob für ein Kennwort mindestens ein Großbuchstabe erforderlich ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SecurityStampValidationInterval",
+          "Caption": "Sicherheitsintervall",
+          "Description": "Die Zeit, nach der ein angemeldeter Benutzer erneut validiert wird (falls sich das Kennwort geändert hat), um sicherzustellen, dass der authentifizierte Benutzer noch gültig ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SlidingExpiration",
+          "Caption": "Gleitender Ablauf",
+          "Description": "Cookies werden jedes Mal mit einer neuen Ablaufzeit neu ausgegeben, wenn eine Anfrage verarbeitet wird, deren Cookie mehr als die Hälfte des Ablauffensters überschritten hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TwitterPrivate",
+          "Caption": "Geheimer Twitter-API-Schlüssel",
+          "Description": "Der geheime API-Schlüssel für die Authentifizierung mit Twitter (definiert mit Twitter)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TwitterPublic",
+          "Caption": "Twitter-API-Schlüssel",
+          "Description": "Der API-Schlüssel für die Authentifizierung mit Twitter (definiert mit Twitter)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TwitterUrl",
+          "Caption": "Zwitschern",
+          "Description": "Stellt einen Link zu Twitter bereit, um die Authentifizierung für Ihre Websites einzurichten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseFacebook",
+          "Caption": "Facebook nutzen",
+          "Description": "Legt fest, ob Facebook-Logins erlaubt sind",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseGoogle",
+          "Caption": "Verwenden Sie Google",
+          "Description": "Legt fest, ob Google-Logins erlaubt sind",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseMicrosoft",
+          "Caption": "Verwenden von Microsoft",
+          "Description": "Definiert, ob Microsoft-Anmeldungen zulässig sind",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseTwitter",
+          "Caption": "Twitter nutzen",
+          "Description": "Legt fest, ob Twitter-Anmeldungen zulässig sind",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Einstellungen des Anmeldeanbieters"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Login-Anbieter"
+    },
+    {
+      "Name": "editText",
+      "Text": "Login-Anbieter"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten der Einstellungen des Anmeldeanbieters"
+    },
+    {
+      "Name": "modName",
+      "Text": "Einstellungen des Login-Anbieters"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um die Einstellungen lokaler und externer Anmeldeanbieter wie Google, Facebook usw. zu bearbeiten. Auf das Login-Provider-Einstellungsmodul kann über Admin > Identity Settings > Login Providers (Standard-YetaWF-Site) zugegriffen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Einstellungen des Login-Anbieters"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Einstellungen des Anmeldeanbieters erfolgreich gespeichert: Diese Einstellungen werden erst wirksam, wenn die Site (einschließlich aller Instanzen) neu gestartet wird."
+    },
+    {
+      "Name": "securityInterval",
+      "Text": "Das minimale Validierungsintervall sollte mindestens 1 Minute betragen"
+    },
+    {
+      "Name": "timeSpan",
+      "Text": "Die minimale Ablaufzeit sollte mindestens 10 Minuten betragen"
+    }
+  ]
+}

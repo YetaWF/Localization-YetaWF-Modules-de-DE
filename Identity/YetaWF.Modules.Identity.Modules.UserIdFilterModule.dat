@@ -1,0 +1,88 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.UserIdFilterModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "FilterOp",
+          "Caption": "Vergleich",
+          "Description": "Wählen Sie die Vergleichsmethode aus",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Benutzer",
+          "Description": "Wählen Sie den Benutzer aus",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.UserIdFilterModule+EditModel+FilterOpEnum",
+      "Entries": [
+        {
+          "Name": "Equal",
+          "Value": "Equal",
+          "Caption": "Gleich",
+          "Description": "Es werden nur Benutzer angezeigt, die mit dem ausgewählten Benutzer übereinstimmen"
+        },
+        {
+          "Name": "NotEqual",
+          "Value": "NotEqual",
+          "Caption": "Nicht gleich",
+          "Description": "Nur Benutzer anzeigen, die nicht mit dem ausgewählten Benutzer übereinstimmen"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Schränkt die Daten ein, die einem bestimmten Benutzer angezeigt werden"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Filter"
+    },
+    {
+      "Name": "editText",
+      "Text": "Filter"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Verwenden Sie einen Filter, um die für einen bestimmten Benutzer angezeigten Daten einzuschränken"
+    },
+    {
+      "Name": "modName",
+      "Text": "UserId-Filter"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implementiert einen Filter für eine Benutzer-ID."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Benutzer-Filter"
+    },
+    {
+      "Name": "save",
+      "Text": "Filter speichern"
+    },
+    {
+      "Name": "saveTT",
+      "Text": "Klicken Sie auf diese Option, um den ausgewählten Benutzer als neue Filtereinstellung zu speichern"
+    }
+  ]
+}

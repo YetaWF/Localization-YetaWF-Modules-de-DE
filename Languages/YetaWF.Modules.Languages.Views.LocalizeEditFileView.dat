@@ -1,0 +1,27 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnApply",
+      "Text": "Anwenden"
+    },
+    {
+      "Name": "btnReset",
+      "Text": "Standardeinstellungen wiederherstellen"
+    },
+    {
+      "Name": "btnResetTT",
+      "Text": "Entfernt benutzerdefinierte und installierte Lokalisierungsressourcen für die aktuelle Sprache (Standardressourcen für US-Englisch werden nie entfernt)"
+    },
+    {
+      "Name": "disabled1",
+      "Text": "Die Lokalisierungsunterstützung ist derzeit deaktiviert – Verwenden Sie zum Aktivieren die Lokalisierungseinstellungen."
+    },
+    {
+      "Name": "disabled2",
+      "Text": "Die Lokalisierungsunterstützung ist derzeit deaktiviert – Verwenden Sie die Websiteeinstellungen, um sie zu aktivieren."
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.SchedulerBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "URL hinzufügen",
+          "Description": "Die URL zum Hinzufügen eines neuen Scheduler-Elements - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayUrl",
+          "Caption": "Url anzeigen",
+          "Description": "Die URL zum Anzeigen eines Scheduler-Elements - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "URL bearbeiten",
+          "Description": "Die URL zum Bearbeiten eines Scheduler-Elements - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LogUrl",
+          "Caption": "Log-URL",
+          "Description": "Die URL zum Anzeigen des Scheduler-Protokolls - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.SchedulerBrowseModule+SchedulerItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Beschreibung dieses Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Enabled",
+          "Caption": "Ermöglichte",
+          "Description": "Der Status des Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EnableOnStartup",
+          "Caption": "Beim Start aktivieren",
+          "Description": "Zeigt an, ob das Scheduler-Element bei jedem Neustart der Website aktiviert wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Event",
+          "Caption": "Ereignis",
+          "Description": "Der Name des Ereignisses, das zur geplanten Zeit ausgeführt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Frequency",
+          "Caption": "Intervall",
+          "Description": "Die Häufigkeit des Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IsRunning",
+          "Caption": "Ausgeführte",
+          "Description": "Zeigt an, ob das Scheduler-Element gerade ausgeführt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Last",
+          "Caption": "Letzte",
+          "Description": "Das letzte Mal, als dieses Element ausgeführt wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Name",
+          "Description": "Der Name dieses Scheduler-Elements - der Name wird verwendet, um ein Scheduler-Element zu identifizieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Next",
+          "Caption": "Nächster",
+          "Description": "Die Uhrzeit, zu der die nächste Ausführung dieses Elements geplant ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunOnce",
+          "Caption": "Einmal ausführen",
+          "Description": "Zeigt an, ob das Scheduler-Element nur einmal ausgeführt wird - sobald es abgeschlossen ist, wird es deaktiviert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunTime",
+          "Caption": "Laufzeit",
+          "Description": "Die Dauer der letzten Ausführung dieses Scheduler-Elements (hh:mm:ss)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteSpecific",
+          "Caption": "Standortspezifisch",
+          "Description": "Zeigt an, ob das Planerelement für jede Site ausgeführt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Startup",
+          "Caption": "Start",
+          "Description": "Zeigt an, ob das Scheduler-Element beim Start der Website ausgeführt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Anzeigen und Verwalten von Scheduler-Elementen"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Scheduler"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Scheduler"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Anzeigen und Verwalten von Scheduler-Elementen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Scheduler"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt alle definierten Scheduler-Elemente an und unterstützt das Anzeigen, Bearbeiten und Entfernen von Scheduler-Elementen. Der Scheduler kann auch gestartet und gestoppt werden. Es kann unter Admin > Panel > Scheduler (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Scheduler"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie das Scheduler-Element \"{0}\" entfernen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernen des Scheduler-Elements"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Artikel entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Artikel entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernen des Scheduler-Elements"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Entfernen einzelner Planerelemente"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Entfernen von Scheduler-Elementen"
+    },
+    {
+      "Name": "roleRunItems",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Ausführen einzelner Planerelemente"
+    },
+    {
+      "Name": "roleRunItemsC",
+      "Text": "Ausführen von Scheduler-Elementen"
+    },
+    {
+      "Name": "runConfirm",
+      "Text": "Sind Sie sicher, dass Sie das Scheduler-Element \"{0}\" ausführen möchten?"
+    },
+    {
+      "Name": "runLegend",
+      "Text": "Ausführen des Scheduler-Elements"
+    },
+    {
+      "Name": "runLink",
+      "Text": "Element ausführen"
+    },
+    {
+      "Name": "runMenu",
+      "Text": "Element ausführen"
+    },
+    {
+      "Name": "runTT",
+      "Text": "Ausführen des Scheduler-Elements"
+    },
+    {
+      "Name": "startLegend",
+      "Text": "Startet den Scheduler"
+    },
+    {
+      "Name": "startLink",
+      "Text": "Scheduler starten"
+    },
+    {
+      "Name": "startMenu",
+      "Text": "Scheduler starten"
+    },
+    {
+      "Name": "startTT",
+      "Text": "Starten Sie den Scheduler"
+    },
+    {
+      "Name": "stopLegend",
+      "Text": "Stoppt den Scheduler"
+    },
+    {
+      "Name": "stopLink",
+      "Text": "Scheduler stoppen"
+    },
+    {
+      "Name": "stopMenu",
+      "Text": "Scheduler stoppen"
+    },
+    {
+      "Name": "stopTT",
+      "Text": "Stoppen Sie den Scheduler"
+    },
+    {
+      "Name": "toggleConfirmStart",
+      "Text": "Sind Sie sicher, dass Sie den Scheduler stoppen möchten?"
+    },
+    {
+      "Name": "toggleConfirmStop",
+      "Text": "Sind Sie sicher, dass Sie den Scheduler starten möchten?"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Entfernen einzelner Scheduler-Elemente"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Entfernen von Scheduler-Elementen"
+    },
+    {
+      "Name": "userRunItems",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Ausführen einzelner Scheduler-Elemente"
+    },
+    {
+      "Name": "userRunItemsC",
+      "Text": "Ausführen von Scheduler-Elementen"
+    }
+  ]
+}

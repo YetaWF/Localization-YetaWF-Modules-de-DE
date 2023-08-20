@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "screDone",
+      "Text": "Die News-Sitemap wurde erfolgreich erstellt"
+    },
+    {
+      "Name": "sitemapNotFound",
+      "Text": "News-Sitemap nicht gefunden - Datei '{0}' kann nicht gefunden werden"
+    },
+    {
+      "Name": "sremDone",
+      "Text": "Die News-Site-Map wurde entfernt"
+    }
+  ]
+}

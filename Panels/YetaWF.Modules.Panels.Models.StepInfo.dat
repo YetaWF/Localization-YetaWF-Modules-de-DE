@@ -1,0 +1,50 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Panels.Models.StepInfo+StepEntry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Caption",
+          "Caption": "Überschrift",
+          "Description": "Die Beschriftung für diesen Schritt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Beschreibung für diesen Schritt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Name",
+          "Description": "Der Name für diesen Schritt - Dieser Name wird von anderen Modulen zu Benachrichtigungszwecken verwendet - Module, die die Anzeige von Schritten unterstützen, haben standardisierte Namen für Schritte, die in ihrer Dokumentation dokumentiert werden sollten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "dfltCaption",
+      "Text": "(Bildunterschrift)"
+    },
+    {
+      "Name": "dfltDesription",
+      "Text": "(Beschreibung)"
+    }
+  ]
+}

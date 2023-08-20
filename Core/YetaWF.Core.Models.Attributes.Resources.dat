@@ -1,0 +1,307 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "badStringLengthMax",
+      "Text": "Die Länge von '{0}' darf {1} Zeichen nicht überschreiten"
+    },
+    {
+      "Name": "badStringLengthMinMax",
+      "Text": "Die Länge für \"{0}\" muss zwischen {1} und {2} Zeichen liegen"
+    },
+    {
+      "Name": "badTimeSpan",
+      "Text": "Der gültige Bereich ist {0} bis {1}"
+    },
+    {
+      "Name": "dup",
+      "Text": "Doppelter Eintrag gefunden - {0}"
+    },
+    {
+      "Name": "dupClient2",
+      "Text": "Doppelter Eintrag im Feld \"{0}\" gefunden"
+    },
+    {
+      "Name": "errInvMeta",
+      "Text": "Das Meta-Tag ist ungültig - Es sollte das Format <meta name=\"google-site-verification\" content=\"....your-code....\"> haben"
+    },
+    {
+      "Name": "errInvMeta2",
+      "Text": "Das Meta-Tag ist ungültig (Feld '{0}') - Es sollte das Format <meta name=\"google-site-verification\" content=\"....your-code....\">"
+    },
+    {
+      "Name": "errInvMeta3",
+      "Text": "Das Meta-Tag '{0}' ist ungültig - Es sollte das Format <meta name=\"google-site-verification\" content=\"....your-code....\">"
+    },
+    {
+      "Name": "errInvSite",
+      "Text": "Der Domainname der Website ist ungültig - Er kann keine http:// oder https:// verwenden und darf nur Buchstaben, Zahlen und die folgenden Zeichen enthalten: - ."
+    },
+    {
+      "Name": "errInvSite2",
+      "Text": "Der Domainname der Website ist ungültig (Feld '{0}') - Er darf nicht http:// oder https:// verwenden und darf nur Buchstaben, Zahlen und die folgenden Zeichen enthalten: - ."
+    },
+    {
+      "Name": "errInvSite3",
+      "Text": "Der Domainname \"{0}\" der Website ist ungültig - Er darf keine http:// oder https:// verwenden und darf nur Buchstaben, Zahlen und die folgenden Zeichen enthalten: - ."
+    },
+    {
+      "Name": "errPrivateKey",
+      "Text": "Die RecaptchaV2-Konfigurationseinstellungen fehlen - kein öffentlicher/privater Schlüssel gefunden"
+    },
+    {
+      "Name": "range",
+      "Text": "Der Wert \"{0}\" muss zwischen {1} und {2} liegen"
+    },
+    {
+      "Name": "requiredExpr",
+      "Text": "Das Feld '{0}' muss ausgefüllt werden"
+    },
+    {
+      "Name": "requiredSelExpr",
+      "Text": "Das Feld '{0}' erfordert eine Auswahl"
+    },
+    {
+      "Name": "sameas",
+      "Text": "Das Feld {0} stimmt nicht überein"
+    },
+    {
+      "Name": "valAnchor",
+      "Text": "Die Anker-ID ist ungültig - verwenden Sie nur die Buchstaben a-z, A-Z, _, - und 0-9 für IDs"
+    },
+    {
+      "Name": "valAnchor2",
+      "Text": "Die Anker-ID ist ungültig (Feld '{0}') - verwenden Sie nur die Buchstaben a-z, A-Z, _, - und 0-9 für IDs"
+    },
+    {
+      "Name": "valAnchor3",
+      "Text": "Die Anker-ID '{0}' ist ungültig - verwenden Sie nur die Buchstaben a-z, A-Z, _, - und 0-9 für IDs"
+    },
+    {
+      "Name": "valArea",
+      "Text": "Der angegebene Bereich ist ungültig - Bitte verwenden Sie nur Buchstaben und Zahlen im Format domain_product"
+    },
+    {
+      "Name": "valArea2",
+      "Text": "Der angegebene Bereich ist ungültig (Feld '{0}') - Bitte verwenden Sie nur Buchstaben und Zahlen im Format domain_product"
+    },
+    {
+      "Name": "valArea3",
+      "Text": "Der Bereich '{0}' ist ungültig - Bitte verwenden Sie nur Buchstaben und Zahlen im Format domain_product"
+    },
+    {
+      "Name": "valCCNum",
+      "Text": "Die Kreditkartennummer ist ungültig"
+    },
+    {
+      "Name": "valCCNum2",
+      "Text": "Die Kreditkartennummer ist ungültig (Feld '{0}')"
+    },
+    {
+      "Name": "valCCNum3",
+      "Text": "Die Kreditkartennummer \"{0}\" ist ungültig"
+    },
+    {
+      "Name": "valCCV",
+      "Text": "Der CVV (Card Verification Value) ist ungültig - Der CVV ist auf der Rückseite Ihrer Kreditkarte aufgedruckt - Normalerweise werden die letzten 4 Ziffern Ihrer Kartennummer, gefolgt vom CVV (3-4 Ziffern) angezeigt. Wenn Ihre Kreditkarte einen solchen Sicherheitscode hat, geben Sie ihn bitte hier ein (wenn Sie ihn nicht eingeben, kann sich Ihre Bestellung verzögern oder abgelehnt werden) - Wenn Ihre Karte keinen solchen Code hat, lassen Sie dieses Feld einfach leer"
+    },
+    {
+      "Name": "valCCV2",
+      "Text": "Der CCV (Card Verification Value) ist ungültig (Feld '{0}') - Der CVV ist auf der Rückseite Ihrer Kreditkarte aufgedruckt - In der Regel werden die letzten 4 Ziffern Ihrer Kartennummer, gefolgt vom CVV (3-4 Ziffern) angezeigt. Wenn Ihre Kreditkarte einen solchen Sicherheitscode hat, geben Sie ihn bitte hier ein (wenn Sie ihn nicht eingeben, kann sich Ihre Bestellung verzögern oder abgelehnt werden) - Wenn Ihre Karte keinen solchen Code hat, lassen Sie dieses Feld einfach leer"
+    },
+    {
+      "Name": "valCCV3",
+      "Text": "Der CCV (Card Verification Value) \"{0}\" ist ungültig - Der CVV ist auf der Rückseite Ihrer Kreditkarte aufgedruckt - Normalerweise werden die letzten 4 Ziffern Ihrer Kartennummer, gefolgt vom CVV (3-4 Ziffern) angezeigt. Wenn Ihre Kreditkarte einen solchen Sicherheitscode hat, geben Sie ihn bitte hier ein (wenn Sie ihn nicht eingeben, kann sich Ihre Bestellung verzögern oder abgelehnt werden) - Wenn Ihre Karte keinen solchen Code hat, lassen Sie dieses Feld einfach leer"
+    },
+    {
+      "Name": "valCssClass",
+      "Text": "Die aufgelistete Klasse ist ungültig - Verwenden Sie nur die Buchstaben a-z, A-Z, _ und 0-9 für einen Klassennamen - Der Klassenname darf nicht mit einer Ziffer beginnen"
+    },
+    {
+      "Name": "valCssClass2",
+      "Text": "Die aufgelistete Klasse ist ungültig (Feld '{0}') - Verwenden Sie nur die Buchstaben a-z, A-Z, _ und 0-9 für einen Klassennamen - Der Klassenname darf nicht mit einer Ziffer beginnen"
+    },
+    {
+      "Name": "valCssClass3",
+      "Text": "Die Klasse '{0}' ist ungültig - Verwenden Sie nur die Buchstaben a-z, A-Z, _ und 0-9 für einen Klassennamen - Der Klassenname darf nicht mit einer Ziffer beginnen"
+    },
+    {
+      "Name": "valCssClasses",
+      "Text": "Die aufgelisteten Klassen sind ungültig - Bitte trennen Sie Klassen durch Leerzeichen (keine Kommas) und verwenden Sie nur die Buchstaben a-z, A-Z, _ und 0-9 für Klassennamen - Klassennamen dürfen nicht mit einer Ziffer beginnen"
+    },
+    {
+      "Name": "valCssClasses2",
+      "Text": "Die aufgelisteten Klassen sind ungültig (Feld '{0}') - Bitte trennen Sie Klassen durch Leerzeichen (keine Kommas) und verwenden Sie nur die Buchstaben a-z, A-Z, _ und 0-9 für Klassennamen - Klassennamen dürfen nicht mit einer Ziffer beginnen"
+    },
+    {
+      "Name": "valCssClasses3",
+      "Text": "Die Klassen '{0}' sind ungültig - Bitte trennen Sie Klassen mit Leerzeichen (nicht Kommas) und verwenden Sie nur die Buchstaben a-z, A-Z, _ und 0-9 für Klassennamen - Klassennamen dürfen nicht mit einer Ziffer beginnen"
+    },
+    {
+      "Name": "valDateMax",
+      "Text": "Das Datum ist ungültig – es liegt nach dem zulässigen Enddatum von {0}"
+    },
+    {
+      "Name": "valDateMin",
+      "Text": "Das Datum ist ungültig – es liegt vor dem zulässigen Startdatum von {0}"
+    },
+    {
+      "Name": "valDomain",
+      "Text": "Die Domain ist ungültig"
+    },
+    {
+      "Name": "valDomain2",
+      "Text": "Die Domäne (Feld '{0}') ist ungültig"
+    },
+    {
+      "Name": "valDomain3",
+      "Text": "Die Domain '{0}' ist ungültig"
+    },
+    {
+      "Name": "valEmail",
+      "Text": "Die E-Mail-Adresse ist ungültig - sie sollte das Format \"user@domain\" haben, wobei Domain eine beliebige Domain wie domain.com, domain.net, domain.io usw. sein kann."
+    },
+    {
+      "Name": "valEmail2",
+      "Text": "Die E-Mail-Adresse für das Feld mit der Bezeichnung \"{0}\" ist ungültig - sie sollte das Format \"user@domain\" haben, wobei die Domäne eine beliebige Domäne wie domain.com, domain.net, domain.io usw. sein kann."
+    },
+    {
+      "Name": "valEmail3",
+      "Text": "Die E-Mail-Adresse {0} ist ungültig - sie sollte das Format \"user@domain\" haben, wobei Domain eine beliebige Domain wie domain.com, domain.net, domain.io usw. sein kann."
+    },
+    {
+      "Name": "valGuid",
+      "Text": "Die GUID ist ungültig - sie sollte das Format \"000000000-0000-0000-0000-0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "Name": "valGuid2",
+      "Text": "Die GUID (Feld '{0}') ist ungültig - sie sollte das Format '000000000-0000-0000-0000-0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "Name": "valGuid3",
+      "Text": "Die GUID '{0}' ist ungültig - sie sollte das Format '00000000-0000-0000-0000-00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "Name": "valPkgDomain",
+      "Text": "Die angegebene Domain ist ungültig - Bitte verwenden Sie nur Buchstaben und Zahlen"
+    },
+    {
+      "Name": "valPkgDomain2",
+      "Text": "Die angegebene Domain ist ungültig ({0}) - Bitte verwenden Sie nur Buchstaben und Zahlen"
+    },
+    {
+      "Name": "valPkgDomain3",
+      "Text": "Die Domain '{0}' ist ungültig - Bitte verwenden Sie nur Buchstaben und Zahlen"
+    },
+    {
+      "Name": "valSSN",
+      "Text": "Die Sozialversicherungsnummer ist ungültig"
+    },
+    {
+      "Name": "valSSN2",
+      "Text": "Die Sozialversicherungsnummer ist ungültig (Feld '{0}')"
+    },
+    {
+      "Name": "valSSN3",
+      "Text": "Die Sozialversicherungsnummer \"{0}\" ist ungültig"
+    },
+    {
+      "Name": "valUrl1",
+      "Text": "Die URL ist ungültig - Sie sollte das Format '/someLocalPage', '//somedomain.com/page', 'http://somedomain.com/page' oder 'https://somedomain.com/page' haben."
+    },
+    {
+      "Name": "valUrl2",
+      "Text": "Die URL ist ungültig - Sie sollte das Format '/someLocalPage' oder 'http://somedomain.com/page' haben - https ist nicht erlaubt"
+    },
+    {
+      "Name": "valUrl3",
+      "Text": "Die URL ist ungültig - Sie sollte das Format '/someLocalPage' oder 'https://somedomain.com/page' haben - Sie muss sicher sein - http ist nicht erlaubt"
+    },
+    {
+      "Name": "valUrl4",
+      "Text": "Die URL ist ungültig - Sie sollte das Format '//somedomain.com/page', 'http://somedomain.com/page' oder 'https://somedomain.com/page' haben."
+    },
+    {
+      "Name": "valUrl5",
+      "Text": "Die URL ist ungültig - Sie sollte das Format \"http://somedomain.com/page\" haben - https ist nicht zulässig"
+    },
+    {
+      "Name": "valUrl6",
+      "Text": "Die URL ist ungültig - Sie sollte das Format 'https://somedomain.com/page' haben - Es muss sicher sein - http ist nicht erlaubt"
+    },
+    {
+      "Name": "valUrl7",
+      "Text": "Die URL ist ungültig - Sie sollte das Format '/someLocalPage' haben, das eine lokale URL auf der aktuellen Site definiert"
+    },
+    {
+      "Name": "valUrl8",
+      "Text": "Die URL ist ungültig - Sie sollte das Format '/someLocalPage' haben, das eine neue lokale Seite definiert - lokale Seiten müssen mit '/' beginnen und dürfen keine bestimmten Sonderzeichen wie . , * ? & usw."
+    },
+    {
+      "Name": "valUrlD1",
+      "Text": "Die URL '{0}' ist ungültig - Sie sollte das Format '/someLocalPage', '//somedomain.com/page', 'http://somedomain.com/page' oder 'https://somedomain.com/page' haben"
+    },
+    {
+      "Name": "valUrlD2",
+      "Text": "Die URL '{0}' ist ungültig - Sie sollte das Format '/someLocalPage' oder 'http://somedomain.com/page' haben - https ist nicht erlaubt"
+    },
+    {
+      "Name": "valUrlD3",
+      "Text": "Die URL '{0}' ist ungültig - Sie sollte das Format '/someLocalPage' oder 'https://somedomain.com/page' haben - Es muss sicher sein - http ist nicht erlaubt"
+    },
+    {
+      "Name": "valUrlD4",
+      "Text": "Die URL '{0}' ist ungültig - Sie sollte das Format '//somedomain.com/page', 'http://somedomain.com/page' oder 'https://somedomain.com/page' haben"
+    },
+    {
+      "Name": "valUrlD5",
+      "Text": "Die URL '{0}' ist ungültig - Sie sollte das Format 'http://somedomain.com/page' haben - https ist nicht erlaubt"
+    },
+    {
+      "Name": "valUrlD6",
+      "Text": "Die URL '{0}' ist ungültig - Sie sollte das Format 'https://somedomain.com/page' haben - Es muss sicher sein - http ist nicht erlaubt"
+    },
+    {
+      "Name": "valUrlD7",
+      "Text": "Die URL '{0}' ist ungültig - Sie sollte das Format '/someLocalPage' haben, das eine lokale URL auf der aktuellen Site definiert"
+    },
+    {
+      "Name": "valUrlD8",
+      "Text": "Die URL '{0}' ist ungültig - Sie sollte das Format '/someLocalPage' haben, um eine neue lokale Seite zu definieren - lokale Seiten müssen mit '/' beginnen und dürfen bestimmte Sonderzeichen wie . , * ? & usw."
+    },
+    {
+      "Name": "valUrlF1",
+      "Text": "Die URL ist ungültig (Feld '{0}') - Sie sollte das Format '/someLocalPage', '//somedomain.com/page', 'http://somedomain.com/page' oder 'https://somedomain.com/page' haben."
+    },
+    {
+      "Name": "valUrlF2",
+      "Text": "Die URL ist ungültig (Feld '{0}') - Sie sollte das Format '/someLocalPage' oder 'http://somedomain.com/page' haben - https ist nicht erlaubt"
+    },
+    {
+      "Name": "valUrlF3",
+      "Text": "Die URL ist ungültig (Feld '{0}') - Sie sollte das Format '/someLocalPage' oder 'https://somedomain.com/page' haben - Es muss sicher sein - http ist nicht erlaubt"
+    },
+    {
+      "Name": "valUrlF4",
+      "Text": "Die URL ist ungültig (Feld '{0}') - Sie sollte das Format '//somedomain.com/page', 'http://somedomain.com/page' oder 'https://somedomain.com/page' haben"
+    },
+    {
+      "Name": "valUrlF5",
+      "Text": "Die URL ist ungültig (Feld '{0}') - Sie sollte das Format 'http://somedomain.com/page' haben - https ist nicht erlaubt"
+    },
+    {
+      "Name": "valUrlF6",
+      "Text": "Die URL ist ungültig (Feld '{0}') - Sie sollte das Format 'https://somedomain.com/page' haben - Es muss sicher sein - http ist nicht erlaubt"
+    },
+    {
+      "Name": "valUrlF7",
+      "Text": "Die URL ist ungültig (Feld '{0}') - Sie sollte das Format '/someLocalPage' haben, das eine lokale URL auf der aktuellen Site definiert"
+    },
+    {
+      "Name": "valUrlF8",
+      "Text": "Die URL ist ungültig (Feld '{0}') - Sie sollte das Format '/someLocalPage' haben, um eine neue lokale Seite zu definieren - lokale Seiten müssen mit '/' beginnen und dürfen bestimmte Sonderzeichen wie . , * ? & usw."
+    }
+  ]
+}

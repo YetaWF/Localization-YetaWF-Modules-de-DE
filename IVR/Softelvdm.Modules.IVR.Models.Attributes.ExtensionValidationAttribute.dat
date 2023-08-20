@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "valExtension",
+      "Text": "Die Erweiterung ist ungültig"
+    },
+    {
+      "Name": "valExtension2",
+      "Text": "Die Durchwahl (Feld '{0}') ist ungültig"
+    },
+    {
+      "Name": "valExtension3",
+      "Text": "Die Erweiterung '{0}' ist ungültig"
+    }
+  ]
+}

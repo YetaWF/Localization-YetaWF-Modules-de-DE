@@ -1,0 +1,27 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "acct1",
+      "Text": "Melden Sie sich mit diesem Konto an:"
+    },
+    {
+      "Name": "accts",
+      "Text": "Melden Sie sich mit einem der folgenden Konten an:"
+    },
+    {
+      "Name": "btnSave",
+      "Text": "Anmelden"
+    },
+    {
+      "Name": "extProviders",
+      "Text": "Externe Login-Anbieter"
+    },
+    {
+      "Name": "localOnly",
+      "Text": "Externe Anmeldeanbieter funktionieren möglicherweise nicht, wenn Ihre Website Localhost verwendet."
+    }
+  ]
+}

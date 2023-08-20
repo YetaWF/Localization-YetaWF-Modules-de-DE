@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "valLogoff",
+      "Text": "Die Abmelde-URL ist ungültig - Sie muss mit einem /-Zeichen beginnen (eine direkte URL auf dieser Website)"
+    },
+    {
+      "Name": "valLogoff2",
+      "Text": "Die Abmelde-URL ist ungültig (Eigenschaft '{0}') - Sie muss mit einem /-Zeichen beginnen (eine direkte URL auf dieser Website)"
+    },
+    {
+      "Name": "valLogoff3",
+      "Text": "Die Abmelde-URL '{0}' ist ungültig - Sie muss mit einem / Zeichen beginnen (eine direkte URL auf dieser Seite)"
+    }
+  ]
+}

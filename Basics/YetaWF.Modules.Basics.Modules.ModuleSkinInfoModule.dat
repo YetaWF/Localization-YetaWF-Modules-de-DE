@@ -1,0 +1,94 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Basics.Modules.ModuleSkinInfoModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Characters",
+          "Caption": "Buchstaben",
+          "Description": "Die Buchstaben, die zur Berechnung der durchschnittlichen Zeichenbreite und -höhe verwendet werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Height",
+          "Caption": "Char. Höhe",
+          "Description": "Die Zeichenhöhe, berechnet anhand des aktuellen Skins",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LettersHeight",
+          "Caption": "Höhe der Buchstaben",
+          "Description": "Die Gesamthöhe der angezeigten Buchstaben, berechnet anhand des aktuellen Skins",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LettersWidth",
+          "Caption": "Buchstaben-Breite",
+          "Description": "Die Gesamtbreite der angezeigten Buchstaben, berechnet anhand des aktuellen Skins",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteSelectedSkin",
+          "Caption": "Standortdefinierter Skin",
+          "Description": "Der Skin, der für alle Seiten/Popups verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Width",
+          "Caption": "Durchschnittliche Zeichenbreite",
+          "Description": "Die durchschnittliche Zeichenbreite, berechnet anhand des aktuellen Skins",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt Modul-Skin-Informationen an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Modul Skin-Info"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Modul Skin-Info"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Skin-Informationen des Moduls anzeigen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modul Skin-Info"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt ein Testbeispiel mit den meisten HTML-Elementen und Tags an, die häufig verwendet werden. Es kann verwendet werden, um einen Skin zu verifizieren. Es zeigt auch die durchschnittliche Zeichenhöhe/-breite an, die beim Erstellen neuer Skins (in der Skin.txt Datei eines Skins) verwendet wird. Auf das Modul Skin Info kann über Tests > Modul Skin Info (Standard-YetaWF-Site) zugegriffen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Modul Skin-Info"
+    }
+  ]
+}

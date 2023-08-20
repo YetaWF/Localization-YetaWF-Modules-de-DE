@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.EditExtensionModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Beschreibt die Durchwahl: Dieser Text wird verwendet, um die Durchwahl bei der Anrufprüfung zu identifizieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Extension",
+          "Caption": "Erweiterung",
+          "Description": "Definiert die Endung (Ziffern)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PhoneNumbers",
+          "Caption": "Telefonnummern",
+          "Description": "Definiert die Telefonnummern, die bei der Eingabe dieser Durchwahl angerufen werden sollen - Mindestens eine Telefonnummer ist erforderlich",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Users",
+          "Caption": "Benutzer",
+          "Description": "Definiert die Benutzer, die auf Voicemails für diese Erweiterung zugreifen können",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "Die Erweiterung {0} wurde entfernt und kann nicht mehr aktualisiert werden"
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Erweiterung {0} bereits vorhanden."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet eine vorhandene Erweiterung"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Redigieren"
+    },
+    {
+      "Name": "editText",
+      "Text": "Redigieren"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Erweiterung bearbeiten"
+    },
+    {
+      "Name": "modName",
+      "Text": "Erweiterung bearbeiten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Bearbeitet eine vorhandene Erweiterung."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Erweiterung"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Durchwahl \"{0}\" nicht gefunden"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Erweiterung gespeichert"
+    },
+    {
+      "Name": "title",
+      "Text": "Durchwahl \"{0}\""
+    }
+  ]
+}

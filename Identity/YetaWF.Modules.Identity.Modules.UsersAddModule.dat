@@ -1,0 +1,114 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.UsersAddModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Comment",
+          "Caption": "Kommentar",
+          "Description": "Kommentare",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "E-Mail-Adresse",
+          "Description": "Die E-Mail-Adresse dieses Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NeedsNewPassword",
+          "Caption": "Neues Passwort",
+          "Description": "Legt fest, ob der Benutzer das Kennwort ändern muss",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Password",
+          "Caption": "Passwort",
+          "Description": "Das Passwort für diesen Benutzer",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RolesList",
+          "Caption": "Rollen",
+          "Description": "Die Rollen des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserName",
+          "Caption": "Name",
+          "Description": "Der Name des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserStatus",
+          "Caption": "Status",
+          "Description": "Aktueller Kontostatus des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Erstellt einen neuen Benutzer"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "addText",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Erstellen eines neuen Benutzers"
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Ein Benutzer mit dem Namen \"{0}\" existiert bereits."
+    },
+    {
+      "Name": "emailUsed",
+      "Text": "Ein Konto mit der E-Mail-Adresse {0} ist bereits vorhanden."
+    },
+    {
+      "Name": "modName",
+      "Text": "Neuer Benutzer"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Fügt einen neuen Benutzer hinzu. Dies wird vom Benutzermodul verwendet, um einen neuen Benutzer hinzuzufügen."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Neuer Benutzer"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Neuer Benutzer gespeichert"
+    }
+  ]
+}

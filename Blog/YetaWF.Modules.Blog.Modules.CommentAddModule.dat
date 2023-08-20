@@ -1,0 +1,114 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CommentAddModule+AddModel",
+      "BaseTypeName": null,
+      "Header": "Füllen Sie dieses einfache Formular aus, um einen Kommentar zu diesem Blogeintrag hinzuzufügen.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Captcha",
+          "Caption": "Captcha",
+          "Description": "Bitte stellen Sie sicher, dass Sie ein Mensch und kein Spam-Bot sind",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Comment",
+          "Caption": "Kommentar",
+          "Description": "Geben Sie Ihren Kommentar zu diesem Blogeintrag ein, damit andere ihn sehen können",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "Ihre E-Mail-Adresse",
+          "Description": "Geben Sie Ihre E-Mail-Adresse ein - Sobald Ihr Kommentar veröffentlicht wurde, wird Ihre E-Mail-Adresse nicht angezeigt, sie ist nicht öffentlich einsehbar",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Ihr Name",
+          "Description": "Geben Sie Ihren Namen ein - Sobald Ihr Kommentar veröffentlicht wurde, wird Ihr Name als Teil Ihres Kommentars angezeigt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowGravatar",
+          "Caption": "Gravatar anzeigen",
+          "Description": "Legt fest, ob Ihr optionaler Gravatar angezeigt wird, bei dem es sich um ein öffentlich sichtbares Bild handelt, das Sie mit dem kostenlosen Dienst unter http://gravatar.com definieren können, damit alle Ihre Kommentare mit Ihrem Bild angezeigt werden",
+          "HelpLink": "http://www.gravatar.com",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titel",
+          "Description": "Geben Sie einen Titel für Ihren Kommentar ein - Sobald Ihr Kommentar veröffentlicht wurde, wird der Titel als Teil Ihres Kommentars angezeigt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Website",
+          "Caption": "Ihre Website",
+          "Description": "Geben Sie Ihre optionale Website ein, damit die Leser Ihres Kommentars Ihre Website besuchen können. Ihre Website ist völlig optional - Sobald Ihr Kommentar veröffentlicht wurde, wird Ihre Website-Adresse als Teil Ihres Kommentars angezeigt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyExists",
+      "Text": "Beim Hinzufügen dieses neuen Kommentars ist ein Fehler aufgetreten"
+    },
+    {
+      "Name": "autoApproval",
+      "Text": "Dieser Kommentar wurde automatisch genehmigt."
+    },
+    {
+      "Name": "modName",
+      "Text": "Kommentar hinzufügen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Fügt einen neuen Kommentar hinzu. Der Kommentar wird dem Blogeintrag hinzugefügt, der durch das BlogEntry-Argument der Seiten-URL definiert wird. Dieses Modul wird in der Regel auf derselben Seite wie das Eintragsanzeigemodul verwendet."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Neuen Kommentar hinzufügen"
+    },
+    {
+      "Name": "needApproval",
+      "Text": "Dieser Kommentar bedarf Ihrer Zustimmung."
+    },
+    {
+      "Name": "newComment",
+      "Text": "Neuer Blog-Kommentar ({0} - {1})"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Blogeintrag mit id {0} nicht gefunden."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Neuer Kommentar hinzugefügt"
+    },
+    {
+      "Name": "okSavedReview",
+      "Text": "Neuer Kommentar gespeichert: Er wird überprüft, bevor er öffentlich einsehbar wird."
+    }
+  ]
+}

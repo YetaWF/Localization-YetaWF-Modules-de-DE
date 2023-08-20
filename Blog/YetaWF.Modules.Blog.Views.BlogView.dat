@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "startDate",
+      "Text": "Anzeige von Blogeinträgen, die am oder vor {0} veröffentlicht wurden."
+    }
+  ]
+}

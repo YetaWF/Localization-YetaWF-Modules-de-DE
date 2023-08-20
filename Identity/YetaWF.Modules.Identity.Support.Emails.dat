@@ -1,0 +1,39 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "approvalNeededSubject",
+      "Text": "Genehmigung für Benutzer-{0} erforderlich - Site {1}"
+    },
+    {
+      "Name": "approvalSubject",
+      "Text": "Zugelassen für den Standort {0}!"
+    },
+    {
+      "Name": "forgotSubject",
+      "Text": "Passwort für {0} vergessen"
+    },
+    {
+      "Name": "notifyNewUserSubject",
+      "Text": "Neues Konto für Benutzer-{0} - Site {1}"
+    },
+    {
+      "Name": "rejectedSubject",
+      "Text": "Ihr Konto für {0}"
+    },
+    {
+      "Name": "resetSubject",
+      "Text": "Zurücksetzen des Passworts für {0}"
+    },
+    {
+      "Name": "suspendedSubject",
+      "Text": "Ihr Konto für {0}"
+    },
+    {
+      "Name": "verificationSubject",
+      "Text": "Verifizierung für Standort{0} erforderlich"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Site.ContentTypeEnum",
+      "Entries": [
+        {
+          "Name": "No",
+          "Value": "No",
+          "Caption": "Nicht spezifiziert",
+          "Description": "Ein X-Content-Type-Options-Header wird nicht generiert"
+        },
+        {
+          "Name": "NoSniff",
+          "Value": "NoSniff",
+          "Caption": "nosniff",
+          "Description": "Es wird ein X-Content-Type-Options: nosniff-Header generiert, der festlegt, dass die in den Content-Type-Headern angekündigten MIME-Typen nicht verändert werden sollen und vom Browser befolgt werden sollen"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

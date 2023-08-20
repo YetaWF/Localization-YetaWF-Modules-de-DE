@@ -1,0 +1,158 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Panels.Modules.PageBarModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "ContentPane",
+          "Caption": "Bereich \"Inhalt\"",
+          "Description": "Definiert den Bereich, der zum Extrahieren von Seiteninhalten verwendet wird - lassen Sie das Feld leer, um das Hauptfenster als Seiteninhalt zu verwenden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultImage",
+          "Caption": "Standard-Bild",
+          "Description": "Das Standardbild, das verwendet wird, wenn eine Seite kein eigenes FavIcon definiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageList",
+          "Caption": "Seitenliste",
+          "Description": "Definiert die Seiten und ihre Reihenfolge, wie sie in der Seitenleiste angezeigt werden, indem sie ihre FavIcons und Seitenbeschreibung verwenden - Seiten, die der Seitenliste hinzugefügt werden, werden vor Seiten angezeigt, die mit dem Seitenmuster entdeckt wurden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PagePattern",
+          "Caption": "Seitenmuster",
+          "Description": "Definiert ein Regex-Muster - Alle Seiten, die diesem Muster entsprechen, werden in die Seitenleiste aufgenommen - z. B. würde ^/Admin/Config/[^/]*$ alle Seiten enthalten, die mit /Admin/Config/ beginnen, aber nicht ihre untergeordneten Seiten - Seiten, die der Seitenliste hinzugefügt werden, werden vor Seiten angezeigt, die mit dem Seitenmuster entdeckt wurden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Style",
+          "Caption": "Stil",
+          "Description": "Definiert das Erscheinungsbild von Seiteneinträgen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Panels.Modules.PageBarModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "ContentPane",
+          "Caption": "Bereich \"Inhalt\"",
+          "Description": "Definiert den Bereich, der zum Extrahieren von Seiteninhalten verwendet wird - lassen Sie das Feld leer, um das Hauptfenster als Seiteninhalt zu verwenden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultImage",
+          "Caption": "Standard-Bild",
+          "Description": "Das Standardbild, das verwendet wird, wenn eine Seite kein eigenes FavIcon definiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageList",
+          "Caption": "Seiten",
+          "Description": "Definiert die Seiten und ihre Reihenfolge, wie sie im Seitenbereich angezeigt werden, anhand ihrer FavIcons und Seitenbeschreibung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PagePattern",
+          "Caption": "Seitenmuster",
+          "Description": "Definiert ein Regex-Muster - alle Seiten, die diesem Muster entsprechen, werden in das Seitenfenster aufgenommen - z. B. würde ^/Admin/Config/[^/]*$ alle Seiten enthalten, die mit /Admin/Config/ beginnen, aber nicht ihre untergeordneten Seiten enthalten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Style",
+          "Caption": "Stil",
+          "Description": "Definiert das Erscheinungsbild von Seiteneinträgen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Panels.Modules.PageBarModule+PanelStyleEnum",
+      "Entries": [
+        {
+          "Name": "Vertical",
+          "Value": "Vertical",
+          "Caption": "Senkrecht",
+          "Description": "Zeigt das Seiten-FavIcon und den Seitentitel vertikal angeordnet an"
+        },
+        {
+          "Name": "Horizontal",
+          "Value": "Horizontal",
+          "Caption": "Horizontal",
+          "Description": "Zeigt die Seite FavIcon an, Seitentitel horizontal angeordnet"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt die Seitenleiste an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Seitenleiste"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Seitenleiste"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Zeigen Sie die Seitenleiste an"
+    },
+    {
+      "Name": "modName",
+      "Text": "Seitenleiste"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um mehrere Links zu Seiten anzuzeigen, die das FavIcon der Seiten verwenden und den Seiteninhalt innerhalb des Seitenleistenmoduls anzeigen. Eine Beispielseite finden Sie unter Admin > Settings (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Seitenleiste"
+    }
+  ]
+}

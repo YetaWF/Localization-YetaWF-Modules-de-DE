@@ -1,0 +1,43 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "valResourceName",
+      "Text": "Der Ressourcenname muss der folgenden Namenskonvention entsprechen: Bereichsname-Ressourcenname: Ein Beispiel für einen gültigen Ressourcennamen ist \"YetaWF_Identity-Autorisierungsadministrator (Anzeige)\""
+    },
+    {
+      "Name": "valResourceName2",
+      "Text": "Der Ressourcenname ist ungültig (Eigenschaft '{0}') – Er muss dieser Namenskonvention entsprechen: AreaName-ResourceName: Ein Beispiel für einen gültigen Ressourcennamen ist \"YetaWF_Identity-Authorization Admin (Display)\""
+    },
+    {
+      "Name": "valResourceName3",
+      "Text": "Der Ressourcenname \"{0}\" ist ungültig - Er muss dieser Namenskonvention entsprechen: AreaName-ResourceName: Ein Beispiel für einen gültigen Ressourcennamen ist \"YetaWF_Identity-Authorization Admin (Display)\""
+    },
+    {
+      "Name": "valRoleName",
+      "Text": "Der Rollenname muss aus einem Wort bestehen, das Buchstaben und Zahlen, Unterstriche und Punkte ohne Leerzeichen enthält"
+    },
+    {
+      "Name": "valRoleName2",
+      "Text": "Der Rollenname ist ungültig (Eigenschaft '{0}') - Er muss aus einem Wort bestehen, das Buchstaben und Zahlen, Unterstriche und Punkte ohne Leerzeichen enthält"
+    },
+    {
+      "Name": "valRoleName3",
+      "Text": "Der Rollenname \"{0}\" ist ungültig - Er muss aus einem Wort bestehen, das Buchstaben und Zahlen, Unterstriche und Punkte ohne Leerzeichen enthält"
+    },
+    {
+      "Name": "valuserName",
+      "Text": "Der Benutzername darf nicht mit Zeichen wie einem Tabulator oder einem Leerzeichen beginnen"
+    },
+    {
+      "Name": "valuserName2",
+      "Text": "Der Benutzername ist ungültig (Feld \"{0}\") – Der Benutzername darf nicht mit Zeichen wie einem Tabulator oder einem Leerzeichen beginnen."
+    },
+    {
+      "Name": "valuserName3",
+      "Text": "Der Benutzername '{0}' ist ungültig - Der Benutzername darf nicht mit Zeichen wie einem Tabulator oder einem Leerzeichen beginnen."
+    }
+  ]
+}

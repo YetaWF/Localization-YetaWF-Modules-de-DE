@@ -1,0 +1,252 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.LoginConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Accounts": "Konten",
+        "Captcha": "Captcha",
+        "Notifications": "Benachrichtigungen",
+        "Two-Step Auth": "Zweistufige Authentifizierung",
+        "Urls": "URLs"
+      },
+      "Properties": [
+        {
+          "Name": "AllowUserRegistration",
+          "Caption": "Neue Benutzer zulassen",
+          "Description": "Registrierung neuer Benutzer zulassen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ApprovalPendingUrl",
+          "Caption": "URL \"Genehmigung ausstehend\"",
+          "Description": "Die URL, an die der Benutzer weitergeleitet wird, wenn die Kontogenehmigung nach der Registrierung oder bei der Anmeldung aussteht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ApproveNewUsers",
+          "Caption": "Genehmigung erforderlich",
+          "Description": "Definiert, ob neue Benutzer genehmigt werden müssen, bevor sie Zugriff auf die Site haben - Die Genehmigung wird in der Regel vom Site-Administrator erteilt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BccForgottenPassword",
+          "Caption": "Admin benachrichtigen - Passwort vergessen",
+          "Description": "Legt fest, ob der Site-Administrator eine Kopie der E-Mail mit dem vergessenen Kennwort erhält, die an Benutzer gesendet wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BccVerification",
+          "Caption": "Admin benachrichtigen - Bestätigungs-E-Mails",
+          "Description": "Legt fest, ob der Site-Administrator eine Kopie der Bestätigungs-E-Mail erhält, die an neue Benutzer gesendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Captcha",
+          "Caption": "Captcha verwenden",
+          "Description": "Legt fest, ob der Benutzer beim Einloggen oder bei der Registrierung eines neuen Kontos einen \"menschlichen\" Test bestehen muss (Ja), andernfalls wird kein Test durchgeführt (Nein)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CaptchaForgotPassword",
+          "Caption": "Captcha verwenden (Pswd vergessen)",
+          "Description": "Legt bei vergessenen Passwörtern fest, ob der Benutzer einen \"menschlichen\" Test bestehen muss (Ja), ansonsten wird kein Test durchgeführt (Nein)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ChangePasswordUrl",
+          "Caption": "Passwort-URL ändern",
+          "Description": "Die URL, an die der Benutzer weitergeleitet wird, wenn das Kennwort geändert werden muss",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ForgotPasswordUrl",
+          "Caption": "URL des vergessenen Passworts",
+          "Description": "Die URL, unter der der Benutzer ein vergessenes Kennwort für ein vorhandenes Konto abrufen kann",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LoggedOffUrl",
+          "Caption": "Abgemeldete URL",
+          "Description": "Die URL, zu der der Benutzer nach dem Abmelden umgeleitet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LoginUrl",
+          "Caption": "Login-URL",
+          "Description": "Die URL, unter der sich der Benutzer mit einem vorhandenen Konto anmelden kann",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MaxLoginFailures",
+          "Caption": "Max. Login-Fehler",
+          "Description": "Definiert die maximale Anzahl von Anmeldefehlern, bevor das Konto gesperrt wird - Wenn 0 angegeben ist, werden Konten bei Anmeldefehlern nicht gesperrt - Bei erfolgreicher Anmeldung wird die Anzahl der Anmeldefehler auf 0 zurückgesetzt.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NotifyAdminNewUsers",
+          "Caption": "Admin benachrichtigen - Neuer Benutzer",
+          "Description": "Legt fest, ob der Administrator eine E-Mail-Benachrichtigung erhält, wenn ein neues Benutzerkonto von einem neuen Benutzer erstellt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PersistentLogin",
+          "Caption": "Dauerhafter Login",
+          "Description": "Legt fest, ob eine Benutzeranmeldung persistent ist (mithilfe von Cookies gespeichert)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RegisterUrl",
+          "Caption": "Registrierungs-URL",
+          "Description": "Die URL, unter der der Benutzer ein neues Benutzerkonto registrieren kann",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RegistrationType",
+          "Caption": "Art der Registrierung",
+          "Description": "Wie ein Benutzer auf dieser Website registriert wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RejectedUrl",
+          "Caption": "Abgelehnte URL",
+          "Description": "Die URL, an die der Benutzer weitergeleitet wird, wenn sein Konto abgelehnt wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ResetTimeSpan",
+          "Caption": "Passwort zurücksetzen",
+          "Description": "Legt fest, wie lange eine E-Mail zum Zurücksetzen des Passworts gültig ist - E-Mails zum Zurücksetzen des Passworts werden nur gesendet, wenn Passwörter nicht von dieser Website gespeichert werden (Passwort speichern) - Wird nicht für externe Login-Anbieter verwendet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SavePlainTextPassword",
+          "Caption": "Passwort speichern",
+          "Description": "Definiert, ob das Kennwort des Benutzers gespeichert wird, damit es wiederhergestellt werden kann (und bei Bedarf per E-Mail an den Benutzer gesendet werden kann). - Wenn Passwörter nicht gespeichert werden, wird stattdessen eine E-Mail zum Zurücksetzen an den Benutzer gesendet, in der ein bereitgestellter Schlüssel eingegeben werden muss, um das Passwort zurückzusetzen - Wird nicht für externe Login-Anbieter verwendet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SuspendedUrl",
+          "Caption": "Gesperrte URL",
+          "Description": "Die URL, an die der Benutzer weitergeleitet wird, wenn sein Konto gesperrt wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TwoStepAuth",
+          "Caption": "Zweistufige Authentifizierung",
+          "Description": "Definiert, für welche Rollen eine obligatorische zweistufige Authentifizierung erforderlich ist",
+          "HelpLink": null,
+          "TextAbove": "Bitte wählen Sie aus, für welche Rollen eine obligatorische zweistufige Authentifizierung erforderlich ist. Der Site-Superuser kann jederzeit auf die Site zugreifen, auch wenn eine zweistufige Authentifizierung erforderlich ist, aber noch nicht eingerichtet wurde. Andere Benutzer müssen die zweistufige Authentifizierung einrichten, bevor der vollständige Zugriff auf die Website gewährt wird.",
+          "TextBelow": null
+        },
+        {
+          "Name": "TwoStepAuthUrl",
+          "Caption": "URL für die zweistufige Authentifizierung",
+          "Description": "Die URL, an die der Benutzer umgeleitet wird, wenn die zweistufige Authentifizierung noch nicht eingerichtet wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "VerificationPendingUrl",
+          "Caption": "Verifizierung ausstehend URL",
+          "Description": "Die URL, an die der Benutzer weitergeleitet wird, wenn die Kontoverifizierung nach der Registrierung oder bei der Anmeldung aussteht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "VerifyNewUsers",
+          "Caption": "Verifizierung erforderlich",
+          "Description": "Definiert, ob neue Benutzer verifiziert werden müssen, bevor sie Zugriff auf die Website haben - Die Verifizierung erfolgt durch Senden einer E-Mail an den neuen Benutzer mit einem Verifizierungscode, der bei der ersten Anmeldung eingegeben werden muss",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Einstellungen für die Benutzeranmeldung"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Einstellungen für die Benutzeranmeldung"
+    },
+    {
+      "Name": "editText",
+      "Text": "Einstellungen für die Benutzeranmeldung"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten der Einstellungen für die Benutzeranmeldung"
+    },
+    {
+      "Name": "modName",
+      "Text": "Einstellungen für die Benutzeranmeldung"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Verwaltet die Benutzeranmeldeeinstellungen der Website und wird verwendet, um die Einstellungen einer Website zu definieren, z. B. ob neue Benutzer akzeptiert werden, neue Benutzer, eine Überprüfung erforderlich sind usw. Auf das Modul Benutzer-Login-Einstellungen kann über Admin > Einstellungen > Benutzer-Login-Einstellungen (Standard-YetaWF-Site) zugegriffen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Einstellungen für die Benutzeranmeldung"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Konfiguration der Benutzeranmeldung wurde nicht gefunden."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Gespeicherte Konfigurationseinstellungen"
+    }
+  ]
+}

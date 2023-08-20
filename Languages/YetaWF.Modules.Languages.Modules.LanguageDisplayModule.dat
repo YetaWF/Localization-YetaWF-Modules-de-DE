@@ -1,0 +1,78 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Languages.Modules.LanguageDisplayModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Beschreibung für die Sprache - diese dient nur zu Informationszwecken",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Id",
+          "Caption": "ID",
+          "Description": "Die Sprach-ID: Dies ist derselbe wie der Kulturname, der in .NET verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShortName",
+          "Caption": "Name",
+          "Description": "Der Name der Sprache, der in den Steuerelementen für die Sprachauswahl angezeigt wird, damit der Benutzer eine Sprache auswählen kann",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt eine vorhandene Sprache an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Zeigt eine vorhandene Sprache an"
+    },
+    {
+      "Name": "modName",
+      "Text": "Anzeigesprache"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um Informationen zu einer Sprache anzuzeigen. Dies wird vom Sprachmodul verwendet."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Sprache"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Sprache \"{0}\" nicht gefunden"
+    },
+    {
+      "Name": "title",
+      "Text": "Sprache \"{0}\""
+    }
+  ]
+}

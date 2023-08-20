@@ -1,0 +1,3113 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.SkinPalette.Modules.SkinPaletteModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Anchor": "Anker",
+        "Auto Gen": "Automatische Generierung",
+        "Button": "Knopf",
+        "ButtonLite": "ButtonLite",
+        "Config": "Config (Konfiguration)",
+        "Dialog": "Dialogfeld",
+        "Dropdown": "Dropdown",
+        "Indicators": "Indikatoren",
+        "Input": "Eingabe",
+        "Main Menu (horz.)": "Hauptmenü (horz.)",
+        "Main Menu (small)": "Hauptmenü (klein)",
+        "Main Menu (vert.)": "Hauptmenü (vert.)",
+        "Mini Scroll": "Mini-Schriftrolle",
+        "modPanel": "modPanel",
+        "modStandard": "modStandard",
+        "Overlay": "Overlay",
+        "Page": "Seite",
+        "Panel": "Gremium",
+        "Popup Menu": "Popup-Menü",
+        "Progressbar": "Fortschrittsbalken",
+        "PropertyList": "PropertyList (Eigenschaftsliste)",
+        "Sidebar": "Seitenleiste",
+        "Step": "Schritt",
+        "Switch": "Schalter",
+        "Table": "Tisch",
+        "Tabs": "Tabulatoren",
+        "Toast": "Toast",
+        "Tooltip": "Quickinfo"
+      },
+      "Properties": [
+        {
+          "Name": "AnchorClr",
+          "Caption": "--a-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AnchorClrFocus",
+          "Caption": "--a-clr-focus",
+          "Description": "Farbe, Fokus",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AnchorClrHover",
+          "Caption": "--a-clr-hover",
+          "Description": "Farbe, Hover",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AnchorDec",
+          "Caption": "--a-dec",
+          "Description": "Dekoration",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AnchorDecFocus",
+          "Caption": "--a-dec-focus",
+          "Description": "Dekoration, Fokus",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AnchorDecHover",
+          "Caption": "--a-dec-hover",
+          "Description": "Dekoration, Schweben",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AutoGenerate",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BarBg",
+          "Caption": "--bar-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BarBgActive",
+          "Caption": "--bar-bg-aktiv",
+          "Description": "Farbe, Hover",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BarBgHover",
+          "Caption": "--bar-bg-hover",
+          "Description": "Farbe, Hover",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BarBorder",
+          "Caption": "--bar-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BarBorderRadius",
+          "Caption": "--bar-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BarClr",
+          "Caption": "--bar-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BarClrActive",
+          "Caption": "--bar-clr-active",
+          "Description": "Farbe, Hover",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BarClrHover",
+          "Caption": "--bar-clr-hover",
+          "Description": "Farbe, Hover",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BarH1FontSize",
+          "Caption": "--bar-h1-font-size",
+          "Description": "Schriftgrad",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BodyBg",
+          "Caption": "--körper-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BodyClr",
+          "Caption": "--body-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BodyDisabledOpacity",
+          "Caption": "--body-dis-opacity",
+          "Description": "Undurchsichtigkeit",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BodyFont",
+          "Caption": "--body-font",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonBg",
+          "Caption": "--button-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonBgFocus",
+          "Caption": "--button-bg-focus",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonBgHover",
+          "Caption": "--button-bg-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonBorder",
+          "Caption": "--button-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonBorderRadius",
+          "Caption": "--button-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonClr",
+          "Caption": "--button-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonClrFocus",
+          "Caption": "--button-clr-focus",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonClrHover",
+          "Caption": "--button-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonLiteBg",
+          "Caption": "--buttonlite-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonLiteBgFocus",
+          "Caption": "--buttonlite-bg-focus",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonLiteBgHover",
+          "Caption": "--buttonlite-bg-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonLiteBorder",
+          "Caption": "--buttonlite-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonLiteBorderRadius",
+          "Caption": "--buttonlite-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonLiteClr",
+          "Caption": "--buttonlite-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonLiteClrFocus",
+          "Caption": "--buttonlite-clr-focus",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonLiteClrHover",
+          "Caption": "--buttonlite-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonShadow",
+          "Caption": "--button-schatten",
+          "Description": "Schatten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ButtonShadowFocus",
+          "Caption": "--button-focus-shadow",
+          "Description": "Schatten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CSSVariables",
+          "Caption": "CSS-Variablen",
+          "Description": "Fügen Sie Ihre Einstellungen ein, um sie weiter zu bearbeiten, oder kopieren Sie sie in eine Skin-SCSS-Datei, um sie in einem Skin zu verwenden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDBg",
+          "Caption": "--dd-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDBgActive",
+          "Caption": "--dd-bg-active",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDBgFocus",
+          "Caption": "--dd-bg-focus",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDBgHover",
+          "Caption": "--dd-bg-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDBorder",
+          "Caption": "--dd-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDBorderFocus",
+          "Caption": "--dd-border-focus",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDBorderHover",
+          "Caption": "--dd-border-hover",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDBorderRadius",
+          "Caption": "--dd-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDClr",
+          "Caption": "--dd-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDClrActive",
+          "Caption": "--dd-clr-active",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDClrFocus",
+          "Caption": "--dd-clr-focus",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDClrHover",
+          "Caption": "--dd-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDListBg",
+          "Caption": "--dd-p-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDListBgFocus",
+          "Caption": "--dd-p-bg-fokus",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDListBgHover",
+          "Caption": "--dd-p-bg-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDListBorder",
+          "Caption": "--dd-p-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDListBorderRadius",
+          "Caption": "--dd-p-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDListClr",
+          "Caption": "--dd-p-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDListClrFocus",
+          "Caption": "--dd-p-clr-fokus",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDListClrHover",
+          "Caption": "--dd-p-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDListShadow",
+          "Caption": "--dd-p-shadow",
+          "Description": "Schatten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DDListShadowFocus",
+          "Caption": "--dd-p-schattenfokus",
+          "Description": "Schatten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DialogBg",
+          "Caption": "--dialog-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DialogBorder",
+          "Caption": "--dialog-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DialogBorderRadius",
+          "Caption": "--dialog-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DialogClr",
+          "Caption": "--dialog-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DialogLine",
+          "Caption": "--dialog-Zeile",
+          "Description": "Linie",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DialogTitleBg",
+          "Caption": "--dialog-title-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DialogTitleClr",
+          "Caption": "--dialog-title-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DialogTitleFont",
+          "Caption": "--dialog-title-font",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenBg",
+          "Caption": "Hintergrundfarbe",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenBgActive",
+          "Caption": "Aktive Hintergrundfarbe",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenBgShaded",
+          "Caption": "Schattierte Hintergrundfarbe",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenBgShadedActive",
+          "Caption": "Hintergrund Schattierte aktive Farbe",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenBorderClr",
+          "Caption": "Rahmenfarbe",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenBorderRadius",
+          "Caption": "Radius-Pixel",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenBorderWidth",
+          "Caption": "Breite des Rahmens",
+          "Description": "Breite des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenClr",
+          "Caption": "Vordergrundfarbe",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenClrActive",
+          "Caption": "Aktive Farbe im Vordergrund",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenClrShaded",
+          "Caption": "Schattierte Farbe im Vordergrund",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenClrShadedActive",
+          "Caption": "Schattierte aktive Farbe im Vordergrund",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenFont",
+          "Caption": "Schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenSmallFont",
+          "Caption": "SmallFont",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GenTheme",
+          "Caption": "Theme-Stil",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "InputBg",
+          "Caption": "--inp-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "InputBorder",
+          "Caption": "--inp-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "InputBorderFocus",
+          "Caption": "--inp-border-focus",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "InputBorderHover",
+          "Caption": "--inp-border-hover",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "InputBorderRadius",
+          "Caption": "--inp-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "InputClr",
+          "Caption": "--inp-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "InputError",
+          "Caption": "--inp-error-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "InputPlaceholderClr",
+          "Caption": "--inp-ph-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "InputPlaceholderOpacity",
+          "Caption": "--inp-ph-opacity",
+          "Description": "Undurchsichtigkeit",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Load",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0ABg",
+          "Caption": "--mm-0-a-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0ABgHover",
+          "Caption": "--mm-0-a-bg-hover",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0ABgPath",
+          "Caption": "--mm-0-a-bg-Pfad",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0AClr",
+          "Caption": "--mm-0-a-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0AClrHover",
+          "Caption": "--mm-0-a-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0AClrPath",
+          "Caption": "--mm-0-a-clr-pfad",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0APadding",
+          "Caption": "--mm-0-a-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0Bg",
+          "Caption": "--mm-0-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0Border",
+          "Caption": "--mm-0-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0BorderRadius",
+          "Caption": "--mm-0-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0Clr",
+          "Caption": "--mm-0-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0DDHeight",
+          "Caption": "--mm-0-ddHöhe",
+          "Description": "Höhe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0DDWidth",
+          "Caption": "--mm-0-ddBreite",
+          "Description": "Breite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0Font",
+          "Caption": "--mm-0-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz0Padding",
+          "Caption": "--mm-0-Polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1ABg",
+          "Caption": "--mm-1-a-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1ABgHover",
+          "Caption": "--mm-1-a-bg-schweben",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1ABgPath",
+          "Caption": "--mm-1-a-bg-Pfad",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1AClr",
+          "Caption": "--mm-1-a-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1AClrHover",
+          "Caption": "--mm-1-a-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1AClrPath",
+          "Caption": "--mm-1-a-clr-pfad",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1APadding",
+          "Caption": "--mm-1-a-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1Bg",
+          "Caption": "--mm-1-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1Border",
+          "Caption": "--mm-1-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1BorderRadius",
+          "Caption": "--mm-1-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1Clr",
+          "Caption": "--mm-1-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1DDHeight",
+          "Caption": "--mm-1-DDheight",
+          "Description": "Höhe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1DDWidth",
+          "Caption": "--mm-1-ddwidth",
+          "Description": "Breite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1Font",
+          "Caption": "--mm-1-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1MMBg",
+          "Caption": "--mm-1-mm-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1MMClr",
+          "Caption": "--mm-1-mm-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1MMFont",
+          "Caption": "--mm-1-mm-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1MMWidth",
+          "Caption": "--mm-1-mm-Breite",
+          "Description": "Breite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz1Padding",
+          "Caption": "--mm-1-Polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2ABg",
+          "Caption": "--mm-2-a-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2ABgHover",
+          "Caption": "--mm-2-a-bg-schweben",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2ABgPath",
+          "Caption": "--mm-2-a-bg-Pfad",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2AClr",
+          "Caption": "--mm-2-a-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2AClrHover",
+          "Caption": "--mm-2-a-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2AClrPath",
+          "Caption": "--mm-2-a-clr-pfad",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2APadding",
+          "Caption": "--mm-2-a-Polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2Bg",
+          "Caption": "--mm-2-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2Border",
+          "Caption": "--mm-2-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2BorderRadius",
+          "Caption": "--mm-2-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2Clr",
+          "Caption": "--mm-2-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2DDHeight",
+          "Caption": "--mm-2-ddHöhe",
+          "Description": "Höhe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2DDWidth",
+          "Caption": "--mm-2-ddwidth",
+          "Description": "Breite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2Font",
+          "Caption": "--mm-2-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuHorz2Padding",
+          "Caption": "--mm-2-Polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0ABg",
+          "Caption": "--mmsm-0-a-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0ABgHover",
+          "Caption": "--mmsm-0-a-bg-hover",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0ABgPath",
+          "Caption": "--mmsm-0-a-bg-Pfad",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0AClr",
+          "Caption": "--mmsm-0-a-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0AClrHover",
+          "Caption": "--mmsm-0-a-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0AClrPath",
+          "Caption": "--mmsm-0-a-clr-pfad",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0APadding",
+          "Caption": "--mmsm-0-a-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0Bg",
+          "Caption": "--mmsm-0-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0Border",
+          "Caption": "--mmsm-0-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0BorderRadius",
+          "Caption": "--mmsm-0-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0Clr",
+          "Caption": "--mmsm-0-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0DDHeight",
+          "Caption": "--mmsm-0-ddheight",
+          "Description": "Höhe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0DDWidth",
+          "Caption": "--mmsm-0-ddwidth",
+          "Description": "Breite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0Font",
+          "Caption": "--mmsm-0-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm0Padding",
+          "Caption": "--mmsm-0-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1ABg",
+          "Caption": "--mmsm-1-a-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1ABgHover",
+          "Caption": "--mmsm-1-a-bg-hover",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1ABgPath",
+          "Caption": "--mmsm-1-a-bg-Pfad",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1AClr",
+          "Caption": "--mmsm-1-a-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1AClrHover",
+          "Caption": "--mmsm-1-a-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1AClrPath",
+          "Caption": "--mmsm-1-a-clr-pfad",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1APadding",
+          "Caption": "--mmsm-1-a-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1Bg",
+          "Caption": "--mmsm-1-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1Border",
+          "Caption": "--mmsm-1-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1BorderRadius",
+          "Caption": "--mmsm-1-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1Clr",
+          "Caption": "--mmsm-1-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1DDHeight",
+          "Caption": "--mmsm-1-ddheight",
+          "Description": "Höhe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1DDWidth",
+          "Caption": "--mmsm-1-ddwidth",
+          "Description": "Breite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1Font",
+          "Caption": "--mmsm-1-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1MMBg",
+          "Caption": "--mmsm-1-mm-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1MMClr",
+          "Caption": "--mmsm-1-mm-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1MMFont",
+          "Caption": "--mmsm-1-mm-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1MMWidth",
+          "Caption": "--mmsm-1-mm-Breite",
+          "Description": "Breite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm1Padding",
+          "Caption": "--mmsm-1-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2ABg",
+          "Caption": "--mmsm-2-a-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2ABgHover",
+          "Caption": "--mmsm-2-a-bg-hover",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2ABgPath",
+          "Caption": "--mmsm-2-a-bg-Pfad",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2AClr",
+          "Caption": "--mmsm-2-a-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2AClrHover",
+          "Caption": "--mmsm-2-a-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2AClrPath",
+          "Caption": "--mmsm-2-a-clr-pfad",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2APadding",
+          "Caption": "--mmsm-2-a-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2Bg",
+          "Caption": "--mmsm-2-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2Border",
+          "Caption": "--mmsm-2-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2BorderRadius",
+          "Caption": "--mmsm-2-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2Clr",
+          "Caption": "--mmsm-2-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2DDHeight",
+          "Caption": "--mmsm-2-ddheight",
+          "Description": "Höhe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2DDWidth",
+          "Caption": "--mmsm-2-ddwidth",
+          "Description": "Breite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2Font",
+          "Caption": "--mmsm-2-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuSm2Padding",
+          "Caption": "--mmsm-2-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0ABg",
+          "Caption": "--mmv-0-a-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0ABgHover",
+          "Caption": "--mmv-0-a-bg-hover",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0ABgPath",
+          "Caption": "--mmv-0-a-bg-Pfad",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0AClr",
+          "Caption": "--mmv-0-a-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0AClrHover",
+          "Caption": "--mmv-0-a-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0AClrPath",
+          "Caption": "--mmv-0-a-clr-pfad",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0APadding",
+          "Caption": "--mmv-0-a-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0Bg",
+          "Caption": "--mmv-0-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0Border",
+          "Caption": "--mmv-0-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0BorderRadius",
+          "Caption": "--mmv-0-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0Clr",
+          "Caption": "--mmv-0-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0DDHeight",
+          "Caption": "--mmv-0-ddheight",
+          "Description": "Höhe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0DDWidth",
+          "Caption": "--mmv-0-ddwidth",
+          "Description": "Breite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0Font",
+          "Caption": "--mmv-0-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert0Padding",
+          "Caption": "--mmv-0-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1ABg",
+          "Caption": "--mmv-1-a-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1ABgHover",
+          "Caption": "--mmv-1-a-bg-hover",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1ABgPath",
+          "Caption": "--mmv-1-a-bg-Pfad",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1AClr",
+          "Caption": "--mmv-1-a-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1AClrHover",
+          "Caption": "--mmv-1-a-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1AClrPath",
+          "Caption": "--mmv-1-a-clr-pfad",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1APadding",
+          "Caption": "--mmv-1-a-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1Bg",
+          "Caption": "--mmv-1-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1Border",
+          "Caption": "--mmv-1-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1BorderRadius",
+          "Caption": "--mmv-1-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1Clr",
+          "Caption": "--mmv-1-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1DDHeight",
+          "Caption": "--mmv-1-ddheight",
+          "Description": "Höhe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1DDWidth",
+          "Caption": "--mmv-1-ddwidth",
+          "Description": "Breite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1Font",
+          "Caption": "--mmv-1-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1MMBg",
+          "Caption": "--mmv-1-mm-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1MMClr",
+          "Caption": "--mmv-1-mm-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1MMFont",
+          "Caption": "--mmv-1-mm-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1MMWidth",
+          "Caption": "--mmv-1-mm-Breite",
+          "Description": "Breite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert1Padding",
+          "Caption": "--mmv-1-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2ABg",
+          "Caption": "--mmv-2-a-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2ABgHover",
+          "Caption": "--mmv-2-a-bg-hover",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2ABgPath",
+          "Caption": "--mmv-2-a-bg-Pfad",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2AClr",
+          "Caption": "--mmv-2-a-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2AClrHover",
+          "Caption": "--mmv-2-a-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2AClrPath",
+          "Caption": "--mmv-2-a-clr-pfad",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2APadding",
+          "Caption": "--mmv-2-a-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2Bg",
+          "Caption": "--mmv-2-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2Border",
+          "Caption": "--mmv-2-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2BorderRadius",
+          "Caption": "--mmv-2-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2Clr",
+          "Caption": "--mmv-2-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2DDHeight",
+          "Caption": "--mmv-2-ddheight",
+          "Description": "Höhe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2DDWidth",
+          "Caption": "--mmv-2-ddwidth",
+          "Description": "Breite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2Font",
+          "Caption": "--mmv-2-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MainMenuVert2Padding",
+          "Caption": "--mmv-2-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MenuSVGSmallBorder",
+          "Caption": "--mm-svg-kleiner_rand",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MenuSVGSmallBorderRadius",
+          "Caption": "--mm-svg-kleiner-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MiniScrollClr",
+          "Caption": "--ms-1-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModCurrentBg",
+          "Caption": "--mod-current-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModPanelBg",
+          "Caption": "--mpnl-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModPanelBorder",
+          "Caption": "--mpnl-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModPanelBorderRadius",
+          "Caption": "--mpnl-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModPanelClr",
+          "Caption": "--mpnl-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModPanelLinkFont",
+          "Caption": "--mpnl-link-font",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModPanelPadding",
+          "Caption": "--mpnl-padding",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModPanelShadow",
+          "Caption": "--mpnl-shadow",
+          "Description": "Schatten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModPanelTitleFont",
+          "Caption": "--mpnl-title-font",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModStandardTitleFont",
+          "Caption": "--mstd-title-font",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OverlayBg",
+          "Caption": "--overlay-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OverlayOpacity",
+          "Caption": "--overlay-opacity",
+          "Description": "Undurchsichtigkeit",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OwnModNoAnon",
+          "Caption": "--own-mod-noAnon",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OwnModNoUser",
+          "Caption": "--own-mod-noUser",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OwnModNoUserAnon",
+          "Caption": "--own-mod-noUserAnon",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OwnPageNoAnon",
+          "Caption": "--eigene-seite-noAnon",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OwnPageNoUser",
+          "Caption": "--own-page-noUser",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OwnPageNoUserAnon",
+          "Caption": "--own-page-noUserAnon",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PanelBg",
+          "Caption": "--panel-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PanelBorder",
+          "Caption": "--panel-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PanelBorderRadius",
+          "Caption": "--panel-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PanelShadow",
+          "Caption": "--panel-schatten",
+          "Description": "Schatten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PbarBg",
+          "Caption": "--pbar-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PbarBorder",
+          "Caption": "--pbar-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PbarBorderRadius",
+          "Caption": "--pbar-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PbarValueBg",
+          "Caption": "--pbar-wert-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1ABg",
+          "Caption": "--pm-1-a-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1ABgHover",
+          "Caption": "--pm-1-a-bg-hover",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1ABgPath",
+          "Caption": "--pm-1-a-bg-Pfad",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1AClr",
+          "Caption": "--pm-1-a-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1AClrHover",
+          "Caption": "--pm-1-a-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1AClrPath",
+          "Caption": "--pm-1-ein-clr-pfad",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1APadding",
+          "Caption": "--pm-1-a-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1Bg",
+          "Caption": "--pm-1-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1Border",
+          "Caption": "--pm-1-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1BorderRadius",
+          "Caption": "--pm-1-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1Clr",
+          "Caption": "--pm-1-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1DDHeight",
+          "Caption": "--pm-1-ddheight",
+          "Description": "Höhe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1DDWidth",
+          "Caption": "--pm-1-ddBreite",
+          "Description": "Breite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1Font",
+          "Caption": "--pm-1-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu1Padding",
+          "Caption": "--pm-1-Auffüllung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2ABg",
+          "Caption": "--pm-2-a-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2ABgHover",
+          "Caption": "--pm-2-a-bg-hover",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2ABgPath",
+          "Caption": "--pm-2-a-bg-Pfad",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2AClr",
+          "Caption": "--pm-2-a-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2AClrHover",
+          "Caption": "--pm-2-a-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2AClrPath",
+          "Caption": "--pm-2-a-clr-pfad",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2APadding",
+          "Caption": "--pm-2-a-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2Bg",
+          "Caption": "--PM-2-BG",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2Border",
+          "Caption": "--pm-2-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2BorderRadius",
+          "Caption": "--pm-2-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2Clr",
+          "Caption": "--pm-2-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2DDHeight",
+          "Caption": "--pm-2-ddheight",
+          "Description": "Höhe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2DDWidth",
+          "Caption": "--pm-2-ddwidth",
+          "Description": "Breite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2Font",
+          "Caption": "--pm-2-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupMenu2Padding",
+          "Caption": "--pm-2-polsterung",
+          "Description": "Polsterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropBorder",
+          "Caption": "--prop-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropBorderRadius",
+          "Caption": "--prop-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropCatBg",
+          "Caption": "--prop-cat-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropCatBorder",
+          "Caption": "--prop-cat-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropCatBorderRadius",
+          "Caption": "--prop-cat-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PropCatClr",
+          "Caption": "--prop-cat-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StepBg",
+          "Caption": "--step-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StepBgActive",
+          "Caption": "--step-bg-aktiv",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StepClr",
+          "Caption": "--step-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StepClrActive",
+          "Caption": "--step-clr-active",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SwitchBgOff",
+          "Caption": "--switch-bg-off",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SwitchBgOn",
+          "Caption": "--switch-bg-on",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SwitchBgSwitch",
+          "Caption": "--switch-bg-switch",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SwitchClrOff",
+          "Caption": "--switch-clr-off",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SwitchClrOn",
+          "Caption": "--switch-clr-on",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableBg",
+          "Caption": "--tbl-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableBgActive",
+          "Caption": "--tbl-bg-aktiv",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableBgFocus",
+          "Caption": "--tbl-bg-focus",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableBgHighlight",
+          "Caption": "--tbl-bg-highlight",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableBgHover",
+          "Caption": "--tbl-bg-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableBgLowlight",
+          "Caption": "--tbl-bg-lowlight",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableBorder",
+          "Caption": "--tbl-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableBorderLite",
+          "Caption": "--tbl-border-lite",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableBorderRadius",
+          "Caption": "--tbl-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableClr",
+          "Caption": "--tbl-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableClrActive",
+          "Caption": "--tbl-clr-active",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableClrFocus",
+          "Caption": "--tbl-clr-focus",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableClrHighlight",
+          "Caption": "--tbl-clr-highlight",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableClrHover",
+          "Caption": "--tbl-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableClrLowlight",
+          "Caption": "--tbl-clr-lowlight",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableFont",
+          "Caption": "--tbl-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableHeaderBg",
+          "Caption": "--tbl-header-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableHeaderBgActive",
+          "Caption": "--tbl-header-bg-active",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableHeaderBgHover",
+          "Caption": "--tbl-header-bg-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableHeaderClr",
+          "Caption": "--tbl-header-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableHeaderClrActive",
+          "Caption": "--tbl-header-clr-active",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableHeaderClrHover",
+          "Caption": "--tbl-header-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableHeaderFont",
+          "Caption": "--tbl-header-font",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TableShadow",
+          "Caption": "--tbl-shadow",
+          "Description": "Schatten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsBg",
+          "Caption": "--tabs-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsClr",
+          "Caption": "--tabs-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsStripBg",
+          "Caption": "--tabs-strip-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsStripBorder",
+          "Caption": "--tabs-strip-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsStripBorderRadius",
+          "Caption": "--tabs-strip-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsTabBg",
+          "Caption": "--tabs-tab-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsTabBgActive",
+          "Caption": "--tabs-tab-bg-active",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsTabBgFocus",
+          "Caption": "--tabs-tab-bg-fokus",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsTabBgHover",
+          "Caption": "--tabs-tab-bg-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsTabBorder",
+          "Caption": "--tabs-tab-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsTabBorderRadius",
+          "Caption": "--tabs-tabs-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsTabClr",
+          "Caption": "--tabs-tab-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsTabClrActive",
+          "Caption": "--tabs-tab-clr-aktiv",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsTabClrFocus",
+          "Caption": "--tabs-tab-clr-fokus",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TabsTabClrHover",
+          "Caption": "--tabs-tab-clr-hover",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Theme",
+          "Caption": "Thema",
+          "Description": "Der Name des Themes - Zeigt zunächst den aktuellen Theme-Namen an, kann aber durch Speichern der CSS-Variablen geändert werden, um ein neues Theme zu erstellen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstBorder",
+          "Caption": "--tst-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstBorderRadius",
+          "Caption": "--tst-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstErrorBg",
+          "Caption": "--tst-error-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstErrorClr",
+          "Caption": "--tst-error-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstErrorLine",
+          "Caption": "--tst-error-line",
+          "Description": "Linie",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstErrorShadow",
+          "Caption": "--tst-error-shadow",
+          "Description": "Schatten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstInfoBg",
+          "Caption": "--tst-info-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstInfoClr",
+          "Caption": "--tst-info-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstInfoLine",
+          "Caption": "--tst-info-line",
+          "Description": "Linie",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstInfoShadow",
+          "Caption": "--tst-info-shadow",
+          "Description": "Schatten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstMsgFont",
+          "Caption": "--tst-msg-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstTitleFont",
+          "Caption": "--tst-title-font",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstWarnBg",
+          "Caption": "--tst-warn-bg",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstWarnClr",
+          "Caption": "--tst-warn-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstWarnLine",
+          "Caption": "--tst-warn-line",
+          "Description": "Linie",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TstWarnShadow",
+          "Caption": "--tst-warn-shadow",
+          "Description": "Schatten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TTBg",
+          "Caption": "--tt-bg",
+          "Description": "Hintergrund",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TTBorder",
+          "Caption": "--tt-border",
+          "Description": "Grenze",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TTBorderRadius",
+          "Caption": "--tt-border-radius",
+          "Description": "Radius des Rahmens",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TTClr",
+          "Caption": "--tt-clr",
+          "Description": "Farbe",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TTFont",
+          "Caption": "--tt-schriftart",
+          "Description": "Schriftart",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TTShadow",
+          "Caption": "--tt-shadow",
+          "Description": "Schatten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.SkinPalette.Modules.SkinPaletteModule+Model+BasicThemeEnum",
+      "Entries": [
+        {
+          "Name": "Light",
+          "Value": "Light",
+          "Caption": "Licht",
+          "Description": "Ein \"helles\" Design, das einen hellen Hintergrund und eine dunklere Textfarbe hat"
+        },
+        {
+          "Name": "Dark",
+          "Value": "Dark",
+          "Caption": "Dunkel",
+          "Description": "Ein \"dunkles\" Design, das einen dunklen Hintergrund und eine hellere Textfarbe hat"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "generate",
+      "Text": "Erzeugen"
+    },
+    {
+      "Name": "generateTT",
+      "Text": "Automatisches Auffüllen der meisten CSS-Variablen mit den Grundeinstellungen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Hautpalette (Haut)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Bearbeitet den aktuellen Skin"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Haut-Palette"
+    },
+    {
+      "Name": "notDefault",
+      "Text": "Das Standard-Theme kann nicht geändert werden - Es muss unter einem anderen Theme-Namen gespeichert werden"
+    },
+    {
+      "Name": "ok",
+      "Text": "Theme {0} erfolgreich gespeichert"
+    },
+    {
+      "Name": "okUpdated",
+      "Text": "Theme {0} erfolgreich gespeichert - Ihre Benutzereinstellungen wurden aktualisiert, um das neue Theme zu verwenden"
+    },
+    {
+      "Name": "save",
+      "Text": "Retten"
+    },
+    {
+      "Name": "saveTT",
+      "Text": "Speichern Sie die CSS-Variablen für das aktuelle Design"
+    }
+  ]
+}

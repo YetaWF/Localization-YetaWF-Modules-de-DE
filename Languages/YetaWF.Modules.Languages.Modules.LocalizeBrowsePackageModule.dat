@@ -1,0 +1,208 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Languages.Modules.LocalizeBrowsePackageModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "EditUrl",
+          "Caption": "URL bearbeiten",
+          "Description": "Die URL zum Bearbeiten einer Lokalisierungsressource – wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Languages.Modules.LocalizeBrowsePackageModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FileName",
+          "Caption": "Dateiname",
+          "Description": "Der Name der Lokalisierungsressource",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Zeigt Lokalisierungsressourcen für Paket{0} an und verwaltet sie"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Ressourcen für die Lokalisierung"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Ressourcen für die Lokalisierung"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Anzeigen und Verwalten von Lokalisierungsressourcen für Paket{0}"
+    },
+    {
+      "Name": "creAllConfirm",
+      "Text": "Sind Sie sicher, dass Sie ALLE installierten Lokalisierungsressourcen mit der Sprache {0} erstellen möchten - Installierte Lokalisierungsressourcen werden in Ordnern ./Addons/... gespeichert?"
+    },
+    {
+      "Name": "creAllInstLegend",
+      "Text": "Erstellt alle installierten Lokalisierungsressourcen mithilfe der Sprache {0} - Gespeichert im Ordner ./Localizations/{0}/..."
+    },
+    {
+      "Name": "creAllInstLink",
+      "Text": "Erstellen aller Lokalisierungsressourcen (installiert - {0})"
+    },
+    {
+      "Name": "creAllInstText",
+      "Text": "Erstellen aller Lokalisierungsressourcen (installiert - {0})"
+    },
+    {
+      "Name": "creAllInstTooltip",
+      "Text": "Erstellen Sie alle installierten Lokalisierungsressourcen mithilfe der Sprache {0} - Gespeichert in den Ordnern ./Localizations/{0}/..."
+    },
+    {
+      "Name": "creAllPlsWait",
+      "Text": "Erstellen installierter Lokalisierungsressourcen mithilfe von Sprach- {0}..."
+    },
+    {
+      "Name": "creCustConfirm",
+      "Text": "Sind Sie sicher, dass Sie benutzerdefinierte Lokalisierungsressourcen für Paket-{0} erstellen möchten, indem Sie die Sprache {1} - Benutzerdefinierte Lokalisierungsressourcen werden im Ordner ./LocalizationCustom/{0}/..."
+    },
+    {
+      "Name": "creCustLegend",
+      "Text": "Erstellt benutzerdefinierte Lokalisierungsressourcen für Paket-{0} unter Verwendung der Sprache {1} - Gespeichert im Ordner ./LocalizationCustom/{0}/..."
+    },
+    {
+      "Name": "creCustLink",
+      "Text": "Erstellen von Lokalisierungsressourcen (benutzerdefiniert – {0})"
+    },
+    {
+      "Name": "creCustText",
+      "Text": "Erstellen von Lokalisierungsressourcen (benutzerdefiniert – {0})"
+    },
+    {
+      "Name": "creCustTooltip",
+      "Text": "Erstellen von benutzerdefinierten Lokalisierungsressourcen für Paket-{0} mithilfe der Sprache {1} - Gespeichert im Ordner ./LocalizationCustom/{0}/..."
+    },
+    {
+      "Name": "creInstConfirm",
+      "Text": "Sind Sie sicher, dass Sie installierte Lokalisierungsressourcen für Paket-{0} erstellen möchten, indem Sie die Sprache {1} - Installierte Lokalisierungsressourcen werden im Ordner ./Addons/... gespeichert?"
+    },
+    {
+      "Name": "creInstLegend",
+      "Text": "Erstellt installierte Lokalisierungsressourcen für Paket-{0} unter Verwendung der Sprache {1} - Gespeichert im Ordner ./Localizations/{0}/..."
+    },
+    {
+      "Name": "creInstLink",
+      "Text": "Erstellen von Lokalisierungsressourcen (installiert - {0})"
+    },
+    {
+      "Name": "creInstText",
+      "Text": "Erstellen von Lokalisierungsressourcen (installiert - {0})"
+    },
+    {
+      "Name": "creInstTooltip",
+      "Text": "Erstellen Sie installierte Lokalisierungsressourcen für Paket-{0} mithilfe der Sprache {1} - Gespeichert im Ordner ./Localizations/{0}/..."
+    },
+    {
+      "Name": "locAllDataConfirm",
+      "Text": "Sind Sie sicher, dass Sie alle Daten für alle Pakete mit der Sprache {0} lokalisieren möchten? Eigenschaften, für die bereits lokalisierte Daten definiert wurden, werden nicht aktualisiert."
+    },
+    {
+      "Name": "locAllDataLegend",
+      "Text": "Lokalisiert Daten für alle Pakete mithilfe der Sprache {0} - Eigenschaften, für die bereits lokalisierte Daten definiert wurden, werden nicht aktualisiert"
+    },
+    {
+      "Name": "locAllDataLink",
+      "Text": "Lokalisieren von Daten für alle Pakete ({0})"
+    },
+    {
+      "Name": "locAllDataText",
+      "Text": "Lokalisieren von Daten für alle Pakete ({0})"
+    },
+    {
+      "Name": "locAllDataTooltip",
+      "Text": "Lokalisieren von Daten für alle Pakete mithilfe der Sprache {0} - Eigenschaften, für die bereits lokalisierte Daten definiert wurden, werden nicht aktualisiert"
+    },
+    {
+      "Name": "locAllPlsWait",
+      "Text": "Lokalisierung aller Daten für alle Pakete mit Hilfe von Sprache {0}..."
+    },
+    {
+      "Name": "locDataConfirm",
+      "Text": "Sind Sie sicher, dass Sie alle Paketdaten für Paket{0} mithilfe von Sprache {1} lokalisieren möchten? Eigenschaften, für die bereits lokalisierte Daten definiert wurden, werden nicht aktualisiert."
+    },
+    {
+      "Name": "locDataLegend",
+      "Text": "Lokalisiert alle Paketdaten für Paket{0} mithilfe der Sprache {1} - Eigenschaften, für die bereits lokalisierte Daten definiert wurden, werden nicht aktualisiert"
+    },
+    {
+      "Name": "locDataLink",
+      "Text": "Lokalisieren von Paketdaten ({0})"
+    },
+    {
+      "Name": "locDataText",
+      "Text": "Lokalisieren von Paketdaten ({0})"
+    },
+    {
+      "Name": "locDataTooltip",
+      "Text": "Lokalisieren aller Paketdaten für Paket{0} mithilfe der Sprache {1} - Eigenschaften, für die bereits lokalisierte Daten definiert wurden, werden nicht aktualisiert"
+    },
+    {
+      "Name": "modName",
+      "Text": "Ressourcen für die Lokalisierung"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Lokalisierungsressourcen für ein Paket an und verwaltet sie. Es wird vom YetaWF.Packages-Paket verwendet, um Zugriff auf Lokalisierungsdienste zu bieten. Dieses Modul ermöglicht den Zugriff auf alle lokalisierbaren Ressourcen eines Pakets, z. B. Zeichenfolgen, die in Ansichten und im Code verwendet werden. Weitere Informationen zur Lokalisierung finden Sie unter Unterstützung der Landessprache."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ressourcen für die Lokalisierung"
+    },
+    {
+      "Name": "roleLocalize",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Generieren von Lokalisierungsressourcen für Pakete"
+    },
+    {
+      "Name": "roleLocalizeC",
+      "Text": "Installieren/Deinstallieren von Paketen"
+    },
+    {
+      "Name": "title",
+      "Text": "Lokalisierungsressourcen - Paket {0}"
+    },
+    {
+      "Name": "userLocalize",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Generieren von Lokalisierungsressourcen für Pakete"
+    },
+    {
+      "Name": "userLocalizeC",
+      "Text": "Installieren/Deinstallieren von Paketen"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Angemeldete Benutzer umleiten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Leitet angemeldete Benutzer auf andere Seiten weiter."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Angemeldete Benutzer umleiten"
+    }
+  ]
+}

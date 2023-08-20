@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnSave",
+      "Text": "Externes Konto einrichten"
+    },
+    {
+      "Name": "extAcct",
+      "Text": "Sie haben sich erfolgreich bei <strong>{0}</strong> authentifiziert. <br>Bitte geben Sie unten Ihre Daten ein und klicken Sie auf die Schaltfläche Externes Konto einrichten, um die Anmeldung abzuschließen."
+    },
+    {
+      "Name": "extAcctInvite",
+      "Text": "Sie haben sich erfolgreich bei <strong>{0}</strong> authentifiziert. <br>Bitte geben Sie den unten stehenden Einladungscode ein und klicken Sie auf die Schaltfläche Externes Konto einrichten, um die Anmeldung abzuschließen."
+    }
+  ]
+}

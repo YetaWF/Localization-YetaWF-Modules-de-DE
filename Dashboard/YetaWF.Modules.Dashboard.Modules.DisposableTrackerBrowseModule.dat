@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.DisposableTrackerBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "DisplayUrl",
+          "Caption": "Url anzeigen",
+          "Description": "Die URL zum Anzeigen eines verwerfbaren Objekts - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.DisposableTrackerBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "CallStack",
+          "Caption": "Aufrufliste",
+          "Description": "Die Aufrufliste zum Zeitpunkt der Erstellung des Objekts",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Zeit",
+          "Description": "Der Zeitpunkt, zu dem das Objekt erstellt wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisposableObject",
+          "Caption": "Art",
+          "Description": "Der Objekttyp des verwerfbaren Objekts, das derzeit verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Anzeige und Verwaltung von Wegwerfobjekten"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Einweg-Objekte"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Einweg-Objekte"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Anzeigen und Verwalten von Wegwerfobjekten"
+    },
+    {
+      "Name": "modName",
+      "Text": "Einweg-Objekte"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt (Debug-)Informationen zu Einwegobjekten an. Wird verwendet, um Lecks zu finden, bei denen Objekte nicht richtig dispose()'d. Informationen zu Wegwerfobjekten können über Admin > Dashboard > Disposable Objects (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Einweg-Objekte"
+    }
+  ]
+}

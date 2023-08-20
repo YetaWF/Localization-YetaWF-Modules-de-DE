@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "eventDesc",
+      "Text": "Entfernt temporäre Dateien, die zu alt sind (Dateien, die bei oder vor der letzten Ausführung dieses Ereignisses erstellt wurden, basierend auf der Häufigkeitsdefinition)"
+    },
+    {
+      "Name": "eventName",
+      "Text": "Temporäre Dateien (hochgeladene Dateien) entfernen"
+    },
+    {
+      "Name": "eventNameErr",
+      "Text": "Unbekanntes Scheduler-Ereignis {0}."
+    }
+  ]
+}

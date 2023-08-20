@@ -1,0 +1,115 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Modules.ModuleAction+ActionModeEnum",
+      "Entries": [
+        {
+          "Name": "Any",
+          "Value": "Any",
+          "Caption": "Bearbeitungs- und Ansichtsmodus",
+          "Description": null
+        },
+        {
+          "Name": "View",
+          "Value": "View",
+          "Caption": "Ansichtsmodus",
+          "Description": null
+        },
+        {
+          "Name": "Edit",
+          "Value": "Edit",
+          "Caption": "Bearbeitungsmodus",
+          "Description": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Modules.ModuleAction+ActionStyleEnum",
+      "Entries": [
+        {
+          "Name": "Normal",
+          "Value": "Normal",
+          "Caption": "Normal",
+          "Description": "Navigieren Sie zur Seite im selben Fenster"
+        },
+        {
+          "Name": "NewWindow",
+          "Value": "NewWindow",
+          "Caption": "Neue Seite",
+          "Description": "Öffnet ein neues Fenster"
+        },
+        {
+          "Name": "Popup",
+          "Value": "Popup",
+          "Caption": "Popup (Begriffsklärung",
+          "Description": "Öffnet die Seite in einem Popup-Fenster (nur im Ansichtsmodus) - Wenn bereits ein Popup-Fenster aktiv ist, wird stattdessen ein neues Fenster geöffnet"
+        },
+        {
+          "Name": "PopupEdit",
+          "Value": "PopupEdit",
+          "Caption": "Popup Bearbeiten",
+          "Description": "Öffnet die Seite in einem Popup-Fenster (im Ansichts- und Bearbeitungsmodus - wird in der Regel nur für Systemmodule verwendet) - Wenn bereits ein Popup-Fenster aktiv ist, öffnet es stattdessen ein neues Fenster"
+        },
+        {
+          "Name": "ForcePopup",
+          "Value": "ForcePopup",
+          "Caption": "Popup erzwingen",
+          "Description": "Öffnet die Seite in einem Popup-Fenster (nur im Ansichtsmodus) - Wenn bereits ein Popup-Fenster aktiv ist, wird das aktuelle Popup-Fenster durch dieses neue Popup-Fenster ersetzt"
+        },
+        {
+          "Name": "Post",
+          "Value": "Post",
+          "Caption": "Bereitstellen",
+          "Description": "Erfordert eine Nicht-Seitenantwort (JavaScript), die für die Anzeige in einem Popup geeignet ist (erfolgreich/fehlgeschlagen)"
+        },
+        {
+          "Name": "Nothing",
+          "Value": "Nothing",
+          "Caption": "Nichts",
+          "Description": "Generiert den gesamten HTML-Code, führt aber keine Aktion aus, wenn darauf geklickt wird (wird normalerweise für JavaScript/clientseitige Steuerung verwendet)"
+        },
+        {
+          "Name": "OuterWindow",
+          "Value": "OuterWindow",
+          "Caption": "Äußeres Fenster",
+          "Description": "Wird in einem Popup verwendet, damit sich die Aktion auf das übergeordnete (Haupt-)Fenster auswirkt"
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Modules.ModuleAction+MenuEntryType",
+      "Entries": [
+        {
+          "Name": "Entry",
+          "Value": "Entry",
+          "Caption": "Regulärer Eintritt",
+          "Description": null
+        },
+        {
+          "Name": "Parent",
+          "Value": "Parent",
+          "Caption": "Übergeordneter Eintrag (keine URL oder Aktion verfügbar)",
+          "Description": null
+        },
+        {
+          "Name": "Separator",
+          "Value": "Separator",
+          "Caption": "Separator",
+          "Description": null
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "LinkText",
+      "Text": "(Neu)"
+    },
+    {
+      "Name": "MenuText",
+      "Text": "(Neu)"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "eventDescDaily",
+      "Text": "Erstellt eine Site-Sicherung und speichert sie im Backup-Ordner der Site"
+    },
+    {
+      "Name": "eventDescRemove",
+      "Text": "Entfernt Site-Backups, die zu alt sind (definiert mithilfe der Backup-Einstellungen)"
+    },
+    {
+      "Name": "eventNameDaily",
+      "Text": "Tägliches Site-Backup erstellen"
+    },
+    {
+      "Name": "eventNameErr",
+      "Text": "Unbekanntes Scheduler-Ereignis {0}"
+    },
+    {
+      "Name": "eventNameRemove",
+      "Text": "Entfernen Sie das alte Site-Backup"
+    }
+  ]
+}

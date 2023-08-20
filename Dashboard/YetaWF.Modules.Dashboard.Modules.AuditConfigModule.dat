@@ -1,0 +1,62 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.AuditConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Days",
+          "Caption": "Aufbewahrung (Tage)",
+          "Description": "Definiert die Anzahl der Tage, die Überwachungsinformationen gespeichert werden: Überwachungsinformationen, die älter als die angegebene Anzahl von Tagen sind, werden gelöscht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Audit-Einstellungen"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Audit-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "Audit-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten der Audit-Einstellungen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Audit-Einstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um die Audit-Einstellungen einer Website zu bearbeiten. Dies kann über Admin > Einstellungen > Audit-Einstellungen (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Audit-Einstellungen"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Audit-Einstellungen konnten nicht gefunden werden"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Gespeicherte Audit-Einstellungen"
+    }
+  ]
+}

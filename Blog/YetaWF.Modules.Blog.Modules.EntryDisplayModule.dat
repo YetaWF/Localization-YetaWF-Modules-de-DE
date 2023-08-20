@@ -1,0 +1,114 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.EntryDisplayModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "EditUrl",
+          "Caption": "URL bearbeiten",
+          "Description": "Die URL zum Bearbeiten des angezeigten Blogeintrags - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.EntryDisplayModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Author",
+          "Caption": "Verfasser",
+          "Description": "Der Name des Blog-Autors",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AuthorUrl",
+          "Caption": "Verfasser",
+          "Description": "Die optionale URL, die auf die Informationen des Autors verweist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DatePublished",
+          "Caption": "Veröffentlichungsdatum",
+          "Description": "Das Datum der Veröffentlichung dieses Eintrags",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Text",
+          "Caption": "Blog-Text",
+          "Description": "Der vollständige Text zu diesem Blogeintrag",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt einen vorhandenen Blogeintrag an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Blogeintrag anzeigen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Blogeintrag anzeigen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt einen Blogeintrag an. Fügen Sie ein Kategorie-Header-Modul hinzu, um Informationen für die ausgewählte Kategorie anzuzeigen. Fügen Sie ein Kommentaranzeigemodul hinzu, um alle Kommentare für den Blogeintrag anzuzeigen. Fügen Sie ein Kommentar hinzu Fügen Sie ein Modul hinzu, um Besuchern die Eingabe von Kommentaren für Ihren Blogeintrag zu ermöglichen."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Blogeintrag"
+    },
+    {
+      "Name": "moreLegend",
+      "Text": "Zeigt den gesamten Blogeintrag an"
+    },
+    {
+      "Name": "moreLink",
+      "Text": "Mehr erfahren"
+    },
+    {
+      "Name": "moreText",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "moreTooltip",
+      "Text": "Lesen Sie den gesamten Blogeintrag"
+    }
+  ]
+}

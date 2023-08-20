@@ -1,0 +1,85 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.EditBlocksModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Not Authorized": "Nicht autorisiert",
+        "Successful": "Erfolgreich"
+      },
+      "Properties": [
+        {
+          "Name": "NotAuthUrlPathContains",
+          "Caption": "URL-Pfad enthält",
+          "Description": "Liste der Textfragmente, ein Eintrag pro Zeile - Wenn ein Textfragment in einer URL gefunden wird, gibt die Anforderung 401 zurück Nicht autorisiert - Beim Vergleich wird die Groß-/Kleinschreibung nicht beachtet.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NotAuthUrlPathEndsWith",
+          "Caption": "URL-Pfad endet mit",
+          "Description": "Liste der Textfragmente, ein Eintrag pro Zeile - Wenn ein Textfragment am Ende eines URL-Pfads gefunden wird, gibt die Anforderung 401 nicht autorisiert zurück - Beim Vergleich wird die Groß-/Kleinschreibung nicht beachtet.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NotAuthUserAgentContains",
+          "Caption": "User Agent enthält",
+          "Description": "Liste der Textfragmente, ein Eintrag pro Zeile - Wenn ein Textfragment in einem Benutzeragenten gefunden wird, gibt die Anforderung 401 nicht autorisiert zurück - Beim Vergleich wird die Groß-/Kleinschreibung nicht beachtet.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SuccessUrlPathContains",
+          "Caption": "URL-Pfad enthält",
+          "Description": "Liste der Textfragmente, ein Eintrag pro Zeile - Wenn ein Textfragment in einer URL gefunden wird, gibt die Anforderung 200 OK mit einem leeren Antworttext zurück - Beim Vergleich wird die Groß-/Kleinschreibung nicht beachtet.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SuccessUrlPathEndsWith",
+          "Caption": "URL-Pfad endet mit",
+          "Description": "Liste der Textfragmente, ein Eintrag pro Zeile - Wenn ein Textfragment am Ende eines URL-Pfads gefunden wird, gibt die Anforderung 200 OK mit einem leeren Antworttext zurück - Beim Vergleich wird die Groß-/Kleinschreibung nicht beachtet.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SuccessUserAgentContains",
+          "Caption": "User Agent enthält",
+          "Description": "Liste der Textfragmente, ein Eintrag pro Zeile - Wenn ein Textfragment in einem Benutzeragenten gefunden wird, gibt die Anforderung 200 OK mit einem leeren Antworttext zurück - Beim Vergleich wird die Groß-/Kleinschreibung nicht beachtet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Blockieren von Anfragen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Bearbeitungen fordern Blockierungseinstellungen an, die verwendet werden, um Bots daran zu hindern, gängige Exploits zu scannen und zu scrapen"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Blockieren von Anfragen"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Gespeicherte Einstellungen für die Anforderungsblockierung"
+    }
+  ]
+}

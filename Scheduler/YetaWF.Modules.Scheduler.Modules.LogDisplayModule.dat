@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.LogDisplayModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Info",
+          "Caption": "Nachricht",
+          "Description": "Die Botschaft",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Level",
+          "Caption": "Niveau",
+          "Description": "Die Meldungsebene",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Name",
+          "Description": "Der Name des ausgeführten Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunId",
+          "Caption": "Id",
+          "Description": "Die ID des ausgeführten Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteIdentity",
+          "Caption": "Site-ID",
+          "Description": "Der Standort, der vom Planerelement betroffen war",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeStamp",
+          "Caption": "Erstellt",
+          "Description": "Datum/Uhrzeit der Erstellung dieses Protokolldatensatzes",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt einen vorhandenen Scheduler-Protokolleintrag an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Scheduler-Protokolleintrag anzeigen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Scheduler-Protokolleintrag"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt einen vorhandenen Scheduler-Protokolleintrag an. Wird vom Scheduler-Protokollmodul verwendet."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Scheduler-Protokolleintrag"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Scheduler-Protokolleintrag mit ID {0} nicht gefunden"
+    }
+  ]
+}

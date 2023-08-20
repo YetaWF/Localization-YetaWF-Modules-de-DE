@@ -1,0 +1,29 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.SelectTwoStepAuthModule+EditModel",
+      "BaseTypeName": null,
+      "Header": "Bitte klicken Sie auf eine der verfügbaren Authentifizierungsmethoden, um die Anmeldung abzuschließen.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": []
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Wählen Sie die zweistufige Authentifizierung aus"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt eine Liste der verfügbaren zweistufigen Authentifizierungsanbieter an, die der Benutzer für die zweistufige Authentifizierung auswählen kann. Dies wird während der Anmeldeverarbeitung verwendet, um die zweistufige Authentifizierung abzuschließen."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Wählen Sie die gewünschte zweistufige Authentifizierung aus"
+    }
+  ]
+}

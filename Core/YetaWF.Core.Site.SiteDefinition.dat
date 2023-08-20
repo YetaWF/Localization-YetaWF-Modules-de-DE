@@ -1,0 +1,693 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Core.Site.SiteDefinition",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Addons": "Addons",
+        "CDN": "CDN",
+        "Email": "E-Mail",
+        "Encryption": "Verschlüsselung",
+        "Meta": "Meta",
+        "Pages": "Seiten",
+        "References": "Referenzen",
+        "Site": "Platz",
+        "Skin": "Haut",
+        "URLs": "Weblinks",
+        "Variables": "Variablen"
+      },
+      "Properties": [
+        {
+          "Name": "AdminEmail",
+          "Caption": "E-Mail-Adresse des Site-Administrators",
+          "Description": "Die E-Mail-Adresse des Administrators der Website. Der SMTP-Server muss für die E-Mail-Zustellung an den Site-Administrator definiert sein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AllowAnonymousUsers",
+          "Caption": "Anonyme Benutzer zulassen",
+          "Description": "Definiert, ob die Website anonymen Benutzern Zugriff gewährt - Dies kann deaktiviert werden, wenn eine in Entwicklung befindliche Website öffentlich zugänglich ist, sodass anonyme Benutzer auf die Anmeldeseite umgeleitet werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AllowCacheUse",
+          "Caption": "Cache-Verwendung zulassen",
+          "Description": "Definiert, ob die Zwischenspeicherung von Daten aktiviert ist (z. B. clientseitiges Zwischenspeichern von CSS-Dateien) - Bei der Entwicklung von Modulen und zu Testzwecken können Sie die gesamte Zwischenspeicherung deaktivieren, indem Sie diese Eigenschaft auf Nein festlegen. - Andernfalls sollte die Zwischenspeicherung aktiviert werden, um eine optimale Leistung zu erzielen, indem diese Eigenschaft auf Ja festgelegt wird. - Eine Website, die nicht als bereitgestellt markiert ist (siehe AppSettings.json, Application.P.YetaWF_Core.Deployed), verwendet keine Zwischenspeicherung, und diese Einstellung wird ignoriert.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AllowPopups",
+          "Caption": "Popups zulassen",
+          "Description": "Module und Seiten können als Popups angezeigt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Analytics",
+          "Caption": "Analytik",
+          "Description": "Analytics-JavaScript-Code hinzufügen (z. B. den Universal Analytics-Tracking-Code, der von Google Analytics verwendet wird, oder den Code, der von Clicky verwendet wird) - Jeder Code, der am Ende der HTML-Seite hinzugefügt werden soll, kann hier hinzugefügt werden, einschließlich <script></script> Tags - Seiten können diese Einstellung überschreiben",
+          "HelpLink": null,
+          "TextAbove": "Analytics-Code ist nur auf bereitgestellten Produktionsstandorten verfügbar und wird in Debugbuilds ignoriert (nicht als bereitgestellt markiert).",
+          "TextBelow": null
+        },
+        {
+          "Name": "AnalyticsContent",
+          "Caption": "Analytik (Inhalt)",
+          "Description": "Hinzufügen von Analytics-JavaScript-Code, der ausgeführt werden soll, wenn eine neue Seite in einer aktiven einheitlichen Seitengruppe aktiv wird - Keine Tags einschließen <script></script> - Verwenden Sie <<Url>>, um die tatsächliche URL zu ersetzen - Seiten können diese Einstellung überschreiben",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BundleCSSFiles",
+          "Caption": "CSS-Dateien bündeln",
+          "Description": "Legt fest, ob Stylesheets (CSS-Dateien) in einer einzigen Datei gebündelt werden (ausgenommen große Nicht-YetaWF-Dateien)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BundleJSFiles",
+          "Caption": "JavaScript-Dateien bündeln",
+          "Description": "Definiert, ob JavaScript-Dateien in einer einzigen Datei gebündelt werden (ausgenommen große Nicht-YetaWF-Dateien)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CanUseCDN",
+          "Caption": "Aktueller Stand",
+          "Description": "Zeigt an, ob derzeit ein Content Delivery Network für die statischen Dateien der Website verwendet wird - Appsettings.json (P:YetaWF_Core:UseCDN) muss auf true festgelegt werden, damit die Einstellung \"CDN (Websiteinhalt) verwenden\" berücksichtigt wird, andernfalls wird kein CDN für Websiteinhalte verwendet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CanUseCDNComponents",
+          "Caption": "Aktueller Stand",
+          "Description": "Zeigt an, ob derzeit ein Content Delivery Network für einige der 3rd-Party-Pakete verwendet wird, für die ein CDN verfügbar ist - Appsettings.json (Application.P.YetaWF_Core.UseCDNComponents) muss auf true gesetzt werden, damit die Einstellung \"Use CDN (Global Addons)\" berücksichtigt wird, andernfalls wird kein CDN für 3rd-Party-Pakete verwendet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CanUseStaticDomain",
+          "Caption": "Aktueller Stand",
+          "Description": "Zeigt an, ob eine separate URL für die statischen Dateien der Website verwendet wird - Appsettings.json (P:YetaWF_Core:UseStaticDomain) muss auf true gesetzt werden, damit die Einstellung \"URL für statische Dateien\" berücksichtigt wird, andernfalls wird sie nicht verwendet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CDNUrl",
+          "Caption": "CDN-URL",
+          "Description": "Wenn Sie ein Content Delivery Network für statische Dateien auf Ihrer Website verwenden, geben Sie hier die CDN-Stamm-URL für http:// Zugriff ein - Je nachdem, ob Sie die Verwendung Ihres CDN aktiviert haben, wird die entsprechende URL ersetzt. - Die Website (und alle Instanzen) müssen neu gestartet werden, damit diese Einstellung wirksam wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CDNUrlSecure",
+          "Caption": "CDN-URL (sicher)",
+          "Description": "Wenn Sie ein Content Delivery Network für statische Dateien auf Ihrer Website verwenden, geben Sie hier die CDN-Stamm-URL für https:// (sicheren) Zugriff ein - Je nachdem, ob Sie die Verwendung Ihres CDN aktiviert haben, wird die entsprechende URL ersetzt - Wenn keine sichere URL angegeben ist, wird stattdessen die URL verwendet, die mit der CDN-URL definiert ist. - Die Website (und alle Instanzen) müssen neu gestartet werden, damit diese Einstellung wirksam wird.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CompressCSSFiles",
+          "Caption": "CSS-Dateien komprimieren",
+          "Description": "Legt fest, ob minimierte Stylesheets (CSS-Dateien) verwendet werden (Ja) - Andernfalls werden nicht minimierte Stylesheets verwendet (Nein)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Compression",
+          "Caption": "Kompression",
+          "Description": "Definiert, ob die Leerraumkomprimierung für alle nicht statischen Seiten verwendet wird - Statische Seiten werden immer komprimiert - Diese Einstellung gilt nur für bereitgestellte Websites",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CompressJSFiles",
+          "Caption": "JavaScript-Dateien komprimieren",
+          "Description": "Definiert, ob minimierte JavaScript-Dateien verwendet werden (Ja) - Andernfalls werden nicht minimierte JavaScript-Dateien verwendet (Nein)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ContentTypeOptions",
+          "Caption": "Optionen für Inhaltstypen",
+          "Description": "Legt fest, ob die in den Content-Type-Headern angekündigten MIME-Typen nicht geändert werden sollen und vom Browser befolgt werden sollen (durch Setzen des HTTP-Headers X-Content-Type-Options)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Copyright",
+          "Caption": "Urheberrecht",
+          "Description": "Definiert einen optionalen Copyright-Hinweis, der auf jeder Seite angezeigt wird, sofern dies vom verwendeten Skin unterstützt wird. Einzelne Seiten können diesen Hinweis außer Kraft setzen - verwenden Sie <<Year>> für das aktuelle Jahr",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CopyrightEvaluated",
+          "Caption": "Urheberrecht",
+          "Description": "Die Copyright-Eigenschaft mit ausgewerteten Ersetzungen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Country",
+          "Caption": "Land",
+          "Description": "Das Land, in dem Sie/Ihr Unternehmen ansässig sind",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CssLocation",
+          "Caption": "Css-Standort",
+          "Description": "Legt fest, ob CSS-Dateien oben oder unten auf der Seite enthalten sind",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CssNoTooltips",
+          "Caption": "Tooltips unterdrücken",
+          "Description": "Die Klasse(n) auf A-Tags, die den Navigations-Tooltip unterdrücken",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Currency",
+          "Caption": "Währung",
+          "Description": "Die verwendete Standardwährung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DEBUGMODE",
+          "Caption": "Debug-Modus",
+          "Description": "Definiert, ob das Zwischenspeichern und Komprimieren von Daten über Appsettings.json deaktiviert wird – wird in der Regel zum Debuggen verwendet (kann nur mit Appsettings.json festgelegt werden)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultChangeFrequency",
+          "Caption": "Standardeinstellung für die Häufigkeit von SiteMap-Änderungen",
+          "Description": "Definiert die standardmäßige Seitenwechselhäufigkeit: Jede Seite kann den Standardwert mithilfe der Eigenschaft Änderungshäufigkeit überschreiben",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultLanguageId",
+          "Caption": "Standardsprache",
+          "Description": "Die Standardsprache der Website",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultSiteDomain",
+          "Caption": "Standard-Site-Domain",
+          "Description": "Der Domänenname der Standard-Site für diese Instanz von YetaWF",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultSiteMap",
+          "Caption": "Standard-SiteMap",
+          "Description": "Legt fest, ob die Sitemap als Standard-Sitemap der Site gespeichert wird.xml",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DiagnosticsMode",
+          "Caption": "Diagnose-Modus",
+          "Description": "Definiert, ob zusätzliche Debug-Diagnosen aktiv sind, z. B. das Überprüfen des Dateivorhandenseins usw. - Wird in der Regel zum Debuggen verwendet (kann nur mit Appsettings.json festgelegt werden)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisableMinimizeFUOC",
+          "Caption": "FOUC minimieren deaktivieren",
+          "Description": "Normalerweise wird CSS eingefügt, um den Flash Of Unstyled Content (FUOC) zu minimieren, der auftreten kann, wenn JavaScript- und/oder CSS-Dateien am Ende der Seite enthalten sind - Diese Funktion kann deaktiviert werden - Ihr Kilometerstand kann variieren (IE/Edge erfordert, dass diese Option aktiviert bleibt)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EmailDebug",
+          "Caption": "E-Mail-Debuggen",
+          "Description": "Legen Sie fest, dass alle von der Site generierten E-Mails an den Site-Administrator umgeleitet werden - Dies wird in der Regel zum Testen/Debuggen einer bereitgestellten Site verwendet. - Eine Site, die nicht als bereitgestellt markiert ist, sendet immer E-Mails an den Site-Administrator.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EnforceSitePort",
+          "Caption": "Hafen erzwingen",
+          "Description": "Definiert, ob Links, die für die Site generiert werden, die definierten Site-Ports verwenden. Bei der lokalen Ausführung (in der Regel auf einem Entwicklungssystem) mit 'localhost' oder bei Verwendung der Testdomänen-URL wird diese Eigenschaft ignoriert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EnforceSiteUrl",
+          "Caption": "Domainnamen erzwingen",
+          "Description": "Definiert, ob eingehende Anforderungen für die Website an den definierten Domänennamen der Website umgeleitet werden und ob für die Website generierte Links die definierte Websitedomäne verwenden. Auf diese Weise können mehrere Domainnamen auf dieselbe Website verweisen, aber alle werden auf die definierte Website-URL umgeleitet, was für SEO (Suchmaschinenoptimierung) am besten geeignet ist. Bei der lokalen Ausführung (in der Regel auf einem Entwicklungssystem) mit 'localhost' oder bei Verwendung der Testdomänen-URL wird diese Eigenschaft ignoriert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExternalAccountSetupUrl",
+          "Caption": "URL zum Einrichten eines externen Kontos",
+          "Description": "Die URL, unter der der Benutzer umgeleitet wird, um lokale Informationen bereitzustellen, wenn er einen externen Anmeldeanbieter verwendet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExtraBodyBottom",
+          "Caption": "<BODY> Unteres",
+          "Description": "Alle Tags, die am Ende des Tags jeder Seite hinzugefügt werden sollen, <BODY> können hier hinzugefügt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExtraBodyTop",
+          "Caption": "<BODY> Nach oben",
+          "Description": "Alle Tags, die oben im Tag jeder Seite hinzugefügt werden sollen, <BODY> können hier hinzugefügt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExtraHead",
+          "Caption": "<HEAD>",
+          "Description": "Alle Tags, die dem Tag jeder Seite hinzugefügt werden sollen, <HEAD> können hier hinzugefügt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FavIcon",
+          "Caption": "Favicon",
+          "Description": "Das Standardsymbol, das diese Website darstellt (ein kleines PNG-Bild, das für Favicon-Anzeigen verwendet wird, zeigt kleiner oder gleich 64 x 64 Pixel an), das vom Webbrowser angezeigt wird, der zum Anzeigen der Seite verwendet wird - Einzelne Seiten können diese Site-Standardeinstellung überschreiben - Dies ist ein Bild, das nach Bedarf verkleinert/hochskaliert wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FavIconLink",
+          "Caption": "FavIcon Html",
+          "Description": "Der HTML-Code, der für das Symbol verwendet wird, das diese Website darstellt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FavIconLrg",
+          "Caption": "FavIcon (Groß)",
+          "Description": "Das Symbol, das diese Website darstellt (ein PNG-Bild, das für Favicons mit einer Größe von mehr als 64 x 64 Pixeln verwendet wird), das vom Webbrowser angezeigt wird, der zum Anzeigen der Seite verwendet wird - Einzelne Seiten können diese Site-Standardeinstellung überschreiben - Dieses Bild wird nach Bedarf verkleinert/hochskaliert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FormErrorsImmed",
+          "Caption": "Unmittelbare Formularfehler",
+          "Description": "Legt fest, ob Fehler in Formularen bei der ersten Anzeige sofort mit Warnindikatoren gekennzeichnet werden - andernfalls werden Indikatoren beim Bearbeiten von Feldern und nach dem ersten Absenden eines Formulars angezeigt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GoogleVerification",
+          "Caption": "Google-Verifizierung",
+          "Description": "Die Meta-Tags, die von der Google Webmaster-Zentrale verwendet werden, damit Ihre Website Google beweisen kann, dass Sie wirklich der Eigentümer der Website sind - Sie können ein Meta-Tag von der Google Webmaster-Zentrale zur Website-Verifizierung erhalten - Stellen Sie sicher, dass Sie das GESAMTE Meta-Tag (einschließlich Markup) kopieren",
+          "HelpLink": "http://www.google.com/webmasters/",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HomePageUrl",
+          "Caption": "Startseite der Website",
+          "Description": "Die Startseite Ihrer Website",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Identity",
+          "Caption": "Site-ID",
+          "Description": "Die ID, die mit Ihrer Website verknüpft ist und von YetaWF generiert wird, wenn die Website erstellt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IFrameUse",
+          "Caption": "IFrame-Verwendung",
+          "Description": "Legt fest, ob Seiten in einem IFrame von dieser und anderen Sites verwendet werden können (durch Setzen des HTTP-Headers X-Frame-Options) - Einzelne Seiten können diese Standardeinstellung überschreiben",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IsDefaultSite",
+          "Caption": "Standard-Site",
+          "Description": "Gibt zurück, ob die aktuelle Site die Standardsite für diese Instanz von YetaWF ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "JSLocation",
+          "Caption": "JavaScript-Speicherort",
+          "Description": "Legt fest, ob JavaScript-Dateien oben oder unten auf der Seite eingebunden werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Localization",
+          "Caption": "Lokalisierung",
+          "Description": "Definiert, ob Lokalisierung und mehrsprachige Unterstützung erforderlich sind, was bedeutet, dass der gesamte Text über Ressourcen bereitgestellt wird. Andernfalls ist nur die Standardsprache verfügbar",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Locked",
+          "Caption": "Verschlossen",
+          "Description": "Definiert, ob die Website für Wartungsarbeiten gesperrt ist - Wenn diese Option aktiviert ist, werden alle Benutzer (außer Ihnen) auf eine \"Wartungsseite\" umgeleitet, die mit der gesperrten URL-Weiterleitung definiert ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LockedExternal",
+          "Caption": "Verschlossen",
+          "Description": "Definiert, ob die Website für Wartungsarbeiten gesperrt ist - Wenn diese Option aktiviert ist, werden alle Benutzer (außer Ihnen) auf eine \"Wartungsseite\" umgeleitet, die mit der Umleitung gesperrter URLs definiert ist - Kann nur mit Appsettings.json aktiviert/deaktiviert werden.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LockedExternalForIP",
+          "Caption": "Gesperrt für IP-Adresse",
+          "Description": "Die einzige IP-Adresse, die Zugriff auf die Website hat - Alle anderen werden auf eine \"Wartungsseite\" umgeleitet, die mithilfe der gesperrten URL-Weiterleitung definiert ist - Diese wird in der Regel verwendet, während die Wartung auf eine Website angewendet wird, sodass nur eine IP-Adresse Zugriff auf die Website hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LockedForIP",
+          "Caption": "Gesperrt für IP-Adresse",
+          "Description": "Die einzige IP-Adresse, die Zugriff auf die Website hat - Alle anderen werden auf eine \"Wartungsseite\" umgeleitet, die mithilfe der gesperrten URL-Weiterleitung definiert ist - Diese wird in der Regel verwendet, während die Wartung auf eine Website angewendet wird, sodass nur eine IP-Adresse Zugriff auf die Website hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LockedUrl",
+          "Caption": "Gesperrte URL-Weiterleitung",
+          "Description": "Die Seite, auf die der Benutzer umgeleitet wird, wenn die Website gesperrt ist (wegen Wartungsarbeiten nicht erreichbar)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LoginUrl",
+          "Caption": "Login-URL",
+          "Description": "Die URL, über die der Benutzer umgeleitet wird, um sich bei der Website anzumelden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MessageType",
+          "Caption": "Nachrichten-Stil",
+          "Description": "Definiert den Anzeigestil von Benachrichtigungen (Informations- und Fehlermeldungen)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MobileSiteUrl",
+          "Caption": "URL des Mobilgeräts",
+          "Description": "Wenn ein mobiles Endgerät auf diese Seite zugreift, wird der Nutzer auf diese URL weitergeleitet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NotFoundUrl",
+          "Caption": "Seite nicht gefunden",
+          "Description": "Wenn eine nicht existierende Seite aufgerufen wird, wird der Benutzer auf diese URL umgeleitet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageMetaTags",
+          "Caption": "Seiten-Meta-Tags",
+          "Description": "Definiert Tags, die <meta> standardmäßig allen Seiten hinzugefügt werden, aber von jeder Seite überschrieben werden können, wenn die Seite Meta-Tags mithilfe der PageMetaTags-Eigenschaft definiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageSecurity",
+          "Caption": "Sicherheit erzwingen",
+          "Description": "Definiert, wie die Seitensicherheit mit HTTP/HTTPS (SSL, Secure Sockets Layer) erzwungen wird: Diese Eigenschaft wird ignoriert, wenn die URL der Testdomäne verwendet wird.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PortNumberEval",
+          "Caption": "Portnummer (normal)",
+          "Description": "Die Portnummer, die für den Zugriff auf diese Site über http verwendet wird - Der typische Port für http ist 80",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PortNumberSSLEval",
+          "Caption": "Portnummer (SSL)",
+          "Description": "Die Portnummer, die für den Zugriff auf diese Website über https (SSL - Secure Sockets Layer) verwendet wird - Der typische Port für SSL ist 443",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PostLoginUrl",
+          "Caption": "Login-URL veröffentlichen",
+          "Description": "Die URL, zu der der Benutzer nach der Anmeldung auf der Website weitergeleitet wird - Wenn die nächste URL bereits bekannt ist, hat dieses Feld keine Auswirkung - Einzelne Rollen können diese Einstellung außer Kraft setzen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PrivateKey",
+          "Caption": "Privater Schlüssel",
+          "Description": "Der private Schlüssel, der zum Entschlüsseln eines Tokens verwendet wird - Dieser wird von dieser YetaWF-Site verwendet, um Daten intern zu verschlüsseln/entschlüsseln",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PublicKey",
+          "Caption": "Öffentlicher Schlüssel",
+          "Description": "Der öffentliche Schlüssel, der zum Verschlüsseln eines Tokens verwendet wird - Dieser wird von dieser YetaWF-Site verwendet, um Daten intern zu verschlüsseln/entschlüsseln",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ReferencedModules",
+          "Caption": "Skin-Module",
+          "Description": "Definiert Module, die in alle Seiten eingefügt werden müssen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteDomain",
+          "Caption": "Site-Domain",
+          "Description": "Der Domainname Ihrer Website (z. B. yourcompany.com, yetawf.com)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteMapPriority",
+          "Caption": "SiteMap-Standardpriorität",
+          "Description": "Definiert die standardmäßige Seitenpriorität, die für die Siteübersicht verwendet wird: Jede Seite kann den Standardwert mithilfe der SiteMap-Prioritätseigenschaft überschreiben.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteMetaTags",
+          "Caption": "Website-Meta-Tags",
+          "Description": "Definiert <meta> Tags, die zu ALLEN Seiten hinzugefügt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteName",
+          "Caption": "Name der Website",
+          "Description": "Der Name, der mit Ihrer Website verbunden ist, in der Regel Ihr Firmenname oder Ihr Name",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteTestDomain",
+          "Caption": "Testdomäne",
+          "Description": "Definiert den Hostnamen für die Testdomäne - Dies kann mit Tools wie ngrok verwendet werden, um zu Testzwecken mit einer anderen URL auf die Website zuzugreifen - Diese Einstellung wird nur in DEBUG-Builds berücksichtigt. - Die Site (und alle Instanzen) müssen neu gestartet werden, damit diese Einstellung wirksam wird.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteUrlHttp",
+          "Caption": "Site-URL mit http",
+          "Description": "Die Site-URL einschließlich http:",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteUrlHttps",
+          "Caption": "Site-URL mit https",
+          "Description": "Die Site-URL einschließlich https:",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Skin",
+          "Caption": "Haut",
+          "Description": "Der Skin, der für Seiten und Popups verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SMTP",
+          "Caption": "E-Mail-Server",
+          "Description": "Der E-Mail-Server, der zum Senden von E-Mails von dieser Website verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StaticDomain",
+          "Caption": "Domäne \"Statische Dateien\"",
+          "Description": "Sie können optional statische Dateien von einer alternativen Domain bereitstellen, um die Leistung Ihrer Website zu verbessern - Geben Sie hier den Domainnamen ein (ohne http:// oder https://) - Die Site (und alle Instanzen) muss neu gestartet werden, damit diese Einstellung wirksam wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StaticPages",
+          "Caption": "Statische Seiten zulassen",
+          "Description": "Legt fest, ob Seiten, die als statische Seiten markiert sind (nur für anonyme Benutzer), als statische Seiten bereitgestellt werden - Jede Seite, deren Inhalt sich nicht ändert, kann als statische Seite markiert werden, was zu einem schnelleren Laden der Seite für den Endbenutzer führt - Seiten werden mithilfe der Seiteneinstellungen der Seite als statisch markiert (siehe Eigenschaft \"Statische Seite\"). - Nur eine bereitgestellte Website verwendet statische Seiten.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StrictTransportSecurity",
+          "Caption": "Strenge Transportsicherheit",
+          "Description": "Definiert, ob ein HTTP Strict-Transport-Security-Antwortheader (HSTS) generiert wird, um Browser darüber zu informieren, dass auf die Site nur über HTTPS und nicht über HTTP zugegriffen werden soll - Diese Einstellung wird nur für eine bereitgestellte Site wirksam",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Theme",
+          "Caption": "Thema",
+          "Description": "Das Design, das für alle Seiten der Website verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeZone",
+          "Caption": "Zeitzone",
+          "Description": "Die Standardzeitzone für alle Benutzer dieser Website",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UnsupportedBrowserUrl",
+          "Caption": "URL für nicht unterstützte Browser",
+          "Description": "Wenn ein nicht unterstützter Browser auf diese Seite zugreift, wird der Benutzer auf diese URL umgeleitet - Wenn keine URL definiert ist, werden Browserversionen nicht geprüft",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseCDN",
+          "Caption": "Verwenden von CDN (Websiteinhalt)",
+          "Description": "Definiert, ob die Content Delivery Network-URL für die statischen Dateien der Website verwendet wird - Dies wird in der Regel nur für Produktionswebsites verwendet. - Appsettings.json (P:YetaWF_Core:UseCDN) muss auf true festgelegt werden, damit diese Einstellung berücksichtigt wird, andernfalls wird kein CDN für Websiteinhalte verwendet. - Die Website (und alle Instanzen) müssen neu gestartet werden, damit diese Einstellung wirksam wird.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseCDNComponents",
+          "Caption": "CDN (Globale Addons) verwenden",
+          "Description": "Definiert, ob ein Content Delivery Network für einige der 3rd-Party-Pakete verwendet wird, bei denen ein CDN verfügbar ist - Dies wird in der Regel nur für Produktionsstandorte verwendet - Appsettings.json (Application.P.YetaWF_Core.UseCDNComponents) muss auf true gesetzt werden, damit diese Einstellung berücksichtigt wird, andernfalls wird kein CDN für 3rd-Party-Pakete verwendet - Die Site (und alle Instanzen) müssen neu gestartet werden, damit diese Einstellung wirksam wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseGeoLocation",
+          "Caption": "Geografische Lage",
+          "Description": "Legt fest, ob die Website Geolokalisierungsinformationen von Ihren Besuchern basierend auf ihrer IP-Adresse (falls verfügbar) sammelt",
+          "HelpLink": "http://www.geoplugin.com/geolocation/",
+          "TextAbove": null,
+          "TextBelow": "-<a href=\"http://www.geoplugin.com/geolocation/\" target=\"_blank\" rel=\"noopener noreferrer\">IP Geolocation by <a href</a>=\"http://www.geoplugin.com/\" target=\"_blank\">geoPlugin</a> - Durch die Aktivierung der Geolokalisierung akzeptieren Sie die Allgemeinen Geschäftsbedingungen Dritter"
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": []
+}

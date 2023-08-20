@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "noPage",
+      "Text": "Seite \"{0}\" nicht gefunden"
+    },
+    {
+      "Name": "screDone",
+      "Text": "Die Sitemap wurde erfolgreich erstellt"
+    },
+    {
+      "Name": "sitemapNotFound",
+      "Text": "Sitemap nicht gefunden - Datei '{0}' kann nicht gefunden werden"
+    },
+    {
+      "Name": "sremDone",
+      "Text": "Die Sitemap wurde entfernt"
+    }
+  ]
+}

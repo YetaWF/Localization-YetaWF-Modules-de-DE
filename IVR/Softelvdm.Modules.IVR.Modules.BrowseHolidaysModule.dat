@@ -1,0 +1,144 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseHolidaysModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "URL hinzufügen",
+          "Description": "Die URL zum Hinzufügen eines neuen Feiertagseintrags - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseHolidaysModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Beschreibung des Urlaubs",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HolidayDate",
+          "Caption": "Datum",
+          "Description": "Das Datum, an dem der Feiertag stattfindet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseHolidaysModule+BrowseModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GridDef",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Anzeige und Verwaltung von Feiertagseinträgen"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Feiertagseinträge"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Feiertagseinträge"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Feiertagseinträge anzeigen und verwalten"
+    },
+    {
+      "Name": "modName",
+      "Text": "Feiertagseinträge"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Feiertagseinträge an und verwaltet sie."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ferien"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie diesen Feiertagseintrag entfernen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt den Feiertagseintrag"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Feiertagseintrag entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Feiertagseintrag entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernen des Feiertagseintrags"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Entfernen einzelner Feiertagseinträge"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Feiertagseinträge entfernen"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer hat die Berechtigung, einzelne Feiertagseinträge zu entfernen"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Feiertagseinträge entfernen"
+    }
+  ]
+}

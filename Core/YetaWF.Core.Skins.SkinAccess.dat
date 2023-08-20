@@ -1,0 +1,55 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "coll",
+      "Text": "Klicken Sie hier, um dieses Bedienfeld zu reduzieren"
+    },
+    {
+      "Name": "exp",
+      "Text": "Klicken Sie hier, um dieses Bedienfeld zu erweitern"
+    },
+    {
+      "Name": "page",
+      "Text": "Standardseite"
+    },
+    {
+      "Name": "pagePlain",
+      "Text": "Schlichte Seite"
+    },
+    {
+      "Name": "pagePlainTT",
+      "Text": "Schlichte Seite"
+    },
+    {
+      "Name": "pageTT",
+      "Text": "Standardseite"
+    },
+    {
+      "Name": "pop",
+      "Text": "Popup (Standard)"
+    },
+    {
+      "Name": "popMed",
+      "Text": "Mittleres Popup"
+    },
+    {
+      "Name": "popMedTT",
+      "Text": "Mittleres Popup"
+    },
+    {
+      "Name": "popSmall",
+      "Text": "Kleines Popup"
+    },
+    {
+      "Name": "popSmallTT",
+      "Text": "Kleines Popup"
+    },
+    {
+      "Name": "popTT",
+      "Text": "Großes Popup"
+    }
+  ]
+}

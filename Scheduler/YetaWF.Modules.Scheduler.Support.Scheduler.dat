@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "errItemDisabled",
+      "Text": "Das Scheduler-Element '{0}' ist derzeit deaktiviert und kann nicht eingeplant werden."
+    },
+    {
+      "Name": "errItemNotFound",
+      "Text": "Das Scheduler-Element '{0}' existiert nicht."
+    },
+    {
+      "Name": "errItemUpdFail",
+      "Text": "Das Scheduler-Element '{0}' konnte nicht aktualisiert werden."
+    },
+    {
+      "Name": "errUpdateNext",
+      "Text": "Fehler beim Aktualisieren des Scheduler-Elements {0} während des Starts, um das nächste Mal festzulegen ({1})"
+    }
+  ]
+}

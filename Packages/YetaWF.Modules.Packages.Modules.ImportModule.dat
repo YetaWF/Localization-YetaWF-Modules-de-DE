@@ -1,0 +1,77 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Packages.Modules.ImportModule+ImportModel",
+      "BaseTypeName": null,
+      "Header": "Geben Sie eine Remote- oder lokale ZIP-Datei an, um ein Binär- oder Quellcodepaket zu importieren.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Local ZIP File": "Lokale ZIP-Datei",
+        "Remote ZIP File": "Remote-ZIP-Datei"
+      },
+      "Properties": [
+        {
+          "Name": "RemoteFile",
+          "Caption": "ZIP-Datei",
+          "Description": "Geben Sie die URL einer ZIP-Datei ein, die heruntergeladen werden soll - Wird zum Importieren eines Pakets (Binär- oder Quellcodepaket) verwendet.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RemoteGo",
+          "Caption": "Senden",
+          "Description": "Klicken Sie hier, um das Paket herunterzuladen und zu installieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UploadFile",
+          "Caption": "ZIP-Datei",
+          "Description": "Wählen Sie eine lokale ZIP-Datei aus - Wird zum Importieren eines Pakets (Binär- oder Quellcodepaket) verwendet.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnImport",
+      "Text": "Binär- oder Quellcodepaket importieren..."
+    },
+    {
+      "Name": "modName",
+      "Text": "Importpaket (Binär- oder Quellcodepaket)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um ein Paket in Ihre YetaWF-Site zu importieren. Bei dem Paket kann es sich um ein vollständiges Paket einschließlich Quellcode oder um ein reines Binärpaket handeln. Quellcodepakete können nur in einem Debug-Build auf Entwicklungssystemen importiert werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Importpaket (Binär- oder Quellcodepaket)"
+    },
+    {
+      "Name": "roleImports",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Importieren von Binär- und Quellcodepaketen"
+    },
+    {
+      "Name": "roleImportsC",
+      "Text": "Pakete importieren"
+    },
+    {
+      "Name": "userImports",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Importieren von Binär- und Quellcodepaketen"
+    },
+    {
+      "Name": "userImportsC",
+      "Text": "Pakete importieren"
+    }
+  ]
+}

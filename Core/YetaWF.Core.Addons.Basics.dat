@@ -1,0 +1,55 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "CloseButtonText",
+      "Text": "Schließen"
+    },
+    {
+      "Name": "DefaultAlertTitle",
+      "Text": "Warnung"
+    },
+    {
+      "Name": "DefaultAlertYesNoTitle",
+      "Text": "Bestätigung erforderlich"
+    },
+    {
+      "Name": "DefaultErrorTitle",
+      "Text": "Fehler"
+    },
+    {
+      "Name": "DefaultSuccessTitle",
+      "Text": "Erfolg"
+    },
+    {
+      "Name": "IncorrectServerResp",
+      "Text": "Falsche Serverantwort: Erwartet eine Javascript-Rückgabe"
+    },
+    {
+      "Name": "NoButtonText",
+      "Text": "Nein"
+    },
+    {
+      "Name": "OKButtonText",
+      "Text": "OKAY"
+    },
+    {
+      "Name": "openNewWindowTT",
+      "Text": "Klicken Sie hier, um diese Seite auf {0} zu besuchen (öffnet ein neues Fenster)"
+    },
+    {
+      "Name": "PleaseWaitText",
+      "Text": ""
+    },
+    {
+      "Name": "PleaseWaitTitle",
+      "Text": "Bitte warten"
+    },
+    {
+      "Name": "YesButtonText",
+      "Text": "Ja"
+    }
+  ]
+}

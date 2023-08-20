@@ -1,0 +1,62 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.SchedulerConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Days",
+          "Caption": "Aufbewahrung (Tage)",
+          "Description": "Definiert die Anzahl der Tage, an denen Scheduler-Protokollierungsinformationen gespeichert werden: Scheduler-Protokollierungsinformationen, die älter als die angegebene Anzahl von Tagen sind, werden gelöscht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Scheduler-Einstellungen"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Scheduler-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "Scheduler-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten der Scheduler-Einstellungen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Scheduler-Einstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um die Scheduler-Einstellungen einer Site zu bearbeiten. Dies kann über Admin > Settings > Scheduler Settings (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Scheduler-Einstellungen"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Protokollierungseinstellungen konnten nicht gefunden werden"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Gespeicherte Protokollierungseinstellungen"
+    }
+  ]
+}

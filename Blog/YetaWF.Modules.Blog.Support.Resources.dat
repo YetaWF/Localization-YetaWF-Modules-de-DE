@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "valShortName",
+      "Text": "Ein Kurzname muss aus Buchstaben, Zahlen, Unterstrichen oder Bindestrichen ohne Leerzeichen bestehen"
+    },
+    {
+      "Name": "valShortName2",
+      "Text": "Der Kurzname ist ungültig (Eigenschaft '{0}') - er muss aus Buchstaben, Zahlen, Unterstrichen oder Bindestrichen ohne Leerzeichen bestehen"
+    },
+    {
+      "Name": "valShortName3",
+      "Text": "Der Kurzname \"{0}\" ist ungültig - er muss aus Buchstaben, Zahlen, Unterstrichen oder Bindestrichen ohne Leerzeichen bestehen"
+    }
+  ]
+}

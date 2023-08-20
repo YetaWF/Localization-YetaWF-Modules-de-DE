@@ -1,0 +1,174 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Templates.Modules.AddBrowseModule+Model",
+      "BaseTypeName": null,
+      "Header": "Fügen Sie Ihrem Projekt Module hinzu, um Elemente mit Datenspeicherung in Dateien und/oder SQL-Tabellen zu durchsuchen, hinzuzufügen, zu bearbeiten und anzuzeigen. Das Entfernen von Elementen wird von den Modulen \"Durchsuchen\", \"Bearbeiten\" und \"Anzeigen\" unterstützt.\r(+nl)\r(+nl) Nachdem die Module erstellt wurden, können Sie das verwendete Datenmodell vollständig anpassen und Code für den Zugriff auf externe Daten (SQL-Tabellen, Dateien usw.) hinzufügen.\r(+nl)\r(+nl) Die generierten Module verwenden jQuery, unterstützen Popups und seitenbasierte Module, enthalten Eigenschaftsseiten und sind lokalisierbar, mit vollständiger Unterstützung für Datenanmerkungen.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AddWanted",
+          "Caption": "Modul hinzufügen",
+          "Description": "Wählen Sie diese Option aus, um ein Add-Modul zu generieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BrowseDataProvider",
+          "Caption": "Datenanbieter",
+          "Description": "Geben Sie den gewünschten Datenanbieter ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BrowseKeyName",
+          "Caption": "Name des Schlüssels",
+          "Description": "Geben Sie den gewünschten Schlüsseleigenschaftsnamen für das Datenmodell ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: Name, Schlüssel, Benutzername, Produktname"
+        },
+        {
+          "Name": "BrowseKeyType",
+          "Caption": "Schlüsseltyp",
+          "Description": "Geben Sie den gewünschten Schlüsseltyp für das Datenmodell ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: Guid, String, int"
+        },
+        {
+          "Name": "BrowseModelName",
+          "Caption": "Name des Datenmodells",
+          "Description": "Geben Sie den gewünschten Namen des Datenmodells ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: UserSettings, PersonnelData"
+        },
+        {
+          "Name": "BrowseModuleName",
+          "Caption": "Name des Moduls",
+          "Description": "Geben Sie den Basisnamen für alle Module zum Durchsuchen, Hinzufügen, Bearbeiten und Anzeigen ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: Rechnung, Produkt, Mitarbeiter"
+        },
+        {
+          "Name": "BrowseObjectName",
+          "Caption": "Name des Objekts",
+          "Description": "Geben Sie den gewünschten vom Benutzer anzeigbaren Objektnamen für den Datenmodellnamen ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: Benutzerkonto, Produkttyp"
+        },
+        {
+          "Name": "BrowseWanted",
+          "Caption": "Modul \"Durchsuchen\"",
+          "Description": "Wählen Sie diese Option aus, um ein Durchsuchen-Modul zu generieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Company",
+          "Caption": "Firma",
+          "Description": "Geben Sie Ihren Firmennamen ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: Mein Firmenname - Dies wird verwendet, um Ihren Firmennamen in anzeigbarer Form anzuzeigen."
+        },
+        {
+          "Name": "CompanyUrl",
+          "Caption": "Unternehmens-URL",
+          "Description": "Geben Sie die Domain-URL Ihres Unternehmens ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: MyCompany.com – Die Domain-URL Ihres Unternehmens."
+        },
+        {
+          "Name": "DisplayWanted",
+          "Caption": "Anzeige-Modul",
+          "Description": "Wählen Sie diese Option aus, um ein Anzeigemodul zu generieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Domain",
+          "Caption": "Domäne",
+          "Description": "Geben Sie den Domainnamen Ihres Unternehmens ohne .com ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: MyCompany - Es muss bereits ein Projekt existieren, das die eingegebene Domain und den eingegebenen Projektnamen verwendet. Dies wird als Teil des generierten Namespace verwendet und wird auch für alle neuen Elemente verwendet, die diesem Projekt hinzugefügt werden. Der Bezeichner darf nur Buchstaben und Zahlen enthalten."
+        },
+        {
+          "Name": "EditWanted",
+          "Caption": "Modul \"Bearbeiten\"",
+          "Description": "Wählen Sie diese Option aus, um ein Bearbeitungsmodul zu generieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Project",
+          "Caption": "Projektname",
+          "Description": "Geben Sie den gewünschten Projektnamen ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: StoreFont oder Blog oder Forum - Es muss bereits ein Projekt existieren, das die eingegebene Domain und den eingegebenen Projektnamen verwendet. Dies wird als Teil des generierten Namespace verwendet und wird auch für alle neuen Elemente verwendet, die diesem Projekt hinzugefügt werden. Der Bezeichner darf nur Buchstaben und Zahlen enthalten."
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Fügt Browse-Module hinzu"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Hinzufügen von Browse-Modulen"
+    },
+    {
+      "Name": "addText",
+      "Text": "Hinzufügen von Browse-Modulen"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Hinzufügen von Browse-Modulen"
+    },
+    {
+      "Name": "cantSave",
+      "Text": "Vorlagenvorgaben können nicht gespeichert werden"
+    },
+    {
+      "Name": "modName",
+      "Text": "Hinzufügen von Browse-Modulen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Fügt Browse-Module hinzu"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Hinzufügen von Browse-Modulen"
+    },
+    {
+      "Name": "notExists",
+      "Text": "Projekt {0} nicht gefunden. Der Ordner {1} existiert nicht. Module können nur zu bestehenden Projekten hinzugefügt werden."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Neue(s) Modul(e) {0} dem Projekt {1}/{2} hinzugefügt."
+    },
+    {
+      "Name": "select",
+      "Text": "Es muss mindestens ein Modultyp ausgewählt werden."
+    }
+  ]
+}

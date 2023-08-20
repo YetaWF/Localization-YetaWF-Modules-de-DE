@@ -1,0 +1,66 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Languages.Components.LocalizeClassesEditComponent+UIClassData",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Footer",
+          "Caption": "Klassen-Fußzeile",
+          "Description": "Text gefunden in [FooterAttribute(...)]",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Header",
+          "Caption": "Klassenkopf",
+          "Description": "Text gefunden in [HeaderAttribute(...)]",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Legend",
+          "Caption": "Legende der Klasse",
+          "Description": "Text gefunden in [LegendAttribute(...)]",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cmtCaption",
+      "Text": " (Bildunterschrift)"
+    },
+    {
+      "Name": "cmtDescription",
+      "Text": " (Beschreibung)"
+    },
+    {
+      "Name": "cmtHelpLink",
+      "Text": " (HilfeLink)"
+    },
+    {
+      "Name": "cmtTextAbove",
+      "Text": " (TextOben)"
+    },
+    {
+      "Name": "cmtTextBelow",
+      "Text": " (TextUnten)"
+    },
+    {
+      "Name": "strNameTT",
+      "Text": "Text, der in Attributen für Eigenschafts-{0} gefunden wurde"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.AddExtensionModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Beschreibt die Erweiterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Extension",
+          "Caption": "Erweiterung",
+          "Description": "Definiert die Endung (Ziffern)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PhoneNumbers",
+          "Caption": "Telefonnummern",
+          "Description": "Definiert die Telefonnummern, die bei der Eingabe dieser Durchwahl angerufen werden sollen - Mindestens eine Telefonnummer ist erforderlich",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Users",
+          "Caption": "Benutzer",
+          "Description": "Definiert die Benutzer, die auf Voicemails für diese Erweiterung zugreifen können",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Fügt eine neue Erweiterung hinzu"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "addText",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Hinzufügen einer neuen Erweiterung"
+    },
+    {
+      "Name": "dup",
+      "Text": "Ein Eintrag für die Erweiterung {0} existiert bereits"
+    },
+    {
+      "Name": "modName",
+      "Text": "Neue Erweiterung hinzufügen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Fügt eine neue Erweiterung hinzu."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Neue Erweiterung hinzufügen"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Neue Erweiterung gespeichert"
+    }
+  ]
+}

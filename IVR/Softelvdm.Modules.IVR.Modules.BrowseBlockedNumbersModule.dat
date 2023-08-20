@@ -1,0 +1,168 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseBlockedNumbersModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "URL hinzufügen",
+          "Description": "Die URL zum Hinzufügen einer neuen blockierten Nummer - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "URL bearbeiten",
+          "Description": "Die URL zum Bearbeiten einer blockierten Nummer - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseBlockedNumbersModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Zugefügt",
+          "Description": "Datum/Uhrzeit des Hinzufügens des Eintrags",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Beschreibung der gesperrten Nummer",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Number",
+          "Caption": "Gesperrte Nummer",
+          "Description": "Zeigt die gesperrte Telefonnummer an",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Updated",
+          "Caption": "Aktualisierte",
+          "Description": "Datum/Uhrzeit der letzten Aktualisierung des Eintrags",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseBlockedNumbersModule+BrowseModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GridDef",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Zeigt gesperrte Nummern an und verwaltet sie"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Gesperrte Nummern"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Gesperrte Nummern"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Gesperrte Nummern anzeigen und verwalten"
+    },
+    {
+      "Name": "modName",
+      "Text": "Gesperrte Nummern"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt gesperrte Nummern an und verwaltet sie."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Gesperrte Nummern"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie diese gesperrte Nummer entfernen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt die gesperrte Nummer"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernen Sie die gesperrte Nummer"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung, einzelne gesperrte Nummern zu entfernen"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Blockierte Nummern entfernen"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer hat die Berechtigung, einzelne gesperrte Nummern zu entfernen"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Blockierte Nummern entfernen"
+    }
+  ]
+}

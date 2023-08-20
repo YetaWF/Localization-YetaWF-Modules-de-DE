@@ -1,0 +1,80 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Text.Modules.MarkdownModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "Contents",
+          "Caption": "Inhalt",
+          "Description": "Der Inhalt des Textes",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Text.Modules.MarkdownModule+MarkdownDisplay",
+      "BaseTypeName": "YetaWF.Modules.ComponentsHTML.Components.MarkdownStringBase",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Text",
+          "Caption": "Markdown-Text",
+          "Description": null,
+          "HelpLink": "https://www.markdownguide.org/cheat-sheet/",
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Text.Modules.MarkdownModule+MarkdownEdit",
+      "BaseTypeName": "YetaWF.Modules.Text.Modules.MarkdownString",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Text",
+          "Caption": "Markdown-Text",
+          "Description": null,
+          "HelpLink": "https://www.markdownguide.org/cheat-sheet/",
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Text (Markdown)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt vom Benutzer bearbeitbare Textinhalte (mithilfe von Markdown) an. Auf eine Beispielseite kann über Tests > Module > Markdown (Standard-YetaWF-Site) zugegriffen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Redigieren"
+    },
+    {
+      "Name": "saved",
+      "Text": "Gespeicherte Inhalte"
+    }
+  ]
+}

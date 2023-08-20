@@ -1,0 +1,114 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Languages.Modules.LocalizeEditFileModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Classes",
+          "Caption": "Klassen",
+          "Description": "Zeigt alle lokalisierbaren Zeichenfolgenfragmente an, die in den Klasseneigenschaften gefunden wurden, sowie die Header-, Footer- und Legend-Attribute der Klasse",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Comment",
+          "Caption": "Kommentar",
+          "Description": "Ein optionaler Kommentar",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CurrentLanguage",
+          "Caption": "Aktuelle Sprache",
+          "Description": "Zeigt die aktuell verwendete Sprache an - Verwenden Sie Benutzereinstellungen, um die aktuelle Sprache zu ändern",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Custom",
+          "Caption": "Gewohnheit",
+          "Description": "Definiert, ob Lokalisierungszeichenfolgen als Anpassungen (in ./LocalizationCustom) oder als im Paket installierte Ressourcen (./Localization) gespeichert werden. - Nur Ressourcen, die nicht in US-Englisch verfasst sind, können als installierte Paketressourcen gespeichert werden.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CustomRO",
+          "Caption": "Gewohnheit",
+          "Description": "Definiert, ob Lokalisierungszeichenfolgen als Anpassungen (in ./LocalizationCustom) oder als im Paket installierte Ressourcen (./Localization) gespeichert werden. - Nur Ressourcen, die nicht in US-Englisch verfasst sind, können als installierte Paketressourcen gespeichert werden.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Enums",
+          "Caption": "Enumerationen",
+          "Description": "Zeigt alle lokalisierbaren Zeichenfolgenfragmente an, die in EnumDescription-Attributen gefunden wurden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Strings",
+          "Caption": "Streichinstrumente",
+          "Description": "Zeigt alle lokalisierbaren String-Fragmente an, die in __ResStr()-Aufrufen gefunden wurden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet eine vorhandene Lokalisierungsressource"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Redigieren"
+    },
+    {
+      "Name": "editText",
+      "Text": "Redigieren"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Lokalisierungsressource bearbeiten"
+    },
+    {
+      "Name": "modName",
+      "Text": "Lokalisierungsressource bearbeiten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um eine vorhandene Lokalisierungsressource zu bearbeiten. Dies wird vom Sprachmodul verwendet."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Lokalisierungs-Ressource"
+    },
+    {
+      "Name": "okReset",
+      "Text": "Standardeinstellung der Lokalisierungsressource - Die Lokalisierungsdatei wurde entfernt - Wenn Sie auf Speichern oder Anwenden klicken, wird eine neue benutzerdefinierte/installierte Addon-Datei erstellt. Um nur die Standardeinstellungen beizubehalten, schließen Sie einfach dieses Formular"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Einsparung von Lokalisierungsressourcen"
+    },
+    {
+      "Name": "title",
+      "Text": "Lokalisierungsressource \"{0}\""
+    }
+  ]
+}

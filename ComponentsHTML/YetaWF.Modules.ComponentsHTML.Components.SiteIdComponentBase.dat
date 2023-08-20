@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "none",
+      "Text": "(keine)"
+    },
+    {
+      "Name": "noneTT",
+      "Text": ""
+    },
+    {
+      "Name": "select",
+      "Text": "(auswählen)"
+    },
+    {
+      "Name": "siteId",
+      "Text": "Site-ID-{0}"
+    }
+  ]
+}

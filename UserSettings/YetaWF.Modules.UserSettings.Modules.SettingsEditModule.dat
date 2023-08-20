@@ -1,0 +1,178 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.UserSettings.Modules.SettingsEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ConfirmActions",
+          "Caption": "Aktionen bestätigen",
+          "Description": "Legt fest, ob Aktionen bestätigt werden müssen, bevor sie ausgeführt werden. Dies wird normalerweise für Aktionen verwendet, die eine Eingabeaufforderung erfordern, aber nicht destruktiv (Löschen) sind",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ConfirmDelete",
+          "Caption": "Löschen bestätigen",
+          "Description": "Legt fest, ob Löschaktionen bestätigt werden müssen, bevor Elemente gelöscht werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateFormat",
+          "Caption": "Datumsformat",
+          "Description": "Das gewünschte Datumsformat, wenn Datumsangaben auf dieser Website angezeigt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GridActionsUser",
+          "Caption": "Raster-Aktionen",
+          "Description": "Die gewünschte Anzeigemethode für verfügbare Aktionen in Rastern",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LanguageId",
+          "Caption": "Sprache",
+          "Description": "Die Standardsprache, die für die gesamte Website verwendet wird (wird nur verwendet, wenn die Lokalisierung aktiviert ist)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowEnumValue",
+          "Caption": "Enumerationswerte anzeigen",
+          "Description": "Legt fest, ob Aufzählungswerte (in Dropdown-Listen) ihren numerischen Wert anzeigen. Numerische Werte sind in der Regel nur für Programmierzwecke nützlich",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowGridSearchToolbar",
+          "Caption": "Filter-Symbolleiste anzeigen",
+          "Description": "Legt fest, ob die Filtersymbolleiste immer in Rastern angezeigt wird - Wenn sie nicht angezeigt wird, kann sie dennoch über die Suchschaltfläche in jedem Raster am unteren Rand des Rasters neben der Schaltfläche \"Aktualisieren\" aufgerufen werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowInternals",
+          "Caption": "Interne Daten anzeigen",
+          "Description": "Legt fest, ob interne Informationen angezeigt werden (z.B. ids)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowModuleOwnership",
+          "Caption": "Modulbesitz anzeigen",
+          "Description": "Definiert, ob Module, die von anonymen Benutzern oder normalen Benutzern nicht gesehen werden können, mit speziellen Hintergrundfarben angezeigt werden - Erfordert einen Skin, der die Anzeige von Besitzverhältnissen unterstützt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowPageOwnership",
+          "Caption": "Seitenbesitz anzeigen",
+          "Description": "Legt fest, ob Seiten, die von anonymen Benutzern oder normalen Benutzern nicht gesehen werden können, mit speziellen Hintergrundfarben angezeigt werden - Erfordert eine Skin, die die Anzeige von Eigentumsrechten unterstützt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowVariables",
+          "Caption": "Variablen anzeigen",
+          "Description": "Legt fest, ob Variablennamen für Eigenschaften angezeigt werden und alle verfügbaren Variablen auf Eigenschaftenseiten aufgelistet werden. Variablen werden zur Variablenersetzung in Modulen und Seiten und natürlich zu Programmierzwecken verwendet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Theme",
+          "Caption": "Thema",
+          "Description": "Das Design, das für alle Seiten der Website verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeFormat",
+          "Caption": "Zeitformat",
+          "Description": "Das gewünschte Zeitformat, wenn Zeiten auf dieser Website angezeigt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeZone",
+          "Caption": "Zeitzone",
+          "Description": "Ihre Zeitzone - alle Datums-/Uhrzeitangaben auf dieser Website werden an die angegebene Zeitzone angepasst",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet Ihre Benutzereinstellungen, z. B. Datums-/Uhrzeitformate, verwendete Sprache und andere Optionen"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Einstellungen bearbeiten"
+    },
+    {
+      "Name": "editText",
+      "Text": "Einstellungen bearbeiten"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten Sie Ihre Benutzereinstellungen, z. B. Datums-/Uhrzeitformate, verwendete Sprache und andere Optionen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Benutzereinstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Bearbeitet die Einstellungen des angemeldeten Benutzers, z. B. die gewünschten Datums-/Uhrzeitformate, die Zeitzone, die verwendete Sprache und andere Optionen. Das Benutzereinstellungsmodul ist über die Benutzereinstellungen > (Standard-YetaWF-Site) zugänglich."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Benutzereinstellungen"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Ihre Einstellungen wurden erfolgreich gespeichert"
+    },
+    {
+      "Name": "roleUseDev",
+      "Text": "Die Rolle verfügt über die Berechtigung zur Verwendung von Entwicklungseinstellungen"
+    },
+    {
+      "Name": "roleUseDevC",
+      "Text": "Entwicklungseinstellungen verwenden"
+    },
+    {
+      "Name": "userUseDev",
+      "Text": "Der Benutzer verfügt über die Berechtigung zur Verwendung von Entwicklungseinstellungen"
+    },
+    {
+      "Name": "userUseDevC",
+      "Text": "Entwicklungseinstellungen verwenden"
+    }
+  ]
+}

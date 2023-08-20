@@ -1,0 +1,74 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateModuleSelectionModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ControlStatus",
+          "Caption": "Status der Steuerung",
+          "Description": "Legt den Bearbeitungsstatus der Steuerelemente fest",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Module",
+          "Caption": "Modulauswahl",
+          "Description": "Bestehendes Modul",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleNew",
+          "Caption": "Modulauswahl (neu)",
+          "Description": "Neues Modul",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ROModule",
+          "Caption": "Modulauswahl (R/O)",
+          "Description": "Vorhandenes Modul, schreibgeschützt/schreibgeschützt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ROModuleNew",
+          "Caption": "Modulauswahl (Neu, R/O)",
+          "Description": "Neues Modul, schreibgeschützt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Komponententest - ModuleSelection"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Testmodul für die ModuleSelection-Komponente. Eine Testseite für dieses Modul finden Sie unter Tests > Templates > ModuleSelection (Standard-YetaWF-Seite)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "ModuleSelection-Testkomponente"
+    },
+    {
+      "Name": "ok",
+      "Text": "OKAY"
+    }
+  ]
+}

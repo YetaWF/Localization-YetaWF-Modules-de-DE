@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "eventDesc",
+      "Text": "Erstellt eine Blog-basierte Nachrichten-Sitemap"
+    },
+    {
+      "Name": "eventName",
+      "Text": "Erstellen Sie eine Blog-basierte Nachrichten-Sitemap"
+    },
+    {
+      "Name": "eventNameErr",
+      "Text": "Unbekanntes Scheduler-Ereignis {0}."
+    }
+  ]
+}

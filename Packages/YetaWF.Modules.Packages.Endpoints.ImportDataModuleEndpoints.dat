@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cantImportData",
+      "Text": "Kann nicht importiert werden {0}:(+nl)"
+    },
+    {
+      "Name": "importedData",
+      "Text": "\"{0}\" erfolgreich importiert - Diese Einstellungen werden erst wirksam, wenn die Website neu gestartet wird(+nl)"
+    }
+  ]
+}

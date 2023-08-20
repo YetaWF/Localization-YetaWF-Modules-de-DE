@@ -1,0 +1,41 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.ComponentsHTML.Components.SkinDisplayComponent+SkinUI",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Collection",
+          "Caption": "Skin-Kollektion",
+          "Description": "Der Name der Skin-Kollektion",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageFileName",
+          "Caption": "Seite",
+          "Description": "Der Name des Seiten-Skins",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupFileName",
+          "Caption": "Popup (Begriffsklärung",
+          "Description": "Der Name des Popup-Skins",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": []
+}

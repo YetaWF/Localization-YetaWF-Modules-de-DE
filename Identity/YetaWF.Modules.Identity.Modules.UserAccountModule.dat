@@ -1,0 +1,122 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.UserAccountModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Email",
+          "Caption": "E-Mail-Adresse",
+          "Description": "Geben Sie Ihre E-Mail-Adresse ein, die von dieser Website verwendet werden kann, um mit Ihnen zu kommunizieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastLoginDate",
+          "Caption": "Letzter Login",
+          "Description": "Das letzte Mal, als Sie sich in Ihr Konto eingeloggt haben",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastLoginIP",
+          "Caption": "IP-Adresse des letzten Logins",
+          "Description": "Die IP-Adresse, von der aus sich der Benutzer zuletzt auf dieser Website angemeldet hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastPasswordChangedDate",
+          "Caption": "Letzte Passwortänderung",
+          "Description": "Das letzte Mal, als Sie Ihr Passwort geändert haben",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PasswordChangeIP",
+          "Caption": "IP zum Ändern des Passworts",
+          "Description": "Die IP-Adresse, von der aus der Benutzer zuletzt das Passwort auf dieser Website geändert hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserName",
+          "Caption": "Name",
+          "Description": "Ihr Benutzername",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "Der Benutzer mit dem Namen \"{0}\" wurde entfernt und kann nicht mehr aktualisiert werden."
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Ein Benutzer mit dem Namen \"{0}\" existiert bereits."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Kontoinformationen des aktuellen Benutzers"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Konto"
+    },
+    {
+      "Name": "editText",
+      "Text": "Konto"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten Sie Ihre Kontoinformationen"
+    },
+    {
+      "Name": "emailUsed",
+      "Text": "Ein Konto mit der E-Mail-Adresse {0} ist bereits vorhanden."
+    },
+    {
+      "Name": "modEditTitle",
+      "Text": "Benutzerkonto"
+    },
+    {
+      "Name": "modName",
+      "Text": "Benutzerkonto"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um den Benutzernamen oder die E-Mail-Adresse des Kontos des aktuellen Benutzers zu bearbeiten und zusätzliche Informationen anzuzeigen. Auf das Benutzerkonto-Modul kann über das Benutzerkonto > zugegriffen werden (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Benutzerkonto"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Benutzer \"{0}\" nicht gefunden."
+    },
+    {
+      "Name": "noUser",
+      "Text": "Es gibt keinen angemeldeten Benutzer."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Ihre Kontoinformationen wurden gespeichert"
+    }
+  ]
+}

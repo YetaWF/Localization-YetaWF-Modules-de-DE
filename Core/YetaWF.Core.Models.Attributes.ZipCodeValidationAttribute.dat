@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "valZipCode",
+      "Text": "Die angegebene Postleitzahl ist ungültig - Verwenden Sie das Postleitzahlenformat 00000 oder 00000-0000"
+    },
+    {
+      "Name": "valZipCode2",
+      "Text": "Die angegebene Postleitzahl ist ungültig (Feld '{0}') - Verwenden Sie das Postleitzahlenformat 00000 oder 00000-0000"
+    },
+    {
+      "Name": "valZipCode3",
+      "Text": "Die Postleitzahl \"{0}\" ist ungültig - Verwenden Sie das Postleitzahlenformat 00000 oder 00000-0000"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "approveUserNotFound",
+      "Text": "Das Benutzerkonto für den Benutzer {0} existiert nicht mehr."
+    },
+    {
+      "Name": "noItem",
+      "Text": "Kein Benutzername angegeben"
+    },
+    {
+      "Name": "notCantApprove",
+      "Text": "Benutzer{0} ist nicht mehr neu und kann nicht genehmigt werden."
+    },
+    {
+      "Name": "notFoundUser",
+      "Text": "Benutzer {0} nicht gefunden."
+    },
+    {
+      "Name": "rejectUserNotFound",
+      "Text": "Das Benutzerkonto für den Benutzer {0} existiert nicht mehr."
+    },
+    {
+      "Name": "userApproved",
+      "Text": "Das Benutzerkonto für den Benutzer {0} wurde als genehmigt markiert. Eine E-Mail wurde an den Benutzer gesendet."
+    },
+    {
+      "Name": "userRejected",
+      "Text": "Das Benutzerkonto für den Benutzer {0} wurde als abgelehnt markiert. Eine E-Mail wurde an den Benutzer gesendet."
+    },
+    {
+      "Name": "userSuspended",
+      "Text": "Das Benutzerkonto für den Benutzer {0} wurde als gesperrt markiert. Eine E-Mail wurde an den Benutzer gesendet."
+    }
+  ]
+}

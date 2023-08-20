@@ -1,0 +1,78 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RolesAddModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die bestimmungsgemäße Verwendung der Rolle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Name",
+          "Description": "Der Rollenname",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PostLoginUrl",
+          "Caption": "Login-URL veröffentlichen",
+          "Description": "Die URL, unter der ein Benutzer mit dieser Rolle nach der Anmeldung umgeleitet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Erstellt eine neue Rolle"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "addText",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Erstellen einer neuen Rolle"
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Eine Rolle mit dem Namen \"{0}\" ist bereits vorhanden."
+    },
+    {
+      "Name": "modName",
+      "Text": "Neue Rolle"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Fügt eine neue Rolle hinzu. Dies wird vom Rollenmodul (Admin > Identitätseinstellungen > Rollen, Standard-YetaWF-Site) verwendet, um eine neue Rolle hinzuzufügen."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Neue Rolle"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Neue Rolle \"{0}\" gespeichert"
+    }
+  ]
+}

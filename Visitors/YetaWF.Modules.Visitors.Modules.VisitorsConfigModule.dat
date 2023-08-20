@@ -1,0 +1,66 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Visitors.Modules.VisitorsConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Days",
+          "Caption": "Aufbewahrung (Tage)",
+          "Description": "Definiert die Anzahl der Tage, an denen Besucherinformationen gespeichert werden - Besucherinformationen, die älter als die angegebene Anzahl von Tagen sind, werden gelöscht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Besuchereinstellungen"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Besucher-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "Besucher-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten Sie die Besuchereinstellungen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Besucher-Einstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um die Besuchereinstellungen einer Website zu bearbeiten. Dies kann über Admin > Einstellungen > Besuchereinstellungen (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Besucher-Einstellungen"
+    },
+    {
+      "Name": "noInfo",
+      "Text": "Besucherinformationen sind nicht verfügbar - Siehe https://yetawf.com/Documentation/YetaWF/Visitors"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Besuchereinstellungen konnten nicht gefunden werden"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Besuchereinstellungen gespeichert"
+    }
+  ]
+}

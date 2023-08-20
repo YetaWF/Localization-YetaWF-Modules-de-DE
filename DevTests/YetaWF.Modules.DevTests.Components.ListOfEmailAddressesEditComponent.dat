@@ -1,0 +1,51 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Components.ListOfEmailAddressesEditComponent+Entry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Delete",
+          "Caption": "Löschen",
+          "Description": "Klicken Sie hier, um diese E-Mail-Adresse aus der Liste zu entfernen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EmailAddress",
+          "Caption": "E-Mail-Adresse",
+          "Description": "Zeigt alle definierten E-Mail-Adressen an",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.DevTests.Components.ListOfEmailAddressesEditComponent+NewModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "NewValue",
+          "Caption": "E-Mail-Adresse",
+          "Description": "Bitte geben Sie eine neue E-Mail-Adresse ein und klicken Sie auf Hinzufügen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": []
+}

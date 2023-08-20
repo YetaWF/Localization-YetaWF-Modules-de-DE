@@ -1,0 +1,58 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateReferencedModulesModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Prop1",
+          "Caption": "ReferencedModules (Verweisspeicherte)",
+          "Description": "ReferencedModules (Verweisspeicherte)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Req",
+          "Caption": "ReferencedModules (erforderlich)",
+          "Description": "ReferencedModules (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "ReferencedModules (schreibgeschützt)",
+          "Description": "ReferencedModules (schreibgeschützt/nur)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Komponententest - ReferencedModules"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Testmodul für die ReferencedModules-Komponente. Eine Testseite für dieses Modul finden Sie unter Tests > Templates > ReferencedModules (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "ReferencedModules-Testkomponente"
+    },
+    {
+      "Name": "ok",
+      "Text": "OKAY"
+    }
+  ]
+}

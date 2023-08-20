@@ -1,0 +1,126 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AllowAnonymous",
+          "Caption": "Anonyme Benutzer",
+          "Description": "Ob anonyme Benutzer die Seite anzeigen können",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AllowAnyUser",
+          "Caption": "Beliebige Benutzer",
+          "Description": "Gibt an, ob ein angemeldeter Benutzer die Seite anzeigen kann",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Count",
+          "Caption": "Zählen",
+          "Description": "Die Häufigkeit, mit der dieses Schlüsselwort auf der Seite gefunden wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateAdded",
+          "Caption": "Zugefügt",
+          "Description": "Datum/Uhrzeit des Hinzufügens dieses Schlüsselworts",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplaySearchDataId",
+          "Caption": "Id",
+          "Description": "Die interne ID this Schlüsselwort",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Language",
+          "Caption": "Sprache",
+          "Description": "Die Sprache der Seite, auf der dieses Schlüsselwort gefunden wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageUrl",
+          "Caption": "URL",
+          "Description": "Die Seite, auf der dieses Schlüsselwort gefunden wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SearchTerm",
+          "Caption": "Suchbegriff",
+          "Description": "Suchbegriff",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "Der Suchbegriff mit id {0} wurde entfernt und kann nicht mehr aktualisiert werden."
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Ein Suchbegriff mit der ID {0} existiert bereits."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet ein vorhandenes Suchelement"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Redigieren"
+    },
+    {
+      "Name": "editText",
+      "Text": "Redigieren"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten eines vorhandenen Suchbegriffs"
+    },
+    {
+      "Name": "modName",
+      "Text": "Suchbegriff bearbeiten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um einen vorhandenen Suchbegriff zu bearbeiten. Dies wird vom Suchbegriffsmodul verwendet, um einen Suchbegriff zu bearbeiten."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Suchbegriff"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Suchbegriff mit ID {0} nicht gefunden."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Suchbegriff gespeichert"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.TemplateRolesSelectorModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Prop1",
+          "Caption": "RolesSelector",
+          "Description": "RolesSelector",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Req",
+          "Caption": "RolesSelector (erforderlich)",
+          "Description": "RolesSelector (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "RolesSelector (Lesen/Nur Lesen)",
+          "Description": "RolesSelector (schreibgeschützt)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt die RolesSelector-Testvorlage an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "RolesSelector"
+    },
+    {
+      "Name": "displayText",
+      "Text": "RolesSelector"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Anzeigen der RolesSelector-Testvorlage"
+    },
+    {
+      "Name": "modName",
+      "Text": "Komponententest - RolesSelector"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Testmodul für die Komponente RolesSelector (Bearbeiten und Anzeigen). Eine Testseite für dieses Modul finden Sie unter Tests > Templates > RolesSelector (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "RolesSelector-Testkomponente"
+    },
+    {
+      "Name": "ok",
+      "Text": "OKAY"
+    }
+  ]
+}

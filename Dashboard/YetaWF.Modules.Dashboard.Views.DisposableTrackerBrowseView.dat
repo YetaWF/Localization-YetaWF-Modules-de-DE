@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "explain",
+      "Text": "<p>Verwerfbare Objekte implementieren die IDisposable-Schnittstelle. Ihre Erstellung/Zerstörung wird mithilfe der DisposableTracker-Klasse nachverfolgt. Wenn Gegenstände gezeigt werden, sollten diese überprüft werden, da es sich um mögliche Leckagen handelt. Einige Klassen schaffen absichtlich ein nahezu permanentes Einwegobjekt. Dies sind SiteDefinition, LanguageData, LogRecordDataProvider und alle Datenbankdatenanbieter. Pro Klasse kann mehr als ein Objekt erstellt werden. Es werden nur Objekte mit expliziten Aufrufen von DisposableTracker.AddObject/RemoveObject nachverfolgt.</p><p>Die Nachverfolgung wird in der Datei Appsettings.json der Website aktiviert/deaktiviert, wobei \"P:YetaWF_Core:DisposableTracker\" auf \"true\" oder \"false\" festgelegt ist.</p>"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "confimMsg",
+      "Text": "Sind Sie sicher, dass Sie Seite {0} entfernen möchten?"
+    },
+    {
+      "Name": "lblAllPages",
+      "Text": "Alle Seiten"
+    },
+    {
+      "Name": "lblFindPages",
+      "Text": "Seiten suchen"
+    },
+    {
+      "Name": "removeMsg",
+      "Text": "Seite {0} wurde entfernt"
+    },
+    {
+      "Name": "ttAllPages",
+      "Text": "Zeigt alle gestalteten Seiten an, die auf der Website verfügbar sind - Wählen Sie eine Seite aus, um die Dropdown-Liste oben zu aktualisieren, damit die Seite zur Liste der Seiten hinzugefügt werden kann"
+    },
+    {
+      "Name": "ttFindPages",
+      "Text": "Erweitern, um die für diese Website verfügbaren Seiten zu finden"
+    }
+  ]
+}

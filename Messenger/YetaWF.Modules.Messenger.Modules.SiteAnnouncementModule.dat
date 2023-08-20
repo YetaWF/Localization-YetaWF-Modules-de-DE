@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Messenger.Modules.SiteAnnouncementModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": " ",
+          "Description": " ",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Message",
+          "Caption": "Nachricht",
+          "Description": "Definiert die zu sendende Nachricht",
+          "HelpLink": null,
+          "TextAbove": "Bitte geben Sie die Nachricht ein, die an alle Benutzer gesendet werden soll, die die Website derzeit nutzen (anonyme und angemeldete Benutzer).",
+          "TextBelow": null
+        },
+        {
+          "Name": "TestModeDemo",
+          "Caption": "Test-Modus",
+          "Description": "Wählen Sie diese Option aus, um das Senden einer Nachricht an sich selbst zu testen (keine anderen Benutzer erhalten diese Nachricht)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TestModeProd",
+          "Caption": "Test-Modus",
+          "Description": "Wählen Sie diese Option aus, um das Senden einer Nachricht an sich selbst zu testen (keine anderen Benutzer erhalten diese Nachricht)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titel",
+          "Description": "Definiert den Titel der zu sendenden Nachricht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Sendet eine neue Websiteankündigung an alle Benutzer"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Ankündigung senden"
+    },
+    {
+      "Name": "addText",
+      "Text": "Ankündigung senden"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Senden einer neuen Websiteankündigung an alle Benutzer"
+    },
+    {
+      "Name": "anncTitle",
+      "Text": "Site-Ankündigung"
+    },
+    {
+      "Name": "demo",
+      "Text": "Im Demo-Modus wird die Nachricht nur an den aktuellen Benutzer gesendet – andere Benutzer erhalten die Nachricht nicht."
+    },
+    {
+      "Name": "modName",
+      "Text": "Site-Ankündigung"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Sendet eine neue Websiteankündigung an alle Benutzer"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ankündigung der neuen Website"
+    },
+    {
+      "Name": "noLog",
+      "Text": "Nachricht gesendet. Neuer Protokolldatensatz für Websiteankündigungen konnte nicht hinzugefügt werden"
+    }
+  ]
+}

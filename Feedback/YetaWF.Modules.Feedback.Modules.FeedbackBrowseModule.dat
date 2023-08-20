@@ -1,0 +1,170 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Feedback.Modules.FeedbackBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "DisplayUrl",
+          "Caption": "URL anzeigen",
+          "Description": "Die URL zum Anzeigen einer Feedback-Nachricht - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "URL bearbeiten",
+          "Description": "Die URL zum Bearbeiten einer Feedback-Nachricht - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Feedback.Modules.FeedbackBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Erstellt",
+          "Description": "Das Datum, an dem die Nachricht erstellt wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "E-Mail-Adresse",
+          "Description": "Die E-Mail-Adresse des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IPAddress",
+          "Caption": "IP-Adresse",
+          "Description": "Die IP-Adresse, von der die Feedback-Nachricht gesendet wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Message",
+          "Caption": "Nachricht",
+          "Description": "Die Feedback-Nachricht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Name",
+          "Description": "Der Name des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Subject",
+          "Caption": "Betreff",
+          "Description": "Der Betreff der Nachricht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Anzeige und Verwaltung von Benutzerfeedback"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Feedback"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Feedback"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Anzeigen und Verwalten von Benutzerfeedback"
+    },
+    {
+      "Name": "modName",
+      "Text": "Feedback durchsuchen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird vom Websitebesitzer verwendet, um Benutzerfeedback anzuzeigen und zu verwalten. Es ist über Admin > Feedback (Standard-YetaWF-Site) zugänglich."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Feedback"
+    },
+    {
+      "Name": "more",
+      "Text": "... mehr"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie diese Feedback-Nachricht entfernen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernen Sie die Feedback-Nachricht"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Feedback entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Feedback entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernt die Feedback-Nachricht"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Entfernen von Feedbacknachrichten"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Feedback entfernen"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Entfernen von Feedback-Nachrichten"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Feedback entfernen"
+    }
+  ]
+}

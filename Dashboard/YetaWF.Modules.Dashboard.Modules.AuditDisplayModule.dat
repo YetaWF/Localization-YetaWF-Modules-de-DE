@@ -1,0 +1,138 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.AuditDisplayModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Action",
+          "Caption": "Aktion",
+          "Description": "Die Aktion, mit der dieser Datensatz erstellt wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Changes",
+          "Caption": "Änderungen",
+          "Description": "Die Eigenschaften, die geändert wurden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Erstellt",
+          "Description": "Datum/Uhrzeit der Erstellung dieses Datensatzes",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Beschreibung für diesen Datensatz",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExpensiveMultiInstance",
+          "Caption": "Teure Aktion",
+          "Description": "Definiert, ob es sich bei dieser Aktion um eine kostspielige Aktion an einem Standort mit mehreren Instanzen handelt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Id",
+          "Caption": "Id",
+          "Description": "Die interne ID",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IdentifyGuid",
+          "Caption": "Bezeichner/Typ",
+          "Description": "Der Typ des Datensatzes - Bezeichner Zeichenfolge und Typ identifizieren beide die Quelle dieses Datensatzes",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IdentifyString",
+          "Caption": "Bezeichner/Zeichenfolge",
+          "Description": "Die identifizierende Zeichenfolge des Datensatzes - Bezeichner Zeichenfolge und Typ identifizieren beide die Quelle dieses Datensatzes",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequiresRestart",
+          "Caption": "Neustart ausstehend",
+          "Description": "Definiert, ob für diese Aktion ein Neustart erforderlich ist, um wirksam zu werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteIdentity",
+          "Caption": "Platz",
+          "Description": "Die Website, die geändert wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Benutzer",
+          "Description": "Der Benutzer, der die Änderung vorgenommen hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt einen vorhandenen Überwachungsdatensatz an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Anzeigen des Audit-Datensatzes"
+    },
+    {
+      "Name": "modName",
+      "Text": "Audit-Protokoll"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt einen vorhandenen Überwachungsdatensatz an. Wird vom Audit-Informationsmodul verwendet."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Audit-Protokoll"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Audit-Info \"{0}\" nicht gefunden"
+    }
+  ]
+}

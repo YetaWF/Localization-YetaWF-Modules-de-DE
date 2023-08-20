@@ -1,0 +1,42 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Identity.UserStatusEnum",
+      "Entries": [
+        {
+          "Name": "NeedValidation",
+          "Value": "NeedValidation",
+          "Caption": "Verifizierung erforderlich",
+          "Description": "Ein neues Benutzerkonto, das noch nicht verifiziert oder genehmigt wurde"
+        },
+        {
+          "Name": "NeedApproval",
+          "Value": "NeedApproval",
+          "Caption": "Benötigt Genehmigung",
+          "Description": "Ein Benutzerkonto, dessen E-Mail-Adresse validiert wurde, aber noch genehmigt werden muss"
+        },
+        {
+          "Name": "Approved",
+          "Value": "Approved",
+          "Caption": "Genehmigter Benutzer",
+          "Description": "Ein Benutzerkonto, das genehmigt wurde"
+        },
+        {
+          "Name": "Rejected",
+          "Value": "Rejected",
+          "Caption": "Abgelehnter Benutzer",
+          "Description": "Ein Benutzerkonto, das abgelehnt wurde"
+        },
+        {
+          "Name": "Suspended",
+          "Value": "Suspended",
+          "Caption": "Gesperrter Benutzer",
+          "Description": "Ein Benutzerkonto, das gesperrt wurde"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

@@ -1,0 +1,31 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "all",
+      "Text": "(Alle)"
+    },
+    {
+      "Name": "allTT",
+      "Text": "Zeigt Blogs aus allen verfügbaren Blog-Kategorien an"
+    },
+    {
+      "Name": "none",
+      "Text": "(Keine verfügbar)"
+    },
+    {
+      "Name": "noneTT",
+      "Text": "Es gibt keine Blog-Kategorien"
+    },
+    {
+      "Name": "select",
+      "Text": "(auswählen)"
+    },
+    {
+      "Name": "selectTT",
+      "Text": "Bitte wählen Sie eine der verfügbaren Blog-Kategorien aus"
+    }
+  ]
+}

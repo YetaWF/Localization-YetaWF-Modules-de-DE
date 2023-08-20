@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "blog404_1",
+      "Text": "Es sieht so aus, als ob etwas schief gelaufen ist. Es gibt keine solche Seite auf dieser Website."
+    },
+    {
+      "Name": "blog404_2",
+      "Text": "Vielleicht haben wir diese Seite noch nicht erstellt. Oder vielleicht gibt es einen Tippfehler in der Seiten-URL."
+    }
+  ]
+}

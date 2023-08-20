@@ -1,0 +1,104 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CommentsDisplayModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "EditUrl",
+          "Caption": "URL bearbeiten",
+          "Description": "Die URL zum Bearbeiten eines Blog-Kommentars - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "approveConfirm",
+      "Text": "Sind Sie sicher, dass Sie diesen Kommentar genehmigen möchten?"
+    },
+    {
+      "Name": "approveLegend",
+      "Text": "Genehmigt einen Kommentar"
+    },
+    {
+      "Name": "approveLink",
+      "Text": "Billigen"
+    },
+    {
+      "Name": "approveMenu",
+      "Text": "Billigen"
+    },
+    {
+      "Name": "approveTT",
+      "Text": "Genehmigen Sie den Kommentar"
+    },
+    {
+      "Name": "comment0",
+      "Text": "Keine Kommentare"
+    },
+    {
+      "Name": "comment1",
+      "Text": "1 Kommentar"
+    },
+    {
+      "Name": "commentP",
+      "Text": "1 Kommentar zur Genehmigung ausstehend"
+    },
+    {
+      "Name": "comments",
+      "Text": "{0} Kommentare"
+    },
+    {
+      "Name": "commentsP",
+      "Text": "{0} Kommentare - 1 Kommentar zur Genehmigung ausstehend"
+    },
+    {
+      "Name": "commentsPs",
+      "Text": "{0} Kommentare - {1} Kommentare, die zur Genehmigung ausstehen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Kommentar-Einträge"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt alle Kommentare zu einem Blogeintrag an. Dieses Modul wird in der Regel auf derselben Seite wie das Eintragsanzeigemodul verwendet. Autorisierte Benutzer können Kommentare genehmigen und entfernen."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Kommentar-Einträge"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie diesen Kommentar entfernen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt einen Kommentar"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernen Sie den Kommentar"
+    }
+  ]
+}

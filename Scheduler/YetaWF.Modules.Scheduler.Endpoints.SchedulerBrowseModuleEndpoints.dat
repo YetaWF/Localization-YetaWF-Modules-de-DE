@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "noEvent",
+      "Text": "Kein Name des Scheduler-Elements angegeben"
+    },
+    {
+      "Name": "okStarting",
+      "Text": "Der Scheduler wird gestartet, wenn die Site neu gestartet wird"
+    },
+    {
+      "Name": "okStopping",
+      "Text": "Der Scheduler wird gestoppt, wenn die Site neu gestartet wird"
+    }
+  ]
+}

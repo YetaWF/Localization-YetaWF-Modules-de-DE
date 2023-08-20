@@ -1,0 +1,70 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SmallestMixedToken",
+          "Caption": "Kleinstes Schlüsselwort (Groß-/Kleinschreibung)",
+          "Description": "Das kleinste Schlüsselwort mit gemischter Groß-/Kleinschreibung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SmallestUpperCaseToken",
+          "Caption": "Kleinstes Schlüsselwort (Großbuchstaben)",
+          "Description": "Das kleinste Schlüsselwort in Großbuchstaben",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Sucheinstellungen"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Such-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "Such-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten Sie die Sucheinstellungen der Website"
+    },
+    {
+      "Name": "modName",
+      "Text": "Such-Einstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Hauptkonfigurationsmodul für Sucheinstellungen. Der Zugriff erfolgt über Admin > Einstellungen > Sucheinstellungen (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Such-Einstellungen"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Suchkonfiguration wurde nicht gefunden."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Suchkonfiguration gespeichert"
+    }
+  ]
+}

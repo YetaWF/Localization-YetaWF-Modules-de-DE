@@ -1,0 +1,82 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.UserSettings.Modules.MinimalSettingsEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "DateFormat",
+          "Caption": "Datumsformat",
+          "Description": "Das gewünschte Datumsformat, wenn Datumsangaben auf dieser Website angezeigt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Theme",
+          "Caption": "Thema",
+          "Description": "Das Design, das für alle Seiten der Website verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeFormat",
+          "Caption": "Zeitformat",
+          "Description": "Das gewünschte Zeitformat, wenn Zeiten auf dieser Website angezeigt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeZone",
+          "Caption": "Zeitzone",
+          "Description": "Ihre Zeitzone - alle Datums-/Uhrzeitangaben auf dieser Website werden an die angegebene Zeitzone angepasst",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet Ihre Benutzereinstellungen (Datums-/Uhrzeitformate)"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Einstellungen bearbeiten"
+    },
+    {
+      "Name": "editText",
+      "Text": "Einstellungen bearbeiten"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten Sie Ihre Benutzereinstellungen (Datums-/Uhrzeitformate)"
+    },
+    {
+      "Name": "modName",
+      "Text": "Benutzereinstellungen (minimal)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Bearbeitet die Einstellungen des angemeldeten Benutzers, z. B. gewünschte Datums-/Uhrzeitformate, Zeitzone."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Benutzereinstellungen"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Ihre Einstellungen wurden erfolgreich gespeichert"
+    }
+  ]
+}

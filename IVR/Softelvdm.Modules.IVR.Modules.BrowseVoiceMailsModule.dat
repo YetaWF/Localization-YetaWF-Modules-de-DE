@@ -1,0 +1,228 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseVoiceMailsModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "DisplayUrl",
+          "Caption": "Url anzeigen",
+          "Description": "Die URL zum Anzeigen eines Voicemail-Eintragskunden - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseVoiceMailsModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Caller",
+          "Caption": "Von",
+          "Description": "Die Telefonnummer des Anrufers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerCity",
+          "Caption": "Aus der Stadt",
+          "Description": "Die Stadt des Anrufers (falls verfügbar)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerCountry",
+          "Caption": "Aus dem Land",
+          "Description": "Das Land des Anrufers (falls verfügbar)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerState",
+          "Caption": "Von Staat",
+          "Description": "Status des Anrufers (falls verfügbar)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerZip",
+          "Caption": "Von Postleitzahl",
+          "Description": "Die Postleitzahl des Anrufers (falls vorhanden)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallSid",
+          "Caption": "Rufen Sie Sid an",
+          "Description": "Die ID, die von Twilio zur Identifizierung des Anrufs verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Erstellt",
+          "Description": "Datum/Uhrzeit der Erstellung der Voicemailnachricht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Duration",
+          "Caption": "Dauer",
+          "Description": "Die Dauer der Voicemailnachricht (in Sekunden)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Extension",
+          "Caption": "Erweiterung",
+          "Description": "Die Durchwahl, für die die Voicemailnachricht gespeichert wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Heard",
+          "Caption": "Gehört",
+          "Description": "Definiert, ob die Voicemail bereits abgehört wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Id",
+          "Caption": "Id",
+          "Description": "Die interne ID",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "To",
+          "Caption": "Telefonnummer",
+          "Description": "Die Telefonnummer, für die die Voicemailnachricht gespeichert wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseVoiceMailsModule+BrowseModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GridDef",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Anzeigen und Verwalten von Voicemail-Einträgen"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Voicemail-Einträge"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Voicemail-Einträge"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Anzeigen und Verwalten von Voicemaileinträgen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Voicemail-Einträge"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Voicemaileinträge an und verwaltet sie."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Voicemail-Einträge"
+    },
+    {
+      "Name": "noInbox",
+      "Text": "Für den aktuellen Benutzer ist keine Erweiterung definiert"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie diesen Voicemaileintrag entfernen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt den Voicemaileintrag"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernen des Voicemaileintrags"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Entfernen einzelner Voicemaileinträge"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Entfernen von Voicemaileinträgen"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Entfernen einzelner Voicemaileinträge"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Entfernen von Voicemaileinträgen"
+    }
+  ]
+}

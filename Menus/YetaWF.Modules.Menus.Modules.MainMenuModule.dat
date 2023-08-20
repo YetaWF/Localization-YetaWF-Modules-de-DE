@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Hauptmenü"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implementiert ein Menü. Dies kann nach Bedarf zum Skin einer Website oder zu Seiten hinzugefügt werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Hauptmenü"
+    }
+  ]
+}

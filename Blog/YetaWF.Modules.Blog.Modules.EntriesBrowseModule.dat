@@ -1,0 +1,206 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.EntriesBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "URL hinzufügen",
+          "Description": "Die URL zum Hinzufügen eines neuen Blogeintrags - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "URL bearbeiten",
+          "Description": "Die URL zum Bearbeiten eines Blogeintrags - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.EntriesBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Author",
+          "Caption": "Verfasser",
+          "Description": "Der Name des Blog-Autors",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Category",
+          "Caption": "Kategorie",
+          "Description": "Der Name der Blog-Kategorie",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Comments",
+          "Caption": "Kommentare",
+          "Description": "Die Anzahl der Kommentare",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CommentsUnapproved",
+          "Caption": "Zu genehmigende Kommentare",
+          "Description": "Die Anzahl der Kommentare, die genehmigt werden müssen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateCreated",
+          "Caption": "Erstellungsdatum",
+          "Description": "Das Datum, an dem dieser Eintrag erstellt wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DatePublished",
+          "Caption": "Veröffentlichungsdatum",
+          "Description": "Das Datum der Veröffentlichung dieses Eintrags",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateUpdated",
+          "Caption": "Datum der Aktualisierung",
+          "Description": "Das Datum, an dem dieser Eintrag aktualisiert wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Identity",
+          "Caption": "Id",
+          "Description": "Die ID dieses Blogeintrags - wird verwendet, um diesen Blogeintrag intern eindeutig zu identifizieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OpenForComments",
+          "Caption": "Kommentare zulassen",
+          "Description": "Legt fest, ob Kommentare zu diesem Blogeintrag eingetragen werden können",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Published",
+          "Caption": "Veröffentlicht",
+          "Description": "Legt fest, ob dieser Eintrag veröffentlicht wurde und für alle sichtbar ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titel",
+          "Description": "Der Titel dieses Blogeintrags",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Anzeige und Verwaltung von Blogeinträgen"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Blog-Einträge"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Blog-Einträge"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Blogeinträge anzeigen und verwalten"
+    },
+    {
+      "Name": "modName",
+      "Text": "Blog-Einträge"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Blogeinträge an und verwaltet sie. Es ist über Admin > Blog > Einträge (Standard-YetaWF-Site) zugänglich. Es wird verwendet, um Blogeinträge hinzuzufügen, zu bearbeiten, anzuzeigen und zu entfernen."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Blog-Einträge"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Bist du sicher, dass du diesen Blogeintrag entfernen möchtest?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt den Blogeintrag"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Blogeintrag entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Blogeintrag entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernen Sie den Blogeintrag"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung, einzelne Blogeinträge zu entfernen"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Blogeinträge entfernen"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer hat die Berechtigung, einzelne Blogeinträge zu entfernen"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Blogeinträge entfernen"
+    }
+  ]
+}

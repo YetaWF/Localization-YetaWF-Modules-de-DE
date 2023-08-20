@@ -1,0 +1,356 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.BasicTemplatesModule+EditModel",
+      "BaseTypeName": null,
+      "Header": "YetaWF-Komponententest - Alle Felder sind erforderlich, aber einige haben Standardwerte, die akzeptabel sind, so dass keine Warnung angezeigt wird. Einige Komponenten haben eine eigene Testseite (siehe Tests > Komponenten), sodass sie auf dieser Seite nicht enthalten sind.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Core": "Kern"
+      },
+      "Properties": [
+        {
+          "Name": "Boolean",
+          "Caption": "Boolesch",
+          "Description": "Boolescher Wert (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BooleanText",
+          "Caption": "BooleanText",
+          "Description": "BooleanText (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CAProvince",
+          "Caption": "CAProvince",
+          "Description": "CAProvince (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ControlStatus",
+          "Caption": "Status der Steuerung",
+          "Description": "Legt den Bearbeitungsstatus der Steuerelemente fest",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Country",
+          "Caption": "LandISO3166",
+          "Description": "LandISO3166 (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Currency",
+          "Caption": "Währung",
+          "Description": "Währung (erforderlich) - Verwendet Formatierungen, die über Websiteeinstellungen, Registerkarte Allgemein definiert wurden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CurrencyISO4217",
+          "Caption": "WährungISO4217",
+          "Description": "WährungISO4217 (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Decimal",
+          "Caption": "Dezimal",
+          "Description": "Dezimal (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DropDownList",
+          "Caption": "Dropdown-Liste",
+          "Description": "DropDownList (SelectionRequired)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DropDownListInt",
+          "Caption": "DropDownListInt",
+          "Description": "DropDownListInt (SelectionRequired)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Enum",
+          "Caption": "Aufzählung",
+          "Description": "Enumeration (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FileUpload1",
+          "Caption": "DateiUpload1",
+          "Description": "DateiUpload1",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Guid",
+          "Caption": "Guid",
+          "Description": "Guid (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IntValue",
+          "Caption": "IntValue",
+          "Description": "IntValue (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IntValue2",
+          "Caption": "IntValue2",
+          "Description": "IntValue2 (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IntValue4",
+          "Caption": "IntValue4",
+          "Description": "IntValue4 (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IntValue6",
+          "Caption": "IntValue6",
+          "Description": "IntValue6 (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LanguageId",
+          "Caption": "LanguageId (Sprache)",
+          "Description": "LanguageId (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LongValue",
+          "Caption": "LongValue (Langfristiger Wert)",
+          "Description": "LongValue (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageSelection",
+          "Caption": "PageSelection (Seitenauswahl)",
+          "Description": "PageSelection (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PaneSelection",
+          "Caption": "PaneSelection (PaneSelection)",
+          "Description": "PaneSelection (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Password20",
+          "Caption": "Passwort20",
+          "Description": "Passwort20 (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SMTPServer",
+          "Caption": "SMTPServer",
+          "Description": "SMTPServer (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Switch",
+          "Caption": "Schalter",
+          "Description": "Schalter",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SwitchDis",
+          "Caption": "Schalter (deaktiviert)",
+          "Description": "Schalter (deaktiviert)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Text",
+          "Caption": "Text",
+          "Description": "Text (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Text10",
+          "Caption": "Text10",
+          "Description": "Text10 (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Text20",
+          "Caption": "Text20",
+          "Description": "Text20 (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Text40",
+          "Caption": "Text40",
+          "Description": "Text40 (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Text80",
+          "Caption": "Text80",
+          "Description": "Text80 (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TextArea",
+          "Caption": "TextArea (Textfeld)",
+          "Description": "TextArea (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "USState",
+          "Caption": "USState",
+          "Description": "USState (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.BasicTemplatesModule+EditModel+SampleEnum",
+      "Entries": [
+        {
+          "Name": "Value1",
+          "Value": "Value1",
+          "Caption": "Aufzählung 1",
+          "Description": "Tooltip für Enum 1"
+        },
+        {
+          "Name": "Value2",
+          "Value": "Value2",
+          "Caption": "Aufzählung 2",
+          "Description": "Tooltip für Enum 2"
+        },
+        {
+          "Name": "Value3",
+          "Value": "Value3",
+          "Caption": "Aufzählung 3",
+          "Description": "Tooltip für Enum 3"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "btnSelect",
+      "Text": "Laden Sie eine Datei hoch..."
+    },
+    {
+      "Name": "currencyPH",
+      "Text": "(Betrag)"
+    },
+    {
+      "Name": "decimalPH",
+      "Text": "(Anzahl)"
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Wird verwendet, um alle allgemein verfügbaren Komponenten zu testen"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Grundlegende Komponenten"
+    },
+    {
+      "Name": "editText",
+      "Text": "Grundlegende Komponenten"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Wird verwendet, um alle allgemein verfügbaren Komponenten zu testen"
+    },
+    {
+      "Name": "intvaluePH",
+      "Text": "(Anzahl)"
+    },
+    {
+      "Name": "modName",
+      "Text": "Test der Basiskomponenten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Testmodul für viele grundlegende eingebaute YetaWF.Core-Standardvorlagen. Eine Testseite für dieses Modul finden Sie unter Tests > Templates > Basic Templates (Standard-YetaWF-Seite)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Test der Basiskomponenten"
+    },
+    {
+      "Name": "ok",
+      "Text": "OKAY"
+    },
+    {
+      "Name": "password20PH",
+      "Text": "(Passwort)"
+    },
+    {
+      "Name": "textPH",
+      "Text": "(Dies ist ein Platzhalter)"
+    }
+  ]
+}

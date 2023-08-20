@@ -1,0 +1,63 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnAdd",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "btnApply",
+      "Text": "Anwenden"
+    },
+    {
+      "Name": "btnDelete",
+      "Text": "Entfernen"
+    },
+    {
+      "Name": "btnDown",
+      "Text": ">>"
+    },
+    {
+      "Name": "btnIns",
+      "Text": "Einfügen"
+    },
+    {
+      "Name": "btnUp",
+      "Text": "<<"
+    },
+    {
+      "Name": "noCaption",
+      "Text": "(ohne Bildunterschrift)"
+    },
+    {
+      "Name": "noDesc",
+      "Text": "(keine Beschreibung)"
+    },
+    {
+      "Name": "txtAdd",
+      "Text": "Klicken Sie hier, um einen neuen Schritt nach dem aktuellen Schritt hinzuzufügen"
+    },
+    {
+      "Name": "txtApply",
+      "Text": "Klicken Sie hier, um die aktuellen Änderungen zu übernehmen"
+    },
+    {
+      "Name": "txtDelete",
+      "Text": "Klicken Sie hier, um den aktuellen Schritt zu entfernen"
+    },
+    {
+      "Name": "txtDown",
+      "Text": "Klicken Sie, um den aktuellen Schritt zu verschieben"
+    },
+    {
+      "Name": "txtIns",
+      "Text": "Klicken Sie auf diese Option, um einen neuen Schritt vor dem aktuellen Schritt einzufügen."
+    },
+    {
+      "Name": "txtUp",
+      "Text": "Klicken Sie, um den aktuellen Schritt zu verschieben"
+    }
+  ]
+}

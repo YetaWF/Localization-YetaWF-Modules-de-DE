@@ -1,0 +1,83 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Blog.DataProvider.Gravatar+GravatarEnum",
+      "Entries": [
+        {
+          "Name": "None",
+          "Value": "None",
+          "Caption": "(keine)",
+          "Description": "Es wird kein Bild angezeigt"
+        },
+        {
+          "Name": "mm",
+          "Value": "mm",
+          "Caption": "Mysteriöser Mann",
+          "Description": "Ein einfacher, silhouettenhafter Umriss einer Person im Cartoon-Stil - für alle E-Mail-Adressen gleich"
+        },
+        {
+          "Name": "identicon",
+          "Value": "identicon",
+          "Caption": "Identicon",
+          "Description": "Ein geometrisches Muster - variiert je nach E-Mail-Adresse"
+        },
+        {
+          "Name": "monsterid",
+          "Value": "monsterid",
+          "Caption": "Monsterid",
+          "Description": "Ein generiertes \"Monster\" mit verschiedenen Farben, Gesichtern usw. - variiert je nach E-Mail-Adresse"
+        },
+        {
+          "Name": "wavatar",
+          "Value": "wavatar",
+          "Caption": "Wavatar",
+          "Description": "Ein generiertes Gesicht mit unterschiedlichen Merkmalen und Hintergründen - variiert je nach E-Mail-Adresse"
+        },
+        {
+          "Name": "retro",
+          "Value": "retro",
+          "Caption": "Retro",
+          "Description": "Ein fantastisches, generiertes pixeliges Gesicht im 8-Bit-Arcade-Stil - variiert je nach E-Mail-Adresse"
+        },
+        {
+          "Name": "blank",
+          "Value": "blank",
+          "Caption": "Leer",
+          "Description": "Ein transparentes PNG-Bild - dasselbe gilt für alle E-Mail-Adressen"
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Blog.DataProvider.Gravatar+GravatarRatingEnum",
+      "Entries": [
+        {
+          "Name": "G",
+          "Value": "G",
+          "Caption": "Allgemein",
+          "Description": "Gravatare, die für die Anzeige auf allen Websites mit jedem Zielgruppentyp geeignet sind"
+        },
+        {
+          "Name": "PG",
+          "Value": "PG",
+          "Caption": "Leicht unangemessen",
+          "Description": "Gravatare können unhöfliche Gesten, provokativ gekleidete Personen, die geringeren Schimpfwörter oder leichte Gewalt enthalten"
+        },
+        {
+          "Name": "R",
+          "Value": "R",
+          "Caption": "Unangebracht",
+          "Description": "Gravatare können Dinge wie harte Obszönitäten, intensive Gewalt, Nacktheit oder harten Drogenkonsum enthalten"
+        },
+        {
+          "Name": "X",
+          "Value": "X",
+          "Caption": "Ernsthaft unangemessen",
+          "Description": "Gravatare können Hardcore-Sexualbilder oder extrem verstörende Gewalt enthalten"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

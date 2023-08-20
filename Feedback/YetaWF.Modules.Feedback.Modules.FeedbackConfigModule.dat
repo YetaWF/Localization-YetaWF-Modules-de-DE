@@ -1,0 +1,94 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Feedback.Modules.FeedbackConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "BccEmails",
+          "Caption": "Feedback-E-Mails kopieren",
+          "Description": "Legt fest, ob der Site-Administrator eine Kopie aller Feedback-Nachrichten erhält",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Captcha",
+          "Caption": "Captcha verwenden",
+          "Description": "Der Benutzer muss einen \"menschlichen\" Test bestehen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "E-Mail-Adresse",
+          "Description": "Die E-Mail-Adresse, an die alle Feedback-Nachrichten gesendet werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequireEmail",
+          "Caption": "E-Mail-Adresse erforderlich",
+          "Description": "Legt fest, ob der Benutzer seine E-Mail-Adresse eingeben muss, um Feedback senden zu können",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequireName",
+          "Caption": "Name erforderlich",
+          "Description": "Legt fest, ob der Benutzer seinen Namen eingeben muss, um Feedback senden zu können",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Feedback-Einstellungen"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Feedback-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "Feedback-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten der Feedback-Einstellungen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Feedback-Einstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Das Konfigurationsmodul für die Feedback-Module und definiert globale Einstellungen. Der Zugriff erfolgt über Admin > Einstellungen > Feedback-Einstellungen (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Feedback-Einstellungen"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Feedback-Einstellungen wurden nicht gefunden."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Feedback-Einstellungen gespeichert"
+    }
+  ]
+}

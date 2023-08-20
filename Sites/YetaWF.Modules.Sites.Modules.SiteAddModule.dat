@@ -1,0 +1,66 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Sites.Modules.SiteAddModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SiteDomain",
+          "Caption": "Site-Domain",
+          "Description": "Der Domainname der Website",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteName",
+          "Caption": "Name der Website",
+          "Description": "Der Name, der mit Ihrer Website verbunden ist, in der Regel Ihr Firmenname oder Ihr Name",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Erstellt eine neue Website"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Neue Website hinzufügen"
+    },
+    {
+      "Name": "addText",
+      "Text": "Neue Website hinzufügen"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Erstellen einer neuen Website"
+    },
+    {
+      "Name": "modName",
+      "Text": "Neue Website hinzufügen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Erstellt eine neue Website. Es wird vom Sites-Modul verwendet. Es wird empfohlen, die neue Websitedomäne zu Ihrer Hostdatei hinzuzufügen, BEVOR Sie eine neue Website hinzufügen, damit IIS die Website auflösen kann, wenn sie zum ersten Mal angefordert wird."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Neue Website hinzufügen"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Neue Website \"{0}\" erstellt: Klicken Sie auf OK, um die neue Website mit der aktuellen Websitevorlage zu füllen. (+nl) (+nl) WICHTIG: Auf diese Website kann über ihre URL erst zugegriffen werden, wenn die Domäne \"{0}\" in IIS und in der Hosts-Datei definiert ist."
+    }
+  ]
+}

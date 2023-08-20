@@ -1,0 +1,31 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "extUser",
+      "Text": "Auf dieses Konto kann nur über einen externen Login-Anbieter zugegriffen werden"
+    },
+    {
+      "Name": "noItem",
+      "Text": "Bestätigungs-E-Mail kann nicht gesendet werden (Ursachencode 1)"
+    },
+    {
+      "Name": "noNeed",
+      "Text": "Bestätigungs-E-Mail kann nicht gesendet werden (Ursachencode 3)"
+    },
+    {
+      "Name": "notApproved",
+      "Text": "Ihr Konto ist kein genehmigtes Konto."
+    },
+    {
+      "Name": "notFoundUser",
+      "Text": "Bestätigungs-E-Mail kann nicht gesendet werden (Ursachencode 2)"
+    },
+    {
+      "Name": "verificationSent",
+      "Text": "Bestätigungs-E-Mail gesendet."
+    }
+  ]
+}

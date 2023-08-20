@@ -1,0 +1,138 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.SchedulerEditModule+SchedulerEditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Beschreibung dieses Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Enabled",
+          "Caption": "Ermöglichte",
+          "Description": "Definiert, ob das Scheduler-Element aktiviert ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EnableOnStartup",
+          "Caption": "Beim Start aktivieren",
+          "Description": "Legt fest, ob das Scheduler-Element bei jedem Neustart der Website aktiviert wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Event",
+          "Caption": "Ereignis",
+          "Description": "Das Ereignis, das zur geplanten Zeit ausgeführt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Frequency",
+          "Caption": "Intervall",
+          "Description": "Die Häufigkeit des Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Name",
+          "Description": "Der Name dieses Scheduler-Elements - der Name wird verwendet, um ein Scheduler-Element zu identifizieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunOnce",
+          "Caption": "Einmal ausführen",
+          "Description": "Definiert, ob das Schedulerelement nur einmal ausgeführt wird. Sobald der Vorgang abgeschlossen ist, wird er deaktiviert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteSpecific",
+          "Caption": "Standortspezifisch",
+          "Description": "Definiert, ob das Schedulerelement für jeden Standort ausgeführt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Startup",
+          "Caption": "Start",
+          "Description": "Definiert, ob das Scheduler-Element beim Start der Website ausgeführt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "Das Scheduler-Element mit dem Namen \"{0}\" wurde entfernt und kann nicht mehr aktualisiert werden."
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Ein Scheduler-Element mit dem Namen \"{0}\" ist bereits vorhanden."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet ein vorhandenes Planerelement"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Redigieren"
+    },
+    {
+      "Name": "editText",
+      "Text": "Redigieren"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten eines vorhandenen Scheduler-Elements"
+    },
+    {
+      "Name": "modName",
+      "Text": "Scheduler-Element bearbeiten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Bearbeitet Details für ein vorhandenes Scheduler-Element. Wird vom Scheduler-Modul verwendet."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Scheduler-Element"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Scheduler-Eintrag \"{0}\" nicht gefunden."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Scheduler-Element gespeichert"
+    },
+    {
+      "Name": "title",
+      "Text": "Scheduler-Element \"{0}\""
+    }
+  ]
+}

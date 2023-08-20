@@ -1,0 +1,181 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Packages.Package+AddOnType",
+      "Entries": [
+        {
+          "Name": "Package",
+          "Value": "Package",
+          "Caption": "Paket",
+          "Description": "Paket-Support-Addon"
+        },
+        {
+          "Name": "Template",
+          "Value": "Template",
+          "Caption": "Bestandteil",
+          "Description": "Komponenten-Addon"
+        },
+        {
+          "Name": "Skin",
+          "Value": "Skin",
+          "Caption": "Haut",
+          "Description": "Skin-Addon"
+        },
+        {
+          "Name": "AddonNamed",
+          "Value": "AddonNamed",
+          "Caption": "Javascript",
+          "Description": "Benanntes Addon"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "addProject",
+      "Text": "Sie müssen nun das Projekt zu Ihrer Visual Studio-Projektmappe hinzufügen und einen Projektverweis auf die YetaWF-Site (Website) hinzufügen, damit sie ordnungsgemäß erstellt wird. Ohne diesen Verweis verwendet die Website das neue Paket nicht, wenn es mit Visual Studio neu erstellt wird."
+    },
+    {
+      "Name": "cantDelete",
+      "Text": "Paketquellordner {0} konnte nicht gelöscht werden: {1}"
+    },
+    {
+      "Name": "cantDeleteAddons",
+      "Text": "Site Addons-Ordner {0} konnte nicht gelöscht werden: {1}"
+    },
+    {
+      "Name": "cantInstallModels",
+      "Text": "Modelle für Paket {0}:(+nl können nicht installiert werden."
+    },
+    {
+      "Name": "cantRemove",
+      "Text": "Paket-Addons-Ordner {0} konnte nicht gelöscht werden: {1}"
+    },
+    {
+      "Name": "cantRemoveExtraAsm",
+      "Text": "Datei kann nicht gelöscht werden {0}: {1}"
+    },
+    {
+      "Name": "cantRemoveHierarchy",
+      "Text": "Paket-Addons-Ordner {0} konnte nicht gelöscht werden: {1}"
+    },
+    {
+      "Name": "cantRemoveMainAsm",
+      "Text": "Datei kann nicht gelöscht werden {0}: {1}"
+    },
+    {
+      "Name": "errCantImport",
+      "Text": "Paket {0}({1}) kann nicht importiert werden - {2}"
+    },
+    {
+      "Name": "errDataCantImport",
+      "Text": "Modelltyp {0} kann nicht importiert werden - {1}"
+    },
+    {
+      "Name": "errDataCorrupt",
+      "Text": "Zip-Datei {1} beschädigt - Datei {0} nicht gefunden."
+    },
+    {
+      "Name": "errModCantExport",
+      "Text": "Modelltyp {0} kann nicht exportiert werden - {1}"
+    },
+    {
+      "Name": "errPackageType",
+      "Text": "Nicht unterstützter Pakettyp {0}"
+    },
+    {
+      "Name": "errPkgDataDeser",
+      "Text": "Fehler beim Deserialisieren {0} - {1}"
+    },
+    {
+      "Name": "errPkgDataVers",
+      "Text": "Die zu importierenden Daten wurden für Version {0} von Paket {1} erstellt, aber das installierte Paket ist älter (Version ist {2})."
+    },
+    {
+      "Name": "errPkgReqDataImp",
+      "Text": "Paket{0} zum Importieren von Daten erforderlich ist, ist nicht installiert."
+    },
+    {
+      "Name": "errSymlink",
+      "Text": "Symbolischer Link/Junction von {0} nach {1} konnte nicht erstellt werden - Sie müssen den Fehler untersuchen und den Link manuell erstellen mit: (+nl)mklink /D \"{0}\",\"{1}\""
+    },
+    {
+      "Name": "invContentsFormat",
+      "Text": "{0} ist keine gültige Binär- oder Quellcode-Paketdatei - Keine Inhaltsdatei gefunden."
+    },
+    {
+      "Name": "invCore",
+      "Text": "Dieses Paket benötigt YetaWF Version {0} - Die aktuell gefundene Version ist {1}"
+    },
+    {
+      "Name": "invDataContentsFormat",
+      "Text": "{0} ist keine gültige Paketdatendatei - Keine Inhaltsdatei gefunden."
+    },
+    {
+      "Name": "invDataFormat",
+      "Text": "{0} ist keine gültige Paketdatendatei."
+    },
+    {
+      "Name": "invFormat",
+      "Text": "{0} handelt sich nicht um eine gültige Binär- oder Quellcode-Paketdatei."
+    },
+    {
+      "Name": "invMvc",
+      "Text": "Dieses Paket wurde für {0} erstellt, aber diese Seite läuft {1}"
+    },
+    {
+      "Name": "need400",
+      "Text": "Dieses Paket wurde mit einer früheren YetaWF-Version erstellt {0} - Mit YetaWF 4.0.0 wurde ein neues Paketformat eingeführt, das ältere Pakete inkompatibel macht"
+    },
+    {
+      "Name": "noCompany",
+      "Text": "Falsch verpacktes Modul - kein Firmenname vorhanden - Paket {0}"
+    },
+    {
+      "Name": "noDesc",
+      "Text": "Falsch verpacktes Modul - keine Beschreibung verfügbar - Paket {0}"
+    },
+    {
+      "Name": "noDomain",
+      "Text": "Falsch gepacktes Modul - keine Domain verfügbar - Paket {0}"
+    },
+    {
+      "Name": "noLangDomain",
+      "Text": "Falsch gepacktes Modul - keine Sprachdomäne verfügbar - Paket {0}"
+    },
+    {
+      "Name": "noName",
+      "Text": "Falsch verpacktes Modul - kein Produktname verfügbar - Paket {0}"
+    },
+    {
+      "Name": "noVers",
+      "Text": "Falsch verpacktes Modul - keine Version verfügbar - Paket {0}"
+    },
+    {
+      "Name": "packageDataFmt",
+      "Text": "Paketdaten - {0}. {1}.zip"
+    },
+    {
+      "Name": "packageFmtCore",
+      "Text": "Paket ASPNETCore - {0}. {1}.zip"
+    },
+    {
+      "Name": "packageFmtSrcCore",
+      "Text": "Paket w_Source ASPNETCore - {0}. {1}.zip"
+    },
+    {
+      "Name": "uploadedDataFile",
+      "Text": "Hochgeladene Datei"
+    },
+    {
+      "Name": "uploadedFile",
+      "Text": "Hochgeladene Datei"
+    },
+    {
+      "Name": "warnReqPckages",
+      "Text": "Dieses Paket benötigt zusätzliche Pakete - Diese sollten gleichzeitig importiert werden:{0}"
+    }
+  ]
+}

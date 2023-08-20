@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnSend",
+      "Text": "Senden"
+    },
+    {
+      "Name": "noMsg",
+      "Text": "Messaging-Dienste sind nicht verfügbar (fügen Sie einen Verweis auf das Modul \"Websiteankündigungen (Skin)\" in den Website-Einstellungen hinzu)."
+    }
+  ]
+}

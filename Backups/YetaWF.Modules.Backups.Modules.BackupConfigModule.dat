@@ -1,0 +1,70 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Backups.Modules.BackupConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "DataOnly",
+          "Caption": "Nur Daten",
+          "Description": "Legt fest, ob nur Daten gesichert werden (geplante Backups) - Ansonsten werden alle Quell- und Binärdateien (komplette Pakete) gesichert - Für Produktionsstandorte ist es in der Regel ausreichend, die Daten zu sichern",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Days",
+          "Caption": "Tage",
+          "Description": "Die Anzahl der Tage, die ein Backup gespeichert wird - sobald ein Backup für die angegebene Anzahl von Tagen gespeichert wurde, wird es gelöscht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Backup-Einstellungen"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Backup-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "Backup-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten der Sicherungseinstellungen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Backup-Einstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Bearbeitet die Backup-Einstellungen einer Site."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Backup-Einstellungen"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Sicherungseinstellungen konnten nicht gefunden werden"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Backup-Einstellungen gespeichert"
+    }
+  ]
+}

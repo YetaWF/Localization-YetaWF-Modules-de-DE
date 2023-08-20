@@ -1,0 +1,27 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Disqus-Kommentare"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Verwaltet alle Kommentare für einen Blogeintrag auf der aktuellen Seite mithilfe des Disqus-Dienstes. Dieses Modul wird in der Regel auf derselben Seite wie das Eintragsanzeigemodul verwendet."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Kommentare"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Disqus-Einstellungen konnten nicht gefunden werden"
+    },
+    {
+      "Name": "notShortName",
+      "Text": "Die Disqus-Einstellungen müssen aktualisiert werden, um den Shortname der Site zu definieren"
+    }
+  ]
+}

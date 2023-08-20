@@ -1,0 +1,80 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchControlModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Variables": "Variablen"
+      },
+      "Properties": [
+        {
+          "Name": "ModuleHasSettings",
+          "Caption": "Hat Einstellungen",
+          "Description": "Legt fest, ob das Modul über Einstellungen verfügt, die bearbeitet und gespeichert werden können",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowModuleMenu",
+          "Caption": "Modulmenü anzeigen",
+          "Description": "Zeigt an, ob das Modulmenü für dieses Modul angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Suchergebnisse Textmarker (Haut)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Hebt alle Suchbegriffe hervor, die auf der aktuell angezeigten Seite gefunden wurden. Es kann als Skin-Modul eingebunden oder von einer Site, Seite oder einem Modul referenziert werden (siehe Registerkarte \"Referenzen\" in den Seiten-, Modul- oder Site-Einstellungen). Weitere Informationen finden Sie unter Skin-Module."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Skin Suchergebnisse Textmarker"
+    },
+    {
+      "Name": "offLegend",
+      "Text": "Deaktiviert die Hervorhebung von Suchergebnissen für eine Seite"
+    },
+    {
+      "Name": "offLink",
+      "Text": "Aus"
+    },
+    {
+      "Name": "offText",
+      "Text": "Aus"
+    },
+    {
+      "Name": "offTooltip",
+      "Text": "Hervorhebung der Suchergebnisse für diese Seite deaktivieren"
+    },
+    {
+      "Name": "onLegend",
+      "Text": "Aktiviert die Hervorhebung von Suchergebnissen für eine Seite"
+    },
+    {
+      "Name": "onLink",
+      "Text": "Auf"
+    },
+    {
+      "Name": "onText",
+      "Text": "Auf"
+    },
+    {
+      "Name": "onTooltip",
+      "Text": "Hervorhebung der Suchergebnisse für diese Seite aktivieren"
+    }
+  ]
+}

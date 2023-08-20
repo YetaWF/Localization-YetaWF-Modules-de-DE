@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Disqus-Links (Skin)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Fügt die Anzahl der Kommentare zu Links zu Seiten mit Disqus-Kommentaren hinzu. Dieses Modul wird in der Regel als Modulreferenz von Seiten oder einer Website verwendet, um die Anzahl der Kommentare hinzuzufügen, die für Seiten mit Links zu Seiten mit Disqus-Kommentaren verfügbar sind."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Disqus-Links"
+    }
+  ]
+}

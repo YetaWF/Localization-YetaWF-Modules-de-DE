@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cantImport",
+      "Text": "{0}:{1} kann nicht importiert werden"
+    },
+    {
+      "Name": "imported",
+      "Text": "\"{0}\" erfolgreich importiert - SIE MÜSSEN DIE SITE NEU STARTEN, UM ORDNUNGSGEMÄSS ZU FUNKTIONIEREN"
+    }
+  ]
+}

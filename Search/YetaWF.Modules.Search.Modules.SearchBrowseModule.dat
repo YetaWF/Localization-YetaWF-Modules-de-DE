@@ -1,0 +1,286 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "URL hinzufügen",
+          "Description": "Die URL zum Hinzufügen eines neuen Suchbegriffs - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayUrl",
+          "Caption": "Url anzeigen",
+          "Description": "Die URL zum Anzeigen eines Suchbegriffs - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "URL bearbeiten",
+          "Description": "Die URL zum Bearbeiten eines Suchbegriffs - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AllowAnonymous",
+          "Caption": "Anonyme Benutzer",
+          "Description": "Ob anonyme Benutzer die Seite anzeigen können",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AllowAnyUser",
+          "Caption": "Beliebige Benutzer",
+          "Description": "Gibt an, ob ein angemeldeter Benutzer die Seite anzeigen kann",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Count",
+          "Caption": "Zählen",
+          "Description": "Die Häufigkeit, mit der dieses Schlüsselwort auf der Seite gefunden wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateAdded",
+          "Caption": "Zugefügt",
+          "Description": "Datum/Uhrzeit des Hinzufügens dieses Schlüsselworts",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DatePageCreated",
+          "Caption": "Erstellt",
+          "Description": "Datum/Uhrzeit der Erstellung der Seite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DatePageUpdated",
+          "Caption": "Aktualisierte",
+          "Description": "Datum/Uhrzeit der letzten Aktualisierung der Seite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Language",
+          "Caption": "Sprache",
+          "Description": "Die Sprache der Seite, auf der dieses Schlüsselwort gefunden wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageSummary",
+          "Caption": "Zusammenfassung",
+          "Description": "Die Seitenzusammenfassung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageTitle",
+          "Caption": "Titel",
+          "Description": "Der Seitentitel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageUrl",
+          "Caption": "URL",
+          "Description": "Die Seite, auf der dieses Schlüsselwort gefunden wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SearchDataId",
+          "Caption": "Id",
+          "Description": "Die interne ID this Schlüsselwort",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SearchTerm",
+          "Caption": "Suchbegriff",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Anzeige und Verwaltung von Suchbegriffen"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Suchbegriffe"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Suchbegriffe"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Anzeigen und Verwalten von Suchbegriffen"
+    },
+    {
+      "Name": "collectConfirm",
+      "Text": "Sind Sie sicher, dass Sie alle Keywords für diese Website sammeln möchten?"
+    },
+    {
+      "Name": "collectLegend",
+      "Text": "Sammelt die Suchbegriffe einer Website, indem alle Seiten untersucht werden - Berücksichtigt nur Seiten, die seit der letzten Suche geändert wurden"
+    },
+    {
+      "Name": "collectLink",
+      "Text": "Keywords sammeln"
+    },
+    {
+      "Name": "collectMenu",
+      "Text": "Keywords sammeln"
+    },
+    {
+      "Name": "collectPlsWait",
+      "Text": "Keywords werden gesammelt..."
+    },
+    {
+      "Name": "collectTT",
+      "Text": "Erfassen Sie die Suchbegriffe der Website, indem Sie alle Seiten untersuchen - Berücksichtigt nur Seiten, die seit der letzten Suche geändert wurden"
+    },
+    {
+      "Name": "modName",
+      "Text": "Suchbegriffe"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Suchbegriffe an, die auf den Seiten der Website gefunden wurden, und verwaltet sie. Der Zugriff erfolgt über das Admin > Panel > Search Keywords (Standard-YetaWF-Site). Dieses Modul bietet eine Aktion Keywords sammeln, mit der alle Seiten-Keywords sofort extrahiert werden können (statt durch den Scheduler in regelmäßigen Abständen). Diese Aufgabe kann über einen längeren Zeitraum ausgeführt werden. Das Bearbeiten und Entfernen eines Suchbegriffs ist im Raster Suchbegriffe verfügbar, das vom Modul Suchbegriffe angezeigt wird."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Suchbegriffe"
+    },
+    {
+      "Name": "removeAllConfirm",
+      "Text": "Sind Sie sicher, dass Sie ALLE Keywords entfernen möchten?"
+    },
+    {
+      "Name": "removeAllLegend",
+      "Text": "Alle Suchbegriffe entfernen"
+    },
+    {
+      "Name": "removeAllLink",
+      "Text": "Alle entfernen"
+    },
+    {
+      "Name": "removeAllMenu",
+      "Text": "Alle entfernen"
+    },
+    {
+      "Name": "removeAllPlsWait",
+      "Text": "Schlüsselwörter werden entfernt..."
+    },
+    {
+      "Name": "removeAllTT",
+      "Text": "Alle Suchbegriffe entfernen"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie dieses Schlüsselwort entfernen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt das Suchbegriff"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Suchbegriff entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Suchbegriff entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernen Sie den Suchbegriff"
+    },
+    {
+      "Name": "roleCollect",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Erfassen der Suchbegriffe einer Website"
+    },
+    {
+      "Name": "roleCollectC",
+      "Text": "Keywords sammeln"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung, einzelne Suchbegriffe zu entfernen"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Suchbegriffe entfernen"
+    },
+    {
+      "Name": "userCollect",
+      "Text": "Der Benutzer hat die Berechtigung, die Suchbegriffe einer Website zu erfassen"
+    },
+    {
+      "Name": "userCollectC",
+      "Text": "Keywords sammeln"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer hat die Berechtigung, einzelne Suchbegriffe zu entfernen"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Suchbegriffe entfernen"
+    }
+  ]
+}

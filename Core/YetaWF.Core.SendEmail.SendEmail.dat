@@ -1,0 +1,35 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "errEmailHtmlFile",
+      "Text": "Die HTML-formatierte E-Mail-{0} konnte nicht gelesen werden."
+    },
+    {
+      "Name": "errEmailTextFile",
+      "Text": "Die E-Mail-{0} konnte nicht gefunden werden."
+    },
+    {
+      "Name": "errEmailTextInv",
+      "Text": "Die Basis-E-Mail-Datei {0} muss eine Textdatei sein (mit der Endung .txt)"
+    },
+    {
+      "Name": "errMailServer",
+      "Text": "Es wurde kein E-Mail-Server angegeben."
+    },
+    {
+      "Name": "errNoRecv",
+      "Text": "Keine empfangende E-Mail-Adresse angegeben - Die E-Mail-Adresse des Site-Administrators wird als empfangende E-Mail-Adresse verwendet - Die E-Mail-Adresse des Site-Administrators kann über die Site-Eigenschaften definiert werden"
+    },
+    {
+      "Name": "errNoSender",
+      "Text": "Keine Absender-E-Mail-Adresse angegeben"
+    },
+    {
+      "Name": "n/a",
+      "Text": "(n/a)"
+    }
+  ]
+}

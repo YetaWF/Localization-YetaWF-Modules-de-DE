@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "anonymous",
+      "Text": "(Anonymer Benutzer)"
+    },
+    {
+      "Name": "feedbackSubject2",
+      "Text": "Feedback \"{0}\" von {1} - {2}"
+    }
+  ]
+}

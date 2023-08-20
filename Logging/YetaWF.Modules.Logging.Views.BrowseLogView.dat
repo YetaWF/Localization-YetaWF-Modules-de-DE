@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "file",
+      "Text": "Das Durchsuchen von Protokollen ist nicht verfügbar. Der folgende Protokollanbieter wird verwendet: {0}"
+    },
+    {
+      "Name": "fileNA",
+      "Text": "Das Standortprotokoll ist nicht verfügbar. Die Protokollierung wurde nicht gestartet."
+    },
+    {
+      "Name": "fileNA2",
+      "Text": "Dies kann durch einen fehlenden Protokollordner (\\Data\\DataFolder\\YetaWF_Logging), eine fehlende Datenbank oder einen fehlenden externen Datenanbieter verursacht werden."
+    }
+  ]
+}

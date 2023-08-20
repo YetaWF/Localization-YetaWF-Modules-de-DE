@@ -1,0 +1,92 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CategoriesListModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "DefaultCategory",
+          "Caption": "Standard-Kategorie",
+          "Description": "Die Standardkategorie",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ListEntries",
+          "Caption": "Listeneinträge",
+          "Description": "Die Anzahl der Listeneinträge, die angezeigt werden, bevor eine Bildlaufleiste hinzugefügt wird – diese Eigenschaft wird nur verwendet, wenn die Style-Eigenschaft auf List festgelegt ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Style",
+          "Caption": "Stil",
+          "Description": "Legt fest, wie die Blog-Kategorien angezeigt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CategoriesListModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "BlogCategory",
+          "Caption": "Blog-Kategorie",
+          "Description": "Wird verwendet, um die angezeigte Blog-Kategorie auszuwählen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CategoriesListModule+StyleEnum",
+      "Entries": [
+        {
+          "Name": "List",
+          "Value": "List",
+          "Caption": "Liste",
+          "Description": "Blog-Kategorien werden als Liste angezeigt"
+        },
+        {
+          "Name": "Dropdown",
+          "Value": "Dropdown",
+          "Caption": "Dropdown",
+          "Description": "Blog-Kategorien werden in einem Dropdown-Menü angezeigt"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Liste der Blog-Kategorien"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Ermöglicht es dem Website-Besucher, zwischen allen verfügbaren Blog-Kategorien auszuwählen. Fügen Sie dieses Modul zu einer Seite für die Blog-Navigation hinzu."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Blog-Kategorien"
+    }
+  ]
+}

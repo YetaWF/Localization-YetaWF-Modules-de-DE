@@ -1,0 +1,126 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.SchedulerAddModule+SchedulerAddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Beschreibung dieses Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Enabled",
+          "Caption": "Ermöglichte",
+          "Description": "Der Status des Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EnableOnStartup",
+          "Caption": "Beim Start aktivieren",
+          "Description": "Legt fest, ob das Scheduler-Element bei jedem Neustart der Website aktiviert wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Event",
+          "Caption": "Ereignis",
+          "Description": "Der Ereignistyp des Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Frequency",
+          "Caption": "Intervall",
+          "Description": "Die Häufigkeit des Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Name",
+          "Description": "Der Name dieses Scheduler-Elements - der Name wird verwendet, um ein Scheduler-Element zu identifizieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunOnce",
+          "Caption": "Einmal ausführen",
+          "Description": "Definiert, ob das Scheduler-Element nur einmal ausgeführt wird - sobald es abgeschlossen ist, wird es deaktiviert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteSpecific",
+          "Caption": "Standortspezifisch",
+          "Description": "Definiert, ob das Schedulerelement für jeden Standort ausgeführt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Startup",
+          "Caption": "Start",
+          "Description": "Definiert, ob das Scheduler-Element beim Start der Website ausgeführt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Erstellt ein neues Scheduler-Element"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "addText",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Erstellen eines neuen Scheduler-Elements"
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Ein Scheduler-Element mit dem Namen \"{0}\" ist bereits vorhanden."
+    },
+    {
+      "Name": "modName",
+      "Text": "Neues Scheduler-Element"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Erstellt ein neues Scheduler-Element. Wird vom Scheduler-Modul verwendet."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Neues Scheduler-Element"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Neues Scheduler-Element gespeichert"
+    }
+  ]
+}

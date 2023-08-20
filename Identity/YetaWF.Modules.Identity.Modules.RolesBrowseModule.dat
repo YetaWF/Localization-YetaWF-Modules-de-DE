@@ -1,0 +1,158 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RolesBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "URL hinzufügen",
+          "Description": "Die URL zum Hinzufügen einer neuen Rolle - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayUrl",
+          "Caption": "Url anzeigen",
+          "Description": "Die URL zum Anzeigen einer Rolle - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "URL bearbeiten",
+          "Description": "Die URL zum Bearbeiten einer Rolle - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RolesBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die bestimmungsgemäße Verwendung der Rolle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Name",
+          "Description": "Der Rollenname",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PostLoginUrl",
+          "Caption": "Post-Login-URL",
+          "Description": "Die URL, unter der ein Benutzer mit dieser Rolle nach der Anmeldung umgeleitet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RoleId",
+          "Caption": "Rollen-ID",
+          "Description": "Die interne ID der Rolle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Rollen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird zum Anzeigen und Verwalten von Rollen verwendet. Rollen können über das Admin->-Panel > Identität, Registerkarte \"Rollen\" (Standard-YetaWF-Site) verwaltet werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Rollen"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie die Rolle \"{0}\" entfernen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt die Rolle"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Rolle entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Rolle entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernen der Rolle"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Entfernen einzelner Rollen"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Rollen entfernen"
+    },
+    {
+      "Name": "rolesLegend",
+      "Text": "Anzeigen und Verwalten von Rollen"
+    },
+    {
+      "Name": "rolesLink",
+      "Text": "Rollen"
+    },
+    {
+      "Name": "rolesText",
+      "Text": "Rollen"
+    },
+    {
+      "Name": "rolesTooltip",
+      "Text": "Anzeigen und Verwalten von Rollen"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer verfügt über die Berechtigung, einzelne Rollen zu entfernen"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Rollen entfernen"
+    }
+  ]
+}

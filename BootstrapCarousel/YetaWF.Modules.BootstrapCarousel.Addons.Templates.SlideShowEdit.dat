@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie dieses Bild entfernen möchten?"
+    },
+    {
+      "Name": "removeTitle",
+      "Text": "Bild entfernen"
+    }
+  ]
+}

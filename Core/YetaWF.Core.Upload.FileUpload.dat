@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cantDownload",
+      "Text": "Datei {0} kann nicht heruntergeladen werden: {1}"
+    },
+    {
+      "Name": "errDownloadPkgType",
+      "Text": "Download nicht zulässig - Der Dateityp \"{0}\" ist kein zulässiger Dateityp"
+    },
+    {
+      "Name": "errPkgType",
+      "Text": "Hochladen nicht zulässig - Der Dateityp \"{0}\" ist kein zulässiger Dateityp"
+    }
+  ]
+}

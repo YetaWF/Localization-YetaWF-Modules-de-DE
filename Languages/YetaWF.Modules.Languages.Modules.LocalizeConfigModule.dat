@@ -1,0 +1,126 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Languages.Modules.LocalizeConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": "Einzelne Websites können die Lokalisierungsunterstützung aktivieren/deaktivieren (Website-Einstellungen). Die Lokalisierung ist jedoch nur für einzelne Websites verfügbar, die von dieser Instanz von YetaWF ausgeführt werden, wenn \"Lokalisierungsressourcen verwenden\" aktiviert ist, was für alle Websites gilt.",
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AbortOnFailure",
+          "Caption": "Fehler-Modus",
+          "Description": "Definiert, ob eine fehlende Lokalisierungsressourcenzeichenfolge eine Ausnahme (Fehler) verursacht oder ob stattdessen die integrierte Zeichenfolge verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Diese Eigenschaft wird nur verwendet, wenn \"Lokalisierungsressourcen verwenden\" ausgewählt ist. Es ist in der Regel für Entwicklung/Tests aktiviert und für Produktionssysteme deaktiviert."
+        },
+        {
+          "Name": "GoogleTranslateAPIKey",
+          "Caption": "API-Schlüssel übersetzen",
+          "Description": "Definiert den Google Cloud Platform / Google Translate API-Schlüssel, der bei der Übersetzung von Lokalisierungsressourcen in andere Sprachen verwendet wird - Sie können einen API-Schlüssel vom Google Cloud Platform-Dienst erhalten - Dies ist kein kostenloser Service",
+          "HelpLink": "https://cloud.google.com/translate/docs/setup",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GoogleTranslateAppName",
+          "Caption": "App-Namen übersetzen",
+          "Description": "Definiert den Namen Ihrer Anwendung, die Übersetzungen durchführt - Dies ist kein kostenloser Service",
+          "HelpLink": "https://cloud.google.com/translate/docs/setup",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MSClientKey",
+          "Caption": "Schlüssel",
+          "Description": "Definiert den API-Schlüssel Ihrer Anwendung, die Übersetzungen durchführt - Wird von Microsoft beim Registrieren Ihrer Anwendung bereitgestellt. - Dies ist kein kostenloser Dienst, obwohl es nur begrenzte kostenlose Konten gibt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MSRequestLimit",
+          "Caption": "Anforderungs-Limit",
+          "Description": "Definiert das stündliche Kontingent, das gleichmäßig über die Stunde verteilt verbraucht werden kann, ausgedrückt in Millionen von Zeichen pro Stunde - Wird von Microsoft beim Registrieren Ihrer Anwendung bereitgestellt - Dies ist kein kostenloser Dienst, obwohl es nur begrenzte kostenlose Konten gibt",
+          "HelpLink": "https://docs.microsoft.com/en-us/azure/cognitive-services/translator/request-limits",
+          "TextAbove": null,
+          "TextBelow": "Millionen von Zeichen pro Stunde"
+        },
+        {
+          "Name": "MSTextTranslationRegion",
+          "Caption": "Standort/Region",
+          "Description": "Definiert den Standort (oder die Region) Ihrer Ressource. Möglicherweise müssen Sie dieses Feld verwenden, wenn Sie diese API aufrufen. - Wird von Microsoft bei der Registrierung Ihrer Anwendung bereitgestellt: Dies ist kein kostenloser Dienst, obwohl es nur begrenzte kostenlose Konten gibt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MSTextTranslationUrl",
+          "Caption": "Endpunkt",
+          "Description": "Definiert den Endpunkt, der für die Textübersetzung verwendet wird - Wird von Microsoft beim Registrieren Ihrer Anwendung bereitgestellt - Dies ist kein kostenloser Dienst, obwohl es nur begrenzte kostenlose Konten gibt",
+          "HelpLink": "https://docs.microsoft.com/en-us/azure/cognitive-services/translator/text-translation-overview",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TranslationService",
+          "Caption": "Übersetzungsdienst",
+          "Description": "Definiert den Übersetzungsdienst, der zum Übersetzen von Lokalisierungsressourcen verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseLocalizationResources",
+          "Caption": "Verwenden von Lokalisierungsressourcen",
+          "Description": "Definiert, ob Lokalisierungsressourcen verwendet werden, andernfalls werden stattdessen die in der Anwendung integrierten Textzeichenfolgen verwendet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Wenn die Unterstützung mehrerer Sprachen erforderlich ist, muss diese Eigenschaft aktiviert werden. Diese Eigenschaft gilt für ALLE Sites, die von dieser Instanz von YetaWF ausgeführt werden."
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Lokalisierungseinstellungen"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Lokalisierungs-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "Lokalisierungs-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten der Lokalisierungseinstellungen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Lokalisierungs-Einstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um standort- und systemweite Lokalisierungseinstellungen zu bearbeiten. Der Zugriff erfolgt über Admin > Settings > Localization Settings (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Lokalisierungs-Einstellungen"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Lokalisierungseinstellungen konnten nicht gefunden werden"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Gespeicherte Lokalisierungseinstellungen: Diese Einstellungen werden erst wirksam, wenn die Website neu gestartet wird."
+    }
+  ]
+}

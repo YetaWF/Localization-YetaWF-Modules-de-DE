@@ -1,0 +1,153 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.TwilioProcessor.Modules.TwilioConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": "Um Twilio-Dienste nutzen zu können, benötigen Sie ein Twilio-Konto. Es ist möglich, den Dienst mit einem kostenlosen Konto zu testen.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Accounts": "Konten",
+        "SMS": "SMS"
+      },
+      "Properties": [
+        {
+          "Name": "DeliveryReceipts",
+          "Caption": "Lieferscheine",
+          "Description": "Legt fest, ob Lieferbestätigungen von Twilio aktiviert sind - Der Lieferstatus wird im YetaWF-Protokoll protokolliert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LiveAccountSid",
+          "Caption": "Live-Konto Sid",
+          "Description": "Die Live-Konto-Sid wird von Ihrem Twilio-Konto abgerufen, in appsettings.json definiert (gilt für alle Sites in dieser YetaWF-Instanz) und wird verwendet, wenn der Testmodus deaktiviert ist",
+          "HelpLink": "https://www.twilio.com/",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LiveAuthToken",
+          "Caption": "Live-Authentifizierungstoken",
+          "Description": "Das Live-Authentifizierungstoken wird von Ihrem Twilio-Konto abgerufen, in appsettings.json definiert (gilt für alle Websites in dieser YetaWF-Instanz) und wird verwendet, wenn der Testmodus deaktiviert ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LiveSMSNumber",
+          "Caption": "Live-SMS-Nummer",
+          "Description": "Die standardmäßige Live-Telefonnummer für SMS, die mit Ihrem Twilio-Konto verknüpft ist: Nur gekaufte von Twilio bereitgestellte Telefonnummern können verwendet werden (weitere Informationen finden Sie unter Twilio).",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MaxSMSPerSecond",
+          "Caption": "Max. SMS pro Sekunde",
+          "Description": "Definiert die maximale Anzahl von SMS, die von der Telefonnummer unterstützt werden - Setzen Sie den Wert auf 0, um die Taktung zu deaktivieren - Twilio-Telefonnummern haben Einschränkungen hinsichtlich der Anzahl der SMS, die pro Sekunde gesendet werden können",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SMSEnabled",
+          "Caption": "Ermöglichte",
+          "Description": "Legt fest, ob die Twilio SMS-Telefonnummer aktiviert ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TestAccountSid",
+          "Caption": "Testkonto Sid",
+          "Description": "Die Testkonto-Sid wird von Ihrem Twilio-Konto abgerufen, in appsettings.json definiert (gilt für alle Sites in dieser YetaWF-Instanz) und wird verwendet, wenn der Testmodus aktiviert ist",
+          "HelpLink": "https://www.twilio.com/",
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TestAuthToken",
+          "Caption": "Authentifizierungstoken testen",
+          "Description": "Das Testauthentifizierungstoken wird von Ihrem Twilio-Konto abgerufen, das in appsettings.json definiert ist (gilt für alle Sites in dieser YetaWF-Instanz) und wird verwendet, wenn der Testmodus aktiviert ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TestMode",
+          "Caption": "Test-Modus",
+          "Description": "Legt fest, ob der Testmodus oder der Live-Modus verwendet wird - Verwenden Sie während der Entwicklung den Testmodus - Dies kann nur mit AppSettings.json festgelegt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TestSMSNumber",
+          "Caption": "SMS-Nummer testen",
+          "Description": "Die standardmäßige Testtelefonnummer für SMS, die mit Ihrem Twilio-Konto verknüpft ist: Nur von Twilio bereitgestellte Testtelefonnummern können verwendet werden (weitere Informationen finden Sie unter Twilio).",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TwilioUrl",
+          "Caption": "Besuchen Sie Twilio",
+          "Description": "Einen Link zu Twilio zum Einrichten Ihres Kontos",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseHttps",
+          "Caption": "Sicherheit von Quittungen",
+          "Description": "Lieferbestätigungen werden von Twilio über eine URL gesendet: Diese Eigenschaft definiert, ob https:// oder http:// verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die TwilioProcessor-Einstellungen"
+    },
+    {
+      "Name": "editLink",
+      "Text": "TwilioProcessor-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "TwilioProcessor-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten der TwilioProcessor-Einstellungen"
+    },
+    {
+      "Name": "modName",
+      "Text": "TwilioProcessor-Einstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Bearbeitet die TwilioProcessor-Einstellungen einer Site. Diese finden Sie unter Admin > Settings > TwilioProcessor Settings."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "TwilioProcessor-Einstellungen"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die TwilioProcessor-Einstellungen konnten nicht gefunden werden"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "TwilioProcessor-Einstellungen gespeichert"
+    }
+  ]
+}

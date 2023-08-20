@@ -1,0 +1,70 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.AddBlockedNumberModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Geben Sie eine optionale Beschreibung der gesperrten Nummer ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Number",
+          "Caption": "Gesperrte Nummer",
+          "Description": "Geben Sie die zu blockierende Telefonnummer ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Fügt eine neue gesperrte Nummer hinzu"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "addText",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Fügen Sie eine neue gesperrte Nummer hinzu"
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Gesperrte Nummer existiert bereits"
+    },
+    {
+      "Name": "modName",
+      "Text": "Neue gesperrte Nummer hinzufügen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Fügt eine neue gesperrte Nummer hinzu."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Neue gesperrte Nummer hinzufügen"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Neue gesperrte Nummer gespeichert"
+    }
+  ]
+}

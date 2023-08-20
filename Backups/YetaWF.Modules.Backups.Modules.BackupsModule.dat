@@ -1,0 +1,198 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Backups.Modules.BackupsModule+BackupModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Alle verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Erstellt",
+          "Description": "Datum/Uhrzeit der Erstellung des Standort-Backups",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FileName",
+          "Caption": "Dateiname",
+          "Description": "Der Name der Site-Backup-Datei (im Ordner \"Backups\")",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FullFileName",
+          "Caption": "Vollständiger Dateiname",
+          "Description": "Der Name der Site-Backup-Datei",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Size",
+          "Caption": "Größe",
+          "Description": "Die Dateigröße der Site-Sicherung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Verwaltet Site-Backups"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Sicherungen"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Sicherungen"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Verwalten von Site-Backups"
+    },
+    {
+      "Name": "dnldLegend",
+      "Text": "Lädt das Site-Backup herunter (ZIP-Datei)"
+    },
+    {
+      "Name": "dnldLink",
+      "Text": "Backup herunterladen"
+    },
+    {
+      "Name": "dnldMenu",
+      "Text": "Backup herunterladen"
+    },
+    {
+      "Name": "dnldTT",
+      "Text": "Laden Sie das Site-Backup herunter (Zip-Datei)"
+    },
+    {
+      "Name": "makeTemplateConfirm",
+      "Text": "Sind Sie sicher, dass Sie Websitevorlagendaten erstellen möchten?"
+    },
+    {
+      "Name": "makeTemplateLegend",
+      "Text": "Erstellt Site-Vorlagen für die Installation einer neuen YetaWF-Site unter Verwendung der aktuellen Site"
+    },
+    {
+      "Name": "makeTemplateLink",
+      "Text": "Erstellen von Websitevorlagendaten"
+    },
+    {
+      "Name": "makeTemplateMenu",
+      "Text": "Erstellen von Websitevorlagendaten"
+    },
+    {
+      "Name": "makeTemplateTT",
+      "Text": "Erstellen von Site-Vorlagen für die Installation einer neuen YetaWF-Site unter Verwendung der aktuellen Site"
+    },
+    {
+      "Name": "modName",
+      "Text": "Sicherungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Verwaltet Site-Backups."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Site-Backups"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie \"{0}\" entfernen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt das Site-Backup (Zip-Datei)"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Backup entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Backup entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernen Sie das Site-Backup (Zip-Datei)"
+    },
+    {
+      "Name": "roleBackups",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Erstellen und Entfernen von Sicherungen"
+    },
+    {
+      "Name": "roleBackupsC",
+      "Text": "Backups verwalten"
+    },
+    {
+      "Name": "roleDownloads",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Herunterladen von Sicherungen"
+    },
+    {
+      "Name": "roleDownloadsC",
+      "Text": "Backups verwalten"
+    },
+    {
+      "Name": "sbackupConfirm",
+      "Text": "Sind Sie sicher, dass Sie ein Site-Backup erstellen möchten?"
+    },
+    {
+      "Name": "sbackupLegend",
+      "Text": "Erstellt eine Standortsicherung im Sicherungsordner"
+    },
+    {
+      "Name": "sbackupLink",
+      "Text": "Standort-Backup"
+    },
+    {
+      "Name": "sbackupMenu",
+      "Text": "Standort-Backup"
+    },
+    {
+      "Name": "sbackupPleaseWait",
+      "Text": "Ihr Site-Backup wird ausgeführt..."
+    },
+    {
+      "Name": "sbackupTT",
+      "Text": "Erstellen einer Site-Sicherung im Sicherungsordner"
+    },
+    {
+      "Name": "userBackups",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Erstellen und Entfernen von Sicherungen"
+    },
+    {
+      "Name": "userBackupsC",
+      "Text": "Backups verwalten"
+    },
+    {
+      "Name": "userDownloads",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Herunterladen von Sicherungen"
+    },
+    {
+      "Name": "userDownloadsC",
+      "Text": "Backups verwalten"
+    }
+  ]
+}

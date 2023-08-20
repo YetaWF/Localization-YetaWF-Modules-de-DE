@@ -1,0 +1,162 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.DisplayVoiceMailModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Caller",
+          "Caption": "Von",
+          "Description": "Die Telefonnummer des Anrufers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerCity",
+          "Caption": "Aus der Stadt",
+          "Description": "Die Stadt des Anrufers (falls verfügbar)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerCountry",
+          "Caption": "Aus dem Land",
+          "Description": "Das Land des Anrufers (falls verfügbar)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerState",
+          "Caption": "Von Staat",
+          "Description": "Status des Anrufers (falls verfügbar)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerZip",
+          "Caption": "Von Postleitzahl",
+          "Description": "Die Postleitzahl des Anrufers (falls vorhanden)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallSid",
+          "Caption": "Rufen Sie Sid an",
+          "Description": "Die ID, die von Twilio zur Identifizierung des Anrufs verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Erstellt",
+          "Description": "Datum/Uhrzeit der Erstellung der Voicemailnachricht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Duration",
+          "Caption": "Dauer",
+          "Description": "Die Dauer der Voicemailnachricht (in Sekunden)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Extension",
+          "Caption": "Erweiterung",
+          "Description": "Die Durchwahl, für die die Voicemailnachricht gespeichert wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Heard",
+          "Caption": "Gehört",
+          "Description": "Definiert, ob die Voicemail bereits abgehört wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Listen",
+          "Caption": "Zuhören",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "To",
+          "Caption": "Telefonnummer",
+          "Description": "Die Telefonnummer, für die die Voicemailnachricht gespeichert wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt einen vorhandenen Voicemaileintrag an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Anzeigen des Voicemail-Eintrags"
+    },
+    {
+      "Name": "listenLegend",
+      "Text": "Wird verwendet, um die Voicemail abzuhören"
+    },
+    {
+      "Name": "listenLink",
+      "Text": "Zuhören"
+    },
+    {
+      "Name": "listenMenu",
+      "Text": "Zuhören"
+    },
+    {
+      "Name": "listenTT",
+      "Text": "Abhören der Voicemail"
+    },
+    {
+      "Name": "modName",
+      "Text": "Voicemail-Eingabe"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt einen vorhandenen Voicemaileintrag an."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Voicemail-Eingabe"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Voicemail-Eintrag mit ID {0} nicht gefunden"
+    }
+  ]
+}

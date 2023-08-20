@@ -1,0 +1,118 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Feedback.Modules.FeedbackAddModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "DefaultMessage",
+          "Caption": "Standard-Meldung",
+          "Description": "Die optionale Standardmeldung bei der Eingabe eines neuen Feedbacks",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultSubject",
+          "Caption": "Standard-Betreff",
+          "Description": "Der optionale Standardbetreff der Nachricht, wenn ein neues Feedback eingegeben wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Feedback.Modules.FeedbackAddModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Captcha",
+          "Caption": "Captcha",
+          "Description": "Bitte stellen Sie sicher, dass Sie ein Mensch und kein Spam-Bot sind",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "Ihre E-Mail-Adresse",
+          "Description": "Bitte geben Sie Ihre E-Mail-Adresse ein - Ihre E-Mail-Adresse ist nicht öffentlich sichtbar",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Message",
+          "Caption": "Nachricht",
+          "Description": "Bitte geben Sie die Nachricht ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Ihr Name",
+          "Description": "Bitte geben Sie Ihren Namen ein - Ihr Name ist nicht öffentlich sichtbar",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Subject",
+          "Caption": "Betreff",
+          "Description": "Bitte geben Sie den Betreff für Ihre Nachricht ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Ermöglicht es Ihnen, Feedback für uns einzugeben"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Feedback eingeben"
+    },
+    {
+      "Name": "addText",
+      "Text": "Feedback eingeben"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Geben Sie Feedback für uns ein"
+    },
+    {
+      "Name": "modName",
+      "Text": "Feedback senden"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Ermöglicht die Eingabe einer Nachricht an den Websitebesitzer oder Administrator durch einen Websitebesucher."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Feedback senden"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Ihre Nachricht wurde gesendet!"
+    }
+  ]
+}

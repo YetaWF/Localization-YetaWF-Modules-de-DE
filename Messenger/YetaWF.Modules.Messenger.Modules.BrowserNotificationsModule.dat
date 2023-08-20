@@ -1,0 +1,62 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Messenger.Modules.BrowserNotificationsModule+Model",
+      "BaseTypeName": null,
+      "Header": "Das Modul Webbrowser-Benachrichtigungen (Skin) muss als Site-weite Referenz definiert werden, damit Benachrichtigungen an den Desktop gesendet werden können.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Message",
+          "Caption": "Nachricht",
+          "Description": "Definiert die zu sendende Nachricht",
+          "HelpLink": null,
+          "TextAbove": "Bitte geben Sie die Nachricht ein, die als Desktop-Benachrichtigung gesendet werden soll.",
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titel",
+          "Description": "Definiert den Titel der zu sendenden Nachricht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt den Benachrichtigungstest des Webbrowsers an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Browser-Benachrichtigung"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Browser-Benachrichtigung"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Zeigen Sie den Benachrichtigungstest des Webbrowsers an"
+    },
+    {
+      "Name": "modName",
+      "Text": "Test - Webbrowser-Benachrichtigung"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Webbrowser-Benachrichtigungstest"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Webbrowser-Benachrichtigungstest"
+    }
+  ]
+}

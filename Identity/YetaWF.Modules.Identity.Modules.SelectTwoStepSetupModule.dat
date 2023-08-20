@@ -1,0 +1,45 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.SelectTwoStepSetupModule+EditModel",
+      "BaseTypeName": null,
+      "Header": "Bitte richten Sie eine zweistufige Authentifizierungsmethode ein, um Ihr Konto vor Entführung zu schützen.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": []
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "extUser",
+      "Text": "Ihr Konto verwendet ein {0}Konto – Die zweistufige Authentifizierung muss mit Ihrem {0}Konto eingerichtet werden."
+    },
+    {
+      "Name": "modName",
+      "Text": "Zweistufige Authentifizierung einrichten - Auswahl"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Einrichten der gewünschten zweistufigen Authentifizierung"
+    },
+    {
+      "Name": "setupLegend",
+      "Text": "Einrichten der zweistufigen Authentifizierung"
+    },
+    {
+      "Name": "setupLink",
+      "Text": "Einrichtung der zweistufigen Authentifizierung"
+    },
+    {
+      "Name": "setupText",
+      "Text": "Einrichtung der zweistufigen Authentifizierung"
+    },
+    {
+      "Name": "setupTooltip",
+      "Text": "Einrichten der zweistufigen Authentifizierung"
+    }
+  ]
+}

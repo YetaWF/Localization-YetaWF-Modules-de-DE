@@ -1,0 +1,266 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Modules.Modules.ModulesBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Administrators",
+          "Caption": "Administratoren",
+          "Description": "Administratoren können dieses Modul anzeigen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Anonymous",
+          "Caption": "Anonym",
+          "Description": "Anonyme Benutzer können dieses Modul anzeigen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AreaName",
+          "Caption": "Fläche",
+          "Description": "Der Bereich, in dem dieses Modul implementiert wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CssClass",
+          "Caption": "CSS-Klasse",
+          "Description": "Die optionalen CSS-Klassen, die dem Tag des Moduls zur <div> weiteren Anpassung durch Stylesheets hinzugefügt werden sollen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Zusammenfassung",
+          "Description": "Die Modulbeschreibung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Editors",
+          "Caption": "Herausgeber",
+          "Description": "Redakteure können dieses Modul anzeigen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleGuid",
+          "Caption": "Modul Guid",
+          "Description": "Die ID, die dieses Modul eindeutig identifiziert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Name",
+          "Description": "Der Modulname, der zur Identifizierung des Moduls verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titel",
+          "Description": "Der Modultitel, der oben im Modul als Titel angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseCount",
+          "Caption": "Anzahl verwenden",
+          "Description": "Die Anzahl der Seiten, auf denen dieses Modul verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Users",
+          "Caption": "Benutzer",
+          "Description": "Angemeldete Benutzer können dieses Modul anzeigen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "WantFocus",
+          "Caption": "Möchte Eingabefokus",
+          "Description": "Legt fest, ob Eingabefelder in diesem Modul den Eingabefokus erhalten sollen, wenn sie sich zuerst auf der Seite befinden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "WantSearch",
+          "Caption": "Suchbegriffe",
+          "Description": "Definiert, ob der Inhalt dieses Moduls zu den Suchbegriffen der Website hinzugefügt werden soll",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Anzeige und Verwaltung von Modulen"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Module"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Module"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Anzeigen und Verwalten von Modulen"
+    },
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt das Modul in einem neuen Fenster an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Modul anzeigen"
+    },
+    {
+      "Name": "displayMenu",
+      "Text": "Modul anzeigen"
+    },
+    {
+      "Name": "displayTT",
+      "Text": "Zeigen Sie das Modul in einem neuen Fenster an"
+    },
+    {
+      "Name": "modName",
+      "Text": "Module"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Module an und verwaltet sie und implementiert das Entfernen von Modulen. Es wird auch zum Anzeigen, Bearbeiten und Entfernen von Modulen verwendet. Der Zugriff erfolgt über das Admin > Panel > Module (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Module"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie dieses Modul DAUERHAFT entfernen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt das Modul dauerhaft - Das Modul und seine Daten werden DAUERHAFT gelöscht und können auf keiner Seite mehr verwendet werden"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Modul entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Modul entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Modul dauerhaft entfernen - Das Modul und seine Daten werden DAUERHAFT gelöscht und können auf keiner Seite mehr verwendet werden"
+    },
+    {
+      "Name": "restAuthConfirm",
+      "Text": "ENTWICKLUNGSFUNKTION - Sind Sie sicher, dass Sie die Standardberechtigungen für ALLE Module wiederherstellen möchten - Dadurch werden alle Module auf ihre \"Werksberechtigung\" zurückgesetzt?"
+    },
+    {
+      "Name": "restAuthLegend",
+      "Text": "ENTWICKLUNGSFUNKTION - Stellt die Standardberechtigung für alle Module wieder her"
+    },
+    {
+      "Name": "restAuthLink",
+      "Text": "Standardautorisierung wiederherstellen"
+    },
+    {
+      "Name": "restAuthMenu",
+      "Text": "Standardautorisierung wiederherstellen"
+    },
+    {
+      "Name": "restAuthPlsWait",
+      "Text": "Wiederherstellung der Standardberechtigung für alle Module..."
+    },
+    {
+      "Name": "restAuthTT",
+      "Text": "ENTWICKLUNGSFUNKTION - Wiederherstellung der Standardberechtigung für alle Module"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Entfernen einzelner Module"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Module entfernen"
+    },
+    {
+      "Name": "roleRestAuth",
+      "Text": "Die Rolle hat die Berechtigung, die Standardberechtigungen für ALLE Module wiederherzustellen"
+    },
+    {
+      "Name": "roleRestAuthC",
+      "Text": "Standardautorisierung wiederherstellen"
+    },
+    {
+      "Name": "roleSetAuth",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Festlegen der globalen Autorisierung für alle Module"
+    },
+    {
+      "Name": "roleSetAuthC",
+      "Text": "Globale Autorisierung festlegen"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer hat die Berechtigung, einzelne Module zu entfernen"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Module entfernen"
+    },
+    {
+      "Name": "userRestAuth",
+      "Text": "Der Benutzer hat die Berechtigung, die Standardberechtigungen für ALLE Module wiederherzustellen"
+    },
+    {
+      "Name": "userRestAuthC",
+      "Text": "Standardautorisierung wiederherstellen"
+    },
+    {
+      "Name": "userSetAuth",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Festlegen der globalen Berechtigung für alle Module"
+    },
+    {
+      "Name": "userSetAuthC",
+      "Text": "Globale Autorisierung festlegen"
+    }
+  ]
+}

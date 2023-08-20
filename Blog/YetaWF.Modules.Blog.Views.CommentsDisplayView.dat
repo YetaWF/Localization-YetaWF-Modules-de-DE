@@ -1,0 +1,31 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnCancel",
+      "Text": "Rückgabe"
+    },
+    {
+      "Name": "by",
+      "Text": "Bis:"
+    },
+    {
+      "Name": "deleted",
+      "Text": "Dieser Kommentar wurde gelöscht"
+    },
+    {
+      "Name": "nocommentsAdd",
+      "Text": "Seien Sie der Erste, der einen Kommentar hinzufügt!"
+    },
+    {
+      "Name": "notApproved",
+      "Text": "Dieser Kommentar wurde noch nicht genehmigt"
+    },
+    {
+      "Name": "on",
+      "Text": "Auf:"
+    }
+  ]
+}

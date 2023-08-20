@@ -1,0 +1,30 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Site.MessageTypeEnum",
+      "Entries": [
+        {
+          "Name": "Popups",
+          "Value": "Popups",
+          "Caption": "Popup (Begriffsklärung",
+          "Description": "Nachrichten werden in Popups angezeigt, die vom Benutzer explizit verworfen werden"
+        },
+        {
+          "Name": "ToastRight",
+          "Value": "ToastRight",
+          "Caption": "Toast (unten rechts)",
+          "Description": "Benachrichtigungen werden unten rechts auf der Seite angezeigt und werden nach einer bestimmten Zeitspanne automatisch geschlossen oder können vom Benutzer explizit verworfen werden"
+        },
+        {
+          "Name": "ToastLeft",
+          "Value": "ToastLeft",
+          "Caption": "Toast (unten links)",
+          "Description": "Benachrichtigungen werden unten links auf der Seite angezeigt und werden nach einer bestimmten Zeitspanne automatisch geschlossen oder können vom Benutzer explizit verworfen werden"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

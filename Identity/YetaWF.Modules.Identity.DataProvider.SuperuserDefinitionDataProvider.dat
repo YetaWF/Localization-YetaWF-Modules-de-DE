@@ -1,0 +1,31 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cantAddSuper",
+      "Text": "Falsche Benutzer-ID oder falscher Benutzername - Kann nicht als Superuser hinzugefügt werden"
+    },
+    {
+      "Name": "cantChangeStatusSuper",
+      "Text": "Der Benutzer \"{0}\" muss ein genehmigter Benutzer bleiben. Das ist der einzige, der Ihnen aus der Patsche helfen kann, wenn die gesamte Website kaputt ist"
+    },
+    {
+      "Name": "cantRemoveSuper",
+      "Text": "Der Benutzer mit der Rolle \"{0}\" kann nicht entfernt werden. Wer sonst wird Ihnen aus der Patsche helfen, wenn Sie Ihre Website durcheinander bringen?"
+    },
+    {
+      "Name": "cantRenameSuper",
+      "Text": "Der Benutzer \"{0}\" kann nicht umbenannt werden"
+    },
+    {
+      "Name": "cantUpdateSuper",
+      "Text": "Falsche Benutzer-ID oder falscher Benutzername - Kann nicht als Superuser aktualisiert werden"
+    },
+    {
+      "Name": "super",
+      "Text": "Der Superuser für alle Standorte"
+    }
+  ]
+}

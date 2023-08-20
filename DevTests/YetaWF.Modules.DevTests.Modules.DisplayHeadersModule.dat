@@ -1,0 +1,62 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.DisplayHeadersModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Headers",
+          "Caption": "Header",
+          "Description": "Anforderungs-Header",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Variables",
+          "Caption": "Variablen",
+          "Description": "Verschiedene Variablen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt Anforderungsheader an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Anforderungsköpfe anzeigen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Header"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Anforderungsheader an. Eine Testseite für dieses Modul finden Sie unter Tests > Module > HTTP Request Header (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Header"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.ControlPanelConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "Users",
+          "Caption": "Benutzerliste",
+          "Description": "Liste der Benutzerkonten, die für die schnelle Anmeldung auf der Website verwendet werden können",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "W3CUrl",
+          "Caption": "W3C-Validierung",
+          "Description": "Die URL, die verwendet wird, um die aktuelle Seite mit einem W3C-Validierungsdienst zu validieren - Verwenden Sie {0}, in das die URL eingefügt ist - Wenn keine URL definiert ist, zeigt die Systemsteuerung keinen W3C-Validierungslink an",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Einstellungen der Systemsteuerung"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Einstellungen der Systemsteuerung"
+    },
+    {
+      "Name": "editText",
+      "Text": "Einstellungen der Systemsteuerung"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten Sie die Einstellungen der Systemsteuerung"
+    },
+    {
+      "Name": "modName",
+      "Text": "Einstellungen der Systemsteuerung"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um die Einstellungen der Systemsteuerung zu bearbeiten. Der Zugriff erfolgt über Admin > Einstellungen > Systemsteuerungseinstellungen (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Einstellungen der Systemsteuerung"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Einstellungen der Systemsteuerung konnten nicht gefunden werden"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Einstellungen der Systemsteuerung gespeichert"
+    },
+    {
+      "Name": "okSavedRestart",
+      "Text": "Systemsteuerungseinstellungen gespeichert - Diese Einstellungen werden erst wirksam, wenn die Website neu gestartet wird"
+    }
+  ]
+}

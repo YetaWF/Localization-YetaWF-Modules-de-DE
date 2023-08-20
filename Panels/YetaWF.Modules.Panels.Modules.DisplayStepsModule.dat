@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Schritte anzeigen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Schritte zum Ausführen einer Aktion an, in der Regel eine Sequenz von Formularen oder Seiten. Eine Beispielseite finden Sie unter Tests > Module > Steps (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Schritte"
+    }
+  ]
+}

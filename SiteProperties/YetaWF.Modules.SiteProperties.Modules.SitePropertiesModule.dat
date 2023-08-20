@@ -1,0 +1,63 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Ändert die Einstellungen für die Website \"{0}\""
+    },
+    {
+      "Name": "editLink",
+      "Text": "Website-Einstellungen"
+    },
+    {
+      "Name": "editSiteLegend",
+      "Text": "Änderungen der Einstellungen für die aktuelle Website"
+    },
+    {
+      "Name": "editSiteLink",
+      "Text": "Website-Einstellungen"
+    },
+    {
+      "Name": "editSiteText",
+      "Text": "Website-Einstellungen"
+    },
+    {
+      "Name": "editSiteTooltip",
+      "Text": "Ändern der Einstellungen für die aktuelle Website"
+    },
+    {
+      "Name": "editText",
+      "Text": "Website-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Ändern Sie die Einstellungen für die Website \"{0}\""
+    },
+    {
+      "Name": "errNoSite",
+      "Text": "Seite \"{0}\" nicht gefunden"
+    },
+    {
+      "Name": "modName",
+      "Text": "Website-Einstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um die Eigenschaften einer Website zu bearbeiten. Dieses Modul wird vom Sites-Modul verwendet, um Site-Eigenschaften zu bearbeiten. Der Zugriff erfolgt über Admin > Einstellungen > Site-Einstellungen (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Website-Einstellungen"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Website-Einstellungen aktualisiert"
+    },
+    {
+      "Name": "okSavedRestart",
+      "Text": "Websiteeinstellungen aktualisiert: Diese Einstellungen werden erst wirksam, wenn die Website neu gestartet wird."
+    }
+  ]
+}

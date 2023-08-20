@@ -1,0 +1,122 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Sites.Modules.SitesBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "URL hinzufügen",
+          "Description": "Die URL zum Hinzufügen einer neuen Website - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Sites.Modules.SitesBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Identity",
+          "Caption": "Site-ID",
+          "Description": "Die ID, die mit Ihrer Website verknüpft ist und von YetaWF generiert wird, wenn die Website erstellt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IsDefaultSite",
+          "Caption": "Standard-Site",
+          "Description": "Zeigt an, ob es sich bei der Site um die Standardsite für diese Instanz von YetaWF handelt - die Standardsite kann nicht entfernt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteDomain",
+          "Caption": "Site-Domain",
+          "Description": "Der Domainname der Website",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteName",
+          "Caption": "Name der Website",
+          "Description": "Der Name, der mit Ihrer Website verbunden ist, in der Regel Ihr Firmenname oder Ihr Name",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Anzeigen und Verwalten von Websites"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Lagen"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Lagen"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Anzeigen und Verwalten von Websites"
+    },
+    {
+      "Name": "dispLegend",
+      "Text": "Zeigt die Website \"{0}\" an"
+    },
+    {
+      "Name": "dispLink",
+      "Text": "Seite \"{0}\" anzeigen"
+    },
+    {
+      "Name": "dispText",
+      "Text": "Seite \"{0}\" anzeigen"
+    },
+    {
+      "Name": "dispTooltip",
+      "Text": "Zeigen Sie die Seite \"{0}\" an"
+    },
+    {
+      "Name": "modName",
+      "Text": "Lagen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Websites an und verwaltet sie. Sites können über Admin > Panel > Sites (Standard-YeatWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Lagen"
+    }
+  ]
+}

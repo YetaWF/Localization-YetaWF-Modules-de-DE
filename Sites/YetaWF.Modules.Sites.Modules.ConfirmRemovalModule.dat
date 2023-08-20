@@ -1,0 +1,58 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Sites.Modules.ConfirmRemovalModule+EditModel",
+      "BaseTypeName": null,
+      "Header": "Sind Sie absolut sicher, dass Sie diese Seite entfernen möchten? Dadurch werden alle Daten für diese Website entfernt!! Bitte stellen Sie sicher, dass Sie ein Backup haben (nur für den Fall...).",
+      "Footer": "Klicken Sie auf Bestätigen, um diese Website und alle standortspezifischen Daten zu löschen.",
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SiteDomainDisplay",
+          "Caption": "Platz",
+          "Description": "Der Domainname der Website, die entfernt werden soll",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Websitedefinition entfernen - Bestätigung"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt eine Bestätigung an, bevor die Website entfernt wird. Es wird vom Sites-Modul verwendet, wenn eine Site entfernt wird."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Website entfernen"
+    },
+    {
+      "Name": "okRemoved",
+      "Text": "Seite \"{0}\" wurde entfernt(+nl)(+nl)Die Seite wird nun neu gestartet"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt die Website \"{0}\""
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Website entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Website entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernen Sie die Website \"{0}\""
+    }
+  ]
+}

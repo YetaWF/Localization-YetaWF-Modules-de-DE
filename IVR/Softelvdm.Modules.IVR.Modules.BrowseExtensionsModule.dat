@@ -1,0 +1,184 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseExtensionsModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "URL hinzufügen",
+          "Description": "Die URL zum Hinzufügen einer neuen Erweiterung - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "URL bearbeiten",
+          "Description": "Die URL zum Bearbeiten einer Erweiterung - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseExtensionsModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Erstellt",
+          "Description": "Datum/Uhrzeit des Hinzufügens der Erweiterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Beschreibt die Erweiterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Extension",
+          "Caption": "Erweiterung",
+          "Description": "Definiert die Endung (Ziffern)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PhoneNumbers",
+          "Caption": "Telefonnummern / SMS",
+          "Description": "Zeigt die Telefonnummern an, die bei Eingabe dieser Durchwahl angerufen werden sollen, und die SMS-Auswahl",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Updated",
+          "Caption": "Aktualisierte",
+          "Description": "Datum/Uhrzeit der letzten Aktualisierung der Erweiterung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Users",
+          "Caption": "Benutzer",
+          "Description": "Zeigt die Benutzer an, die auf Voicemails für diese Durchwahl zugreifen können",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseExtensionsModule+BrowseModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GridDef",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Anzeigen und Verwalten von Erweiterungen"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Erweiterungen"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Erweiterungen"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Anzeigen und Verwalten von Erweiterungen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Erweiterungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Erweiterungen an und verwaltet sie."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Erweiterungen"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie die Erweiterung mit der ID \"{0}\" entfernen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt die Erweiterung"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Erweiterung entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Erweiterung entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernen Sie die Erweiterung"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Entfernen einzelner Erweiterungen"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Erweiterungseinträge entfernen"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer hat die Berechtigung, einzelne Erweiterungen zu entfernen"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Erweiterungseinträge entfernen"
+    }
+  ]
+}

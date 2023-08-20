@@ -1,0 +1,62 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Security.Modules.MakeKeysModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "PrivateKey",
+          "Caption": "Privater Schlüssel",
+          "Description": "Der private Schlüssel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PublicKey",
+          "Caption": "Öffentlicher Schlüssel",
+          "Description": "Der öffentliche Schlüssel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Erstellt einen öffentlichen/privaten Schlüssel mit RSA"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Schlüssel herstellen"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Schlüssel herstellen"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Erstellen eines öffentlichen/privaten Schlüssels mit RSA"
+    },
+    {
+      "Name": "modName",
+      "Text": "RSA-Schlüssel"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Erstellt öffentliche/private Schlüssel mit RSA. Diese können von den Funktionen YetaWF.Core.Security.RSACrypto Encrypt und Decrypt verwendet werden, um Token zu verschlüsseln und zu entschlüsseln, die zur Implementierung der Datensicherheit verwendet werden. Jedes Mal, wenn das Modul angezeigt wird, wird ein neues Schlüsselpaar generiert. Eine Testseite für das RSA Keys Module kann über Tests > Module > MakeKeys (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "RSA-Schlüssel"
+    }
+  ]
+}

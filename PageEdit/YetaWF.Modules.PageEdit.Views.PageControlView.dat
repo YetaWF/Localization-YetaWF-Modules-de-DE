@@ -1,0 +1,67 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "pageControlTT",
+      "Text": "Systemsteuerung - Fügen Sie neue oder vorhandene Module hinzu, fügen Sie neue Seiten hinzu, wechseln Sie in den Bearbeitungsmodus, greifen Sie auf Seiteneinstellungen und andere Site-Management-Aufgaben zu"
+    },
+    {
+      "Name": "tabImportModule",
+      "Text": "Import-Modul"
+    },
+    {
+      "Name": "tabImportModuleTT",
+      "Text": "Moduldaten in diese Seite importieren (erstellt ein neues Modul)"
+    },
+    {
+      "Name": "tabImportPage",
+      "Text": "Seite \"Importieren\""
+    },
+    {
+      "Name": "tabImportPageTT",
+      "Text": "Seite importieren (erstellt eine neue Seite)"
+    },
+    {
+      "Name": "tabLogin",
+      "Text": "Einloggen"
+    },
+    {
+      "Name": "tabLoginTT",
+      "Text": "Wechseln Sie die Website oder melden Sie sich als ein anderer Benutzer an"
+    },
+    {
+      "Name": "tabNew",
+      "Text": "Neues Modul"
+    },
+    {
+      "Name": "tabNewPage",
+      "Text": "Neue Seite"
+    },
+    {
+      "Name": "tabNewPageTT",
+      "Text": "Hinzufügen einer neuen Seite zur Website"
+    },
+    {
+      "Name": "tabNewTT",
+      "Text": "Fügen Sie dieser Seite ein neues Modul hinzu (erstellt ein neues Modul)"
+    },
+    {
+      "Name": "tabOld",
+      "Text": "Bestehendes Modul"
+    },
+    {
+      "Name": "tabOldTT",
+      "Text": "Fügen Sie dieser Seite ein vorhandenes Modul hinzu (das Modul wird dadurch nicht kopiert)"
+    },
+    {
+      "Name": "tabSkins",
+      "Text": "Felle"
+    },
+    {
+      "Name": "tabSkinsTT",
+      "Text": "Ändern Sie die Standard-Skins, die auf der gesamten Website verwendet werden"
+    }
+  ]
+}

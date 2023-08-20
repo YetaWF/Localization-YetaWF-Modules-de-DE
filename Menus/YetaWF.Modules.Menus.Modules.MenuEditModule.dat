@@ -1,0 +1,230 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Menus.Modules.MenuEditModule+MenuEntry",
+      "BaseTypeName": "YetaWF.Core.Models.TreeEntry",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "AuthorizationIgnore",
+          "Caption": "Autorisierung ignorieren",
+          "Description": "Legt fest, ob die Berechtigung der Zielseite ignoriert wird - Aktionen sind nur sichtbar, wenn der Benutzer über eine ausreichende Berechtigung zum Ausführen der Aktion verfügt - Dies kann verwendet werden, um die Anzeige von Aktionen zu erzwingen, auch wenn die Berechtigung nicht ausreicht - Bei anonymen Benutzern zwingt dies den Benutzer, sich zuerst anzumelden - Diese Einstellung wird für Links zu anderen Websites ignoriert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Category",
+          "Caption": "Kategorie",
+          "Description": "Die Art der Aktion, die dieser Eintrag ausführt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ConfirmationText",
+          "Caption": "Bestätigungstext",
+          "Description": "Der Bestätigungstext, der vor dem Ausführen der Aktion angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CopyActions",
+          "Caption": " ",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CssClass",
+          "Caption": "CSS-Klasse",
+          "Description": "Die optionale CSS-Klasse, die der Aktion hinzugefügt wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DontFollow",
+          "Caption": "Nicht folgen",
+          "Description": "Legt fest, ob Suchmaschinen und Bots diesem Link folgen (zum Deaktivieren auswählen)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Enabled",
+          "Caption": "Ermöglichte",
+          "Description": "Legt fest, ob dieser Eintrag aktiviert ist - Deaktivierte Einträge werden automatisch in Menüs ausgeblendet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EntryType",
+          "Caption": "Art des Eintrags",
+          "Description": "Der Typ des Menüeintrags",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ImageSVG",
+          "Caption": "Bild-SVG",
+          "Description": "Die SVG-Datei des Bildes, das für diesen Eintrag angezeigt wird: Wenn die Bild-SVG festgelegt ist, wird die Eigenschaft Bild-URL ignoriert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ImageUrlFinal",
+          "Caption": "Bild-URL",
+          "Description": "Die URL des Bildes, das für diesen Eintrag angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Legend",
+          "Caption": "Legende",
+          "Description": "Die Legende zu diesem Eintrag",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LimitToRole",
+          "Caption": "Auf Rolle beschränken",
+          "Description": "Legt fest, welche Rolle vorhanden sein muss, damit diese Aktion angezeigt wird - Dies wird normalerweise nur für spezielle Einträge verwendet, die nur in einigen Fällen angezeigt werden sollen, aber (per URL) auch für andere Rollen verfügbar sind - Diese Einstellung wird für Superuser ignoriert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LinkText",
+          "Caption": "Link-Text",
+          "Description": "Der Text, der für diesen Menüeintrag angezeigt wird, wenn er als Link verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MenuText",
+          "Caption": "Menü-Text",
+          "Description": "Der Text, der für diesen Menüeintrag angezeigt wird, wenn er als Menüeintrag verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Mode",
+          "Caption": "Modus",
+          "Description": "Legt fest, wo dieser Eintrag verfügbar ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PleaseWaitText",
+          "Caption": "Bitte warten",
+          "Description": "Falls angegeben, wird der Dialog \"Bitte warten\" angezeigt, wenn die Aktion ausgewählt ist - Nur verfügbar für Aktionen mit Stil=Normal",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Style",
+          "Caption": "Stil",
+          "Description": "Definiert, wie sich diese Aktion auf das aktuelle Fenster auswirkt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SubModule",
+          "Caption": "Untermodul",
+          "Description": "Das Untermodul wird als komplettes Untermenü angezeigt - Wenn ein Untermodul definiert ist, ersetzt es das gesamte Untermenü. Submodule sollten keine Formulare anzeigen, da eine Popup-Meldung aufgrund ungültiger Eingaben das Untermenü schließen würde. Dies wird am besten verwendet, um formatierte Links oder Bilder usw. mit einem Textmodul anzuzeigen.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Tooltip",
+          "Caption": "Quickinfo",
+          "Description": "Der Tooltip für diesen Eintrag",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "URL",
+          "Description": "Die URL",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Einstellungen im Menü \"Bearbeiten\""
+    },
+    {
+      "Name": "editLink",
+      "Text": "Menü-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "Menü-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Menüeinstellungen bearbeiten"
+    },
+    {
+      "Name": "linkConfirmTT",
+      "Text": "Sind Sie sicher, dass Sie die Informationen auf der gestalteten Seite (Bild, SVG und Tooltip) speichern möchten?"
+    },
+    {
+      "Name": "linkCopy",
+      "Text": "Von der gestalteten Seite kopieren"
+    },
+    {
+      "Name": "linkCopyTT",
+      "Text": "Kopiert Informationen von der gestalteten Seite - Kopierte Eigenschaften sind Menü-/Linktext, Bild-SVG und Tooltip"
+    },
+    {
+      "Name": "linkSave",
+      "Text": "Auf gestalteter Seite speichern"
+    },
+    {
+      "Name": "linkSaveTT",
+      "Text": "Speichert Informationen auf der gestalteten Seite - Kopierte Eigenschaften sind Menütext, Bild-SVG und Tooltip"
+    },
+    {
+      "Name": "menuChanged",
+      "Text": "Das Menü wurde von einer anderen Person geändert - Ihre Änderungen können nicht gespeichert werden - Bitte aktualisieren Sie die aktuelle Seite, bevor Sie fortfahren"
+    },
+    {
+      "Name": "modName",
+      "Text": "Menü Bearbeiten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implementiert die Menübearbeitung. Dies wird als Teil des Hauptmenümoduls und des Menümoduls verwendet, um Menüeinstellungen im Site-Bearbeitungsmodus zu bearbeiten."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Menü"
+    }
+  ]
+}

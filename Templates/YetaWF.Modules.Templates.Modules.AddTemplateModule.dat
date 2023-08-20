@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Templates.Modules.AddTemplateModule+Model",
+      "BaseTypeName": null,
+      "Header": "Fügen Sie Ihrem Projekt ein Vorlagentestmodul hinzu, um eine Vorlage zu testen. Dies wird normalerweise bei der Entwicklung einer neuen Vorlage verwendet.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Company",
+          "Caption": "Firma",
+          "Description": "Geben Sie Ihren Firmennamen ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: Mein Firmenname - Dies wird verwendet, um Ihren Firmennamen in anzeigbarer Form anzuzeigen."
+        },
+        {
+          "Name": "CompanyUrl",
+          "Caption": "Unternehmens-URL",
+          "Description": "Geben Sie die Domain-URL Ihres Unternehmens ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: MyCompany.com – Die Domain-URL Ihres Unternehmens."
+        },
+        {
+          "Name": "Domain",
+          "Caption": "Domäne",
+          "Description": "Geben Sie den Domainnamen Ihres Unternehmens ohne .com ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: MyCompany - Es muss bereits ein Projekt existieren, das die eingegebene Domain und den eingegebenen Projektnamen verwendet. Dies wird als Teil des generierten Namespace verwendet und wird auch für alle neuen Elemente verwendet, die diesem Projekt hinzugefügt werden. Der Bezeichner darf nur Buchstaben und Zahlen enthalten."
+        },
+        {
+          "Name": "Project",
+          "Caption": "Projektname",
+          "Description": "Geben Sie den gewünschten Projektnamen ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: StoreFont oder Blog oder Forum - Es muss bereits ein Projekt existieren, das die eingegebene Domain und den eingegebenen Projektnamen verwendet. Dies wird als Teil des generierten Namespace verwendet und wird auch für alle neuen Elemente verwendet, die diesem Projekt hinzugefügt werden. Der Bezeichner darf nur Buchstaben und Zahlen enthalten."
+        },
+        {
+          "Name": "TemplateModuleName",
+          "Caption": "Name der Vorlage",
+          "Description": "Geben Sie den Namen des gewünschten Vorlagentestmoduls ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: ModuleSelection"
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Fügt ein Vorlagentestmodul hinzu"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Vorlagen-Testmodul hinzufügen"
+    },
+    {
+      "Name": "addText",
+      "Text": "Vorlagen-Testmodul hinzufügen"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Hinzufügen eines Vorlagentestmoduls"
+    },
+    {
+      "Name": "cantSave",
+      "Text": "Vorlagenvorgaben können nicht gespeichert werden"
+    },
+    {
+      "Name": "modName",
+      "Text": "Vorlagen-Testmodul hinzufügen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Fügt ein Vorlagentestmodul hinzu"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Vorlagen-Testmodul hinzufügen"
+    },
+    {
+      "Name": "notExists",
+      "Text": "Projekt {0} nicht gefunden. Der Ordner {1} existiert nicht. Module können nur zu bestehenden Projekten hinzugefügt werden."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Das neue Vorlagentestmodul {0} dem Projekt {1}/{2} hinzugefügt."
+    }
+  ]
+}

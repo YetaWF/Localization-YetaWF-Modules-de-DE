@@ -1,0 +1,44 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Visitors.Modules.TinyVisitorsModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "VisitorsUrl",
+          "Caption": "Besucher-URL",
+          "Description": "Die Seite, die angezeigt wird, wenn auf das Symbol geklickt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Besucher-Statistik"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt ein kleines Symbol an. Wenn ein autorisierter Benutzer den Mauszeiger über das Symbol bewegt, werden die heutigen und gestrigen Summen für anonyme und angemeldete Besucher angezeigt. Mit einem Klick auf das Icon wird das Besucher-Modul angezeigt, das alle Besucheraktivitäten anzeigt (vorausgesetzt, die URL für eine Seite mit dem Besucher-Modul wurde in den Einstellungen des TinyVisitor-Moduls definiert). Dieses Modul wird in der Regel zu jeder Seite hinzugefügt (als Skin-Modul), sodass der Administrator Zugriff auf die Besucheraktivitäten hat."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Besucher-Statistik"
+    },
+    {
+      "Name": "tooltip",
+      "Text": "Heute: {0} Benutzer, {1} anonym - Gestern: {2}/{3}"
+    }
+  ]
+}

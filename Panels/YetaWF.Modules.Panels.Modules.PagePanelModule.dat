@@ -1,0 +1,164 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Panels.Modules.PagePanelModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "DefaultImage",
+          "Caption": "Standard-Bild",
+          "Description": "Das Standardbild, das verwendet wird, wenn eine Seite kein eigenes FavIcon definiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageList",
+          "Caption": "Seitenliste",
+          "Description": "Definiert die Seiten und ihre Reihenfolge, wie sie im Seitenbereich angezeigt werden, anhand ihrer FavIcons und Seitenbeschreibung - Seiten, die der Seitenliste hinzugefügt werden, werden vor den Seiten angezeigt, die mit dem Seitenmuster entdeckt wurden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PagePattern",
+          "Caption": "Seitenmuster",
+          "Description": "Definiert ein Regex-Muster - Alle Seiten, die diesem Muster entsprechen, werden in das Seitenfenster aufgenommen - z. B. würde ^/Admin/Config/[^/]*$ alle Seiten enthalten, die mit /Admin/Config/ beginnen, aber nicht ihre untergeordneten Seiten - Seiten, die der Seitenliste hinzugefügt werden, werden vor Seiten angezeigt, die mit dem Seitenmuster erkannt wurden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Style",
+          "Caption": "Stil",
+          "Description": "Definiert das Erscheinungsbild von Seiteneinträgen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UsePopup",
+          "Caption": "Popups verwenden",
+          "Description": "Legt fest, ob Seiten, die automatisch über das Feld Seitenmuster hinzugefügt werden, als Popups angezeigt werden - andernfalls werden ganze Seiten angezeigt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Panels.Modules.PagePanelModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "DefaultImage",
+          "Caption": "Standard-Bild",
+          "Description": "Das Standardbild, das verwendet wird, wenn eine Seite kein eigenes FavIcon definiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageList",
+          "Caption": "Seiten",
+          "Description": "Definiert die Seiten und ihre Reihenfolge, wie sie im Seitenbereich angezeigt werden, anhand ihrer FavIcons und Seitenbeschreibung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PagePattern",
+          "Caption": "Seitenmuster",
+          "Description": "Definiert ein Regex-Muster - alle Seiten, die diesem Muster entsprechen, werden in das Seitenfenster aufgenommen - z. B. würde ^/Admin/Config/[^/]*$ alle Seiten enthalten, die mit /Admin/Config/ beginnen, aber nicht ihre untergeordneten Seiten enthalten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Style",
+          "Caption": "Stil",
+          "Description": "Definiert das Erscheinungsbild von Seiteneinträgen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UsePopup",
+          "Caption": "Popups verwenden",
+          "Description": "Legt fest, ob Seiten, die automatisch über das Feld Seitenmuster hinzugefügt werden, als Popups angezeigt werden - andernfalls werden ganze Seiten angezeigt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Panels.Modules.PagePanelModule+PanelStyleEnum",
+      "Entries": [
+        {
+          "Name": "Default",
+          "Value": "Default",
+          "Caption": "Vorgabe",
+          "Description": "Zeigt das Seiten-FavIcon und den Seitentitel in Kacheln an, die horizontal angeordnet sind und innerhalb des verfügbaren Platzes umgebrochen werden - Es wird ein großes Symbol verwendet"
+        },
+        {
+          "Name": "SmallVertical",
+          "Value": "SmallVertical",
+          "Caption": "Kleine Vertikale",
+          "Description": "Zeigt das Seiten-FavIcon und den Seitentitel als Liste an, vertikal angeordnet und innerhalb des verfügbaren Platzes umgebrochen - Ein kleines Icon wird verwendet"
+        },
+        {
+          "Name": "SmallTable",
+          "Value": "SmallTable",
+          "Caption": "Kleiner Tisch",
+          "Description": "Zeigt die Seite FavIcon, Seitentitel und Beschreibung als Tabelle an - Ein kleines Icon wird verwendet"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt den Seitenbereich an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Seiten-Panel"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Seiten-Panel"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Anzeigen des Seitenbereichs"
+    },
+    {
+      "Name": "modName",
+      "Text": "Seiten-Panel"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um mehrere Links zu Seiten anzuzeigen, die das FavIcon der Seiten verwenden. Eine Beispielseite ist unter /Admin/Tests (Standard-YetaWF-Site) verfügbar."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Seiten-Panel"
+    }
+  ]
+}

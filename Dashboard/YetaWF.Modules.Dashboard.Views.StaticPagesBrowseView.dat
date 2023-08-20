@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "disabled",
+      "Text": "Statische Seiten sind für diese Website deaktiviert."
+    },
+    {
+      "Name": "enabledBut",
+      "Text": "Statische Seiten sind aktiviert, werden aber nicht für diese Site verwendet, da der verwendete Hostname nicht mit dem definierten Hostnamen übereinstimmt."
+    },
+    {
+      "Name": "explain",
+      "Text": "<p>Statische Seiten sind schnell ladende Seiten, deren Inhalt sich in der Regel nicht ändert. Die folgende Liste zeigt alle aktuell geladenen statischen Seiten. Es kann zusätzliche Seiten geben, die als statische Seiten definiert wurden (in ihren Seiteneinstellungen), die noch nicht geladen wurden.</p><p>Statische Seiten werden pro Seite (Seiteneinstellungen) und auf der gesamten Website mithilfe der Websiteeinstellungen aktiviert.</p>"
+    }
+  ]
+}

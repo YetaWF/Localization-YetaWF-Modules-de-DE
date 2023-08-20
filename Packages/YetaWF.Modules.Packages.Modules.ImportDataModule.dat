@@ -1,0 +1,60 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Packages.Modules.ImportDataModule+ImportDataModel",
+      "BaseTypeName": null,
+      "Header": "Importieren Sie Paketdaten aus einer ZIP-Datei (erstellt durch Daten exportieren).",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Import": "Importieren"
+      },
+      "Properties": [
+        {
+          "Name": "UploadFile",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnImport",
+      "Text": "Daten importieren..."
+    },
+    {
+      "Name": "modName",
+      "Text": "Importieren von Paketdaten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um alle Daten für ein Paket zu importieren. Es werden nur Daten für den aktuellen Standort importiert. Eine Site-Sicherung enthält mehrere ZIP-Dateien, die jeweils Daten enthalten, die für ein bestimmtes Paket gesichert sind. Diese ZIP-Dateien können mithilfe des Moduls \"Paketdaten importieren\" wiederhergestellt oder importiert werden. Auf das Modul \"Paketdaten importieren\" kann über das Admin->-Panel > Pakete zugegriffen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Importieren von Paketdaten"
+    },
+    {
+      "Name": "roleImports",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Importieren von Paketdaten"
+    },
+    {
+      "Name": "roleImportsC",
+      "Text": "Importieren von Paketdaten"
+    },
+    {
+      "Name": "userImports",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Importieren von Paketdaten"
+    },
+    {
+      "Name": "userImportsC",
+      "Text": "Importieren von Paketdaten"
+    }
+  ]
+}

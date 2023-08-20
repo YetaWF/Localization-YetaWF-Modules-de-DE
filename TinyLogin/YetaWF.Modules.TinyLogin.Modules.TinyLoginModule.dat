@@ -1,0 +1,145 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.TinyLogin.Modules.TinyLoginModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein",
+        "Variables": "Variablen"
+      },
+      "Properties": [
+        {
+          "Name": "AllowUserRegistration",
+          "Caption": "Neue Benutzer zulassen",
+          "Description": "Registrierung neuer Benutzer zulassen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LogoffUrl",
+          "Caption": "Abmelde-URL",
+          "Description": "Die URL, zu der der Benutzer umgeleitet wird, wenn auf den Abmeldelink geklickt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LogonUrl",
+          "Caption": "Anmelde-URL",
+          "Description": "Die URL, zu der der Benutzer weitergeleitet wird, wenn auf den Anmeldelink geklickt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RegisterUrl",
+          "Caption": "Registrierungs-URL",
+          "Description": "Die URL, zu der der Benutzer weitergeleitet wird, wenn auf den Registrierungslink geklickt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowActionMenu",
+          "Caption": "Aktionsmenü anzeigen",
+          "Description": "Zeigt an, ob das Aktionsmenü für dieses Modul angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UsePopup",
+          "Caption": "Popup-Fenster verwenden",
+          "Description": "Verwenden Sie Popup-Fenster, um sich anzumelden und zu registrieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserTooltip",
+          "Caption": "Benutzer-Tooltip",
+          "Description": "Die QuickInfo, die für den Link zum Benutzernamen angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserUrl",
+          "Caption": "Benutzer-URL",
+          "Description": "Die URL, zu der der Benutzer umgeleitet wird, wenn auf den Benutzernamen geklickt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "loginLegend",
+      "Text": "Meldet sich mit Ihrem bestehenden Konto bei dieser Website an"
+    },
+    {
+      "Name": "loginLink",
+      "Text": "Einloggen"
+    },
+    {
+      "Name": "loginText",
+      "Text": "Einloggen"
+    },
+    {
+      "Name": "loginTooltip",
+      "Text": "Klicken Sie hier, um sich mit Ihrem bestehenden Konto auf dieser Website anzumelden"
+    },
+    {
+      "Name": "logoffLegend",
+      "Text": "Meldet Sie von dieser Seite ab"
+    },
+    {
+      "Name": "logoffLink",
+      "Text": "Abmeldung"
+    },
+    {
+      "Name": "logoffText",
+      "Text": "Abmeldung"
+    },
+    {
+      "Name": "logoffTooltip",
+      "Text": "Klicken Sie hier, um sich von dieser Website abzumelden"
+    },
+    {
+      "Name": "modName",
+      "Text": "Winziges Login"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Stellt Anmelde-/Registrierungslinks bereit und zeigt den Kontonamen eines angemeldeten Benutzers an. Dieses Modul wird in der Regel zu jeder Seite hinzugefügt (als Skin-Modul), damit sich anonyme Benutzer anmelden oder ein neues Konto registrieren können. Für angemeldete Benutzer wird der Kontoname mit einem Link zu den Benutzereinstellungen angezeigt."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Winziges Login"
+    },
+    {
+      "Name": "registerLegend",
+      "Text": "Registrieren Sie sich, um mit einem neuen Konto auf diese Website zuzugreifen"
+    },
+    {
+      "Name": "registerLink",
+      "Text": "Registrieren"
+    },
+    {
+      "Name": "registerText",
+      "Text": "Registrieren"
+    },
+    {
+      "Name": "registerTooltip",
+      "Text": "Klicken Sie hier, um ein neues Konto für den Zugriff auf diese Website zu registrieren"
+    }
+  ]
+}

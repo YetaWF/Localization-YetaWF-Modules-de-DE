@@ -1,0 +1,118 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.StaticPagesBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FileNames",
+          "Caption": "Lokale Dateien",
+          "Description": "Die lokale(n) Datei(en), die den Inhalt der statischen Seite enthält",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LocalUrl",
+          "Caption": "Lokale URL",
+          "Description": "Die lokale URL der statischen Seite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StorageType",
+          "Caption": "Art",
+          "Description": "Der Speichertyp, der für die statische Seite verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Zeigt statische Seiten an und verwaltet sie"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Statische Seiten"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Statische Seiten"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Anzeigen und Verwalten statischer Seiten"
+    },
+    {
+      "Name": "modName",
+      "Text": "Statische Seiten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Informationen zu statischen Seiten an und verwaltet sie. Dies kann über Admin > Dashboard > Static Pages (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Statische Seiten"
+    },
+    {
+      "Name": "removeAllLegend",
+      "Text": "Entlädt alle statischen Seiten und entfernt die gespeicherten Daten - Seiten werden beim Zugriff neu generiert"
+    },
+    {
+      "Name": "removeAllLink",
+      "Text": "Alle entladen"
+    },
+    {
+      "Name": "removeAllMenu",
+      "Text": "Alle entladen"
+    },
+    {
+      "Name": "removeAllTT",
+      "Text": "Entladen Sie alle statischen Seiten und entfernen Sie die gespeicherten Daten - Seiten werden beim Zugriff neu generiert"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie die statische Seite \"{0}\" entladen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entlädt die statische Seite, damit sie bei der nächsten Anforderung neu generiert wird"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Statische Seite entladen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Geladene statische Seite entladen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entladen Sie die statische Seite, damit sie bei der nächsten Anforderung neu generiert wird"
+    },
+    {
+      "Name": "toggleremoveAll",
+      "Text": "Sind Sie sicher, dass Sie alle statischen Seiten entladen möchten?"
+    }
+  ]
+}

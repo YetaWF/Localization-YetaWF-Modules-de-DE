@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "explain",
+      "Text": "<p>Ressourcen werden durch Module und Pakete vordefiniert. Wenn eine Ressource gelöscht wird, die durch ein vorhandenes Paket definiert ist, wird sie in ihrem Standardzustand wiederhergestellt.</p>"
+    }
+  ]
+}

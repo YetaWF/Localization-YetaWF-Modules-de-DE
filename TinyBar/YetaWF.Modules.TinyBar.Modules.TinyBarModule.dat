@@ -1,0 +1,172 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.TinyBar.Modules.TinyBarModule",
+      "BaseTypeName": "YetaWF.Modules.Menus.Modules.MenuModule",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "AllowUserRegistration",
+          "Caption": "Neue Benutzer zulassen",
+          "Description": "Registrierung neuer Benutzer zulassen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HoverDelay",
+          "Caption": "Hover-Verzögerung",
+          "Description": "Gibt die Verzögerung (in Millisekunden) an, bevor das Menü geschlossen wird - Wird verwendet, um ein versehentliches Schließen beim Verlassen zu vermeiden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LogoffUrl",
+          "Caption": "Abmelde-URL",
+          "Description": "Die URL, zu der der Benutzer umgeleitet wird, wenn auf den Abmeldelink geklickt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LogonUrl",
+          "Caption": "Anmelde-URL",
+          "Description": "Die URL, zu der der Benutzer weitergeleitet wird, wenn auf den Anmeldelink geklickt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OpenOnHover",
+          "Caption": "Beim Bewegen des Mauszeigers öffnen",
+          "Description": "Legt fest, ob das Dropdown automatisch geöffnet wird, wenn der Mauszeiger über das Menü bewegt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RegisterUrl",
+          "Caption": "Registrierungs-URL",
+          "Description": "Die URL, zu der der Benutzer weitergeleitet wird, wenn auf den Registrierungslink geklickt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SearchUrl",
+          "Caption": "Such-URL",
+          "Description": "Die URL, zu der der Benutzer weitergeleitet wird, wenn auf das Suchsymbol geklickt wird - Wenn die Such-URL weggelassen wird, ist das Suchsymbol nicht verfügbar",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UsePopup",
+          "Caption": "Popup-Fenster verwenden",
+          "Description": "Verwenden Sie Popup-Fenster, um sich anzumelden und zu registrieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserTooltip",
+          "Caption": "Benutzer-Tooltip",
+          "Description": "Die QuickInfo, die für den Link zum Benutzernamen angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserUrl",
+          "Caption": "Benutzer-URL",
+          "Description": "Die URL, zu der der Benutzer umgeleitet wird, wenn auf den Benutzernamen geklickt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "default",
+      "Text": "(Standardeinstellung der Website)"
+    },
+    {
+      "Name": "defaultTT",
+      "Text": "Verwenden Sie die von der Website definierte Standardsprache"
+    },
+    {
+      "Name": "langSel",
+      "Text": "Klicken Sie hier, um eine der verfügbaren Sprachen auszuwählen, die von dieser Website unterstützt werden"
+    },
+    {
+      "Name": "loginLegend",
+      "Text": "Meldet sich mit Ihrem bestehenden Konto bei dieser Website an"
+    },
+    {
+      "Name": "loginLink",
+      "Text": "Einloggen"
+    },
+    {
+      "Name": "loginText",
+      "Text": "Einloggen"
+    },
+    {
+      "Name": "loginTooltip",
+      "Text": "Klicken Sie hier, um sich mit Ihrem bestehenden Konto auf dieser Website anzumelden"
+    },
+    {
+      "Name": "logoffLegend",
+      "Text": "Meldet Sie von dieser Seite ab"
+    },
+    {
+      "Name": "logoffLink",
+      "Text": "Abmeldung"
+    },
+    {
+      "Name": "logoffText",
+      "Text": "Abmeldung"
+    },
+    {
+      "Name": "logoffTooltip",
+      "Text": "Klicken Sie hier, um sich von dieser Website abzumelden"
+    },
+    {
+      "Name": "modName",
+      "Text": "Winzige Bar"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Bietet Informationen zu Benutzerkonten, Suche und Sprachauswahl. Dieses Modul wird in der Regel zu jeder Seite hinzugefügt (als Skin-Modul), sodass Benutzer die Sprache auswählen und auf Benutzerinformationen zugreifen können."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Winzige Bar"
+    },
+    {
+      "Name": "registerLegend",
+      "Text": "Registrieren Sie sich, um mit einem neuen Konto auf diese Website zuzugreifen"
+    },
+    {
+      "Name": "registerLink",
+      "Text": "Registrieren"
+    },
+    {
+      "Name": "registerText",
+      "Text": "Registrieren"
+    },
+    {
+      "Name": "registerTooltip",
+      "Text": "Klicken Sie hier, um ein neues Konto für den Zugriff auf diese Website zu registrieren"
+    }
+  ]
+}

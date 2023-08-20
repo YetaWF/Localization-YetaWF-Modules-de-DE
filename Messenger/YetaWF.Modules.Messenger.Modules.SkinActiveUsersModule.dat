@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Aktive Benutzer (Skin)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Skin-Modul, das verwendet wird, um eine Liste der aktiven Benutzer zu führen"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Skin Active-Benutzer"
+    }
+  ]
+}

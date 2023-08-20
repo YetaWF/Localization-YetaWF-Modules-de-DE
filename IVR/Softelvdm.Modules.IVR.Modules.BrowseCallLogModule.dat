@@ -1,0 +1,192 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseCallLogModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "DisplayUrl",
+          "Caption": "Url anzeigen",
+          "Description": "Die URL zum Anzeigen eines Anrufprotokolleintrags - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseCallLogModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Caller",
+          "Caption": "Von",
+          "Description": "Die Telefonnummer des Anrufers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerCity",
+          "Caption": "Aus der Stadt",
+          "Description": "Die Stadt des Anrufers (falls verfügbar)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerCountry",
+          "Caption": "Aus dem Land",
+          "Description": "Das Land des Anrufers (falls verfügbar)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerState",
+          "Caption": "Von Staat",
+          "Description": "Status des Anrufers (falls verfügbar)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CallerZip",
+          "Caption": "Von Postleitzahl",
+          "Description": "Die Postleitzahl des Anrufers (falls vorhanden)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Erstellt",
+          "Description": "Datum/Uhrzeit des Eingangs des Anrufs",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Id",
+          "Caption": "Id",
+          "Description": "Die interne ID",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "To",
+          "Caption": "Telefonnummer",
+          "Description": "Die angerufene Telefonnummer",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.BrowseCallLogModule+BrowseModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GridDef",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Anzeige und Verwaltung von Anrufprotokolleinträgen"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Einträge im Anrufprotokoll"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Einträge im Anrufprotokoll"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Anzeigen und Verwalten von Anrufprotokolleinträgen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Einträge im Anrufprotokoll"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Anrufprotokolleinträge an und verwaltet sie."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Einträge im Anrufprotokoll"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie den Anrufprotokolleintrag mit der ID {0} entfernen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt den Anrufprotokolleintrag"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernen des Anrufprotokolleintrags"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Entfernen einzelner Anrufprotokolleinträge"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Anrufprotokolleinträge entfernen"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer verfügt über die Berechtigung, einzelne Anrufprotokolleinträge zu entfernen"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Anrufprotokolleinträge entfernen"
+    }
+  ]
+}

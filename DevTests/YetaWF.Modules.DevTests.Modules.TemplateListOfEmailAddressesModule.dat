@@ -1,0 +1,74 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateListOfEmailAddressesModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Prop1",
+          "Caption": "E-Mail-Adressen",
+          "Description": "Liste der E-Mail-Adressen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Req",
+          "Caption": "E-Mail-Adressen (erforderlich)",
+          "Description": "Liste der E-Mail-Adressen (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "E-Mail-Adressen (schreibgeschützt)",
+          "Description": "Liste der E-Mail-Adressen (schreibgeschützt)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt die ListOfEmailAddresses-Testkomponente an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "ListOfEmailAddresses"
+    },
+    {
+      "Name": "displayText",
+      "Text": "ListOfEmailAddresses"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Anzeigen der Testkomponente \"ListOfEmailAddresses\""
+    },
+    {
+      "Name": "modName",
+      "Text": "Komponententest - ListOfEmailAddresses"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Testmodul für die ListOfEmailAddresses-Komponente. Eine Testseite für dieses Modul finden Sie unter Tests > Templates > ListOfEmailAddresses (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "ListOfEmailAddresses-Testkomponente"
+    },
+    {
+      "Name": "ok",
+      "Text": "OKAY"
+    }
+  ]
+}

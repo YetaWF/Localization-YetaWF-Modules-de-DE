@@ -1,0 +1,58 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TestEscapesModule+EditModel",
+      "BaseTypeName": null,
+      "Header": "Diese Testseite wird verwendet, um die korrekte Zeichenkodierung zu testen - header (HeaderAttribute) &amp; <A> &amp; @ {0}",
+      "Footer": "Sonderzeichen in der Fußzeile (FooterAttribute) &amp; <A> &amp; @ {0}",
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "String1",
+          "Caption": "Bildunterschrift &amp; <A> &amp; @ {0}",
+          "Description": "Eine Beschreibung &amp; <A> &amp; @ {0}",
+          "HelpLink": null,
+          "TextAbove": "Sonderzeichen im Text über dem Feld (TextAboveAttribute) &amp; <A> &amp; @ {0}",
+          "TextBelow": "Sonderzeichen im Text unterhalb des Feldes (TextBelowAttribute) &amp; <A> &amp; @ {0}"
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Testet verschiedene clientseitige und serverseitige Zeichenübersetzungen/-escapes"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Entkommt"
+    },
+    {
+      "Name": "editText",
+      "Text": "Entkommt"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Testen Sie verschiedene clientseitige und serverseitige Zeichenübersetzungen/-escapes"
+    },
+    {
+      "Name": "modName",
+      "Text": "Test-Escapes (HTML, Attribute)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Testet verschiedene clientseitige und serverseitige Zeichenübersetzungen/-escapes. Eine Testseite für dieses Modul finden Sie unter Tests > Module > Escapes (Standard-YetaWF-Seite)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Test-Escapes"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Test Done - Hier sind einige Sonderzeichen in einer Nachricht: &amp; <A> &amp; @ {0}"
+    }
+  ]
+}

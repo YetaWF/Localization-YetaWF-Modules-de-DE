@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "imgAttr",
+      "Text": "{0} x {1} (B x H)"
+    },
+    {
+      "Name": "removeImageOK",
+      "Text": "Bild \"{0}\" erfolgreich entfernt"
+    },
+    {
+      "Name": "saveImageOK",
+      "Text": "Bild \"{0}\" erfolgreich hochgeladen"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Menus.Modules.MenuToggleModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "Target",
+          "Caption": "Ziel-Element",
+          "Description": "Definiert das Element, das das Menü enthält, das von dieser Umschaltfläche mithilfe von CSS-Selektoren gesteuert wird.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Menü Umschalten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um eine Menüumschalttaste auf kleinen Bildschirmen anzuzeigen."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Menü Umschalten"
+    }
+  ]
+}

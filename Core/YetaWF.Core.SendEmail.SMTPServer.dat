@@ -1,0 +1,108 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Core.SendEmail.SMTPServer",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Authentication",
+          "Caption": "Authentifizierung",
+          "Description": "Legt fest, wie auf den Mailserver zugegriffen wird, um E-Mails zu versenden. Die meisten E-Mail-Server erfordern eine Authentifizierung mit einem Benutzernamen und einem Kennwort",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Password",
+          "Caption": "Passwort",
+          "Description": "Das Kennwort, das für die Anmeldung beim E-Mail-Server verwendet wird, wenn eine Authentifizierung durch den E-Mail-Server erforderlich ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Port",
+          "Caption": "Hafen",
+          "Description": "Der verwendete SMTP-Mailserver-Port (25 ist normalerweise die Standardeinstellung)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SendTestEmail",
+          "Caption": "Test-E-Mail senden",
+          "Description": "Klicken Sie hier, um eine Test-E-Mail mit den Serverinformationen zu senden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Server",
+          "Caption": "Server",
+          "Description": "Der SMTP-Mailserver, der für alle E-Mails verwendet wird, die von dieser Website stammen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SSL",
+          "Caption": "Sicher",
+          "Description": "Legt fest, ob SSL beim Versenden von E-Mails verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserName",
+          "Caption": "Benutzername",
+          "Description": "Der Benutzername, der für die Anmeldung beim E-Mail-Server verwendet wird, wenn eine Authentifizierung durch den E-Mail-Server erforderlich ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.SendEmail.SMTPServer+AuthEnum",
+      "Entries": [
+        {
+          "Name": "Anonymous",
+          "Value": "Anonymous",
+          "Caption": "Anonym",
+          "Description": "Anonyme Anmeldung am Mailserver (nicht empfohlen)"
+        },
+        {
+          "Name": "Signon",
+          "Value": "Signon",
+          "Caption": "Signon",
+          "Description": "Melden Sie sich mit Benutzername und Passwort beim Mailserver an"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "confirmSend",
+      "Text": "Sind Sie sicher, dass Sie eine Test-E-Mail mit den bereitgestellten Serverinformationen an {0} senden möchten?"
+    },
+    {
+      "Name": "send",
+      "Text": "Senden"
+    },
+    {
+      "Name": "sendTT",
+      "Text": "Klicken Sie hier, um eine Test-E-Mail zu senden"
+    },
+    {
+      "Name": "serverInvalid",
+      "Text": "Der E-Mail-Server wurde nicht konfiguriert."
+    }
+  ]
+}

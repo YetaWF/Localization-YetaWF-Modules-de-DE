@@ -1,0 +1,72 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateTreeModule+EntryElement",
+      "BaseTypeName": "YetaWF.Core.Models.TreeEntry",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Text",
+          "Caption": "Text",
+          "Description": "Einträge",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateTreeModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Entries",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt eine Beispielstruktur an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Baum"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Baum"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Anzeigen eines Beispielbaums"
+    },
+    {
+      "Name": "modName",
+      "Text": "Komponententest - Baum"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Testmodul für die Tree-Komponente. Eine Testseite für dieses Modul finden Sie unter Tests > Templates > Tree (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Baum (statische) Testkomponente"
+    }
+  ]
+}

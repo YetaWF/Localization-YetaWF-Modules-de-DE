@@ -1,0 +1,88 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Panels.Models.PanelInfo",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Panels": "Paneele"
+      },
+      "Properties": [
+        {
+          "Name": "Style",
+          "Caption": "Stil",
+          "Description": "Definiert den visuellen Stil der Bedienfelder, die im Site-Anzeigemodus verwendet werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Panels.Models.PanelInfo+PanelEntry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Caption",
+          "Caption": "Überschrift",
+          "Description": "Die Beschriftung für dieses Modul",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Module",
+          "Caption": "Modul",
+          "Description": "Das Modul, das in diesem Slot gerendert wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ToolTip",
+          "Caption": "Quickinfo",
+          "Description": "Der optionale ToolTip für dieses Modul",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Panels.Models.PanelInfo+PanelStyleEnum",
+      "Entries": [
+        {
+          "Name": "Tabs",
+          "Value": "Tabs",
+          "Caption": "Tabulatoren",
+          "Description": "Registerkarten werden verwendet, um zwischen den Bedienfeldern zu wechseln"
+        },
+        {
+          "Name": "Accordion",
+          "Value": "Accordion",
+          "Caption": "Akkordeon",
+          "Description": "Ein akkordeonartiges Display wird verwendet, um zwischen den Bedienfeldern zu wechseln"
+        }
+      ]
+    }
+  ],
+  "Strings": [
+    {
+      "Name": "dfltCaption",
+      "Text": "(Bildunterschrift)"
+    },
+    {
+      "Name": "dfltTT",
+      "Text": "(QuickInfo)"
+    }
+  ]
+}

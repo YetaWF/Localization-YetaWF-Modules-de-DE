@@ -1,0 +1,130 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.BlogModule+Entry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Actions",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Author",
+          "Caption": "Verfasser",
+          "Description": "Der Name des Blog-Autors",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AuthorUrl",
+          "Caption": "Verfasser",
+          "Description": "Die optionale URL, die auf die Informationen des Autors verweist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DatePublished",
+          "Caption": "Veröffentlichungsdatum",
+          "Description": "Das Datum der Veröffentlichung dieses Eintrags",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayableSummary",
+          "Caption": "Zusammenfassung",
+          "Description": "Die Zusammenfassung zu diesem Blogeintrag",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ViewAction",
+          "Caption": "Ansehen",
+          "Description": "Sehen Sie sich den kompletten Blogeintrag an",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "countLegend",
+      "Text": "Zeigt die Blogeinträge an, die mit {0} beginnen"
+    },
+    {
+      "Name": "countLink",
+      "Text": "{0} ({1})"
+    },
+    {
+      "Name": "countMenu",
+      "Text": "{0} ({1})"
+    },
+    {
+      "Name": "countTooltip",
+      "Text": "Blogeinträge anzeigen, die mit {0} beginnen"
+    },
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt den Blog an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Blog"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Blog"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Zeigen Sie den Blog an"
+    },
+    {
+      "Name": "latest",
+      "Text": "{0} - Aktuelles"
+    },
+    {
+      "Name": "modName",
+      "Text": "Blog"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt den Haupteinstiegspunkt des Blogs mit allen oder einer einzelnen Blogkategorie an. Fügen Sie dieses Modul zu einer Seite als Haupteinstiegspunkt für Ihren gesamten Blog-Tor für einzelne Blog-Kategorien hinzu. Es zeigt Blogeinträge in Kurzform an. Die maximale Anzahl der angezeigten Einträge kann mit dem Modul Blog-Einstellungen (Admin > Einstellungen > Blog-Einstellungen, Standard-YetaWF-Site) begrenzt werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Blog"
+    },
+    {
+      "Name": "rssLegend",
+      "Text": "Zeigt den RSS-Feed des Blogs an"
+    },
+    {
+      "Name": "rssLink",
+      "Text": "RSS-Feed"
+    },
+    {
+      "Name": "rssMenu",
+      "Text": "RSS-Feed"
+    },
+    {
+      "Name": "rssTT",
+      "Text": "RSS-Feed des Blogs anzeigen"
+    }
+  ]
+}

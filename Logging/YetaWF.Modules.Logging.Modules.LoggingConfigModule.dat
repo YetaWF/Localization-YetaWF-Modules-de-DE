@@ -1,0 +1,62 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Logging.Modules.LoggingConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Days",
+          "Caption": "Aufbewahrung (Tage)",
+          "Description": "Definiert die Anzahl der Tage, für die Protokollierungsinformationen gespeichert werden - Protokollinformationen, die älter als die angegebene Anzahl von Tagen sind, werden gelöscht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Protokollierungseinstellungen"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Einstellungen für die Protokollierung"
+    },
+    {
+      "Name": "editText",
+      "Text": "Einstellungen für die Protokollierung"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten der Protokollierungseinstellungen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Einstellungen für die Protokollierung"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um die Protokollierungseinstellungen einer Site zu bearbeiten. Dies kann über Admin > Settings > Logging Settings (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Einstellungen für die Protokollierung"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Protokollierungseinstellungen konnten nicht gefunden werden"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Gespeicherte Protokollierungseinstellungen"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Templates.Modules.AddConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": "Fügen Sie Ihrem Projekt ein Konfigurationsmodul hinzu, um Konfigurationseinstellungen für ein gesamtes Paket zu definieren, auf das von allen Modulen in Ihrem Paket verwiesen werden kann.\r(+nl)\r(+nl) Nachdem die Module erstellt wurden, können Sie das verwendete Datenmodell vollständig anpassen und Code für den Zugriff auf externe Daten (SQL-Tabellen, Dateien usw.) hinzufügen.\r(+nl)\r(+nl) Die generierten Module unterstützen Popups und seitenbasierte Module, enthalten Eigenschaftsseiten und sind lokalisierbar, mit vollständiger Unterstützung für Datenanmerkungen.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Company",
+          "Caption": "Firma",
+          "Description": "Geben Sie Ihren Firmennamen ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: Mein Firmenname - Dies wird verwendet, um Ihren Firmennamen in anzeigbarer Form anzuzeigen."
+        },
+        {
+          "Name": "CompanyUrl",
+          "Caption": "Unternehmens-URL",
+          "Description": "Geben Sie die Domain-URL Ihres Unternehmens ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: MyCompany.com – Die Domain-URL Ihres Unternehmens."
+        },
+        {
+          "Name": "ConfigModelName",
+          "Caption": "Name des Datenmodells",
+          "Description": "Geben Sie den gewünschten Namen des Datenmodells ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: ConfigData, RegistrationData"
+        },
+        {
+          "Name": "ConfigModuleName",
+          "Caption": "Name des Moduls",
+          "Description": "Geben Sie den Namen des gewünschten Konfigurationsmoduls ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: Einstellungen"
+        },
+        {
+          "Name": "ConfigObjectName",
+          "Caption": "Name des Objekts",
+          "Description": "Geben Sie den gewünschten vom Benutzer anzeigbaren Objektnamen für den Datenmodellnamen ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: Konfigurationseinstellungen"
+        },
+        {
+          "Name": "Domain",
+          "Caption": "Domäne",
+          "Description": "Geben Sie den Domainnamen Ihres Unternehmens ohne .com ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: MyCompany - Es muss bereits ein Projekt existieren, das die eingegebene Domain und den eingegebenen Projektnamen verwendet. Dies wird als Teil des generierten Namespace verwendet und wird auch für alle neuen Elemente verwendet, die diesem Projekt hinzugefügt werden. Der Bezeichner darf nur Buchstaben und Zahlen enthalten."
+        },
+        {
+          "Name": "Project",
+          "Caption": "Projektname",
+          "Description": "Geben Sie den gewünschten Projektnamen ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Beispiel: StoreFont oder Blog oder Forum - Es muss bereits ein Projekt existieren, das die eingegebene Domain und den eingegebenen Projektnamen verwendet. Dies wird als Teil des generierten Namespace verwendet und wird auch für alle neuen Elemente verwendet, die diesem Projekt hinzugefügt werden. Der Bezeichner darf nur Buchstaben und Zahlen enthalten."
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Fügt ein Konfigurationsmodul hinzu"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Konfigurationsmodul hinzufügen"
+    },
+    {
+      "Name": "addText",
+      "Text": "Konfigurationsmodul hinzufügen"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Hinzufügen eines Konfigurationsmoduls"
+    },
+    {
+      "Name": "cantSave",
+      "Text": "Vorlagenvorgaben können nicht gespeichert werden"
+    },
+    {
+      "Name": "modName",
+      "Text": "Konfigurationsmodul hinzufügen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Fügt ein Konfigurationsmodul hinzu"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Konfigurationsmodul hinzufügen"
+    },
+    {
+      "Name": "notExists",
+      "Text": "Projekt {0} nicht gefunden. Der Ordner {1} existiert nicht. Module können nur zu bestehenden Projekten hinzugefügt werden."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Das Projekt {0} um ein neues Konfigurationsmodul {1}/{2} erweitert."
+    }
+  ]
+}

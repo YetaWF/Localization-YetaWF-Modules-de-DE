@@ -1,0 +1,78 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Visitors.Modules.VisitorSummaryModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "TodaysAnonymous",
+          "Caption": "Anonyme Besucher von heute",
+          "Description": "Zeigt die Anzahl der anonymen Besucher heute an (indem die Anzahl der unterschiedlichen Sitzungen ohne angemeldeten Benutzer gemeldet wird)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TodaysUsers",
+          "Caption": "Die Besucher von heute",
+          "Description": "Zeigt die Anzahl der heute angemeldeten Besucher an",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "YesterdaysAnonymous",
+          "Caption": "Anonyme Besucher von gestern",
+          "Description": "Zeigt die Anzahl der anonymen Besucher gestern an (indem die Anzahl der unterschiedlichen Sitzungen ohne angemeldeten Benutzer gemeldet wird)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "YesterdaysUsers",
+          "Caption": "Die Besucher von gestern",
+          "Description": "Zeigt die Anzahl der gestern angemeldeten Besucher an",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt eine Besucherzusammenfassung an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Zeigen Sie eine Besucherzusammenfassung an"
+    },
+    {
+      "Name": "modName",
+      "Text": "Zusammenfassung der Besucheraktivität"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt eine Zusammenfassung der gestrigen und heutigen Besucheraktivität an. Es ist über Admin > Dashboard > Besucheraktivität (Standard-YetaWF-Site) zugänglich."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Zusammenfassung der Besucheraktivität"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.AddHolidayModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Beschreibung des Urlaubs",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HolidayDate",
+          "Caption": "Datum",
+          "Description": "Das Datum, an dem der Feiertag stattfindet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Fügt einen neuen Feiertagseintrag hinzu"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "addText",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Einen neuen Feiertagseintrag hinzufügen"
+    },
+    {
+      "Name": "dup",
+      "Text": "Ein Eintrag für {0} existiert bereits"
+    },
+    {
+      "Name": "modName",
+      "Text": "Neuen Feiertagseintrag hinzufügen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Fügt einen neuen Feiertag hinzu."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Neuen Feiertag hinzufügen"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Neuer Urlaub gespeichert"
+    }
+  ]
+}

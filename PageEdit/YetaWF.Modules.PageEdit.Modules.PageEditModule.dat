@@ -1,0 +1,447 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.PageEditModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Variables": "Variablen"
+      },
+      "Properties": [
+        {
+          "Name": "ShowModuleMenu",
+          "Caption": "Modulmenü anzeigen",
+          "Description": "Zeigt an, ob das Modulmenü für dieses Modul angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.PageEdit.Modules.PageEditModule+EditablePage",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Addons": "Addons",
+        "Authorization": "Ermächtigung",
+        "Meta": "Meta",
+        "Page": "Seite",
+        "References": "Referenzen",
+        "Skin": "Haut",
+        "Urls": "URLs",
+        "Variables": "Variablen"
+      },
+      "Properties": [
+        {
+          "Name": "AllowedRoles",
+          "Caption": "Zulässige Rollen",
+          "Description": "Die Rollen, die auf diese Seite zugreifen dürfen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "AllowedUsers",
+          "Caption": "Zulässige Benutzer",
+          "Description": "Die Benutzer, die auf diese Seite zugreifen dürfen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Analytics",
+          "Caption": "Analytik",
+          "Description": "Hinzufügen von Analytics-JavaScript-Code (z. B. der Universal Analytics-Tracking-Code, der von Google Analytics verwendet wird, oder der Code, der von Clicky verwendet wird) - Jeder Code, der am Ende der HTML-Seite hinzugefügt werden soll, kann hier hinzugefügt werden, einschließlich <script></script> Tags - Wenn kein Wert angegeben wird, wird der von der Website definierte Analytics-Code verwendet (Website-Einstellungen)",
+          "HelpLink": null,
+          "TextAbove": "Analytics-Code ist nur auf bereitgestellten Produktionsstandorten verfügbar und wird in Debugbuilds ignoriert (nicht als bereitgestellt markiert).",
+          "TextBelow": null
+        },
+        {
+          "Name": "AnalyticsContent",
+          "Caption": "Analytik (Inhalt)",
+          "Description": "Hinzufügen von Analytics-Javascript-Code, der ausgeführt werden soll, wenn eine neue Seite in einer aktiven einheitlichen Seitengruppe aktiv wird - Keine Tags einschließen <script></script> - Verwenden Sie <<Url>>, um die tatsächliche URL zu ersetzen - Wenn kein Wert angegeben wird, wird der von der Website definierte Analysecode verwendet (Website-Einstellungen)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CanonicalUrl",
+          "Caption": "Kanonische URL",
+          "Description": "Die optionale vollständige URL, die zur Identifizierung dieser Seite verwendet wird (einschließlich der Abfragezeichenfolge) - Wenn nicht angegeben, wird stattdessen die URL verwendet - Die eingegebenen Daten werden unverändert verwendet, erlauben jedoch die Ersetzung von Variablen - Sonderzeichen im Abfragezeichenfolgenteil müssen codiert werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CanonicalUrlLink",
+          "Caption": "Kanonischer URL-Link",
+          "Description": "Der HTML-Code, der für die kanonische URL verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ChangeFrequency",
+          "Caption": "Häufigkeit ändern",
+          "Description": "Definiert die Änderungshäufigkeit der Seite, die für die Sitemap verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Copyright",
+          "Caption": "Urheberrecht",
+          "Description": "Definiert einen optionalen Copyright-Hinweis, der auf der Seite angezeigt wird, wenn er vom verwendeten Skin unterstützt wird - Falls nicht definiert, kann ein Standard-Copyright-Hinweis in den Site-Eigenschaften definiert werden - Verwenden Sie <<Year>> für das aktuelle Jahr",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CopyrightEvaluated",
+          "Caption": "Urheberrecht",
+          "Description": "Die Copyright-Eigenschaft mit ausgewerteten Ersetzungen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Erstellt",
+          "Description": "Das Datum, an dem die Seite erstellt wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CssClass",
+          "Caption": "CSS-Klasse",
+          "Description": "Die optionalen CSS-Klassen, die dem Tag der Seite hinzugefügt werden sollen, <body> um sie durch Stylesheets weiter anzupassen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Seitenbeschreibung - Diese Beschreibung wird für Meta-Tags verwendet und wenn Informationen zu dieser Seite angezeigt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExtraBodyBottom",
+          "Caption": "<BODY> Unteres",
+          "Description": "Alle Tags, die am Ende des Tags jeder Seite hinzugefügt werden sollen, <BODY> können hier hinzugefügt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExtraBodyTop",
+          "Caption": "<BODY> Nach oben",
+          "Description": "Alle Tags, die oben im Tag jeder Seite hinzugefügt werden sollen, <BODY> können hier hinzugefügt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ExtraHead",
+          "Caption": "<HEAD>",
+          "Description": "Alle Tags, die dem Tag jeder Seite hinzugefügt werden sollen, <HEAD> können hier hinzugefügt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Fav_SVG",
+          "Caption": "FavIcon (SVG)",
+          "Description": "Das SVG-Symbol, das diese Seite darstellt (normalerweise als 32x32-Pixel-Bild gerendert), das in den Seitenleisten angezeigt wird, die zum Anzeigen der Seite verwendet werden - Verwenden Sie ein vollständiges <SVG> Tag oder verweisen Sie auf ein Skin-SVG, indem Sie dem Symbolnamen # voranstellen, wodurch das SVG im Ordner des Skins ./SVG/FAV_name lokalisiert wird (z. B. #UserSettings ./SVG/FAV_UserSettings.svg verwendet)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FavIcon",
+          "Caption": "Favicon",
+          "Description": "Das Symbol, das diese Seite darstellt (ein PNG-Bild mit 32 x 32 Pixeln), das vom Webbrowser angezeigt wird, der zum Anzeigen der Seite verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HrefLangHtml",
+          "Caption": "Hreflang Html",
+          "Description": "Der HTML-Code, der für die Sprachdefinition verwendet wird (hreflang und Metadaten)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IFrameUse",
+          "Caption": "IFrame-Verwendung",
+          "Description": "Definiert, ob die Seite in einem IFrame von dieser und anderen Websites verwendet werden kann",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Keywords",
+          "Caption": "Schlüsselwörter",
+          "Description": "Definiert Seiten-Keywords - Diese Keywords werden für Meta-Tags und zum Generieren von Suchbegriffen verwendet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LanguageId",
+          "Caption": "Sprache der Seite",
+          "Description": "Definiert die Sprache der Seite - Geben Sie eine bestimmte Sprache an, wenn diese Seite nicht in mehreren Sprachen verfügbar ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MobilePageUrl",
+          "Caption": "URL der mobilen Seite",
+          "Description": "Wenn diese Seite von einem mobilen Gerät aufgerufen wird, wird sie auf die hier als mobile Seiten-URL definierte URL umgeleitet - Die Umleitung ist im Website-Bearbeitungsmodus nicht aktiv",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageGuidName",
+          "Caption": "Name der Seiten-Guid",
+          "Description": "Der Seitenname, der mit seiner eindeutigen ID codiert ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageMetaTags",
+          "Caption": "Meta-Tags",
+          "Description": "Definiert Tags, <meta> die der Seite hinzugefügt werden: Wenn angegeben, werden die Website-Meta-Tags ersetzt, die mit der PageMetaTags-Eigenschaft (Websiteeinstellungen) definiert wurden.",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageSecurity",
+          "Caption": "Sichere Seite",
+          "Description": "Legt fest, ob der Zugriff auf die Seite über eine sichere Verbindung (mit SSL) erfolgt - Die Verwendung sicherer Verbindungen erfordert, dass auch in den Site-Eigenschaften Sichere Verbindungen aktiviert ist, andernfalls wird die hier definierte Seiteneigenschaft ignoriert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageUrl",
+          "Caption": "Seiten-URL",
+          "Description": "Gibt die benutzerdefinierte Url (Url-Eigenschaft) zurück oder, falls keine definiert wurde, eine vom System generierte Url",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Panes",
+          "Caption": "Scheiben",
+          "Description": "Die durch die Seiten-Skin definierten Bereiche",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PopupPage",
+          "Caption": "Popup-Seite",
+          "Description": "Die Popup-Seite, die für das Popup-Fenster verwendet wird, wenn diese Seite in einem Popup angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RedirectToPageUrl",
+          "Caption": "Zur Seite weiterleiten",
+          "Description": "Wenn diese Seite aufgerufen wird, wird sie auf die hier definierte URL umgeleitet - Die Weiterleitung ist im Site Edit Mode nicht aktiv",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ReferencedModules",
+          "Caption": "Skin-Module",
+          "Description": "Definiert Module, die in diese Seite eingefügt werden müssen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RobotNoArchive",
+          "Caption": "Roboter - NoArchive",
+          "Description": "Weist Suchmaschinen an, keine archivierte Kopie der Seite zu speichern, falls gesetzt - wird nicht von allen Suchmaschinen unterstützt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RobotNoFollow",
+          "Caption": "Roboter - NoFollow",
+          "Description": "Verhindert, dass eine Seite von Suchmaschinen gecrawlt wird, falls diese Option festgelegt ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RobotNoIndex",
+          "Caption": "Roboter - NoIndex",
+          "Description": "Verhindert, dass eine Seite von Suchmaschinen indiziert wird, falls festgelegt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RobotNoSnippet",
+          "Caption": "Roboter - NoSnippet",
+          "Description": "Weist Suchmaschinen an, kein Snippet von der Seite zusammen mit dem Eintrag der Seite in die Suchergebnisse aufzunehmen - wird nicht von allen Suchmaschinen unterstützt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteMapPriority",
+          "Caption": "SiteMap-Priorität",
+          "Description": "Definiert die Seitenpriorität, die für die Sitemap verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StaticPage",
+          "Caption": "Statische Seite",
+          "Description": "Definiert, ob die Seite als statische Seite gerendert wird (nur für anonyme Benutzer) - Eine Seite, deren Inhalt sich nicht ändert, kann als statische Seite markiert werden, was zu einem schnelleren Laden der Seite für den Endbenutzer führt - Websiteeinstellungen können verwendet werden, um die Verwendung statischer Seiten mithilfe der StaticPages-Eigenschaft global zu aktivieren/deaktivieren - Statische Seiten werden nur mit bereitgestellten Websites verwendet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TemplateGuid",
+          "Caption": "Schablone",
+          "Description": "Die lokal gestaltete Seite, die als Vorlage für diese Seite verwendet wird - Alle Module aus der Vorlage werden kopiert und auf dieser Seite in ihrem definierten Bereich gerendert - Module in Bereichen, die nicht verfügbar sind, werden nicht angezeigt - Jede Seite kann als Vorlage verwendet werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Temporary",
+          "Caption": "Vorläufig",
+          "Description": "Legt fest, ob es sich bei der aktuellen Seite um eine temporäre (generierte) Seite handelt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titel",
+          "Description": "Der Seitentitel, der als Titel im Browserfenster angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Updated",
+          "Caption": "Aktualisierte",
+          "Description": "Das Datum, an dem die Seite zuletzt aktualisiert wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "URL",
+          "Description": "Die URL, die verwendet wird, um diese Seite zu identifizieren - lokale URLs beginnen mit / und enthalten keine http:// oder https://",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "WantSearch",
+          "Caption": "Suchbegriffe",
+          "Description": "Definiert, ob der Inhalt dieser Seite zu den Suchbegriffen der Website hinzugefügt werden soll",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "Diese Seite wurde entfernt und kann nicht mehr aktualisiert werden."
+    },
+    {
+      "Name": "delConfirm",
+      "Text": "Sind Sie ABSOLUT sicher, dass Sie die aktuell angezeigte Seite entfernen möchten? Diese Aktion kann nicht rückgängig gemacht werden."
+    },
+    {
+      "Name": "delLegend",
+      "Text": "Entfernt die aktuelle Seite"
+    },
+    {
+      "Name": "delLink",
+      "Text": "Aktuelle Seite entfernen"
+    },
+    {
+      "Name": "delText",
+      "Text": "Aktuelle Seite entfernen"
+    },
+    {
+      "Name": "delTooltip",
+      "Text": "Entfernen Sie die aktuelle Seite"
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Seiteneinstellungen bearbeiten"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Seiten-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "Seiten-Einstellungen"
+    },
+    {
+      "Name": "editTitle",
+      "Text": "Seite {0}"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Seiteneinstellungen bearbeiten"
+    },
+    {
+      "Name": "modName",
+      "Text": "Seite bearbeiten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implementiert Seitenbearbeitungsdienste."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Seite bearbeiten"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Seite {0} existiert nicht"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Seiteneinstellungen gespeichert"
+    }
+  ]
+}

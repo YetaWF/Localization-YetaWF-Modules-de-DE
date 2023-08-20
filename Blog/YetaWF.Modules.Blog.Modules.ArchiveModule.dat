@@ -1,0 +1,38 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.ArchiveModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Actions",
+          "Caption": "Archiv",
+          "Description": "Monatliche Blogeinträge",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Archiv"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt eine Liste mit Links zu Blogeinträgen an, die nach Monat gruppiert sind. Fügen Sie dieses Modul zu einer Seite für die Blog-Navigation hinzu."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Blog-Archiv"
+    }
+  ]
+}

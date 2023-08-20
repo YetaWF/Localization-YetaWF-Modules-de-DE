@@ -1,0 +1,42 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.ImageRepository.Modules.CKEBrowseImagesModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ImageName",
+          "Caption": "Bildauswahl",
+          "Description": "Wählen Sie ein Bild aus oder laden Sie ein neues Bild hoch",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Bild auswählen (CKEditor)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt ein Formular zum Hochladen und Auswählen eines Bildes an."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Bild auswählen"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Bild gespeichert"
+    }
+  ]
+}

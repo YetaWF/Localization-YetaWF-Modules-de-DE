@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.TemplateUserIdModule+Model",
+      "BaseTypeName": null,
+      "Header": "Testfall für die Vorlage YetaWF_Identity_UserId, die die Auswahl von 1 Benutzer ermöglicht. Wenn weniger als 50 Benutzer verfügbar sind, wird eine Dropdown-Liste angezeigt. Bei mehr als 50 wird stattdessen ein scrollbares Raster (Ajax) verwendet, um Tausende von Benutzern zu unterstützen. Einige dieser Felder erzwingen explizit eine Rasteranzeige auch bei weniger als 50 Benutzern.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ControlStatus",
+          "Caption": "Status der Steuerung",
+          "Description": "Legt den Bearbeitungsstatus der Steuerelemente fest",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1",
+          "Caption": "Benutzer-ID",
+          "Description": "Benutzer-ID",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Grid",
+          "Caption": "UserId (Raster)",
+          "Description": "Benutzer-ID",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1GridReq",
+          "Caption": "UserId (Raster, erforderlich)",
+          "Description": "UserId (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Req",
+          "Caption": "UserId (erforderlich)",
+          "Description": "UserId (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "UserId (schreibgeschützt/nur)",
+          "Description": "UserId (schreibgeschützt)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt die UserId-Testvorlage an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Benutzer-ID"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Benutzer-ID"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Anzeigen der UserId-Testvorlage"
+    },
+    {
+      "Name": "modName",
+      "Text": "Komponententest - UserId"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Testmodul für die UserId-Komponente (Bearbeiten und Anzeigen). Eine Testseite für dieses Modul finden Sie unter Tests > Templates > UserId (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "UserId-Testkomponente"
+    },
+    {
+      "Name": "ok",
+      "Text": "OKAY"
+    }
+  ]
+}

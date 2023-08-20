@@ -1,0 +1,30 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RegistrationTypeEnum",
+      "Entries": [
+        {
+          "Name": "NameOnly",
+          "Value": "NameOnly",
+          "Caption": "Nur Name",
+          "Description": "Der Name des Benutzers wird verwendet, um sich auf dieser Website zu registrieren"
+        },
+        {
+          "Name": "EmailOnly",
+          "Value": "EmailOnly",
+          "Caption": "Nur E-Mail",
+          "Description": "Die E-Mail-Adresse des Benutzers wird verwendet, um sich auf dieser Website zu registrieren"
+        },
+        {
+          "Name": "NameAndEmail",
+          "Value": "NameAndEmail",
+          "Caption": "Name und E-Mail-Adresse",
+          "Description": "Der Name und die E-Mail-Adresse des Benutzers werden verwendet, um sich auf dieser Website zu registrieren"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

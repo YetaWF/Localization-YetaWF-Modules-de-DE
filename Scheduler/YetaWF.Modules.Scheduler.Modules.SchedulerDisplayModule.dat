@@ -1,0 +1,158 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.SchedulerDisplayModule+SchedulerDisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Beschreibung dieses Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Enabled",
+          "Caption": "Ermöglichte",
+          "Description": "Definiert, ob das Scheduler-Element aktiviert ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EnableOnStartup",
+          "Caption": "Beim Start aktivieren",
+          "Description": "Legt fest, ob das Scheduler-Element bei jedem Neustart der Website aktiviert wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Errors",
+          "Caption": "Irrtümer",
+          "Description": "Die Fehler, die während der letzten Ausführung des Scheduler-Elements aufgetreten sind",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Event",
+          "Caption": "Ereignis",
+          "Description": "Das Ereignis, das zur geplanten Zeit ausgeführt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Frequency",
+          "Caption": "Intervall",
+          "Description": "Die Häufigkeit des Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Last",
+          "Caption": "Letzte",
+          "Description": "Das letzte Mal, als dieses Element ausgeführt wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Name",
+          "Description": "Der Name dieses Scheduler-Elements - der Name wird verwendet, um ein Scheduler-Element zu identifizieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Next",
+          "Caption": "Nächster",
+          "Description": "Die Uhrzeit, zu der die nächste Ausführung dieses Elements geplant ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunOnce",
+          "Caption": "Einmal ausführen",
+          "Description": "Definiert, ob das Scheduler-Element nur einmal ausgeführt wird - sobald es abgeschlossen ist, wird es deaktiviert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunTime",
+          "Caption": "Laufzeit",
+          "Description": "Die Dauer des letzten Vorkommens dieses Scheduler-Elements (hh:mm:ss)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteSpecific",
+          "Caption": "Standortspezifisch",
+          "Description": "Definiert, ob das Schedulerelement für jeden Standort ausgeführt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Startup",
+          "Caption": "Start",
+          "Description": "Definiert, ob das Scheduler-Element beim Start der Website ausgeführt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt ein vorhandenes Scheduler-Element an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Anzeigen eines vorhandenen Scheduler-Elements"
+    },
+    {
+      "Name": "modName",
+      "Text": "Scheduler-Element anzeigen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Details für ein vorhandenes Planerelement an. Wird vom Scheduler-Modul verwendet."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Scheduler-Element"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Scheduler-Eintrag \"{0}\" nicht gefunden."
+    },
+    {
+      "Name": "title",
+      "Text": "Scheduler-Element \"{0}\""
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "enumCaptTT",
+      "Text": "Beschriftung in EnumDescriptionAttribute(...) für {0}"
+    },
+    {
+      "Name": "enumDescTT",
+      "Text": "Beschreibung gefunden in EnumDescriptionAttribute(...) für {0}"
+    },
+    {
+      "Name": "enumNameTT",
+      "Text": "Beschriftung und Beschreibung in EnumDescriptionAttribute(...) für den Enumerationseintrag {0}"
+    }
+  ]
+}

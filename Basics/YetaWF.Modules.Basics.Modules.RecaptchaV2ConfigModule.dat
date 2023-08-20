@@ -1,0 +1,90 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Basics.Modules.RecaptchaV2ConfigModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GoogleUrl",
+          "Caption": "Info",
+          "Description": "Besuchen Sie Google, um Schlüssel für die Verwendung von Recaptcha auf Ihrer Website zu erhalten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PrivateKey",
+          "Caption": "Privater Schlüssel",
+          "Description": "Der private Schlüssel, der für die Kommunikation mit der Google/Recaptcha-Website verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PublicKey",
+          "Caption": "Öffentlicher Schlüssel",
+          "Description": "Der öffentliche Schlüssel, der für die Kommunikation mit der Google/Recaptcha-Website verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Size",
+          "Caption": "Größe",
+          "Description": "Die Größe des recaptcha-Steuerelements, die auf der gesamten Website verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Theme",
+          "Caption": "Thema",
+          "Description": "Das Design, das für das recaptcha-Steuerelement auf der gesamten Website verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die RecaptchaV2-Einstellungen der Site"
+    },
+    {
+      "Name": "editLink",
+      "Text": "RecaptchaV2-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "RecaptchaV2-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten Sie die RecaptchaV2-Einstellungen der Site"
+    },
+    {
+      "Name": "modName",
+      "Text": "RecaptchaV2-Einstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Captcha-Unterstützung mit Googles https://www.google.com/recaptcha. Auf die Recaptcha-Konfiguration kann über Admin > Settings > RecaptchaV2 Settings (Standard-YetaWF-Site) zugegriffen werden. Recaptcha ist ein Dienst von Google. Wichtige Informationen erhalten Sie unter https://www.google.com/recaptcha/admin#createsiteRemote. Sie benötigen ein Google-Konto, um wichtige Informationen zu erhalten. Die Einstellungen, die mit dem RecaptchaV2-Einstellungsmodul definiert wurden, werden von der RecaptchaV2-Komponente verwendet."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "RecaptchaV2-Einstellungen"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Captcha-Konfiguration gespeichert"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.TinyLanguage.Modules.TinyLanguageModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "LanguageId",
+          "Caption": "Sprache",
+          "Description": "Wählen Sie die Sprache aus, die für die gesamte Website verwendet werden soll",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Winzige Sprachauswahl"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Ermöglicht dem Benutzer die Auswahl der Standardsprache der Website. Dieses Modul wird in der Regel zu jeder Seite hinzugefügt (als Skin-Modul), damit der Benutzer die Standardsprache der Website wechseln kann."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Winzige Sprachauswahl"
+    }
+  ]
+}

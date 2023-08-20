@@ -1,0 +1,42 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Log.Logging+LevelEnum",
+      "Entries": [
+        {
+          "Name": "Trace",
+          "Value": "Trace",
+          "Caption": "Spur",
+          "Description": "Ablaufverfolgungs-/Debug-Informationen"
+        },
+        {
+          "Name": "Info",
+          "Value": "Info",
+          "Caption": "Info",
+          "Description": "Mitteilsam"
+        },
+        {
+          "Name": "Warning",
+          "Value": "Warning",
+          "Caption": "Warnung",
+          "Description": "Warnung"
+        },
+        {
+          "Name": "Error",
+          "Value": "Error",
+          "Caption": "Fehler",
+          "Description": "Fehler"
+        },
+        {
+          "Name": "Always",
+          "Value": "Always",
+          "Caption": "Immer",
+          "Description": "Immer angemeldet"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

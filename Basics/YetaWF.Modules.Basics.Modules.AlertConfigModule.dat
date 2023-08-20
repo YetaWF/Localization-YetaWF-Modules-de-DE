@@ -1,0 +1,78 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Basics.Modules.AlertConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Enabled",
+          "Caption": "Ermöglichte",
+          "Description": "Legt fest, ob die Meldungsanzeige aktiviert ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Message",
+          "Caption": "Nachricht",
+          "Description": "Definiert die anzuzeigende Meldung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MessageHandling",
+          "Caption": "Umgang mit Nachrichten",
+          "Description": "Legt fest, wie lange die Meldung angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Warnungseinstellungen der Website"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Warnungs-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "Warnungs-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten Sie die Benachrichtigungseinstellungen der Website"
+    },
+    {
+      "Name": "modName",
+      "Text": "Warnungs-Einstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Das Modul \"Warnungseinstellungen\" ermöglicht die Konfiguration der Warnung, die den Besuchern der Website angezeigt wird, und kann über die Admin->-Einstellungen > \"Warnungseinstellungen\" (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Warnungs-Einstellungen"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Warnungseinstellungen konnten nicht gefunden werden"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Gespeicherte Warnungseinstellungen"
+    }
+  ]
+}

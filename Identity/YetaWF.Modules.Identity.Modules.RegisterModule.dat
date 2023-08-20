@@ -1,0 +1,218 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RegisterModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "PostRegisterQueryString",
+          "Caption": "Abfragezeichenfolge nach der Anmeldung",
+          "Description": "Definiert, ob die ursprüngliche Abfragezeichenfolge mit der Post Login Url weitergeleitet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PostRegisterUrl",
+          "Caption": "Post-Login-URL",
+          "Description": "Definiert die Seite, die angezeigt werden soll, sobald der Benutzer angemeldet ist - Wenn sie weggelassen wird, wird die URL, zu der zurückgekehrt werden soll, automatisch bestimmt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowPasswordRules",
+          "Caption": "Passwortregeln anzeigen",
+          "Description": "Legt fest, ob die Kennwortregeln angezeigt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RegisterModule+RegisterModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Actions",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Captcha",
+          "Caption": "Captcha",
+          "Description": "Bitte stellen Sie sicher, dass Sie ein Mensch und kein Spam-Bot sind",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ConfirmPassword",
+          "Caption": "Passwort-Bestätigung",
+          "Description": "Geben Sie Ihr Passwort zur Bestätigung erneut ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "E-Mail-Adresse",
+          "Description": "Geben Sie Ihre E-Mail-Adresse ein, um sich zu registrieren - Dies ist die E-Mail-Adresse, die von dieser Website verwendet wird, um mit Ihnen zu kommunizieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PartnerName",
+          "Caption": "Partner",
+          "Description": "Geben Sie den Namen Ihres Partners ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Password",
+          "Caption": "Passwort",
+          "Description": "Geben Sie Ihr gewünschtes Passwort ein",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PasswordRules",
+          "Caption": " ",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserName",
+          "Caption": "Benutzername",
+          "Description": "Geben Sie Ihren Benutzernamen ein, um sich zu registrieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cantRegister",
+      "Text": "Diese Website erlaubt keine Registrierung neuer Benutzer"
+    },
+    {
+      "Name": "emailUsed",
+      "Text": "Ein Konto mit E-Mail-Adresse {0} existiert bereits."
+    },
+    {
+      "Name": "logAccountTitle",
+      "Text": "Melden Sie sich mit Ihrem {0}Konto an"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird von neuen Benutzern verwendet, um ein neues Konto auf der aktuellen Website zu registrieren. Das Modul Benutzeranmeldeeinstellungen kann verwendet werden, um die Registrierung neuer Benutzer zu deaktivieren. Die Registrierung für neue Benutzer kann über die Benutzerregistrierung > (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "okAwaitApproval",
+      "Text": "Soeben wurde eine E-Mail an den Site-Administrator gesendet, um Ihr neues Konto zu genehmigen. Nach der Bearbeitung und Genehmigung erhalten Sie eine E-Mail mit der Bestätigung Ihrer Genehmigung."
+    },
+    {
+      "Name": "okAwaitRegistration",
+      "Text": "Soeben wurde eine E-Mail an Ihre E-Mail-Adresse \"{0}\" gesendet, um die Registrierung abzuschließen. Rechnen Sie mit ein paar Minuten für die Lieferung. Verwenden Sie nach Erhalt die Informationen in der E-Mail, um die Registrierung abzuschließen."
+    },
+    {
+      "Name": "okRegText",
+      "Text": "Ihr neues Konto wurde erfolgreich registriert."
+    },
+    {
+      "Name": "okRegTitle",
+      "Text": "Willkommen!"
+    },
+    {
+      "Name": "regLegend",
+      "Text": "Ermöglicht es Ihnen, sich auf dieser Website als neuer Benutzer zu registrieren"
+    },
+    {
+      "Name": "regLink",
+      "Text": "Registrieren Sie ein neues Benutzerkonto"
+    },
+    {
+      "Name": "regText",
+      "Text": "Registrieren"
+    },
+    {
+      "Name": "regTooltip",
+      "Text": "Wenn Sie noch kein Konto auf dieser Website haben, klicken Sie hier, um sich zu registrieren"
+    },
+    {
+      "Name": "roleChange",
+      "Text": "Die Rolle verfügt über die Berechtigung, den Kontostatus anderer Benutzer zu ändern"
+    },
+    {
+      "Name": "roleChangeC",
+      "Text": "Konten ändern"
+    },
+    {
+      "Name": "sendApprovedLegend",
+      "Text": "Markiert das Benutzerkonto als genehmigt"
+    },
+    {
+      "Name": "sendApprovedLink",
+      "Text": "Benutzer genehmigen"
+    },
+    {
+      "Name": "sendApprovedMenu",
+      "Text": "Benutzer genehmigen"
+    },
+    {
+      "Name": "sendApprovedTT",
+      "Text": "Markiert das Benutzerkonto als genehmigt"
+    },
+    {
+      "Name": "sendRejectedLegend",
+      "Text": "Markiert das Benutzerkonto als abgelehnt"
+    },
+    {
+      "Name": "sendRejectedLink",
+      "Text": "Benutzer ablehnen"
+    },
+    {
+      "Name": "sendRejectedMenu",
+      "Text": "Benutzer ablehnen"
+    },
+    {
+      "Name": "sendRejectedTT",
+      "Text": "Markiert das Benutzerkonto als abgelehnt"
+    },
+    {
+      "Name": "title",
+      "Text": "Registrierung neuer Benutzer"
+    },
+    {
+      "Name": "userChange",
+      "Text": "Der Benutzer hat die Berechtigung, den Kontostatus anderer Benutzer zu ändern"
+    },
+    {
+      "Name": "userChangeC",
+      "Text": "Konten ändern"
+    }
+  ]
+}

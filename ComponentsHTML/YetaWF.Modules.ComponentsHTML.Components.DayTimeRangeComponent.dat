@@ -1,0 +1,43 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "additional",
+      "Text": "Zusätzlich"
+    },
+    {
+      "Name": "additionalDesc",
+      "Text": "Wählen Sie diese Option aus, um einen zusätzlichen Zeitraum zu aktivieren"
+    },
+    {
+      "Name": "closed",
+      "Text": "Geschlossen"
+    },
+    {
+      "Name": "closedDesc",
+      "Text": "Wählen Sie diese Option, um anzuzeigen, wann der ganze Tag geschlossen ist"
+    },
+    {
+      "Name": "dtrFrom2",
+      "Text": "Die Startzeit im Feld mit der Bezeichnung \"{0}\" muss nach der Start- und Endzeit des ersten Zeitbereichs liegen"
+    },
+    {
+      "Name": "dtrTo",
+      "Text": "Die Endzeit im Feld mit der Bezeichnung \"{0}\" muss nach der Startzeit liegen"
+    },
+    {
+      "Name": "time0",
+      "Text": ""
+    },
+    {
+      "Name": "time1",
+      "Text": "{0} - {1}"
+    },
+    {
+      "Name": "time2",
+      "Text": "{0} - {1}, {2} - {3} "
+    }
+  ]
+}

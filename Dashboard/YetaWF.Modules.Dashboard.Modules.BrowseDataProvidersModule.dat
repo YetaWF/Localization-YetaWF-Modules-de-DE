@@ -1,0 +1,88 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.BrowseDataProvidersModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "IOModeName",
+          "Caption": "E/A-Modus",
+          "Description": "Der E/A-Modus, der von diesem Datenanbieter unterstützt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TypeImplName",
+          "Caption": "Name des Implementierungstyps",
+          "Description": "Der Typ der Implementierung des unterstützten Datenanbieters",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TypeName",
+          "Caption": "Typ Name",
+          "Description": "Der Typ des unterstützten Datenanbieters",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.BrowseDataProvidersModule+BrowseModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GridDef",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Zeigt installierte Datenanbieter an"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Datenanbieter"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Datenanbieter"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Installierte Data Provider anzeigen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Datenanbieter"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt installierte Datenanbieter an. Auf installierte Datenanbieter kann über Admin > Dashboard > Datenanbieter (Standard-YetaWF-Site) zugegriffen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Datenanbieter"
+    }
+  ]
+}

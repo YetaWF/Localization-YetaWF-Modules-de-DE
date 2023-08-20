@@ -1,0 +1,74 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.LoginSelectorModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "Users",
+          "Caption": "Benutzerliste",
+          "Description": "Liste der Benutzerkonten, die für die schnelle Anmeldung auf der Website verwendet werden können",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.LoginSelectorModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SuperuserCurrent",
+          "Caption": "Superuser",
+          "Description": "Der aktuell angemeldete Benutzer ist ein Superuser",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SuperuserStillActive",
+          "Caption": "Superuser",
+          "Description": "Wenn ein Superuser zuvor in dieser Sitzung angemeldet war, bleibt der Superuser-Status auch dann erhalten, wenn er als ein anderer Benutzer angemeldet ist - Deaktivieren Sie diese Option, um den Superuser-Modus für diese Sitzung zu deaktivieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Aktiver Benutzer",
+          "Description": "Liste der Benutzerkonten, die verwendet werden können, um sich schnell bei der Site anzumelden - wählen Sie einen Eintrag aus, um sich als dieser Benutzer anzumelden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Benutzer-Login-Selektor"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird während der Websiteentwicklung verwendet, um schnell zwischen vordefinierten Benutzerkonten zu wechseln. Es wird normalerweise als Skin-Modul zu einem Skin hinzugefügt. Verwenden Sie die Moduleinstellungen des Moduls, um vordefinierte Benutzerkonten zur Liste der von diesem Modul angebotenen Konten hinzuzufügen. In Debug-Builds wird dieses Modul immer angezeigt, um den Wechsel zwischen Benutzern während der Entwicklung zu erleichtern. In Release-Builds wird dieses Modul nur einem angemeldeten Superuser angezeigt."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Benutzer-Login-Selektor"
+    }
+  ]
+}

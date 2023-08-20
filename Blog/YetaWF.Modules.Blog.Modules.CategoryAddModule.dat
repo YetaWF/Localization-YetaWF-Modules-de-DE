@@ -1,0 +1,110 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CategoryAddModule+AddModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Category",
+          "Caption": "Kategorie",
+          "Description": "Der Name dieser Blog-Kategorie",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CommentApproval",
+          "Caption": "Genehmigung von Kommentaren",
+          "Description": "Legt fest, ob übermittelte Kommentare genehmigt werden müssen, bevor sie öffentlich einsehbar sind",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Beschreibung der Blog-Kategorie - die Beschreibung der Kategorie wird oben in jedem Blogeintrag angezeigt, um Ihren Blog zu beschreiben",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Syndicated",
+          "Caption": "Syndiziert",
+          "Description": "Legt fest, ob die Blog-Kategorie von Newsreadern abonniert werden kann (Einträge müssen veröffentlicht werden, bevor sie syndiziert werden können)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SyndicationCopyright",
+          "Caption": "Syndizierung Urheberrecht",
+          "Description": "Die optionalen Copyright-Informationen, die angezeigt werden, wenn Newsreader auf den Blog zugreifen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SyndicationEmail",
+          "Caption": "Syndizierungs-E-Mail-Adresse",
+          "Description": "Die E-Mail-Adresse, die als E-Mail-Adresse für die Blog-Kategorie verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseCaptcha",
+          "Caption": "Captcha verwenden",
+          "Description": "Legt fest, ob anonymen Benutzern, die Kommentare eingeben, ein Captcha angezeigt wird, um sicherzustellen, dass es sich nicht um automatisierte Spam-Skripte handelt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "addLegend",
+      "Text": "Erstellt eine neue Blog-Kategorie"
+    },
+    {
+      "Name": "addLink",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "addText",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "addTooltip",
+      "Text": "Erstellen Sie eine neue Blog-Kategorie"
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Eine Blog-Kategorie mit dem Namen \"{0}\" existiert bereits."
+    },
+    {
+      "Name": "modName",
+      "Text": "Blog-Kategorie hinzufügen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Erstellt eine neue Blogkategorie. Wird vom Modul \"Blog-Kategorien\" verwendet."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Neue Blog-Kategorie hinzufügen"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Neue Blog-Kategorie gespeichert"
+    }
+  ]
+}

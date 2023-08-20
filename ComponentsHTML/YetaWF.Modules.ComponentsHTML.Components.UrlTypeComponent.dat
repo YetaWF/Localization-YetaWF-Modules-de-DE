@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "selLocal",
+      "Text": "Gestaltete Seite"
+    },
+    {
+      "Name": "selLocalTT",
+      "Text": "Wählen Sie für lokale, gestaltete Seiten"
+    },
+    {
+      "Name": "selRemote",
+      "Text": "Lokale/Remote-URL"
+    },
+    {
+      "Name": "selRemoteTT",
+      "Text": "Wählen Sie diese Option aus, um eine URL einzugeben (lokal oder remote) - Kann Abfragezeichenfolgenargumente enthalten - Lokale URLs beginnen mit /, Remote-URLs mit http:// oder https://"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "ScrollToTop (Skin)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Das Skin-Modul implementiert eine Schaltfläche zum Scrollen nach oben, um zum Anfang der aktuellen Seite zurückzukehren. Auf dieses Modul kann von Websites, Seiten oder Modulen verwiesen werden, wobei in diesem Fall ein Bild unten rechts auf einer Seite angezeigt wird, sobald er nach unten gescrollt wird, sodass der Benutzer auf das Bild klicken kann, um zum Anfang der Seite zurückzukehren."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Skin ScrollToTop"
+    }
+  ]
+}

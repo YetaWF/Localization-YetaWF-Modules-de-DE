@@ -1,0 +1,74 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateTimeZoneModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ControlStatus",
+          "Caption": "Status der Steuerung",
+          "Description": "Legt den Bearbeitungsstatus der Steuerelemente fest",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeZone",
+          "Caption": "Zeitzone",
+          "Description": "Zeitzone (optional)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeZoneReq",
+          "Caption": "Zeitzone (erforderlich)",
+          "Description": "Zeitzone (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeZoneReqSel",
+          "Caption": "Zeitzone (erforderlich mit Auswahl)",
+          "Description": "Zeitzone (Erforderlich, mit (select))",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeZoneRO",
+          "Caption": "Zeitzone (schreibgeschützt/nur)",
+          "Description": "Zeitzone (schreibgeschützt/nur)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Komponententest - TimeZone"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Testmodul für die TimeZone-Komponente. Eine Testseite für dieses Modul finden Sie unter Tests > Templates > TimeZone (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Zeitzonen-Test-Komponente"
+    },
+    {
+      "Name": "ok",
+      "Text": "OKAY"
+    }
+  ]
+}

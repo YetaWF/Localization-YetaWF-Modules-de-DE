@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "restartOnSubmit",
+      "Text": "Beim Speichern dieser Einstellungen muss die Site (und alle Instanzen) neu gestartet werden, damit die neuen Einstellungen wirksam werden."
+    }
+  ]
+}

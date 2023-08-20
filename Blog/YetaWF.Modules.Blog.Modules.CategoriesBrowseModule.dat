@@ -1,0 +1,282 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CategoriesBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "URL hinzufügen",
+          "Description": "Die URL zum Hinzufügen einer neuen Blog-Kategorie - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BrowseEntriesUrl",
+          "Caption": "URL zum Durchsuchen von Einträgen",
+          "Description": "Die URL zum Durchsuchen von Blogeinträgen - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayUrl",
+          "Caption": "URL anzeigen",
+          "Description": "Die URL zum Anzeigen einer Blog-Kategorie - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "URL bearbeiten",
+          "Description": "Die URL zum Bearbeiten einer Blog-Kategorie - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.CategoriesBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Category",
+          "Caption": "Kategorie",
+          "Description": "Der Name dieser Blog-Kategorie",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CommentApproval",
+          "Caption": "Genehmigung von Kommentaren",
+          "Description": "Legt fest, ob eingereichte Kommentare genehmigt werden müssen, bevor sie öffentlich einsehbar sind",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DateCreated",
+          "Caption": "Erstellungsdatum",
+          "Description": "Das Erstellungsdatum der Blog-Kategorie",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Beschreibung der Blog-Kategorie - die Beschreibung der Kategorie wird oben in jedem Blogeintrag angezeigt, um Ihren Blog zu beschreiben",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Identity",
+          "Caption": "Id",
+          "Description": "Die ID dieser Blog-Kategorie - wird verwendet, um diese Blog-Kategorie intern eindeutig zu identifizieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Syndicated",
+          "Caption": "Syndiziert",
+          "Description": "Legt fest, ob die Blog-Kategorie von Newsreadern abonniert werden kann (Einträge müssen veröffentlicht werden, bevor sie syndiziert werden können)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SyndicationCopyright",
+          "Caption": "Syndizierung Urheberrecht",
+          "Description": "Die optionalen Copyright-Informationen, die angezeigt werden, wenn Newsreader auf den Blog zugreifen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SyndicationEmail",
+          "Caption": "E-Mail-Adresse",
+          "Description": "Die E-Mail-Adresse, die als E-Mail-Adresse für die Blog-Kategorie verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseCaptcha",
+          "Caption": "Captcha verwenden",
+          "Description": "Legt fest, ob anonymen Benutzern, die Kommentare eingeben, ein Captcha angezeigt wird, um sicherzustellen, dass es sich nicht um automatisierte Spam-Skripte handelt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Anzeige und Verwaltung von Blog-Kategorien"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Blog-Kategorien"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Blog-Kategorien"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Anzeigen und Verwalten von Blog-Kategorien"
+    },
+    {
+      "Name": "downloadLegend",
+      "Text": "Lädt die News-Site-Map-Datei herunter"
+    },
+    {
+      "Name": "downloadLink",
+      "Text": "Neuigkeiten Sitemap herunterladen"
+    },
+    {
+      "Name": "downloadMenu",
+      "Text": "Neuigkeiten Sitemap herunterladen"
+    },
+    {
+      "Name": "downloadTT",
+      "Text": "Laden Sie die News-Site-Map-Datei herunter"
+    },
+    {
+      "Name": "modName",
+      "Text": "Blog-Kategorien"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Blog-Kategorien an und verwaltet sie. Es ist über Admin > Blog > Kategorien (Standard-YetaWF-Site) zugänglich. Es wird verwendet, um Blog-Kategorien hinzuzufügen, zu bearbeiten und zu entfernen und Blog-Einträge anzuzeigen. Es bietet auch eine automatisierte Generierung von Google News-Sitemaps."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Blog-Kategorien"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Bist du sicher, dass du diese Blog-Kategorie entfernen möchtest?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt die Blog-Kategorie"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Blog-Kategorie entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Blog-Kategorie entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernen Sie die Blog-Kategorie"
+    },
+    {
+      "Name": "roleNewsSiteMapC",
+      "Text": "Verwalten der News-Sitemap"
+    },
+    {
+      "Name": "roleNewsSiteMaps",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Verwalten von News-Siteübersichten"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Entfernen einzelner Blogkategorien"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Blog-Kategorien entfernen"
+    },
+    {
+      "Name": "screAuthConfirm",
+      "Text": "Sind Sie sicher, dass Sie eine neue News-Sitemap erstellen möchten?"
+    },
+    {
+      "Name": "screAuthLegend",
+      "Text": "Erstellt eine News-Siteübersicht"
+    },
+    {
+      "Name": "screAuthLink",
+      "Text": "Erstellen einer News-Sitemap"
+    },
+    {
+      "Name": "screAuthMenu",
+      "Text": "Erstellen einer News-Sitemap"
+    },
+    {
+      "Name": "screAuthPlsWait",
+      "Text": "Erstellen einer News-Site-Map..."
+    },
+    {
+      "Name": "screAuthTT",
+      "Text": "Erstellen einer News-Sitemap"
+    },
+    {
+      "Name": "sremAuthConfirm",
+      "Text": "Sind Sie sicher, dass Sie die aktuelle News-Site-Map entfernen möchten?"
+    },
+    {
+      "Name": "sremAuthLegend",
+      "Text": "Entfernt die aktuelle News-Siteübersicht"
+    },
+    {
+      "Name": "sremAuthLink",
+      "Text": "News-Sitemap entfernen"
+    },
+    {
+      "Name": "sremAuthMenu",
+      "Text": "News-Sitemap entfernen"
+    },
+    {
+      "Name": "sremAuthTT",
+      "Text": "Aktuelle News-Sitemap entfernen"
+    },
+    {
+      "Name": "userNewsSiteMapC",
+      "Text": "Verwalten der News-Sitemap"
+    },
+    {
+      "Name": "userNewsSiteMaps",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Verwalten der News-Siteübersicht"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer hat die Berechtigung, einzelne Blog-Kategorien zu entfernen"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Blog-Kategorien entfernen"
+    }
+  ]
+}

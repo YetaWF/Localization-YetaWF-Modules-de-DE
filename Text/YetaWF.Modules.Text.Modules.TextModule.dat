@@ -1,0 +1,161 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Text.Modules.TextModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein",
+        "Rss": "RSS"
+      },
+      "Properties": [
+        {
+          "Name": "Contents",
+          "Caption": "Inhalt",
+          "Description": "Der Inhalt des Textes",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditOnPage",
+          "Caption": "Auf Seite bearbeiten",
+          "Description": "Ermöglicht die Bearbeitung auf der Seite statt als Teil der Moduleinstellungen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Feed",
+          "Caption": "Füttern",
+          "Description": "Veröffentlichen Sie den Inhalt dieses Moduls als RSS-Feed",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedDetailUrl",
+          "Caption": "Feed-Detail-URL",
+          "Description": "Die Detailseite des optionalen RSS-Feeds für dieses Textmodul",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedImage",
+          "Caption": "Feed-Bild",
+          "Description": "Das Bild, das für diesen RSS-Feed verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedMainUrl",
+          "Caption": "Haupt-URL des Feeds",
+          "Description": "Die Haupt-URL des optionalen RSS-Feeds",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedPublishDate",
+          "Caption": "Datum der Veröffentlichung des Feeds",
+          "Description": "Das Datum, an dem dieser Feed veröffentlicht wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedSummary",
+          "Caption": "Zusammenfassung des Feeds",
+          "Description": "Die zusammenfassende Beschreibung des RSS-Feeds",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedTitle",
+          "Caption": "Titel des Feeds",
+          "Description": "Der Titel des RSS-Feeds",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedUpdateDate",
+          "Caption": "Datum der Feed-Aktualisierung",
+          "Description": "Das Datum, an dem dieser Feed zuletzt aktualisiert wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "dateFeedUpdate",
+      "Text": "Das Datum der letzten Aktualisierung darf nicht vor dem Datum liegen, an dem dieses Element veröffentlicht wurde"
+    },
+    {
+      "Name": "modName",
+      "Text": "Text (Vollständiger Editor, HTML)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt vom Benutzer bearbeitbare Textinhalte an (vollständiger WYSIWYG-Editor mit CKEditor). Auf eine Beispielseite kann über Tests > Module > Text (Standard-YetaWF-Site) zugegriffen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Redigieren"
+    },
+    {
+      "Name": "newContents",
+      "Text": "(neu)"
+    },
+    {
+      "Name": "rssDetailLegend",
+      "Text": "Zeigt den RSS-Feed-Eintrag an"
+    },
+    {
+      "Name": "rssDetailLink",
+      "Text": "RSS-Feed-Eintrag"
+    },
+    {
+      "Name": "rssDetailMenu",
+      "Text": "RSS-Feed-Eintrag"
+    },
+    {
+      "Name": "rssDetailTT",
+      "Text": "RSS-Feed-Eintrag anzeigen"
+    },
+    {
+      "Name": "rssLegend",
+      "Text": "Zeigt den RSS-Feed an"
+    },
+    {
+      "Name": "rssLink",
+      "Text": "RSS-Feed"
+    },
+    {
+      "Name": "rssMenu",
+      "Text": "RSS-Feed"
+    },
+    {
+      "Name": "rssTT",
+      "Text": "RSS-Feed anzeigen"
+    },
+    {
+      "Name": "urlDetail",
+      "Text": "Die Startseite der Website kann nicht als Detail-URL des Feeds verwendet werden (aufgrund der Verwendung von menschenlesbaren querystring-Argumenten, die als Seitenname fehlinterpretiert werden könnten)"
+    },
+    {
+      "Name": "urlMain",
+      "Text": "Die Startseite der Website kann nicht als Haupt-URL des Feeds verwendet werden (aufgrund der Verwendung von menschenlesbaren Abfragezeichenfolgenargumenten, die als Seitenname fehlinterpretiert werden könnten)"
+    }
+  ]
+}

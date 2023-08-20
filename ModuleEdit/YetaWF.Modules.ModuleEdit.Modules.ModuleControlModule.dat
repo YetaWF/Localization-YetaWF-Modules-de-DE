@@ -1,0 +1,196 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.ModuleEdit.Modules.ModuleControlModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Variables": "Variablen"
+      },
+      "Properties": [
+        {
+          "Name": "ModuleHasSettings",
+          "Caption": "Hat Einstellungen",
+          "Description": "Legt fest, ob das Modul über Einstellungen verfügt, die bearbeitet und gespeichert werden können",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowModuleMenu",
+          "Caption": "Modulmenü anzeigen",
+          "Description": "Zeigt an, ob das Modulmenü für dieses Modul angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "confirmPermRemove",
+      "Text": "Sind Sie sicher, dass Sie dieses Modul DAUERHAFT entfernen möchten?"
+    },
+    {
+      "Name": "confirmRemove",
+      "Text": "Sind Sie sicher, dass Sie dieses Modul entfernen möchten?"
+    },
+    {
+      "Name": "modExportLegend",
+      "Text": "Exportiert die Moduldaten durch Erstellen einer importierbaren ZIP-Datei (über Systemsteuerung, Modul importieren)"
+    },
+    {
+      "Name": "modExportLink",
+      "Text": "Exportieren"
+    },
+    {
+      "Name": "modExportMenu",
+      "Text": "Export-Modul"
+    },
+    {
+      "Name": "modExportTT",
+      "Text": "Exportieren Sie die Moduldaten, indem Sie eine importierbare ZIP-Datei erstellen (über Systemsteuerung, Modul importieren)"
+    },
+    {
+      "Name": "modHelpLegend",
+      "Text": "Zeigt Hilfeinformationen an"
+    },
+    {
+      "Name": "modHelpLink",
+      "Text": "Hilfe"
+    },
+    {
+      "Name": "modHelpMenu",
+      "Text": "Hilfe"
+    },
+    {
+      "Name": "modHelpTT",
+      "Text": "Hilfeinformationen anzeigen"
+    },
+    {
+      "Name": "modMoveBottomLegend",
+      "Text": "Verschiebt das Modul an den unteren Rand des Bereichs"
+    },
+    {
+      "Name": "modMoveBottomLink",
+      "Text": "Nach unten verschieben"
+    },
+    {
+      "Name": "modMoveBottomText",
+      "Text": "Unteres"
+    },
+    {
+      "Name": "modMoveBottomTooltip",
+      "Text": "Verschieben Sie das Modul an den unteren Rand des Bereichs"
+    },
+    {
+      "Name": "modMoveDownLegend",
+      "Text": "Verschiebt das Modul innerhalb des Bereichs nach unten"
+    },
+    {
+      "Name": "modMoveDownLink",
+      "Text": "Nach unten bewegen"
+    },
+    {
+      "Name": "modMoveDownText",
+      "Text": "Herab"
+    },
+    {
+      "Name": "modMoveDownTooltip",
+      "Text": "Verschieben Sie das Modul innerhalb des Bereichs nach unten"
+    },
+    {
+      "Name": "modMoveToLegend",
+      "Text": "Verschiebt das Modul in den Bereich {0}"
+    },
+    {
+      "Name": "modMoveToLink",
+      "Text": "Nach {0} verschieben"
+    },
+    {
+      "Name": "modMoveTopLegend",
+      "Text": "Verschiebt das Modul an den oberen Rand des Bereichs"
+    },
+    {
+      "Name": "modMoveTopLink",
+      "Text": "Nach oben"
+    },
+    {
+      "Name": "modMoveTopText",
+      "Text": "Nach oben"
+    },
+    {
+      "Name": "modMoveTopTooltip",
+      "Text": "Verschieben Sie das Modul an den oberen Rand des Bereichs"
+    },
+    {
+      "Name": "modMoveUpLegend",
+      "Text": "Verschiebt das Modul innerhalb des Bereichs nach oben"
+    },
+    {
+      "Name": "modMoveUpLink",
+      "Text": "Aufrücken"
+    },
+    {
+      "Name": "modMoveUpText",
+      "Text": "Oben"
+    },
+    {
+      "Name": "modMoveUpTooltip",
+      "Text": "Verschieben Sie das Modul innerhalb des Bereichs nach oben"
+    },
+    {
+      "Name": "modName",
+      "Text": "Modul-Steuerung"
+    },
+    {
+      "Name": "modRemoveLegend",
+      "Text": "Entfernt das Modul von dieser Seite (das Modul selbst und seine Daten werden NICHT gelöscht und können weiterhin auf anderen Seiten verwendet oder erneut hinzugefügt werden)"
+    },
+    {
+      "Name": "modRemoveLink",
+      "Text": "Entfernen"
+    },
+    {
+      "Name": "modRemovePermLegend",
+      "Text": "Entfernt das Modul dauerhaft - Das Modul und seine Daten werden DAUERHAFT gelöscht und können auf keiner Seite mehr verwendet werden"
+    },
+    {
+      "Name": "modRemovePermLink",
+      "Text": "DAUERHAFT entfernen"
+    },
+    {
+      "Name": "modRemovePermText",
+      "Text": "DAUERHAFT entfernen"
+    },
+    {
+      "Name": "modRemovePermTooltip",
+      "Text": "Modul dauerhaft entfernen - Das Modul und seine Daten werden DAUERHAFT gelöscht und können auf keiner Seite mehr verwendet werden"
+    },
+    {
+      "Name": "modRemoveText",
+      "Text": "Entfernen"
+    },
+    {
+      "Name": "modRemoveTooltip",
+      "Text": "Entfernen Sie das Modul von dieser Seite (das Modul und seine Daten werden NICHT gelöscht und können weiterhin auf anderen Seiten verwendet oder erneut hinzugefügt werden)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Implementiert Bearbeitungsdienste, die im Site-Bearbeitungsmodus verwendet werden, um Module innerhalb von Bereichen zu verschieben, ihre Position zu ändern, Module von einer Seite zu entfernen und Moduldaten zu exportieren."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Modul-Steuerung"
+    },
+    {
+      "Name": "ttMoveToPane",
+      "Text": "Verschieben des Moduls in den Bereich {0}"
+    }
+  ]
+}

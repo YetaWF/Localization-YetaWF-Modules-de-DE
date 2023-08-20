@@ -1,0 +1,62 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.SummaryModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "Entries",
+          "Caption": "Einträge gesamt",
+          "Description": "Die maximale Anzahl von Blogeinträgen, die in der Zusammenfassungsanzeige angezeigt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.SummaryModule+Entry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ViewAction",
+          "Caption": "Ansehen",
+          "Description": "Sehen Sie sich den kompletten Blogeintrag an",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Blog-Zusammenfassung"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt eine Zusammenfassung der Blogeinträge an. Die neuesten Blogeinträge für alle Kategorien werden angezeigt. Dieses Modul wird in der Regel in einer Seitenleiste auf einer Seite verwendet, auf der Blogeinträge angezeigt werden (unter Verwendung des Moduls Blogeinträge)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Blog-Zusammenfassung"
+    },
+    {
+      "Name": "viewTT",
+      "Text": "Veröffentlicht {0} - {1}"
+    }
+  ]
+}

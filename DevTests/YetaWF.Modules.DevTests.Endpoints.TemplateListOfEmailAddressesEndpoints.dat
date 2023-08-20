@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "dupEmail",
+      "Text": "E-Mail-Adresse {0} wurde bereits hinzugefügt"
+    }
+  ]
+}

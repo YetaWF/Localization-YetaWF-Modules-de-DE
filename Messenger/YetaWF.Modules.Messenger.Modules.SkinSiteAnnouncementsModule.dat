@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Site-Ankündigungen (Skin)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Skin-Modul zur Unterstützung von Site-Ankündigungen"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Ankündigungen der Skin-Website"
+    }
+  ]
+}

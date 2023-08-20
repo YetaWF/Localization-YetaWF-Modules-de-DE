@@ -1,0 +1,72 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.CurrencyConverter.Modules.CurrencyConverterModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "DefaultAmount",
+          "Caption": "Standardbetrag",
+          "Description": "Standardbetrag, der umgerechnet werden soll",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FromCountry",
+          "Caption": "Von Währung",
+          "Description": "Währung, für die der Betrag erfasst wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ToCountry",
+          "Caption": "Zur Währung",
+          "Description": "Währung, für die der umgerechnete Betrag berechnet werden soll",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Stellt Informationen zur Währungsumrechnung bereit"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Währungsrechner"
+    },
+    {
+      "Name": "editText",
+      "Text": "Währungsrechner"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Informationen zur Währungsumrechnung abrufen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Währungsumrechnung"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Währungsumrechnung für Website-Besucher. Eine Testseite für das Währungsumrechner-Modul kann über Tests > Währungsrechner (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Währungsumrechnung"
+    }
+  ]
+}

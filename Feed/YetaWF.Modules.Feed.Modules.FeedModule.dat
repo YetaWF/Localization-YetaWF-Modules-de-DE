@@ -1,0 +1,73 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Feed.Modules.FeedModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein",
+        "Variables": "Variablen"
+      },
+      "Properties": [
+        {
+          "Name": "CacheKey",
+          "Caption": "Cache-Schlüssel",
+          "Description": "Der Name, der zum Zwischenspeichern der Nachrichteninformationen verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedUrl",
+          "Caption": "Newsfeed-URL",
+          "Description": "Die URL, die den Newsfeed bereitstellt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Interval",
+          "Caption": "Intervall",
+          "Description": "Die Anzahl der Sekunden, nach denen die primäre Nachricht durch die nächste Nachricht ersetzt wird - geben Sie 0 an, um sie zu deaktivieren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NumEntries",
+          "Caption": "News-Einträge",
+          "Description": "Die maximale Anzahl der angezeigten News-Einträge (zwischen 2 und 50)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt den {0} Newsfeed an"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Zeigen Sie den {0} Newsfeed an"
+    },
+    {
+      "Name": "modName",
+      "Text": "Neuigkeiten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt den definierten Newsfeed an. Verwenden Sie die Moduleinstellungen des Moduls, um den gewünschten Newsfeed zu definieren. Beispiele für Newsfeed-Module können unter Tests > News Feed (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Neuigkeiten"
+    }
+  ]
+}

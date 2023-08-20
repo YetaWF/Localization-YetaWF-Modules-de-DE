@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Syntax-Textmarker-Hervorhebung.js (Haut)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Skin-Modul, das Syntaxhervorhebung in Modulen mit Highlight.js unterstützt, auf die von Websites, Seiten oder Modulen verwiesen wird, in welchem Fall .. Abschnitte mit Syntaxhervorhebung gerendert werden <pre> . </pre>"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Skin Syntax Highlighter (Hervorheben.js)"
+    }
+  ]
+}

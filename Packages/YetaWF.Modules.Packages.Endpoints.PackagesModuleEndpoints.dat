@@ -1,0 +1,47 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "cantInstallModels",
+      "Text": "Modelle für Paket {0}:(+nl können nicht installiert werden."
+    },
+    {
+      "Name": "cantLocalize",
+      "Text": "Paket kann nicht lokalisiert werden {0}:(+nl)"
+    },
+    {
+      "Name": "cantRemove",
+      "Text": "Paket kann nicht entfernt werden {0}:(+nl)"
+    },
+    {
+      "Name": "cantUninstallModels",
+      "Text": "Modelle für Paket {0}:(+nl können nicht deinstalliert werden."
+    },
+    {
+      "Name": "generated",
+      "Text": "Erfolgreich generierte Paketlokalisierungsressourcen"
+    },
+    {
+      "Name": "generatedAll",
+      "Text": "Lokalisierungsressourcen für alle Pakete wurden erfolgreich generiert"
+    },
+    {
+      "Name": "installed",
+      "Text": "Paketmodelle erfolgreich installiert"
+    },
+    {
+      "Name": "okRemoved",
+      "Text": "Paket erfolgreich entfernt: Diese Einstellungen werden erst wirksam, wenn die Website neu gestartet wird."
+    },
+    {
+      "Name": "okRemovedSrc",
+      "Text": "Paket erfolgreich entfernt - Diese Einstellungen werden erst wirksam, wenn die Website neu gestartet wird(+nl)(+nl)Dieses Paket enthält Quellcode. Der Quellcode, das Projekt und die Projektverweise müssen in der Visual Studio-Projektmappe für diese YetaWF-Site manuell entfernt werden."
+    },
+    {
+      "Name": "removed",
+      "Text": "Paketmodelle erfolgreich entfernt"
+    }
+  ]
+}

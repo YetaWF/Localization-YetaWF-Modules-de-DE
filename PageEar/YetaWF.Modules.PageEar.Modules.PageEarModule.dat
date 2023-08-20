@@ -1,0 +1,68 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.PageEar.Modules.PageEarModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "AdImage",
+          "Caption": "Anzeigenbild",
+          "Description": "Das Bild, das für das Seitenohr (die Werbung) verwendet wird - dieses sollte die gleiche Größe wie das CoverImage-Bild haben",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Animate",
+          "Caption": "Beleben",
+          "Description": "Legt fest, ob das Öffnen/Schließen des Seitenohrs animiert wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ClickUrl",
+          "Caption": "URL",
+          "Description": "Die URL, an die der Benutzer weitergeleitet wird, wenn er auf die Seite ear klickt",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CoverImage",
+          "Caption": "Titelbild",
+          "Description": "Das Bild, das verwendet wird, um die untere linke Ecke des Anzeigenbilds abzudecken (wenn das Seitenjahr erweitert ist) - es sollte die gleiche Größe wie das AdImage-Bild haben",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SmallSize",
+          "Caption": "Kleinformat",
+          "Description": "Die Breite und Höhe (Quadrat) des Bildes, wenn das Seitenohr reduziert ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Seite Ohr"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Fügt jeder Seite, auf der sich dieses Modul befindet, ein konfigurierbares Seitenohr hinzu. Das Modul kann an einer beliebigen Stelle auf der Seite (in einem Bereich) hinzugefügt werden und ist nur im Site-Bearbeitungsmodus sichtbar. Das Seitenohr selbst (in der oberen rechten Ecke) wird erst dann im Site-View-Modus angezeigt, wenn alle erforderlichen Moduleinstellungen (wie Bilder und URL) definiert wurden."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "menuChanged",
+      "Text": "Das Menü wurde von einer anderen Person geändert - Ihre Änderungen können nicht gespeichert werden - Bitte aktualisieren Sie die aktuelle Seite, bevor Sie fortfahren"
+    },
+    {
+      "Name": "noPage",
+      "Text": "Seite {0} existiert nicht."
+    }
+  ]
+}

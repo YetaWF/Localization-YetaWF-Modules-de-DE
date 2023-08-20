@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "eventDesc",
+      "Text": "Extrahiert Suchbegriffe aus allen Seiten, die verwendet werden, um Suchfunktionen für Website-Benutzer bereitzustellen"
+    },
+    {
+      "Name": "eventName",
+      "Text": "Extrahieren von Suchbegriffen aus Seiten"
+    },
+    {
+      "Name": "eventNameErr",
+      "Text": "Unbekanntes Scheduler-Ereignis {0}."
+    }
+  ]
+}

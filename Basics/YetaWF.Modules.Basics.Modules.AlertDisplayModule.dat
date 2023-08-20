@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Warnmeldung (Skin)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Kann von Websites, Seiten oder Modulen referenziert werden. Sobald darauf verwiesen wird, wird eine Warnung angezeigt (einmal oder bis sie geschlossen wird, abhängig von den Warnungseinstellungen)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Warnmeldung (Skin)"
+    }
+  ]
+}

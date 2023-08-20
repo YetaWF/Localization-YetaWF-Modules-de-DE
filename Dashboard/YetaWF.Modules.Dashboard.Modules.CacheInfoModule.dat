@@ -1,0 +1,120 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.CacheInfoModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Key",
+          "Caption": "Schlüssel",
+          "Description": "Der Cache-Schlüssel",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Size",
+          "Caption": "Größe",
+          "Description": "Die Größe des Werts (falls verfügbar)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Value",
+          "Caption": "Wert",
+          "Description": "Die ersten 100 Bytes des Cachewerts",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Dashboard.Modules.CacheInfoModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "CurrentEntryCount",
+          "Caption": "Einträge",
+          "Description": "Die aktuelle Anzahl der zwischengespeicherten Elemente",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CurrentEstimatedSize",
+          "Caption": "Geschätzte Größe",
+          "Description": "Die geschätzte Summe aller Elemente, die sich derzeit im Speichercache befinden: Nur verfügbar, wenn MemoryCache die Größe nachverfolgt, was erfordert, dass ein SizeLimit für den Cache festgelegt ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GridDef",
+          "Caption": "Zwischengespeicherte Elemente",
+          "Description": "Die Cache-Schlüssel und die Werte (entweder der Datentyp oder die ersten 100 Bytes der Daten werden angezeigt)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TotalHits",
+          "Caption": "Treffer gesamt",
+          "Description": "Die Gesamtzahl der Cache-Treffer",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TotalMisses",
+          "Caption": "Gesamtzahl der Fehlschüsse",
+          "Description": "Die Gesamtzahl der Cache-Fehler",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt Cacheinformationen an (HttpContext.Current.Cache)"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "HttpContext.Current.Cache"
+    },
+    {
+      "Name": "displayText",
+      "Text": "HttpContext.Current.Cache"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Anzeigen von Cacheinformationen (HttpContext.Current.Cache)"
+    },
+    {
+      "Name": "modName",
+      "Text": "Cache-Informationen (HttpContext.Current.Cache)"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Cacheinformationen an (HttpContext.Current.Cache). Auf Cache-Informationen kann über Admin > Dashboard > HttpContext.Current.Cache (Standard-YetaWF-Site) zugegriffen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Cache-Informationen (HttpContext.Current.Cache)"
+    }
+  ]
+}

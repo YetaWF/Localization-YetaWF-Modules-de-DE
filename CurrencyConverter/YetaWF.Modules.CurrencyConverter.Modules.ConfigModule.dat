@@ -1,0 +1,92 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.CurrencyConverter.Modules.ConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "AppID",
+          "Caption": "App-ID",
+          "Description": "App-ID, die von openexchangerates.org verwendet wird, um Ihr Konto zu identifizieren - Ein Konto ist erforderlich, um Wechselkurse abzurufen - Dieses Konto wird für alle Websites innerhalb dieser YetaWF-Instanz verwendet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "OpenExchangeRatesUrl",
+          "Caption": "openexchangerates.org",
+          "Description": "Stellt einen Link zur openexchangerates.org bereit, ein Konto für alle Ihre Websites innerhalb dieser YetaWF-Instanz einzurichten",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RefreshInterval",
+          "Caption": "Aktualisierungsintervall",
+          "Description": "Legt fest, in welchem Intervall neue Währungskurse abgerufen werden - Überprüfen Sie den maximal zulässigen Wert in Ihrem Ratenplan unter openexchangerates.org",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UseHttps",
+          "Caption": "Verwenden Sie HTTPS",
+          "Description": "Verwenden Sie https, um auf openexchangerates.org zuzugreifen (erfordert ein kostenpflichtiges Konto) - Diese Einstellung wird für alle Websites innerhalb dieser YetaWF-Instanz verwendet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "Die Konfiguration des Währungsrechners wurde entfernt und kann nicht mehr aktualisiert werden."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Einstellungen des Währungsumrechners"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Einstellungen des Währungsrechners"
+    },
+    {
+      "Name": "editText",
+      "Text": "Einstellungen des Währungsrechners"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten der Einstellungen für den Währungsumrechner"
+    },
+    {
+      "Name": "modName",
+      "Text": "Einstellungen des Währungsrechners"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um die Einstellungen des Währungsrechners zu bearbeiten. Der Zugriff erfolgt über die Admin->-Einstellungen > die Währungsumrechner-Einstellungen (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Einstellungen des Währungsrechners"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Konfiguration des Währungsumrechners wurde nicht gefunden."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Konfiguration des Währungsrechners gespeichert"
+    }
+  ]
+}

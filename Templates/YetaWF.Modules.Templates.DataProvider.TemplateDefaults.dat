@@ -1,0 +1,30 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Templates.DataProvider.TemplateDefaults+DataProviderType",
+      "Entries": [
+        {
+          "Name": "None",
+          "Value": "None",
+          "Caption": "Nichts",
+          "Description": "Kein Datenanbieter"
+        },
+        {
+          "Name": "SQLFile",
+          "Value": "SQLFile",
+          "Caption": "SQL & Datei",
+          "Description": "SQL- und Dateidatenanbieter"
+        },
+        {
+          "Name": "SQLIdentity",
+          "Value": "SQLIdentity",
+          "Caption": "SQL mit Identität",
+          "Description": "SQL-Datenanbieter mit Identitätsspalte (keine Dateiunterstützung)"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

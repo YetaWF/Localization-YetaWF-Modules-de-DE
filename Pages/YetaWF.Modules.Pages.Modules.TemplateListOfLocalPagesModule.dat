@@ -1,0 +1,74 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Pages.Modules.TemplateListOfLocalPagesModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Prop1",
+          "Caption": "ListOfLocalPages",
+          "Description": "ListOfLocalPages",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Req",
+          "Caption": "ListOfLocalPages (erforderlich)",
+          "Description": "ListOfLocalPages (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "ListOfLocalPages (schreibgeschützt/nur)",
+          "Description": "ListOfLocalPages (schreibgeschützt)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt die Testvorlage \"ListOfLocalPages\" an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "ListOfLocalPages"
+    },
+    {
+      "Name": "displayText",
+      "Text": "ListOfLocalPages"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Anzeigen der Testvorlage \"ListOfLocalPages\""
+    },
+    {
+      "Name": "modName",
+      "Text": "Komponente - ListOfLocalPages"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Testmodul für die Komponente ListOfLocalPages (Bearbeiten und Anzeigen). Eine Testseite für dieses Modul finden Sie unter Tests > Templates > ListOfLocalPages (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "ListOfLocalPages-Testkomponente"
+    },
+    {
+      "Name": "ok",
+      "Text": "OKAY"
+    }
+  ]
+}

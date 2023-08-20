@@ -1,0 +1,154 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Logging.Modules.DisplayLogModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Class",
+          "Caption": "Klasse",
+          "Description": "Die Klasse, die diesen Datensatz protokolliert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Info",
+          "Caption": "Info",
+          "Description": "Die in diesem Datensatz protokollierten Informationen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IPAddress",
+          "Caption": "IP-Adresse",
+          "Description": "Die IP-Adresse, die diesem Protokolleintrag zugeordnet ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Level",
+          "Caption": "Niveau",
+          "Description": "Die Fehlerstufe dieses Protokolldatensatzes",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Method",
+          "Caption": "Methode",
+          "Description": "Die Methode, die diesen Datensatz protokolliert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ModuleName",
+          "Caption": "Name des Moduls",
+          "Description": "Das Modul, das diesen Datensatz protokolliert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Namespace",
+          "Caption": "Namespace",
+          "Description": "Der Namespace, der diesen Datensatz protokolliert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ReferrerUrl",
+          "Caption": "Referrer",
+          "Description": "Die verweisende URL, die diesem Protokolleintrag zugeordnet ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RequestedUrl",
+          "Caption": "URL",
+          "Description": "Die angeforderte URL",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SessionId",
+          "Caption": "Sitzungs-ID",
+          "Description": "Die Sitzungs-ID, die zur Identifizierung des Besuchers verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteIdentity",
+          "Caption": "Site-ID",
+          "Description": "Die Website, die diesen Datensatz protokolliert hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeStamp",
+          "Caption": "Datum/Uhrzeit",
+          "Description": "Der Zeitpunkt, zu dem dieser Datensatz protokolliert wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Benutzer",
+          "Description": "Name/E-Mail-Adresse des Benutzers (falls verfügbar)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt den Protokolldatensatz an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Anzeigen des Protokolldatensatzes"
+    },
+    {
+      "Name": "modName",
+      "Text": "Protokolldatensatz anzeigen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt einen einzelnen Protokolleintrag an. Dies wird vom Protokollmodul verwendet, um einen Protokolleintrag anzuzeigen, und ist nur verfügbar, wenn die Protokolldatei PostgreSQL/SQL Server gehostet wird."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Protokoll-Datensatz"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Datensatz \"{0}\" nicht gefunden."
+    }
+  ]
+}

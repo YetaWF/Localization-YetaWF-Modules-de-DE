@@ -1,0 +1,15 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "default",
+      "Text": "(Standardeinstellung der Website)"
+    },
+    {
+      "Name": "defaultTT",
+      "Text": "Verwenden Sie die von der Website definierte Standardsprache"
+    }
+  ]
+}

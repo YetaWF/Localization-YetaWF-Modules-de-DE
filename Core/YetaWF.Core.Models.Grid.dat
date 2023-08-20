@@ -1,0 +1,53 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Models.Grid+GridActionsEnum",
+      "Entries": [
+        {
+          "Name": "Icons",
+          "Value": "Icons",
+          "Caption": "Ikonen",
+          "Description": "Aktionen in Rastern werden als Symbole angezeigt"
+        },
+        {
+          "Name": "DropdownMenu",
+          "Value": "DropdownMenu",
+          "Caption": "Dropdown-Menü",
+          "Description": "Wenn mehr als eine Aktion verfügbar ist, werden sie als Dropdown-Menü angezeigt, auf das über eine Schaltfläche zugegriffen werden kann, andernfalls wird ein einzelnes Symbol angezeigt"
+        },
+        {
+          "Name": "Mini",
+          "Value": "Mini",
+          "Caption": "Mini-Dropdown-Menü",
+          "Description": "Wird als Dropdown-Menü angezeigt, das über eine kleine Schaltfläche ohne Text zugänglich ist"
+        },
+        {
+          "Name": "ButtonBar",
+          "Value": "ButtonBar",
+          "Caption": "Schaltflächenleiste",
+          "Description": "Aktionen werden als Schaltflächenleiste angezeigt"
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Core.Models.Grid+GridActionsUserEnum",
+      "Entries": [
+        {
+          "Name": "Icons",
+          "Value": "Icons",
+          "Caption": "Ikonen",
+          "Description": "Aktionen in Rastern werden als Symbole angezeigt"
+        },
+        {
+          "Name": "DropdownMenu",
+          "Value": "DropdownMenu",
+          "Caption": "Dropdown-Menü",
+          "Description": "Wenn mehr als eine Aktion verfügbar ist, werden sie als Dropdown-Menü angezeigt, auf das über eine Schaltfläche zugegriffen werden kann, andernfalls wird ein einzelnes Symbol angezeigt"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

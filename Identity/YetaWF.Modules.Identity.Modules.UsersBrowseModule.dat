@@ -1,0 +1,362 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.UsersBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "URL hinzufügen",
+          "Description": "Die URL zum Hinzufügen eines neuen Benutzers - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayUrl",
+          "Caption": "Url anzeigen",
+          "Description": "Die URL zum Anzeigen eines Benutzers - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "URL bearbeiten",
+          "Description": "Die URL zum Bearbeiten eines Benutzers - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.UsersBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Erstellt",
+          "Description": "Datum/Uhrzeit der Erstellung des Benutzerkontos",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "E-Mail-Adresse",
+          "Description": "Die E-Mail-Adresse des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastActivityDate",
+          "Caption": "Letzte Aktivität",
+          "Description": "Das letzte Mal, dass der Benutzer etwas auf dieser Website getan hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastActivityIP",
+          "Caption": "IP-Adresse der letzten Aktivität",
+          "Description": "Die IP-Adresse, von der aus der Benutzer etwas auf dieser Website getan hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastLoginDate",
+          "Caption": "Letzter Login",
+          "Description": "Der Zeitpunkt, zu dem sich der Benutzer das letzte Mal bei seinem Konto angemeldet hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastLoginIP",
+          "Caption": "IP-Adresse des letzten Logins",
+          "Description": "Die IP-Adresse, von der aus sich der Benutzer zuletzt auf dieser Website angemeldet hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "LastPasswordChangedDate",
+          "Caption": "Letzte Passwortänderung",
+          "Description": "Der Zeitpunkt, zu dem der Benutzer sein Passwort zuletzt geändert hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NeedsNewPassword",
+          "Caption": "Neues Passwort",
+          "Description": "Legt fest, ob der Benutzer das Kennwort ändern muss",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PasswordChangeIP",
+          "Caption": "IP zum Ändern des Passworts",
+          "Description": "Die IP-Adresse, von der aus der Benutzer zuletzt das Passwort auf dieser Website geändert hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RegistrationIP",
+          "Caption": "Registrierung IP",
+          "Description": "Die IP-Adresse, von der aus sich der Benutzer auf dieser Website registriert hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserId",
+          "Caption": "Benutzer-ID",
+          "Description": "Die interne ID des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserName",
+          "Caption": "Name",
+          "Description": "Der Name des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "UserStatus",
+          "Caption": "Status",
+          "Description": "Aktueller Kontostatus des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "VerificationCode",
+          "Caption": "Verifizierungscode",
+          "Description": "Der Verifizierungscode zur Verifizierung des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "changeUserNotFound",
+      "Text": "Das Benutzerkonto für den Benutzer {0} existiert nicht mehr."
+    },
+    {
+      "Name": "modName",
+      "Text": "Benutzer"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird zum Anzeigen und Verwalten von Benutzern verwendet. Dies kann über das Admin->-Panel > Identität, Registerkarte Benutzer (Standard-YetaWF-Site) aufgerufen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Benutzer"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Benutzer {0} nicht gefunden"
+    },
+    {
+      "Name": "rehashConfirm",
+      "Text": "Sind Sie sicher, dass Sie den Passwort-Hash basierend auf dem Nur-Text-Passwort jedes Benutzers neu berechnen möchten?"
+    },
+    {
+      "Name": "rehashLegend",
+      "Text": "Berechnet den Passwort-Hash basierend auf dem Klartext-Passwort jedes Benutzers neu - dies wird eine Weile dauern - TUN SIE DIES ERST, NACHDEM SIE BENUTZERINFORMATIONEN IMPORTIERT HABEN"
+    },
+    {
+      "Name": "rehashLink",
+      "Text": "Alle Passwörter neu aufbereiten"
+    },
+    {
+      "Name": "rehashMenu",
+      "Text": "Hasht alle Passwörter neu"
+    },
+    {
+      "Name": "rehashTT",
+      "Text": "Berechnen Sie den Passwort-Hash basierend auf dem Nur-Text-Passwort jedes Benutzers neu - Dies wird eine Weile dauern - TUN SIE DIES ERST, NACHDEM SIE BENUTZERINFORMATIONEN IMPORTIERT HABEN"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie den Benutzer \"{0}\" entfernen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt den Benutzer"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Benutzer entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Benutzer entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernt den Benutzer"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Entfernen einzelner Benutzer"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Benutzer entfernen"
+    },
+    {
+      "Name": "roleSendEmails",
+      "Text": "Die Rolle verfügt über die Berechtigung, E-Mails zu ihrem Konto an Benutzer zu senden"
+    },
+    {
+      "Name": "roleSendEmailsC",
+      "Text": "E-Mails senden"
+    },
+    {
+      "Name": "sendApprovedConfirm",
+      "Text": "Sind Sie sicher, dass Sie eine E-Mail an den Benutzer \"{0}\" senden möchten, dass das Konto genehmigt wurde?"
+    },
+    {
+      "Name": "sendApprovedLegend",
+      "Text": "Sendet eine E-Mail an den Benutzer, dass sein Konto genehmigt wurde"
+    },
+    {
+      "Name": "sendApprovedLink",
+      "Text": "Genehmigt senden"
+    },
+    {
+      "Name": "sendApprovedMenu",
+      "Text": "Genehmigt senden"
+    },
+    {
+      "Name": "sendApprovedTT",
+      "Text": "Senden Sie eine E-Mail an den Benutzer, dass sein Konto genehmigt wurde"
+    },
+    {
+      "Name": "sendRejectedConfirm",
+      "Text": "Sind Sie sicher, dass Sie eine E-Mail an den Benutzer \"{0}\" senden möchten, dass das Konto abgelehnt wurde?"
+    },
+    {
+      "Name": "sendRejectedLegend",
+      "Text": "Sendet eine E-Mail an den Benutzer, dass sein Konto abgelehnt wurde"
+    },
+    {
+      "Name": "sendRejectedLink",
+      "Text": "Senden Abgelehnt"
+    },
+    {
+      "Name": "sendRejectedMenu",
+      "Text": "Senden Abgelehnt"
+    },
+    {
+      "Name": "sendRejectedTT",
+      "Text": "Senden Sie eine E-Mail an den Benutzer, dass sein Konto abgelehnt wurde"
+    },
+    {
+      "Name": "sendSuspendedConfirm",
+      "Text": "Sind Sie sicher, dass Sie eine E-Mail an den Benutzer \"{0}\" senden möchten, dass das Konto gesperrt wurde?"
+    },
+    {
+      "Name": "sendSuspendedLegend",
+      "Text": "Sendet eine E-Mail an den Benutzer, dass sein Konto gesperrt wurde"
+    },
+    {
+      "Name": "sendSuspendedLink",
+      "Text": "Senden angehalten"
+    },
+    {
+      "Name": "sendSuspendedMenu",
+      "Text": "Senden angehalten"
+    },
+    {
+      "Name": "sendSuspendedTT",
+      "Text": "Senden Sie eine E-Mail an den Benutzer, dass sein Konto gesperrt wurde"
+    },
+    {
+      "Name": "sendVerificationConfirm",
+      "Text": "Sind Sie sicher, dass Sie eine Bestätigungs-E-Mail an den Benutzer \"{0}\" senden möchten?"
+    },
+    {
+      "Name": "sendVerificationLegend",
+      "Text": "Sendet eine Bestätigungs-E-Mail an den Benutzer"
+    },
+    {
+      "Name": "sendVerificationLink",
+      "Text": "Verifizierung senden"
+    },
+    {
+      "Name": "sendVerificationMenu",
+      "Text": "Verifizierung senden"
+    },
+    {
+      "Name": "sendVerificationTT",
+      "Text": "Sendet eine Bestätigungs-E-Mail an den Benutzer"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer verfügt über die Berechtigung, einzelne Benutzer zu entfernen"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Benutzer entfernen"
+    },
+    {
+      "Name": "userSendEmails",
+      "Text": "Der Benutzer hat die Berechtigung, E-Mails über sein Konto an Benutzer zu senden"
+    },
+    {
+      "Name": "userSendEmailsC",
+      "Text": "E-Mails senden"
+    },
+    {
+      "Name": "usersLegend",
+      "Text": "Anzeigen und Verwalten von Benutzern"
+    },
+    {
+      "Name": "usersLink",
+      "Text": "Benutzer"
+    },
+    {
+      "Name": "usersText",
+      "Text": "Benutzer"
+    },
+    {
+      "Name": "usersTooltip",
+      "Text": "Anzeigen und Verwalten von Benutzern"
+    }
+  ]
+}

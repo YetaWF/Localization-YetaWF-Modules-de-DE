@@ -1,0 +1,77 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Pages.Components.ListOfLocalPagesEditComponent+AllEntry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Title",
+          "Caption": "Titel",
+          "Description": "Der Seitentitel, der als Titel im Browserfenster angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "Seite",
+          "Description": "Definiert den Seitennamen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Pages.Components.ListOfLocalPagesEditComponent+Entry",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Delete",
+          "Caption": "Löschen",
+          "Description": "Klicken Sie hier, um diese Seite aus der Liste zu entfernen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "Seite",
+          "Description": "Zeigt alle Seiten an",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Pages.Components.ListOfLocalPagesEditComponent+NewModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "NewValue",
+          "Caption": "Seite",
+          "Description": "Bitte wählen Sie eine Seite aus und klicken Sie auf Hinzufügen, um sie zur Liste der Seiten hinzuzufügen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": []
+}

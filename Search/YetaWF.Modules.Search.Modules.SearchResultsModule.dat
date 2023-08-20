@@ -1,0 +1,80 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchResultsModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "MaxResults",
+          "Caption": "Max. Ergebnisse",
+          "Description": "Die maximale Anzahl der anzuzeigenden Suchergebnisse",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NewWindow",
+          "Caption": "Neues Fenster",
+          "Description": "Legt fest, ob ein neues Fenster geöffnet wird, wenn auf eine Suchergebnis-URL geklickt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowSummary",
+          "Caption": "Zusammenfassung anzeigen",
+          "Description": "Legt fest, ob eine Seitenzusammenfassung in den Suchergebnissen angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowUrl",
+          "Caption": "URL anzeigen",
+          "Description": "Legt fest, ob die URL in den Suchergebnissen angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Suchergebnisse"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Suchergebnisse an. Das Sucheingabemodul verwendet das Suchergebnismodul."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Suchergebnisse"
+    },
+    {
+      "Name": "resultsLegend",
+      "Text": "Zeigt die Suchergebnisse für \"{0}\" an"
+    },
+    {
+      "Name": "resultsLink",
+      "Text": "Suchergebnisse"
+    },
+    {
+      "Name": "resultsText",
+      "Text": "Suchergebnisse"
+    },
+    {
+      "Name": "resultsTooltip",
+      "Text": "Suchergebnisse für \"{0}\" anzeigen"
+    }
+  ]
+}

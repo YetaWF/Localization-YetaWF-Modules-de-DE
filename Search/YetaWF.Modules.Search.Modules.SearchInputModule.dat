@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchInputModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "ResultsUrl",
+          "Caption": "Ergebnis-URL",
+          "Description": "Die URL, unter der die Suchergebnisse angezeigt werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SearchButtonText",
+          "Caption": "Schaltfläche \"Suchen\"",
+          "Description": "Der Text, der auf der Suchschaltfläche angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SearchButtonTT",
+          "Caption": "Tooltip für die Schaltfläche \"Suchen\"",
+          "Description": "Der Tooltip, der für die Suchschaltfläche angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Search.Modules.SearchInputModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SearchTerms",
+          "Caption": "Suchbegriffe",
+          "Description": "Geben Sie den/die Suchbegriff(e) ein - Verwenden Sie AND oder OR, um Suchanfragen zu erstellen - Wenn mehrere Begriffe (ohne UND oder ODER) verwendet werden, müssen alle Begriffe auf einer Seite gefunden werden, um in den Suchergebnissen aufgeführt zu werden - Verwenden Sie * am Ende eines Suchbegriffs, um nach allen Vorkommen zu suchen, die mit dem angegebenen Begriff beginnen (Platzhaltersuche)",
+          "HelpLink": null,
+          "TextAbove": "Geben Sie den/die Suchbegriff(e) ein. Verwenden Sie AND oder OR, um Suchabfragen zu erstellen. Wenn mehrere Begriffe (ohne UND oder ODER) verwendet werden, müssen alle Begriffe auf einer Seite gefunden werden, um in den Suchergebnissen aufgeführt zu werden. Verwenden Sie * am Ende eines Suchbegriffs, um nach allen Vorkommen zu suchen, die mit dem angegebenen Begriff beginnen (Platzhaltersuche).",
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Ermöglicht es Ihnen, diese Website nach Schlüsselwörtern zu durchsuchen"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Suchen"
+    },
+    {
+      "Name": "editText",
+      "Text": "Suchen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Suche nach Stichwörtern auf dieser Seite"
+    },
+    {
+      "Name": "modName",
+      "Text": "Eingabe für die Suche"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Eingabe von Suchbegriffen zulassen."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Suchen"
+    },
+    {
+      "Name": "searchButton",
+      "Text": "Suchen"
+    },
+    {
+      "Name": "searchButtonTT",
+      "Text": "Geben Sie Suchbegriffe ein und klicken Sie auf die Schaltfläche Suchen, um diese Website zu durchsuchen - Sie können AND und OR verwenden, um mehrere Begriffe zu kombinieren"
+    }
+  ]
+}

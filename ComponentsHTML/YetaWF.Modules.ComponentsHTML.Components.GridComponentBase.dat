@@ -1,0 +1,123 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "allPages",
+      "Text": "Alle"
+    },
+    {
+      "Name": "allPagesTT",
+      "Text": "Alle Einträge anzeigen"
+    },
+    {
+      "Name": "btnFilter",
+      "Text": "Schalten Sie die Filterleiste ein oder aus"
+    },
+    {
+      "Name": "btnFirst",
+      "Text": "Gehe zur ersten Seite"
+    },
+    {
+      "Name": "btnLast",
+      "Text": "Gehe zur letzten Seite"
+    },
+    {
+      "Name": "btnNext",
+      "Text": "Gehe zur nächsten Seite"
+    },
+    {
+      "Name": "btnPrev",
+      "Text": "Gehe zur vorherigen Seite"
+    },
+    {
+      "Name": "btnTop",
+      "Text": "Laden Sie die aktuelle Seite neu"
+    },
+    {
+      "Name": "coll",
+      "Text": "Klicken Sie hier, um dieses Bedienfeld zu reduzieren"
+    },
+    {
+      "Name": "demo",
+      "Text": "(Demo - N/A)"
+    },
+    {
+      "Name": "dropdownWidth",
+      "Text": "12"
+    },
+    {
+      "Name": "exp",
+      "Text": "Klicken Sie hier, um dieses Bedienfeld zu erweitern"
+    },
+    {
+      "Name": "f_bw",
+      "Text": "Beginnt mit"
+    },
+    {
+      "Name": "f_contains",
+      "Text": "Enthält"
+    },
+    {
+      "Name": "f_endswith",
+      "Text": "Endet mit"
+    },
+    {
+      "Name": "f_equals",
+      "Text": "Gleich"
+    },
+    {
+      "Name": "f_g",
+      "Text": "Größer"
+    },
+    {
+      "Name": "f_ge",
+      "Text": "Größer oder gleich"
+    },
+    {
+      "Name": "f_l",
+      "Text": "Weniger"
+    },
+    {
+      "Name": "f_le",
+      "Text": "Kleiner oder gleich"
+    },
+    {
+      "Name": "f_nbw",
+      "Text": "Beginnt nicht mit"
+    },
+    {
+      "Name": "f_ncontains",
+      "Text": "Enthält nicht"
+    },
+    {
+      "Name": "f_ne",
+      "Text": "Nicht gleich"
+    },
+    {
+      "Name": "f_nendswith",
+      "Text": "Endet nicht mit"
+    },
+    {
+      "Name": "filter",
+      "Text": "Filter"
+    },
+    {
+      "Name": "loading",
+      "Text": "Laden..."
+    },
+    {
+      "Name": "noSel",
+      "Text": "(keine Auswahl)"
+    },
+    {
+      "Name": "pagesTT",
+      "Text": "{0} Einträge anzeigen"
+    },
+    {
+      "Name": "searchTT",
+      "Text": "Suchmethode auswählen"
+    }
+  ]
+}

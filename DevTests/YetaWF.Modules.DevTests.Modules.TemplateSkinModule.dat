@@ -1,0 +1,58 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TemplateSkinModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "ControlStatus",
+          "Caption": "Status der Steuerung",
+          "Description": "Legt den Bearbeitungsstatus der Steuerelemente fest",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Skin",
+          "Caption": "Haut",
+          "Description": "Haut",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SkinRO",
+          "Caption": "Skin (Lesen/Nur Lesen)",
+          "Description": "Skin (Lesen/Nur Lesen)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Komponententest - Skin-Auswahl"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Testmodul für die SkinSelection-Komponente. Eine Testseite für dieses Modul finden Sie unter Tests > Templates > Skins (Standard-YetaWF-Seite)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Komponente des Hautauswahltests"
+    },
+    {
+      "Name": "ok",
+      "Text": "OKAY"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Packages.Modules.SiteTemplateProcessModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": "Die ausgewählte Vorlage wird verwendet, um die aktuelle Website zu konfigurieren - Nach Abschluss muss die Seite manuell aktualisiert werden (absichtlich nicht automatisch)",
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "SiteTemplate",
+          "Caption": "Name",
+          "Description": "Liste der Websitevorlagen (im Ordner SiteTemplates)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Vorlage für Prozesswebsites"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Verarbeitet eine Websitevorlage und fügt der aktuellen Website alle definierten Seiten hinzu. Auf das Process Site Template-Modul kann über das Admin > Panel > Packages (Standard-YetaWF-Site) zugegriffen werden."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Vorlage für Prozesswebsites"
+    },
+    {
+      "Name": "processLegend",
+      "Text": "Verarbeitet eine Websitevorlage und fügt der aktuellen Website alle definierten Seiten hinzu"
+    },
+    {
+      "Name": "processLink",
+      "Text": "Site-Vorlage"
+    },
+    {
+      "Name": "processText",
+      "Text": "Site-Vorlage"
+    },
+    {
+      "Name": "processTooltip",
+      "Text": "Verarbeiten einer Websitevorlage und Hinzufügen aller definierten Seiten zur aktuellen Website"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.SyntaxHighlighter.Modules.SyntaxHighlighterConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": "Die Einstellungen werden verwendet, um die Syntaxhervorhebung für die gesamte Website zu definieren. Wenn mehr als eine Syntaxhervorhebung verfügbar ist, können beide verwendet werden, sollten aber nicht auf derselben Seite verwendet werden. Um die Syntaxhervorhebung zu aktivieren, müssen die Site-, Seiten- oder Moduleinstellungen auf eines der verfügbaren Skin-Module verweisen. Die <pre> <code> und/or-Tags müssen verwendet werden, um die gewünschte Syntax-Farbsprache zu definieren.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Highlight.js": "Hervorhebung.js"
+      },
+      "Properties": [
+        {
+          "Name": "HighlightJSSkin",
+          "Caption": "Haut",
+          "Description": "Die Skin, die für die Syntaxhervorhebung verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "HighlightJSUrl",
+          "Caption": "Hilfe",
+          "Description": "Der Syntax-Highlighter verwendet Highlight.js",
+          "HelpLink": null,
+          "TextAbove": "Der Syntax-Highlighter verwendet Highlight.js.",
+          "TextBelow": null
+        },
+        {
+          "Name": "LanguagesHighlightJSUrl",
+          "Caption": "Sprachen",
+          "Description": "Zeigt Hilfe für die Sprachen an, die von Highlight verwendet werden können.js für die Syntaxfärbung - Möglicherweise sind nicht alle installiert und verfügbar",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Einstellungen für die Syntaxhervorhebung"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Syntax-Highlighter-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "Syntax-Highlighter-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten der Einstellungen für die Syntaxhervorhebung"
+    },
+    {
+      "Name": "modName",
+      "Text": "Syntax-Highlighter-Einstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Konfigurationsmodul zur Syntaxhervorhebung. Definieren Sie das Erscheinungsbild von Abschnitten mithilfe der Syntaxhervorhebung. Der Zugriff erfolgt über Admin > Settings > Syntax Highlighter Settings (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Syntax-Highlighter-Einstellungen"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Syntax-Highlighter-Einstellungen konnten nicht gefunden werden"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Syntax-Highlighter-Einstellungen gespeichert"
+    }
+  ]
+}

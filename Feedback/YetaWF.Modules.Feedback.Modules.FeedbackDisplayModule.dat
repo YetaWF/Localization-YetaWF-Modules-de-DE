@@ -1,0 +1,98 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Feedback.Modules.FeedbackDisplayModule+DisplayModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Created",
+          "Caption": "Erstellt",
+          "Description": "Das Datum, an dem die Nachricht erstellt wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Email",
+          "Caption": "E-Mail-Adresse",
+          "Description": "Die E-Mail-Adresse des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "IPAddress",
+          "Caption": "IP-Adresse",
+          "Description": "Die IP-Adresse, von der die Feedback-Nachricht gesendet wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Message",
+          "Caption": "Nachricht",
+          "Description": "Die Feedback-Nachricht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Name",
+          "Description": "Der Name des Benutzers",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Subject",
+          "Caption": "Betreff",
+          "Description": "Der Betreff der Nachricht",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt eine Feedback-Meldung an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Zeigen"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Zeigen Sie die Feedback-Meldung an"
+    },
+    {
+      "Name": "modName",
+      "Text": "Feedback-Nachricht"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt eine Feedback-Nachricht an, die von einem Site-Besucher eingegeben wurde. Dies wird vom Browse-Feedback-Modul verwendet."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Feedback-Nachricht"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Feedback \"{0}\" nicht gefunden."
+    }
+  ]
+}

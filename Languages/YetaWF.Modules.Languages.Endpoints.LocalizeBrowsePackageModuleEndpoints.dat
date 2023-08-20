@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "custGenerated",
+      "Text": "Erfolgreich generierte benutzerdefinierte Lokalisierungsressourcen"
+    },
+    {
+      "Name": "instGenerated",
+      "Text": "Installierte Lokalisierungsressourcen wurden erfolgreich generiert"
+    },
+    {
+      "Name": "packAllDataGenerated",
+      "Text": "Übersetzte Paketdaten für alle erfolgreich generierten Pakete"
+    },
+    {
+      "Name": "packDataGenerated",
+      "Text": "Übersetzte Paketdaten erfolgreich generiert"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "backupNotFound",
+      "Text": "Das Backup '{0}' kann nicht gefunden werden."
+    }
+  ]
+}

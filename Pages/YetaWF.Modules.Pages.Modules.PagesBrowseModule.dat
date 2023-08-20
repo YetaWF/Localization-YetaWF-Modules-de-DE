@@ -1,0 +1,366 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Pages.Modules.PagesBrowseModule+PageItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Administrators",
+          "Caption": "Administratoren",
+          "Description": "Administratoren können diese Seite anzeigen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Anonymous",
+          "Caption": "Anonym",
+          "Description": "Anonyme Benutzer können diese Seite anzeigen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CanonicalUrl",
+          "Caption": "Kanonische URL",
+          "Description": "Die kanonische URL, die zur Identifizierung dieser Seite verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Created",
+          "Caption": "Erstellungsdatum",
+          "Description": "Das Datum, an dem die Seite erstellt wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "CssClass",
+          "Caption": null,
+          "Description": "Die optionalen CSS-Klassen, die dem Tag der Seite hinzugefügt werden sollen, <body> um sie durch Stylesheets weiter anzupassen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Seitenbeschreibung (normalerweise nicht sichtbar, vom Seitendesigner eingegeben, für Suchbegriffe verwendet)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Editors",
+          "Caption": "Herausgeber",
+          "Description": "Redakteure können diese Seite anzeigen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "MobilePageUrl",
+          "Caption": "URL der mobilen Seite",
+          "Description": "Wenn diese Seite von einem mobilen Gerät aufgerufen wird, wird sie auf die URL umgeleitet, die hier als mobile Seiten-URL definiert ist - Die Umleitung ist im Website-Bearbeitungsmodus nicht aktiv",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PageGuid",
+          "Caption": "Guid",
+          "Description": "Die ID, die diese Seite eindeutig identifiziert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RedirectToPageUrl",
+          "Caption": "Zur Seite weiterleiten",
+          "Description": "Wenn diese Seite aufgerufen wird, wird sie auf die hier definierte URL umgeleitet - Die Weiterleitung ist im Site Edit Mode nicht aktiv",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteMapPriority",
+          "Caption": "SiteMap-Priorität",
+          "Description": "Definiert die Seitenpriorität, die für die Sitemap verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "StaticPage",
+          "Caption": "Statische Seite",
+          "Description": "Definiert, ob die Seite als statische Seite gerendert wird (nur für anonyme Benutzer) - Eine Seite, deren Inhalt sich nicht ändert, kann als statische Seite markiert werden, was zu einem schnelleren Laden der Seite für den Endbenutzer führt - Websiteeinstellungen können verwendet werden, um die Verwendung statischer Seiten mithilfe der StaticPages-Eigenschaft global zu aktivieren/deaktivieren - Statische Seiten werden nur mit bereitgestellten Websites verwendet",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Title",
+          "Caption": "Titel",
+          "Description": "Der Seitentitel, der als Titel im Browserfenster angezeigt wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Updated",
+          "Caption": "Datum der Aktualisierung",
+          "Description": "Das Datum, an dem die Seite aktualisiert wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Url",
+          "Caption": "URL",
+          "Description": "Die URL, die zur Identifizierung dieser Seite verwendet wird: Dies ist der Name der entworfenen Seite und enthält möglicherweise keine erforderlichen Abfragezeichenfolgenargumente, um die Seite anzuzeigen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Users",
+          "Caption": "Benutzer",
+          "Description": "Angemeldete Benutzer können diese Seite anzeigen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Anzeigen und Verwalten von Seiten"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Seiten"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Seiten"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Anzeigen und Verwalten von Seiten"
+    },
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt die Seite an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Seite anzeigen"
+    },
+    {
+      "Name": "displayMenu",
+      "Text": "Seite anzeigen"
+    },
+    {
+      "Name": "displayTT",
+      "Text": "Zeigen Sie die Seite in einem neuen Fenster an"
+    },
+    {
+      "Name": "downloadLegend",
+      "Text": "Lädt die Siteübersichtsdatei herunter"
+    },
+    {
+      "Name": "downloadLink",
+      "Text": "Sitemap herunterladen"
+    },
+    {
+      "Name": "downloadMenu",
+      "Text": "Sitemap herunterladen"
+    },
+    {
+      "Name": "downloadTT",
+      "Text": "Laden Sie die Siteübersichtsdatei herunter"
+    },
+    {
+      "Name": "modName",
+      "Text": "Seiten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt Seiten an und verwaltet sie und implementiert das Entfernen von Seiten. Es ist über Admin > Panel > Pages (Standard-YetaWF-Site) zugänglich. Es wird verwendet, um Einstellungen anzuzeigen, zu bearbeiten und Seiten zu entfernen. Das Seitenmodul bietet auch Dienste zur Erstellung von Siteübersichten. Beim Entfernen von Seiten werden die Module auf der Seite NICHT entfernt."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Seiten"
+    },
+    {
+      "Name": "pagelistLegend",
+      "Text": "Lädt die Liste der gestalteten Seiten herunter"
+    },
+    {
+      "Name": "pagelistLink",
+      "Text": "Seitenliste herunterladen"
+    },
+    {
+      "Name": "pagelistMenu",
+      "Text": "Seitenliste herunterladen"
+    },
+    {
+      "Name": "pagelistTT",
+      "Text": "Laden Sie die Liste der gestalteten Seiten herunter"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Bist du sicher, dass du die Seite \"{0}\" entfernen möchtest?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernen Sie die Seite von der Website"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Artikel entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Artikel entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernt die Seite von der Website"
+    },
+    {
+      "Name": "restAuthConfirm",
+      "Text": "ENTWICKLUNGSFUNKTION - Sind Sie sicher, dass Sie allen Seiten die Berechtigung hinzufügen möchten, damit der Administrator die volle Kontrolle hat und der Editor Anzeigen und Bearbeiten kann?"
+    },
+    {
+      "Name": "restAuthLegend",
+      "Text": "ENTWICKLUNGSFUNKTION - Fügen Sie allen Seiten die Berechtigung hinzu, damit der Administrator die volle Kontrolle hat und der Redakteur Anzeigen und Bearbeiten kann"
+    },
+    {
+      "Name": "restAuthLink",
+      "Text": "Admin- & Editor-Autorisierung"
+    },
+    {
+      "Name": "restAuthMenu",
+      "Text": "Admin- & Editor-Autorisierung"
+    },
+    {
+      "Name": "restAuthPlsWait",
+      "Text": "Aktualisieren Sie alle Seiten, damit der Administrator die volle Kontrolle hat und der Redakteur anzeigen und bearbeiten kann..."
+    },
+    {
+      "Name": "restAuthTT",
+      "Text": "ENTWICKLUNGSFUNKTION - Fügen Sie allen Seiten die Berechtigung hinzu, damit der Administrator die volle Kontrolle hat und der Redakteur Anzeigen und Bearbeiten kann"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Entfernen von Seiten"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Seiten entfernen"
+    },
+    {
+      "Name": "roleSetAuth",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Festlegen der globalen Autorisierung für alle Seiten"
+    },
+    {
+      "Name": "roleSetAuthC",
+      "Text": "Globale Autorisierung festlegen"
+    },
+    {
+      "Name": "roleSiteMaps",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Verwalten von Siteübersichten"
+    },
+    {
+      "Name": "roleSiteMapsC",
+      "Text": "Verwalten von Sitemaps"
+    },
+    {
+      "Name": "screAuthConfirm",
+      "Text": "Sind Sie sicher, dass Sie eine neue Sitemap erstellen möchten?"
+    },
+    {
+      "Name": "screAuthLegend",
+      "Text": "Erstellt eine Sitemap"
+    },
+    {
+      "Name": "screAuthLink",
+      "Text": "Sitemap erstellen"
+    },
+    {
+      "Name": "screAuthMenu",
+      "Text": "Sitemap erstellen"
+    },
+    {
+      "Name": "screAuthPlsWait",
+      "Text": "Erstellen einer Sitemap..."
+    },
+    {
+      "Name": "screAuthTT",
+      "Text": "Erstellen einer Sitemap"
+    },
+    {
+      "Name": "sremAuthConfirm",
+      "Text": "Sind Sie sicher, dass Sie die aktuelle Sitemap entfernen möchten?"
+    },
+    {
+      "Name": "sremAuthLegend",
+      "Text": "Entfernt die aktuelle Sitemap"
+    },
+    {
+      "Name": "sremAuthLink",
+      "Text": "Sitemap entfernen"
+    },
+    {
+      "Name": "sremAuthMenu",
+      "Text": "Sitemap entfernen"
+    },
+    {
+      "Name": "sremAuthTT",
+      "Text": "Aktuellen Lageplan entfernen"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer hat die Berechtigung, Seiten zu entfernen"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Seiten entfernen"
+    },
+    {
+      "Name": "userSetAuth",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Festlegen der globalen Autorisierung für alle Seiten"
+    },
+    {
+      "Name": "userSetAuthC",
+      "Text": "Globale Autorisierung festlegen"
+    },
+    {
+      "Name": "userSiteMaps",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Verwalten von Siteübersichten"
+    },
+    {
+      "Name": "userSiteMapsC",
+      "Text": "Verwalten von Sitemaps"
+    }
+  ]
+}

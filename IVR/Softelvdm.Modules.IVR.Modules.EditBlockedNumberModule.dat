@@ -1,0 +1,82 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "Softelvdm.Modules.IVR.Modules.EditBlockedNumberModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die Beschreibung der gesperrten Nummer",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Number",
+          "Caption": "Gesperrte Nummer",
+          "Description": "Zeigt die gesperrte Telefonnummer an",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "Gesperrte Nummer {0} wurde entfernt und kann nicht mehr aktualisiert werden"
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Gesperrte Nummer {0} bereits vorhanden"
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet eine vorhandene gesperrte Nummer"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Redigieren"
+    },
+    {
+      "Name": "editText",
+      "Text": "Redigieren"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Gesperrte Nummer bearbeiten"
+    },
+    {
+      "Name": "modName",
+      "Text": "Gesperrte Nummer bearbeiten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Bearbeitet eine vorhandene gesperrte Nummer."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Gesperrte Nummer"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Blockierte Rufnummer \"{0}\" nicht gefunden"
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Gesperrte Nummer gespeichert"
+    },
+    {
+      "Name": "title",
+      "Text": "Gesperrte Rufnummer \"{0}\""
+    }
+  ]
+}

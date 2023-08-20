@@ -1,0 +1,142 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.AuthorizationBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "AddUrl",
+          "Caption": "URL hinzufügen",
+          "Description": "Die URL zum Hinzufügen einer neuen Ressource - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DisplayUrl",
+          "Caption": "Url anzeigen",
+          "Description": "Die URL zum Anzeigen von Ressourceninformationen – wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "EditUrl",
+          "Caption": "URL bearbeiten",
+          "Description": "Die URL zum Bearbeiten einer Ressource - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.AuthorizationBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ResourceDescription",
+          "Caption": "Beschreibung der Ressource",
+          "Description": "Die Berechtigungen, die erteilt werden, wenn ein Benutzer oder eine Rolle Zugriff auf diese Ressource hat",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ResourceName",
+          "Caption": "Name der Ressource",
+          "Description": "Der Name dieser Ressource",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "authLegend",
+      "Text": "Anzeigen und Verwalten von Ressourcen"
+    },
+    {
+      "Name": "authLink",
+      "Text": "Betriebsmittel"
+    },
+    {
+      "Name": "authText",
+      "Text": "Betriebsmittel"
+    },
+    {
+      "Name": "authTooltip",
+      "Text": "Anzeigen und Verwalten von Ressourcen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Betriebsmittel"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Wird verwendet, um Ressourcen anzuzeigen und zu verwalten, die für Berechtigungen verwendet werden. Der Zugriff erfolgt über Admin > Identity Settings > Resources (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Betriebsmittel"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie die Ressource \"{0}\" entfernen möchten?"
+    },
+    {
+      "Name": "removeLegend",
+      "Text": "Entfernt die Ressource"
+    },
+    {
+      "Name": "removeLink",
+      "Text": "Ressource entfernen"
+    },
+    {
+      "Name": "removeMenu",
+      "Text": "Ressource entfernen"
+    },
+    {
+      "Name": "removeTT",
+      "Text": "Entfernt die Ressource"
+    },
+    {
+      "Name": "roleRemItems",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Entfernen einzelner Ressourcen"
+    },
+    {
+      "Name": "roleRemItemsC",
+      "Text": "Ressourcen entfernen"
+    },
+    {
+      "Name": "userRemItems",
+      "Text": "Der Benutzer verfügt über die Berechtigung, einzelne Ressourcen zu entfernen"
+    },
+    {
+      "Name": "userRemItemsC",
+      "Text": "Ressourcen entfernen"
+    }
+  ]
+}

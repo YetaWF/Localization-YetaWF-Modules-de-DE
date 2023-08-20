@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Einrichtung der zweistufigen Authentifizierung erforderlich"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt eine Warnung an, dass der Benutzer die Einrichtung der zweistufigen Authentifizierung abschließen muss."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Einrichtung der zweistufigen Authentifizierung erforderlich"
+    }
+  ]
+}

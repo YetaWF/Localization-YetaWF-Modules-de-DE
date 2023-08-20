@@ -1,0 +1,39 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnAdd",
+      "Text": "Eintrag hinzufügen"
+    },
+    {
+      "Name": "btnCollapseAll",
+      "Text": "Alle ausblenden"
+    },
+    {
+      "Name": "btnDelete",
+      "Text": "Löschen"
+    },
+    {
+      "Name": "btnExpandAll",
+      "Text": "Alle aufklappen"
+    },
+    {
+      "Name": "btnInsert",
+      "Text": "Eintrag einfügen"
+    },
+    {
+      "Name": "btnReset",
+      "Text": "Zurücksetzen"
+    },
+    {
+      "Name": "btnReturn",
+      "Text": "Rückgabe"
+    },
+    {
+      "Name": "btnSave",
+      "Text": "Retten"
+    }
+  ]
+}

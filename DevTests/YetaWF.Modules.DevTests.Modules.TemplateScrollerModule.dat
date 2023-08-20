@@ -1,0 +1,43 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt den Scroller-Test an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "Scroller"
+    },
+    {
+      "Name": "displayText",
+      "Text": "Scroller"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Scroller-Test anzeigen"
+    },
+    {
+      "Name": "itemSummary",
+      "Text": "Zusammenfassung zu Punkt {0} - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "Name": "itemTitle",
+      "Text": "Artikel {0}"
+    },
+    {
+      "Name": "modName",
+      "Text": "Komponententest - Scroller"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Testmodul für die Scroller-Komponente. Eine Testseite für dieses Modul finden Sie unter Tests > Templates > Scroller (Standard-YetaWF-Seite)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Scroller-Test-Komponente"
+    }
+  ]
+}

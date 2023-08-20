@@ -1,0 +1,24 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Modules.Basics.DataProvider.AlertConfig+MessageHandlingEnum",
+      "Entries": [
+        {
+          "Name": "DisplayOnce",
+          "Value": "DisplayOnce",
+          "Caption": "Einmal anzeigen",
+          "Description": "Zeigen Sie die Meldung nur einmal für die Sitzung an"
+        },
+        {
+          "Name": "DisplayUntilOff",
+          "Value": "DisplayUntilOff",
+          "Caption": "Anzeige bis zur Schließung",
+          "Description": "Zeigen Sie die Meldung an, bis sie vom Benutzer geschlossen wird"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

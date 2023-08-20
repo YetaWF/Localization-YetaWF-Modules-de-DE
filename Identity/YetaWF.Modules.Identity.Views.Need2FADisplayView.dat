@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "need2FA",
+      "Text": "Bitte richten Sie die Zwei-Faktor-Authentifizierung für den vollen Zugriff auf diese Website ein - "
+    }
+  ]
+}

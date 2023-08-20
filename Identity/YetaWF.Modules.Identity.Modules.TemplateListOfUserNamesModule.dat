@@ -1,0 +1,74 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.TemplateListOfUserNamesModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Prop1",
+          "Caption": "Benutzernamen",
+          "Description": "Liste der Benutzernamen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Req",
+          "Caption": "Benutzernamen (erforderlich)",
+          "Description": "Liste der Benutzernamen (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "Benutzernamen (schreibgeschützt/nur)",
+          "Description": "Liste der Benutzernamen (schreibgeschützt)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "displayLegend",
+      "Text": "Zeigt die Testvorlage \"ListOfUserNames\" an"
+    },
+    {
+      "Name": "displayLink",
+      "Text": "ListOfUserNames"
+    },
+    {
+      "Name": "displayText",
+      "Text": "ListOfUserNames"
+    },
+    {
+      "Name": "displayTooltip",
+      "Text": "Anzeigen der Testvorlage \"ListOfUserNames\""
+    },
+    {
+      "Name": "modName",
+      "Text": "Komponententest - ListOfUserNames"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Testmodul für die ListOfUserNames-Komponente (Bearbeiten und Anzeigen). Eine Testseite für dieses Modul finden Sie unter Tests > Templates > ListOfUserNames (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "ListOfUserNames-Testkomponente"
+    },
+    {
+      "Name": "ok",
+      "Text": "OKAY"
+    }
+  ]
+}

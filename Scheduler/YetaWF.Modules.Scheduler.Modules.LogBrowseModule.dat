@@ -1,0 +1,206 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.LogBrowseModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "General": "Allgemein"
+      },
+      "Properties": [
+        {
+          "Name": "DisplayUrl",
+          "Caption": "Url anzeigen",
+          "Description": "Die URL zum Anzeigen eines Protokolleintrags - wenn sie weggelassen wird, wird eine Standardseite generiert",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    },
+    {
+      "Name": "YetaWF.Modules.Scheduler.Modules.LogBrowseModule+BrowseItem",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Commands",
+          "Caption": "Aktionen",
+          "Description": "Die verfügbaren Aktionen",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Info",
+          "Caption": "Nachricht",
+          "Description": "Die Botschaft",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Level",
+          "Caption": "Niveau",
+          "Description": "Die Meldungsebene",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Name",
+          "Description": "Der Name des ausgeführten Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RunId",
+          "Caption": "Id",
+          "Description": "Die ID des ausgeführten Scheduler-Elements",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "SiteIdentity",
+          "Caption": "Site-ID",
+          "Description": "Der Standort, der vom Planerelement betroffen war",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "TimeStamp",
+          "Caption": "Erstellt",
+          "Description": "Datum/Uhrzeit der Erstellung dieses Protokolldatensatzes",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "browseLegend",
+      "Text": "Zeigt das Scheduler-Protokoll an und verwaltet es"
+    },
+    {
+      "Name": "browseLink",
+      "Text": "Log"
+    },
+    {
+      "Name": "browseText",
+      "Text": "Log"
+    },
+    {
+      "Name": "browseTooltip",
+      "Text": "Anzeigen und Verwalten des Scheduler-Protokolls"
+    },
+    {
+      "Name": "dlZipLegend",
+      "Text": "Lädt die Scheduler-Protokolldatei als ZIP-Datei herunter"
+    },
+    {
+      "Name": "dlZipLink",
+      "Text": "Download-Protokoll (gezippt)"
+    },
+    {
+      "Name": "dlZipMenu",
+      "Text": "Download-Protokoll (gezippt)"
+    },
+    {
+      "Name": "dlZipTT",
+      "Text": "Laden Sie die Scheduler-Protokolldatei als ZIP-Datei herunter"
+    },
+    {
+      "Name": "downloadLegend",
+      "Text": "Lädt die Scheduler-Protokolldatei herunter"
+    },
+    {
+      "Name": "downloadLink",
+      "Text": "Download-Protokoll"
+    },
+    {
+      "Name": "downloadMenu",
+      "Text": "Download-Protokoll"
+    },
+    {
+      "Name": "downloadTT",
+      "Text": "Laden Sie die Scheduler-Protokolldatei herunter"
+    },
+    {
+      "Name": "modName",
+      "Text": "Scheduler-Protokoll"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeigt das Scheduler-Protokoll an und verwaltet es."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Scheduler-Protokoll"
+    },
+    {
+      "Name": "removeAllLegend",
+      "Text": "Entfernt alle Scheduler-Protokolldatensätze"
+    },
+    {
+      "Name": "removeAllLink",
+      "Text": "Alle entfernen"
+    },
+    {
+      "Name": "removeAllMenu",
+      "Text": "Alle entfernen"
+    },
+    {
+      "Name": "removeAllTT",
+      "Text": "Entfernen Sie alle Scheduler-Protokolldatensätze"
+    },
+    {
+      "Name": "removeConfirm",
+      "Text": "Sind Sie sicher, dass Sie ALLE Scheduler-Protokolleinträge entfernen möchten?"
+    },
+    {
+      "Name": "roleDownload",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Herunterladen der Scheduler-Protokolldatei"
+    },
+    {
+      "Name": "roleDownloadC",
+      "Text": "Download-Protokoll"
+    },
+    {
+      "Name": "roleRemLog",
+      "Text": "Die Rolle verfügt über die Berechtigung zum Löschen des Scheduler-Protokolls"
+    },
+    {
+      "Name": "roleRemLogC",
+      "Text": "Protokoll entfernen"
+    },
+    {
+      "Name": "userDownload",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Herunterladen der Scheduler-Protokolldatei"
+    },
+    {
+      "Name": "userDownloadC",
+      "Text": "Download-Protokoll"
+    },
+    {
+      "Name": "userRemLog",
+      "Text": "Der Benutzer verfügt über die Berechtigung zum Löschen des Scheduler-Protokolls"
+    },
+    {
+      "Name": "userRemLogC",
+      "Text": "Protokoll entfernen"
+    }
+  ]
+}

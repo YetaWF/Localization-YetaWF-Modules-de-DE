@@ -1,0 +1,58 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.TemplateResourceUsersModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Prop1",
+          "Caption": "ResourceUsers (RessourcenBenutzer)",
+          "Description": "ResourceUsers (RessourcenBenutzer)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1Req",
+          "Caption": "ResourceUsers (erforderlich)",
+          "Description": "ResourceUsers (erforderlich)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Prop1RO",
+          "Caption": "ResourceUsers (schreibgeschützt/schreibgeschützt)",
+          "Description": "ResourceUsers (schreibgeschützt/nur)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Vorlagentest - ResourceUsers"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "ResourceUsers-Testvorlage"
+    },
+    {
+      "Name": "modTitle",
+      "Text": "ResourceUsers-Testvorlage"
+    },
+    {
+      "Name": "ok",
+      "Text": "OKAY"
+    }
+  ]
+}

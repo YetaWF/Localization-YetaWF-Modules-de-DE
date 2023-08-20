@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Besucher-(Skin-)Modul"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Zeichnet Informationen zu Website-Besuchern auf. Dieses Modul wird in der Regel zu jeder Seite hinzugefügt (als Skin-Modul), sodass alle Besucheraktivitäten aufgezeichnet werden. Dies geschieht am besten über eine Modulreferenz in den Site-Einstellungen."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Skin-Besucher-Modul"
+    }
+  ]
+}

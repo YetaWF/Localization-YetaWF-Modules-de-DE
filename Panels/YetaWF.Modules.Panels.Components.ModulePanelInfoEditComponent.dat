@@ -1,0 +1,63 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "btnAdd",
+      "Text": "Hinzufügen"
+    },
+    {
+      "Name": "btnApply",
+      "Text": "Anwenden"
+    },
+    {
+      "Name": "btnDelete",
+      "Text": "Entfernen"
+    },
+    {
+      "Name": "btnDown",
+      "Text": ">>"
+    },
+    {
+      "Name": "btnIns",
+      "Text": "Einfügen"
+    },
+    {
+      "Name": "btnUp",
+      "Text": "<<"
+    },
+    {
+      "Name": "noCaption",
+      "Text": "(ohne Bildunterschrift)"
+    },
+    {
+      "Name": "noModule",
+      "Text": "(kein Modul definiert)"
+    },
+    {
+      "Name": "txtAdd",
+      "Text": "Klicken Sie hier, um ein neues Bedienfeld nach dem aktuellen Bedienfeld hinzuzufügen"
+    },
+    {
+      "Name": "txtApply",
+      "Text": "Klicken Sie hier, um die aktuellen Änderungen zu übernehmen"
+    },
+    {
+      "Name": "txtDelete",
+      "Text": "Klicken Sie, um das aktuelle Bedienfeld zu entfernen"
+    },
+    {
+      "Name": "txtDown",
+      "Text": "Klicken Sie, um das aktuelle Bedienfeld zu verschieben"
+    },
+    {
+      "Name": "txtIns",
+      "Text": "Klicken Sie, um ein neues Bedienfeld vor dem aktuellen Bedienfeld einzufügen."
+    },
+    {
+      "Name": "txtUp",
+      "Text": "Klicken Sie, um das aktuelle Bedienfeld zu verschieben"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RecoveryCodesModule+EditModel",
+      "BaseTypeName": null,
+      "Header": "Wiederherstellungscodes werden verwendet, um auf Ihr Konto zuzugreifen, falls Sie sich nicht mit den derzeit definierten zweistufigen Authentifizierungen authentifizieren können. Stellen Sie sicher, dass Sie den Wiederherstellungscode an einem sicheren Ort speichern, damit Sie auf Ihr Konto zugreifen können, falls Sie keine der aktivierten Authentifizierungsmethoden verwenden können.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "GenerateRecoveryCode",
+          "Caption": " ",
+          "Description": " ",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Password",
+          "Caption": "Passwort",
+          "Description": "Geben Sie Ihr Passwort ein, um auf Ihren Wiederherstellungscode zuzugreifen",
+          "HelpLink": null,
+          "TextAbove": "Geben Sie Ihr Passwort ein, um Ihren Wiederherstellungscode anzuzeigen.",
+          "TextBelow": null
+        },
+        {
+          "Name": "RecoveryCode",
+          "Caption": "Ihr Wiederherstellungscode",
+          "Description": "Zeigt den verfügbaren Wiederherstellungscode an",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": "Genau wie Ihr Kontopasswort sollten Sie diesen Wiederherstellungscode geheim halten."
+        },
+        {
+          "Name": "ShowRecoveryCodes",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowRecoveryCodesLogin",
+          "Caption": "",
+          "Description": "",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "badPassword",
+      "Text": "Das Passwort ist ungültig"
+    },
+    {
+      "Name": "cantUpdate",
+      "Text": "Fehler beim Aktualisieren von Benutzerinformationen - {0}"
+    },
+    {
+      "Name": "genCode",
+      "Text": "Neuen Wiederherstellungscode generieren"
+    },
+    {
+      "Name": "modName",
+      "Text": "Wiederherstellungscodes"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Ermöglicht Benutzern das Überprüfen und Generieren von Wiederherstellungscodes für die zweistufige Authentifizierung."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Wiederherstellungscodes"
+    },
+    {
+      "Name": "newCode",
+      "Text": "Ein neuer Wiederherstellungscode wurde generiert"
+    },
+    {
+      "Name": "showCode",
+      "Text": "Wiederherstellungscode anzeigen"
+    }
+  ]
+}

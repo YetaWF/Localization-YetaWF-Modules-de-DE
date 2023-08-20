@@ -1,0 +1,49 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.PageEdit.Components.AllowedRolesEditComponent+GridAllowedRole",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Edit",
+          "Caption": "Redigieren",
+          "Description": "Die Rolle verfügt über die Berechtigung zum Bearbeiten der Seite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Remove",
+          "Caption": "Entfernen",
+          "Description": "Die Rolle verfügt über die Berechtigung zum Entfernen der Seite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "RoleName",
+          "Caption": "Rolle",
+          "Description": "Rollenbeschreibung",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "View",
+          "Caption": "Ansehen",
+          "Description": "Die Rolle verfügt über die Berechtigung zum Anzeigen der Seite",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": []
+}

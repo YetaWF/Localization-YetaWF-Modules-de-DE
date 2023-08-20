@@ -1,0 +1,23 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "backupCreated",
+      "Text": "Das Site-Backup wurde erfolgreich erstellt"
+    },
+    {
+      "Name": "backupNotFound",
+      "Text": "Das Backup '{0}' kann nicht gefunden werden."
+    },
+    {
+      "Name": "cantBackup",
+      "Text": "Es kann kein Site-Backup für Site {0}:(+nl) erstellt werden."
+    },
+    {
+      "Name": "templatesCreated",
+      "Text": "Die Vorlagen für die aktuelle Website wurden erfolgreich im Ordner \\SiteTemplates\\Data erstellt"
+    }
+  ]
+}

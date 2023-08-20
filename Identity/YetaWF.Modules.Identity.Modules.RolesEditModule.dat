@@ -1,0 +1,90 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Identity.Modules.RolesEditModule+EditModel",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Description",
+          "Caption": "Beschreibung",
+          "Description": "Die bestimmungsgemäße Verwendung der Rolle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Name",
+          "Caption": "Name",
+          "Description": "Der Name dieser Rolle",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "PostLoginUrl",
+          "Caption": "Login-URL veröffentlichen",
+          "Description": "Die URL, unter der ein Benutzer mit dieser Rolle nach der Anmeldung umgeleitet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "alreadyDeleted",
+      "Text": "Die Rolle mit dem Namen \"{0}\" wurde entfernt und kann nicht mehr aktualisiert werden."
+    },
+    {
+      "Name": "alreadyExists",
+      "Text": "Eine Rolle mit dem Namen \"{0}\" ist bereits vorhanden."
+    },
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet eine vorhandene Rolle"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Redigieren"
+    },
+    {
+      "Name": "editText",
+      "Text": "Redigieren"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten einer vorhandenen Rolle"
+    },
+    {
+      "Name": "modEditTitle",
+      "Text": "Rolle \"{0}\""
+    },
+    {
+      "Name": "modName",
+      "Text": "Rolle bearbeiten"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Bearbeitet eine vorhandene Rolle. Dies wird vom Rollenmodul verwendet, um eine Rolle zu bearbeiten."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Bearbeiten einer Rolle"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Rolle \"{0}\" nicht gefunden."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Rolle \"{0}\" gespeichert"
+    }
+  ]
+}

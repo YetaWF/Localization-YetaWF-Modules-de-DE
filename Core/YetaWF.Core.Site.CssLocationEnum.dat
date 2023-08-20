@@ -1,0 +1,24 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [
+    {
+      "Name": "YetaWF.Core.Site.CssLocationEnum",
+      "Entries": [
+        {
+          "Name": "Top",
+          "Value": "Top",
+          "Caption": "Zum Seitenanfang",
+          "Description": "Alle CSS-Dateien sind oben auf der Seite (im <HEAD> Abschnitt) enthalten"
+        },
+        {
+          "Name": "Bottom",
+          "Value": "Bottom",
+          "Caption": "Ende der Seite",
+          "Description": "Alle Css-Dateien sind unten auf der Seite (direkt vor dem </BODY> Tag) enthalten"
+        }
+      ]
+    }
+  ],
+  "Strings": []
+}

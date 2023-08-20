@@ -1,0 +1,29 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.DevTests.Modules.TestStepsModule+Model",
+      "BaseTypeName": null,
+      "Header": "Diese Testseite wird verwendet, um das DisplaySteps-Modul zu testen, das clientseitigen Code verwendet, um einzelne Schritte zu aktivieren/zu aktivieren (mithilfe von Benachrichtigungen, die normalerweise von anderen Modulen auf derselben Seite gesendet werden). Die einzelnen Schritte können im DisplaySteps-Modul bearbeitet werden, indem in den Site-Edit-Modus gewechselt wird.",
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": []
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Test - Schritte"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Testmodul für das Display Steps Modul (YetaWF.Panels). Eine Testseite für dieses Modul finden Sie unter Tests > Module > Steps (Standard-YetaWF-Seite)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Schritte-Test"
+    }
+  ]
+}

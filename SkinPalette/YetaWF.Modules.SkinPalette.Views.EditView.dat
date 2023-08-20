@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "apply",
+      "Text": "Anwenden"
+    },
+    {
+      "Name": "applyTT",
+      "Text": "Wenden Sie alle Änderungen auf die aktuelle Skin an"
+    },
+    {
+      "Name": "coll",
+      "Text": "Skin-Palette - Ändern Sie die Skin-Einstellungen und generieren Sie neue CSS-Variablen für die Verwendung in Skins"
+    }
+  ]
+}

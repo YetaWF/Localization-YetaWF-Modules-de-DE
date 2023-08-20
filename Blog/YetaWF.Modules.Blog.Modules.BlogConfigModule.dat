@@ -1,0 +1,187 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Blog.Modules.BlogConfigModule+Model",
+      "BaseTypeName": null,
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {
+        "Blog": "Blog",
+        "Comments": "Kommentare",
+        "Notifications": "Benachrichtigungen",
+        "Rss": "RSS"
+      },
+      "Properties": [
+        {
+          "Name": "BlogEntryUrl",
+          "Caption": "URL des Blogeintrags",
+          "Description": "URL zum Anzeigen eines Blogeintrags mit Kommentaren",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "BlogUrl",
+          "Caption": "Blog-Haupt-URL",
+          "Description": "Haupteinstiegspunkt für den Blog der Website",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "DefaultCategory",
+          "Caption": "Standard-Blog-Kategorie",
+          "Description": "Die Standard-Blog-Kategorie, die angezeigt wird, wenn keine Blog-Kategorie ausgewählt ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Entries",
+          "Caption": "Einträge gesamt",
+          "Description": "Die maximale Anzahl von Blogeinträgen, die auf der Hauptseite des Blogs angezeigt werden, wenn keine Kategorie ausgewählt ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "Feed",
+          "Caption": "Füttern",
+          "Description": "Veröffentlichen Sie den Inhalt dieses Blogs als RSS-Feed",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedDetailUrl",
+          "Caption": "Feed-Detail-URL",
+          "Description": "Die Detailseite des optionalen RSS-Feeds für einen Blogeintrag",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedImage",
+          "Caption": "Feed-Bild",
+          "Description": "Das Bild, das für diesen RSS-Feed verwendet wird",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedMainUrl",
+          "Caption": "Haupt-URL des Feeds",
+          "Description": "Die Haupt-URL des optionalen RSS-Feeds",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedSummary",
+          "Caption": "Zusammenfassung des Feeds",
+          "Description": "Die zusammenfassende Beschreibung des RSS-Feeds",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "FeedTitle",
+          "Caption": "Titel des Feeds",
+          "Description": "Der Titel des RSS-Feeds",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GravatarDefault",
+          "Caption": "Gravatar-Standard",
+          "Description": "Definiert das Standard-Gravatar-Bild für Besucher, die Kommentare hinterlassen (wird verwendet, wenn Benutzer bei http://www.gravatar.com kein Bild definiert haben)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GravatarRating",
+          "Caption": "Erlaubte Gravatar-Bewertung",
+          "Description": "Definiert die akzeptable Gravatar-Bewertung für angezeigte Gravatar-Bilder",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "GravatarSize",
+          "Caption": "Gravatar-Größe",
+          "Description": "Die Breite und Höhe der angezeigten Gravatar-Bilder (in Pixeln)",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NotifyEmail",
+          "Caption": "E-Mail-Adresse",
+          "Description": "Die E-Mail-Adresse, an die alle Benachrichtigungen für Blog-Ereignisse gesendet werden",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "NotifyNewComment",
+          "Caption": "Benachrichtigen - Neuer Kommentar",
+          "Description": "Legt fest, ob der Administrator eine E-Mail-Benachrichtigung erhält, wenn ein neuer Kommentar zu einem Blogeintrag hinzugefügt wurde",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        },
+        {
+          "Name": "ShowGravatar",
+          "Caption": "Gravatar anzeigen",
+          "Description": "Legt fest, ob Gravatar-Bilder für Besucher angezeigt werden, die Kommentare hinterlassen",
+          "HelpLink": "http://www.gravatar.com",
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "editLegend",
+      "Text": "Bearbeitet die Blog-Einstellungen"
+    },
+    {
+      "Name": "editLink",
+      "Text": "Blog-Einstellungen"
+    },
+    {
+      "Name": "editText",
+      "Text": "Blog-Einstellungen"
+    },
+    {
+      "Name": "editTooltip",
+      "Text": "Bearbeiten Sie die Blog-Einstellungen"
+    },
+    {
+      "Name": "modName",
+      "Text": "Blog-Einstellungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Hauptkonfigurationsmodul für den Blog und definiert globale Blog-Einstellungen. Der Zugriff erfolgt über die Admin->-Einstellungen > Blog-Einstellungen (Standard-YetaWF-Site)."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Blog-Einstellungen"
+    },
+    {
+      "Name": "notFound",
+      "Text": "Die Blog-Einstellungen wurden nicht gefunden."
+    },
+    {
+      "Name": "okSaved",
+      "Text": "Blog-Einstellungen gespeichert"
+    }
+  ]
+}

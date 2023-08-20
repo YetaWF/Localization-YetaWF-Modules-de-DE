@@ -1,0 +1,19 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "linkTT",
+      "Text": "Klicken Sie hier, um eine Vorschau der Seite in einem neuen Fenster anzuzeigen - nicht alle Seiten können korrekt angezeigt werden und erfordern möglicherweise zusätzliche Parameter"
+    },
+    {
+      "Name": "notFound",
+      "Text": "(Seite nicht gefunden - {0})"
+    },
+    {
+      "Name": "select",
+      "Text": "(auswählen)"
+    }
+  ]
+}

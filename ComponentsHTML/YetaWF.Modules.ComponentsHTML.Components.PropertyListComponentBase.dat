@@ -1,0 +1,11 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "demo",
+      "Text": "Diese Eigenschaft ist im Demo-Modus nicht verfügbar"
+    }
+  ]
+}
