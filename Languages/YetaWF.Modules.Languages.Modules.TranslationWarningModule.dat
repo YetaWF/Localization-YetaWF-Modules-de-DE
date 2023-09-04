@@ -1,0 +1,42 @@
+{
+  "Comment": "***WARNING*** Automated Translation - Not Usable In Its Present Form - Must Be Corrected",
+  "Classes": [
+    {
+      "Name": "YetaWF.Modules.Languages.Modules.TranslationWarningModule",
+      "BaseTypeName": "YetaWF.Core.Modules.ModuleDefinition",
+      "Header": null,
+      "Footer": null,
+      "Legend": null,
+      "Categories": {},
+      "Properties": [
+        {
+          "Name": "Warning",
+          "Caption": "Nachricht",
+          "Description": "Definiert die Meldung, die angezeigt wird, wenn eine andere Sprache als US-Englisch die aktuelle Sprache ist",
+          "HelpLink": null,
+          "TextAbove": null,
+          "TextBelow": null
+        }
+      ]
+    }
+  ],
+  "Enums": [],
+  "Strings": [
+    {
+      "Name": "modName",
+      "Text": "Warnung vor Übersetzungen"
+    },
+    {
+      "Name": "modSummary",
+      "Text": "Skin-Modul, das eine Warnung über die Sprachübersetzung anzeigt."
+    },
+    {
+      "Name": "modTitle",
+      "Text": "Warnung bei der Skin-Übersetzung"
+    },
+    {
+      "Name": "msgTranslation",
+      "Text": "Die aktuell gewählte Sprache wurde maschinell übersetzt und muss \"manuell\" perfektioniert werden. Dies zeigt, wie YetaWF mehrere Sprachen unterstützen kann, bis hin zu Daten, die in Dateien, Datenbanktabellen und Strings gespeichert sind, die typischerweise in Quellcode eingebettet sind."
+    }
+  ]
+}
